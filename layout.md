@@ -2,6 +2,7 @@ abstract.tex
 sectionContent_Text_.tex
 sectionSection_title.tex
 figures/download2/download2.png
+figures/download (1)/download (1).png
 figures/download4/download4.png
 figures/download3/download3.png
 section_Conclusion__.tex
