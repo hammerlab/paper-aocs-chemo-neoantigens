@@ -4,7 +4,6 @@ sectionSection_title.tex
 figures/download2/download2.png
 section_Conclusion__.tex
 section_Methods_All_in_house__.tex
-figures/download1/download1.png
 sectionCompeting_int.tex
 sectionAuthors_contr.tex
 sectionAcknowledgeme.tex
