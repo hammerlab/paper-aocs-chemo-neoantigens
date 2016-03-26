@@ -3,7 +3,6 @@ sectionContent_Text_.tex
 sectionSection_title.tex
 section_Conclusion__.tex
 section_Methods_All_in_house__.tex
-figures/download/download.png
 sectionCompeting_int.tex
 sectionAuthors_contr.tex
 sectionAcknowledgeme.tex
