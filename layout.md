@@ -8,7 +8,6 @@ section_Methods_All_in_house__.tex
 sectionCompeting_int.tex
 sectionAuthors_contr.tex
 sectionAcknowledgeme.tex
-sectionFigures.tex
 sectionTables_begint.tex
 sectionAdditional_Fi.tex
 subsectionAdditional.tex
