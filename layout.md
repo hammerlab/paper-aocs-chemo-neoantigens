@@ -9,4 +9,3 @@ sectionCompeting_int.tex
 sectionAuthors_contr.tex
 sectionAcknowledgeme.tex
 sectionAdditional_Fi.tex
-subsectionAdditional.tex
