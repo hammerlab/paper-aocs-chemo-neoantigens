@@ -3,6 +3,7 @@ sectionContent_Text_.tex
 sectionSection_title.tex
 figures/download (3)/download (3).png
 figures/download (4)/download (4).png
+figures/download (5)/download (5).png
 figures/download (1)/download (1).png
 figures/download2/download2.png
 section_Conclusion__.tex
