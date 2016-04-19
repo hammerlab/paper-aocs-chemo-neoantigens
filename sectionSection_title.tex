@@ -5,11 +5,15 @@ As previously reported for the AOCS patients, there were significantly more dete
 
 We considered the number of mutations resulting in peptides predicted to bind autologous class I MHC with 500nm or stronger affinity (figure \ref{fig:mhc_binding_mutations}). In accordance with the increase in overall mutation burden, we observed an upward trend in potential neoantigens at recurrence. For 10/14 patients, relapse samples harbored more potential neoantigens than matched primary samples; however this trend did not reach significance (p=0.18). The change ranged from -27\% to 126\% with a mean of 29\%. About half of these mutations had evidence for expression in the RNA-seq. For 9/13 donors the number of expressed potentially antigenic mutations increased at relapse (-53\% -- 407\%, mean 18\%) (p=0.27) (figure \ref{fig:expressed_mhc_binding_mutations}). We found no evidence for selection against expressed potential neoantigens at relapse (data not shown).
 
+TODO: results bayesian model that includes therapy and basic patient info to predict number of mutations
+
 % As expected somatic mutation and neoantigen burden were highly correlated with no substantial deviations
 % Therapy vs. burden
 
 \subsection*{Clonality}
 Most of our primary tumors are solid and most of the relapse are ascites, making it challenging to directly address changes in clonality during the time of treatment. We instead focus on the relapse samples and compare the allelic fractions of private vs. shared mutations.
+
+TODO: sciclone / pyclone / phylowgs number of clones (or entropy of clones?) comparing pre-vs-post treatment
 
 The new mutations undetected in the primary samples tended to be found at lower variant allele frequency (VAF) in the relapse samples than shared mutations (Mann-Whitney $p \lt .01$ in 14/16 samples), indicating the new mutations tended to be more subclonal. However, the size of this effect was relatively small. On average the mutations private to the relapse sample were found at 82\% (bootstrap 95\% CI=72-93) of the VAF of shared mutations. This effect was smaller still for mutations predicted to bind MHC I. Within this subset, new mutations were found at 89\% (72-107) of the VAF of shared mutations.
 
