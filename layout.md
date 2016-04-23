@@ -2,7 +2,6 @@ abstract.tex
 sectionContent_Text_.tex
 sectionSection_title.tex
 section_Figures_Fig_1_Total__.tex
-figures/download2/download2.png
 section_Figures_section_Discussion_The__.tex
 section_Methods_All_in_house__.tex
 figures/download (2)/download (2).png
