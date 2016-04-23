@@ -1,5 +1,4 @@
 abstract.tex
-sectionContent_Text_.tex
 sectionSection_title.tex
 section_Figures_Fig_1_Total__.tex
 section_Figures_section_Discussion_The__.tex
