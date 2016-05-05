@@ -1,3 +1,6 @@
+\begin{table}
+\label {tab:cohort}
+
 \begin{tabular}{llrlrll}
 \toprule
         &                    &  num untreated &            untreated &  num treated &              treated &           p-value \\
@@ -11,12 +14,20 @@ solid & mutations\_per\_mb &              4 &   105.8 (60.5-147.2) &           2
 \bottomrule
 \end{tabular}
 
+\caption{\textbf{Unpaired analysis.}}
+\end{table}
 
+High level point: recurrences have more peptides but two lines of evidence suggest not due to chemo: solid treated primary samples do not have more peptides than solid untreated primary samples, and recurrences do not bear the platinum signture.
 
 \begin{itemize}
 Recurrence samples have more peptides
+\item 
 \item In paired samples, increase in total mutations (11/12 donors, $p=.01$, binomial test), increase in predicted MHC I binding mutant peptides (10/12, $p=.04$), and trend toward more expressed peptides (8/11 donors, $p=0.23$).  Mean increase in mutations was 62.1\% (bootstrap 95\% confidence interval 38.6-87.4), peptides 35.7\% (16.6-54.3), and expressed peptides 76.0\% (120.9-237.8).
-\item As sample type is a confounding variable we additionally performed an unpaired analysis (figure 2) stratified by sample tissue type (solid or ascites). Increase in peptides for ascites and solid. For ascites, increase in expressed peptides. Only one solid tumor recurrence had RNA, and it had fewer expresssed peptides. Mean increase was
+\item As sample type is a confounding variable we additionally performed an unpaired analysis (figure 2) stratified by sample tissue type (solid or ascites). Summarized in table. All samples showed trend toward more mutatinos and peptides. For ascites, significant increase in expressed peptides, and for solid a significant increase in peptides. Interestingly, there was a significant *decrease* in expressed peptides among the solid tumors, despite an increase in overall peptides in the genome, when comparing the 69 untreated solid samples with RNA to the 5 treated samples with RNA.  This is consistent with a model in which solid tumors downregule expression of neoantigens after chemo exposure in response to treatment-induced immune infiltration. In untreated solid tumors, 43\% (40-46) of peptides have expression, whereas only 20\% (11-32) of the treated solid tumors. However, this change did not reach significance ($p-0.16$). In contrast, ascites samples saw a significant increase from 37\% (30-43) to 49\% (45-54) ($p=.046$). This is consistent with the idea that solid tumors are under immune surveillence whereas ascites are not. However, 4/5 of the treated samples with RNA are neoadjuvant chemo treated primary samples, so confounding due to which patients are selected for neoadjuvant chemo is also possible.
+
+% ; the single recurrence sample (AOCS-094-2) had more expressed peptides (75) than any of the other four samples
+% This was in turn signifincantly less than overall treated and untreated primary solid samples ($p=.003$).
+
 \item consider bayesian model?
 
 Sources of the increase in peptides
