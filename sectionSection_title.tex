@@ -1,5 +1,5 @@
 \begin{table}
-\label {tab:cohort}
+\label {tab:unpaired}
 
 \begin{tabular}{llrlrll}
 \toprule
@@ -18,6 +18,9 @@ solid & mutations\_per\_mb &              4 &   105.8 (60.5-147.2) &           2
 \end{table}
 
 \begin{itemize}
+Peptides summary
+\item We identified 25,920 distinct neoantigens, of which 9,506 had evidence for RNA expression ($>2$ variant-supporting RNA reads). All but 63 (0.24\%) neoantigens were unique to a single donor. For frameshift mutations, we considered all peptides generated until a stop codon. Single nucleotide variants, multinucleotide variants, and small insertions and deletions, accounted for 79\%, 12\%, and 9\% of the neoantigens, respectively.
+
 Recurrence samples have more peptides
 \item 
 \item In paired samples, increase in total mutations (11/12 donors, $p=.01$, binomial test), increase in predicted MHC I binding mutant peptides (10/12, $p=.04$), and trend toward more expressed peptides (8/11 donors, $p=0.23$).  Mean increase in mutations was 62.1\% (bootstrap 95\% confidence interval 38.6-87.4), peptides 35.7\% (16.6-54.3), and expressed peptides 76.0\% (120.9-237.8).
@@ -29,7 +32,6 @@ Recurrence samples have more peptides
 \item consider bayesian model?
 
 Sources of the increase in peptides
-\item Shared peptides?
 \item peptides per mutation?
 \item Is mutation rate alone accounting for increase or does kind of mutation (indels) affect it?
 
