@@ -1,21 +1,29 @@
-\begin{table}
-\label {tab:unpaired}
+\subsection{Change in mutations and neoantigens at recurrence}
+Across our cohort of 115 samples from 93 donors, we identified 20,672 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 29 (0.14\%) neoantigens were private to a single donor.
 
-\begin{tabular}{llrlrll}
+To investigate changes in mutational burden and neoantigens associated with recurrence after treatment, we performed separate paired and unpaired analyses as well as a Bayesian regression integrating both paired and unpaired samples (Figure \ref{fig:bayesian}). The Bayesian analysis controls for tissue type (solid or ascites), sample purity, the number of samples from the same donor, and also probes an interaction between tissue type and recurrence. This model found that relapse, treated samples had 47\% (-2-125) more mutations, 49\% (-19-182) more neoantigens, and 104\% (2-300) more expressed neoantigens than primary samples.
+
+\begin{table}
+\begin{tabular}{llrrrlll}
 \toprule
-        &                    &  num untreated &            untreated &  num treated &              treated &           p-value \\
+tissue type &  treatment &  donors &  samples &  samples with RNA &              Mutations &      Neoantigens & Expressed neoantigens \\
 \midrule
-ascites & mutations\_per\_mb &                &                      &              &                      &                   \\
-        & peptides &              4 &        3.4 (3.2-3.7) &           24 &        4.6 (4.1-5.0) &              0.08 \\
-        & expressed peptides &              4 &  267.2 (177.2-357.8) &           24 &  386.7 (329.6-445.8) &              0.22 \\
-solid & mutations\_per\_mb &              4 &   105.8 (60.5-147.2) &           20 &  190.9 (159.0-222.3) &             0.05* \\
-        & peptides &             75 &        2.6 (2.3-3.0) &           12 &        3.7 (2.8-4.7) &              0.06 \\
-        & expressed peptides &             75 &  210.4 (181.6-243.7) &           12 &  399.8 (274.1-535.3) &             0.03* \\
+    ascites &  untreated &       4 &        4 &                 4 &   10336 (9600 - 12000) &  205 (140 - 270) &         82 (50 - 110) \\
+    ascites &    treated &      22 &       25 &                20 &  13757 (12000 - 15000) &  303 (260 - 350) &       149 (120 - 170) \\
+      solid &  untreated &      75 &       75 &                69 &     7902 (7100 - 8900) &  166 (140 - 190) &          70 (58 - 83) \\
+      solid &    treated &       9 &       12 &                 5 &   11250 (8500 - 14000) &  335 (220 - 460) &          41 (28 - 52) \\
 \bottomrule
 \end{tabular}
-
-\caption{\textbf{Unpaired analysis.}}
+\caption{Cohort size and means.}
+\label{tab:cohort}
 \end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{figures/bayesian_model_effects.pdf}
+\caption{Bayesian model effects. }
+\label{fig:bayesian}
+\end{figure}
 
 \begin{itemize}
 Peptides summary
