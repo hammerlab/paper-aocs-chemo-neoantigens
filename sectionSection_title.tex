@@ -9,16 +9,28 @@ As surgery is not usually performed for relapsed disease, the AOCS relapsed samp
 \section*{Results}
 
 \subsection*{Change in mutations and neoantigens at recurrence}
-To investigate changes in mutational burden and neoantigens associated with recurrence after treatment, we performed paired and unpaired analyses as well as a Bayesian regression integrating both paired and unpaired samples (Figure \ref{fig:bayesian}). The Bayesian analysis controls for whether the tissue was solid tumor or ascites, sample purity, the number of samples from the same donor, and also probes an interaction between tissue type and recurrence. In this model, chemotherapy treated samples had 47\% (-2-125) more detectable mutations than primary samples.
+In a Bayesian model integrating both paired and unpaired samples and controlling for several confounders, there was a 90\% posterior probability that treatment was associated with a meaningful increase in mutations (see Methods). The effect of treatment was estimated to be a 49\% (95\% credible region $-2-125$) increase in somatic mutations. These results are in basic agreement with non-Bayesian paired and unpaired analysis on this data.
 
-Across our cohort of 115 samples from 93 donors, we identified 20,672 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 29 (0.14\%) neoantigens were private to a single donor. As expected, the number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, treated samples had 49\% (-19-182) more neoantigens, and, for ascites samples, 104\% (2-300) more expressed neoantigens. For solid tumor samples, the total number of neoantigens increased 
-
-
+Across the 115 samples from 93 donors, we identified 20,672 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 29 (0.14\%) neoantigens were private to a single donor. The number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, treated samples had 49\% (-19-182) more neoantigens, and, for ascites samples, 104\% (2-300) more expressed neoantigens. Interestingly, sold tumor samples showed an increase in neoantigens but a decrease in expressed neoantigens.
 
 \subsection*{Mutation signatures}
-To explore possible etiologies for the increased mutational burden at recurrence, we deconvolved the mutations present in each sample into known signatures. We used the 30 signatures curated by COSMIC (http://cancer.sanger.ac.uk/cosmic/signatures), plus four additional signatures we manually extracted from a study of cisplatin-exposed \textit{C. Elegans} [Meier et al], and chicken exposed to several mutagenic chemotherapies. Consistent with results originally reported by Patch et al on this cohort, the mutations were attributable mostly to Signatures 1 and 3, which are associated with Age and BRCA disruption, respectively. These two signatures together accounted for 82\% (75-88) of the mutations in primary samples and 70\% (64-76) of the mutations unique to the relapses. The remaining mutations in the relapses were attributed to different signatures in various samples. Signature 4, associated with smoking, was the only additional signature consistently given nonzero weight in the relapse samples. In the 9 relapse samples in which it was assigned nonzero weight, Signature 4 accounted for 10\% (8-13) of the unique-to-relapse mutations. Two primary samples also showed evidence for Signature 4. Smoking history of these patients was not known.
+We deconvolved each sample's mutations into the 30 mutational signatures curated by COSMIC (http://cancer.sanger.ac.uk/cosmic/signatures), plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans} [Meier et al], and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016}. The active signatures were largely the same in pre- and post-treatment samples. In both groups, the top signatures were \texit{Signature 3}, associated with BRCA disruption and accounting for 37\% (bootstrap 95\% CI 34-39) of mutations, \textit{Signature 8}, of unknown etiology and accounting for 19\% (17-20) of mutations, and \textit{Signature 1}, associated with age at diagnosis and accounting for 10\% (8-11) of mutations. The remaining mutations were attributed to different signatures in various samples. No samples showed presence of either cisplatin signature or the etoposide signature, but two pre-treatment and five post-treatment samples had evidence for the cyclophosphamide signature.
+
+For better sensitivity to detect signatures operative at relapse, we next focused on the 12 donors with paired pre- and post-treatment samples. We extracted the mutations that had evidence only in the 14 treated samples from these donors. We used a stringent read filter, requiring coverage in both pre- and post-treatment samples and zero variant reads in the pre-treatment samples, including RNA when available. Of $229,132$ SNV mutations in the relapse samples for these donors, we identified $106,171$ ``unique to treated" mutations, which we then used in signature deconvolution. Two samples (AOCS-092-13, AOCS-095-13) showed evidence for the chicken cisplatin signature. All four donors (AOCS-064, AOCS-093, AOCS-137, AOCS-139) with a clinical record of cyclophophamide treatment showed evidence for the chicken cyclophosphamide signature. However, five donors (AOCS-086, AOCS-088, AOCS-091, AOCS-092, AOCS-095) without a  record of cyclophosphamide use also exhibited this signature. \textit{Signature 1} was completely absent, consistent with its association with slow ongoing mutagenic processes present in all tissue. All samples showed \textit{Signature 3} (BRCA disruption), and 9 of 14 samples showed \textit{Signature 8} (unknown etiology), indicating that the processes likely play a role in the continued evolution post-treatment. Other signatures appeared only sporadically.
 
 
+\section*{Discussion}
+
+The fraction of cancer cells harboring a neoantigen may be critical in its ability to be targeted by a T cell response \cite{McGranahan_2016}.
+
+The loss of expressed neoantigens in the solid tumors is interesting. Consistent with increased immune surveillence.
+
+The loss of 
+
+\section*{Limitations}
+RNA with hard thresholds to detect expressed peptides is subject to confounding by changes in gene expression -- e.g. if something gets upregulated post treatment
+
+\section*{Figures and Tables}
 
 \begin{table}
 \begin{tabular}{llllll}
@@ -51,16 +63,6 @@ solid post-treatment   &      9 &        12 (5) &   11250 (8400-14000) &  335 (2
 \end{figure}
 
 
-
-
-\section*{Discussion}
-
-The fraction of cancer cells harboring a neoantigen may be critical in its ability to be targeted by a T cell response \cite{McGranahan_2016}.
-
-\section*{Limitations}
-RNA with hard thresholds to detect expressed peptides is subject to confounding by changes in gene expression -- e.g. if something gets upregulated post treatment
-
-
-
-
-
+Methods
+ - Bayesian: used a ROPE of 5\%
+ This model integrated information from paired pre- and post-treatment samples and unpaired samples, controlling for sample tissue type (solid or ascites), sample purity, the number of samples from each donor, and allowing for an interaction (effect modification) between tissue type and 
