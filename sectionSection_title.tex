@@ -9,11 +9,11 @@ As surgery is not usually performed for relapsed disease, the AOCS relapsed samp
 \section*{Results}
 
 \subsection*{Change in mutations and neoantigens at recurrence}
-In a Bayesian model integrating both paired and unpaired samples, the post-treatment timepoint was associated with a 49\% (95\% credible region -2--125) increase in somatic mutations. There was a 90\% posterior probability that treatment was associated with a meaningful increase in mutations. These results are in basic agreement with non-Bayesian paired and unpaired analysis of this data.
+The treated samples showed more mutations, neoantigens, and, in the case of ascites samples, more expressed neoantigens (Table \ref{tab:cohort}).
 
-We identified 20,672 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 29 (0.14\%) neoantigens were private to a single donor. The number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, treated samples had 49\% (-19--182) more neoantigens, and, for ascites samples, 104\% (2--300) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a decrease in expressed neoantigens.
+Total somatic mutation burden increased at recurrence in 11 of the 12 donors with pre- and post-treatment samples. A Bayesian model integrating both paired and unpaired samples found the post-treatment timepoint to be associated with a 49\% (95\% credible region -2--125) increase in somatic mutations (Figure \ref{bayesian}). There was a 90\% posterior probability that treatment was associated with at least a 5\% increase in mutations.
 
-% Across the 115 samples from 93 donors, w
+We identified 20,672 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 29 (0.14\%) neoantigens were private to a single donor. The number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, treated samples had 49\% (-19--182) more neoantigens, and, for ascites samples, 104\% (2--300) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a decrease in expressed neoantigens .
 
 \subsection*{Mutation signatures}
 Signature deconvolution using the 30 mutational signatures curated by COSMIC\cite{364242}, plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans}\cite{Meier_2014}, and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016} found that the active signatures were largely the same in pre- and post-treatment samples (Figure \ref{fig:signatures}). In both groups, the top signatures were \textit{Signature 3}, associated with BRCA disruption and accounting for 37\% (bootstrap 95\% CI 34-39) of mutations, \textit{Signature 8}, of unknown etiology and accounting for 19\% (17-20) of mutations, and \textit{Signature 1}, associated with age at diagnosis and accounting for 10\% (8-11) of mutations. The remaining mutations were attributed to different signatures in various samples. No samples showed presence of either cisplatin signature or the etoposide signature. Two pre-treatment and five post-treatment samples had evidence for the cyclophosphamide signature, but none of these patients had a clinical record of cyclophosphamide use, and 0/10 post-cyclophosphamide samples showed the signature.
@@ -25,11 +25,13 @@ For better sensitivity to detect signatures operative at relapse, we next focuse
 
 \section*{Discussion}
 
+Change in neoantigens: is it important, how does total count compare to TCGA
+
 The fraction of cancer cells harboring a neoantigen may be critical in its ability to be targeted by a T cell response \cite{McGranahan_2016}.
 
 The loss of expressed neoantigens in the solid tumors is interesting. Consistent with increased immune surveillence.
 
-The loss of 
+
 
 \section*{Limitations}
 RNA with hard thresholds to detect expressed peptides is subject to confounding by changes in gene expression -- e.g. if something gets upregulated post treatment
