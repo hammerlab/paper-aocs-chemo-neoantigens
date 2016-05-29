@@ -1,0 +1,210 @@
+icgc_specimen_id	project_code	study_specimen_involved_in	submitted_specimen_id	icgc_donor_id	submitted_donor_id	specimen_type	specimen_type_other	specimen_interval	specimen_donor_treatment_type	specimen_donor_treatment_type_other	specimen_processing	specimen_processing_other	specimen_storage	specimen_storage_other	tumour_confirmed	specimen_biobank	specimen_biobank_id	specimen_available	tumour_histological_type	tumour_grading_system	tumour_grade	tumour_grade_supplemental	tumour_stage_system	tumour_stage	tumour_stage_supplemental	digital_image_of_stained_section	percentage_cellularity	level_of_cellularity
+SP101515	OV-AU	PCAWG	AOCS-001-1	DO46325	AOCS-001	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			73	61-80%
+SP101516	OV-AU	PCAWG	AOCS-001-9	DO46325	AOCS-001	Normal - blood derived		-1	no treatment		fresh		frozen, -70 freezer															
+SP101517	OV-AU	PCAWG	AOCS-002-1	DO46326	AOCS-002	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			85	>81%
+SP101518	OV-AU	PCAWG	AOCS-002-9	DO46326	AOCS-002	Normal - blood derived		-5	no treatment		fresh		frozen, -70 freezer															
+SP101519	OV-AU	PCAWG	AOCS-004-1	DO46327	AOCS-004	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			77	61-80%
+SP101520	OV-AU	PCAWG	AOCS-004-9	DO46327	AOCS-004	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101521	OV-AU	PCAWG	AOCS-005-1	DO46328	AOCS-005	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			90	>81%
+SP101522	OV-AU	PCAWG	AOCS-005-9	DO46328	AOCS-005	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101525	OV-AU	PCAWG	AOCS-034-9	DO46329	AOCS-034	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101524	OV-AU		AOCS-034-13	DO46329	AOCS-034	Recurrent tumour - other	recurrent ascitic fluid	1597	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101523	OV-AU	PCAWG	AOCS-034-1	DO46329	AOCS-034	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8140/3	Silverberg	3		FIGO	III			84	>81%
+SP101527	OV-AU	PCAWG	AOCS-055-9	DO46330	AOCS-055	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101526	OV-AU	PCAWG	AOCS-055-1	DO46330	AOCS-055	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			82	>81%
+SP101529	OV-AU	PCAWG	AOCS-056-9	DO46331	AOCS-056	Normal - blood derived		41	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101528	OV-AU	PCAWG	AOCS-056-1	DO46331	AOCS-056	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	III			94	>81%
+SP101531	OV-AU	PCAWG	AOCS-057-9	DO46332	AOCS-057	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101530	OV-AU	PCAWG	AOCS-057-1	DO46332	AOCS-057	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			68	61-80%
+SP101534	OV-AU	PCAWG	AOCS-058-9	DO46333	AOCS-058	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101532	OV-AU	PCAWG	AOCS-058-1	DO46333	AOCS-058	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			90	>81%
+SP101538	OV-AU	PCAWG	AOCS-059-9	DO46334	AOCS-059	Normal - blood derived		26	surgery		fresh		frozen, -70 freezer															
+SP101536	OV-AU	PCAWG	AOCS-059-1	DO46334	AOCS-059	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			74	61-80%
+SP101542	OV-AU	PCAWG	AOCS-060-9	DO46336	AOCS-060	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101540	OV-AU	PCAWG	AOCS-060-1	DO46336	AOCS-060	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	IV			83	>81%
+SP101546	OV-AU	PCAWG	AOCS-061-9	DO46338	AOCS-061	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101544	OV-AU	PCAWG	AOCS-061-1	DO46338	AOCS-061	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			96	>81%
+SP101548	OV-AU	PCAWG	AOCS-063-1	DO46340	AOCS-063	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			70	61-80%
+SP101550	OV-AU	PCAWG	AOCS-063-9	DO46340	AOCS-063	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101556	OV-AU	PCAWG	AOCS-064-9	DO46342	AOCS-064	Normal - blood derived		-1	no treatment		fresh		frozen, -70 freezer															
+SP101554	OV-AU		AOCS-064-13	DO46342	AOCS-064	Recurrent tumour - other	recurrent ascitic fluid	1301	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101552	OV-AU	PCAWG	AOCS-064-1	DO46342	AOCS-064	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			91	>81%
+SP101562	OV-AU	PCAWG	AOCS-065-9	DO46344	AOCS-065	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101560	OV-AU		AOCS-065-13	DO46344	AOCS-065	Recurrent tumour - other	recurrent ascitic fluid	420	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								96	>81%
+SP101558	OV-AU	PCAWG	AOCS-065-1	DO46344	AOCS-065	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			80	61-80%
+SP101564	OV-AU	PCAWG	AOCS-075-1	DO46346	AOCS-075	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			85	>81%
+SP101566	OV-AU	PCAWG	AOCS-075-9	DO46346	AOCS-075	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101568	OV-AU	PCAWG	AOCS-076-1	DO46348	AOCS-076	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			58	41-60%
+SP101570	OV-AU	PCAWG	AOCS-076-9	DO46348	AOCS-076	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101572	OV-AU	PCAWG	AOCS-077-1	DO46350	AOCS-077	Primary tumour - solid tissue		75	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			53	41-60%
+SP101574	OV-AU	PCAWG	AOCS-077-9	DO46350	AOCS-077	Normal - EBV immortalized		75	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase															
+SP101578	OV-AU	PCAWG	AOCS-078-9	DO46352	AOCS-078	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101576	OV-AU	PCAWG	AOCS-078-1	DO46352	AOCS-078	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			84	>81%
+SP101580	OV-AU	PCAWG	AOCS-079-1	DO46354	AOCS-079	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			77	61-80%
+SP101582	OV-AU	PCAWG	AOCS-079-9	DO46354	AOCS-079	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101584	OV-AU	PCAWG	AOCS-080-1	DO46356	AOCS-080	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			97	>81%
+SP101586	OV-AU	PCAWG	AOCS-080-9	DO46356	AOCS-080	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101590	OV-AU	PCAWG	AOCS-081-9	DO46358	AOCS-081	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101588	OV-AU	PCAWG	AOCS-081-1	DO46358	AOCS-081	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			86	>81%
+SP101592	OV-AU	PCAWG	AOCS-083-1	DO46360	AOCS-083	Primary tumour - solid tissue		4	surgery		fresh		frozen, vapor phase		no				8441/3		3		FIGO	IV			88	>81%
+SP101594	OV-AU	PCAWG	AOCS-083-9	DO46360	AOCS-083	Normal - blood derived		5	surgery		fresh		frozen, -70 freezer															
+SP101598	OV-AU	PCAWG	AOCS-084-9	DO46362	AOCS-084	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101596	OV-AU	PCAWG	AOCS-084-1	DO46362	AOCS-084	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			84	>81%
+SP101602	OV-AU	PCAWG	AOCS-085-9	DO46364	AOCS-085	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101600	OV-AU	PCAWG	AOCS-085-1	DO46364	AOCS-085	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			74	61-80%
+SP101604	OV-AU	PCAWG	AOCS-086-1	DO46366	AOCS-086	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			64	61-80%
+SP101608	OV-AU	PCAWG	AOCS-086-9	DO46366	AOCS-086	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101606	OV-AU		AOCS-086-13	DO46366	AOCS-086	Recurrent tumour - other	recurrent ascitic fluid	2009	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								84	>81%
+SP101614	OV-AU	PCAWG	AOCS-088-9	DO46368	AOCS-088	Normal - blood derived		2719	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101610	OV-AU	PCAWG	AOCS-088-1	DO46368	AOCS-088	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			72	61-80%
+SP101612	OV-AU		AOCS-088-13	DO46368	AOCS-088	Recurrent tumour - other	recurrent ascitic fluid	2712	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								100	>81%
+SP101618	OV-AU		AOCS-090-13	DO46370	AOCS-090	Recurrent tumour - other	recurrent ascitic fluid	1590	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								32	21-40%
+SP101616	OV-AU	PCAWG	AOCS-090-1	DO46370	AOCS-090	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			92	>81%
+SP101620	OV-AU	PCAWG	AOCS-090-9	DO46370	AOCS-090	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101622	OV-AU	PCAWG	AOCS-091-1	DO46372	AOCS-091	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			93	>81%
+SP101624	OV-AU		AOCS-091-13	DO46372	AOCS-091	Recurrent tumour - other	recurrent ascitic fluid	1206	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								76	61-80%
+SP101626	OV-AU	PCAWG	AOCS-091-9	DO46372	AOCS-091	Normal - EBV immortalized		1184	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase															
+SP101628	OV-AU	PCAWG	AOCS-092-1	DO46374	AOCS-092	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			83	>81%
+SP101630	OV-AU		AOCS-092-13	DO46374	AOCS-092	Recurrent tumour - other	recurrent ascitic fluid	1370	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								89	>81%
+SP101632	OV-AU	PCAWG	AOCS-092-9	DO46374	AOCS-092	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101640	OV-AU	PCAWG	AOCS-093-9	DO46376	AOCS-093	Normal - blood derived		1381	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101634	OV-AU	PCAWG	AOCS-093-1	DO46376	AOCS-093	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			61	61-80%
+SP101636	OV-AU		AOCS-093-12	DO46376	AOCS-093	Primary tumour - other	primary ascitic fluid	0	no treatment		fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101638	OV-AU		AOCS-093-13	DO46376	AOCS-093	Recurrent tumour - other	recurrent ascitic fluid	1361	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								96	>81%
+SP101646	OV-AU	PCAWG	AOCS-094-9	DO46378	AOCS-094	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101642	OV-AU	PCAWG	AOCS-094-1	DO46378	AOCS-094	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			88	>81%
+SP106641	OV-AU		AOCS-094-2	DO46378	AOCS-094	Recurrent tumour - solid tissue		758	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								94	>81%
+SP101652	OV-AU	PCAWG	AOCS-095-9	DO46380	AOCS-095	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101650	OV-AU		AOCS-095-13	DO46380	AOCS-095	Recurrent tumour - other	recurrent ascitic fluid	1161	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101648	OV-AU	PCAWG	AOCS-095-1	DO46380	AOCS-095	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			88	>81%
+SP101654	OV-AU	PCAWG	AOCS-096-1	DO46382	AOCS-096	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			78	61-80%
+SP101656	OV-AU	PCAWG	AOCS-096-9	DO46382	AOCS-096	Normal - EBV immortalized		173	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase															
+SP101660	OV-AU	PCAWG	AOCS-097-9	DO46384	AOCS-097	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101658	OV-AU	PCAWG	AOCS-097-1	DO46384	AOCS-097	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	III			99	>81%
+SP101664	OV-AU	PCAWG	AOCS-104-9	DO46386	AOCS-104	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101662	OV-AU	PCAWG	AOCS-104-1	DO46386	AOCS-104	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			51	41-60%
+SP101666	OV-AU	PCAWG	AOCS-105-1	DO46388	AOCS-105	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			87	>81%
+SP101668	OV-AU	PCAWG	AOCS-105-9	DO46388	AOCS-105	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101670	OV-AU	PCAWG	AOCS-106-1	DO46390	AOCS-106	Primary tumour - solid tissue		39	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			97	>81%
+SP101672	OV-AU	PCAWG	AOCS-106-9	DO46390	AOCS-106	Normal - EBV immortalized		39	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase															
+SP101676	OV-AU	PCAWG	AOCS-107-9	DO46392	AOCS-107	Normal - EBV immortalized		34	surgery		fresh		frozen, vapor phase															
+SP101674	OV-AU	PCAWG	AOCS-107-1	DO46392	AOCS-107	Primary tumour - solid tissue		35	surgery		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			93	>81%
+SP101678	OV-AU	PCAWG	AOCS-108-1	DO46394	AOCS-108	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			85	>81%
+SP101680	OV-AU	PCAWG	AOCS-108-9	DO46394	AOCS-108	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101682	OV-AU	PCAWG	AOCS-109-1	DO46396	AOCS-109	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			93	>81%
+SP101684	OV-AU	PCAWG	AOCS-109-9	DO46396	AOCS-109	Normal - EBV immortalized		-1	no treatment		fresh		frozen, vapor phase															
+SP101686	OV-AU	PCAWG	AOCS-111-1	DO46398	AOCS-111	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			83	>81%
+SP101688	OV-AU	PCAWG	AOCS-111-9	DO46398	AOCS-111	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101692	OV-AU	PCAWG	AOCS-112-9	DO46400	AOCS-112	Normal - blood derived		-1	no treatment		fresh		frozen, -70 freezer															
+SP101690	OV-AU	PCAWG	AOCS-112-1	DO46400	AOCS-112	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III				
+SP101694	OV-AU	PCAWG	AOCS-113-1	DO46402	AOCS-113	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	III			89	>81%
+SP101697	OV-AU	PCAWG	AOCS-113-9	DO46402	AOCS-113	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101704	OV-AU	PCAWG	AOCS-114-9	DO46404	AOCS-114	Normal - blood derived		398	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101700	OV-AU	PCAWG	AOCS-114-1	DO46404	AOCS-114	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			86	>81%
+SP101708	OV-AU	PCAWG	AOCS-115-1	DO46408	AOCS-115	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			91	>81%
+SP101712	OV-AU	PCAWG	AOCS-115-9	DO46408	AOCS-115	Normal - blood derived		3	surgery		fresh		frozen, -70 freezer															
+SP101716	OV-AU	PCAWG	AOCS-116-1	DO46412	AOCS-116	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			83	>81%
+SP101720	OV-AU	PCAWG	AOCS-116-9	DO46412	AOCS-116	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101728	OV-AU	PCAWG	AOCS-117-9	DO46416	AOCS-117	Normal - blood derived		194	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101724	OV-AU	PCAWG	AOCS-117-13	DO46416	AOCS-117	Recurrent tumour - other	recurrent ascitic fluid	1755	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101736	OV-AU	PCAWG	AOCS-119-9	DO46420	AOCS-119	Normal - EBV immortalized		1301	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase															
+SP101732	OV-AU	PCAWG	AOCS-119-13	DO46420	AOCS-119	Recurrent tumour - other	recurrent ascitic fluid	1296	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								73	61-80%
+SP101744	OV-AU	PCAWG	AOCS-120-9	DO46424	AOCS-120	Normal - blood derived		2315	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101740	OV-AU	PCAWG	AOCS-120-13	DO46424	AOCS-120	Recurrent tumour - other	recurrent ascitic fluid	2291	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								93	>81%
+SP101748	OV-AU		AOCS-122-1	DO46428	AOCS-122	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			75	61-80%
+SP101752	OV-AU		AOCS-122-9	DO46428	AOCS-122	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101760	OV-AU		AOCS-123-9	DO46432	AOCS-123	Normal - blood derived		1644	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101756	OV-AU		AOCS-123-1	DO46432	AOCS-123	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			72	61-80%
+SP101770	OV-AU		AOCS-124-9	DO46436	AOCS-124	Normal - EBV immortalized		0	no treatment		fresh		frozen, vapor phase															
+SP101765	OV-AU		AOCS-124-1	DO46436	AOCS-124	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			80	61-80%
+SP101775	OV-AU		AOCS-125-1	DO46438	AOCS-125	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			89	>81%
+SP101780	OV-AU		AOCS-125-9	DO46438	AOCS-125	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101790	OV-AU		AOCS-126-9	DO46443	AOCS-126	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101785	OV-AU		AOCS-126-1	DO46443	AOCS-126	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			65	61-80%
+SP101800	OV-AU	PCAWG	AOCS-128-9	DO46448	AOCS-128	Normal - blood derived		604	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101795	OV-AU	PCAWG	AOCS-128-1	DO46448	AOCS-128	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	III			50	41-60%
+SP101805	OV-AU		AOCS-130-1	DO46453	AOCS-130	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			76	61-80%
+SP101810	OV-AU		AOCS-130-9	DO46453	AOCS-130	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101820	OV-AU		AOCS-131-9	DO46458	AOCS-131	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101815	OV-AU		AOCS-131-1	DO46458	AOCS-131	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	IV			82	>81%
+SP101825	OV-AU		AOCS-132-1	DO46463	AOCS-132	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			88	>81%
+SP101830	OV-AU		AOCS-132-9	DO46463	AOCS-132	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101840	OV-AU		AOCS-133-9	DO46468	AOCS-133	Normal - blood derived		36	surgery		fresh		frozen, -70 freezer															
+SP101835	OV-AU		AOCS-133-1	DO46468	AOCS-133	Primary tumour - solid tissue		36	surgery		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			74	61-80%
+SP101850	OV-AU	PCAWG	AOCS-134-9	DO46473	AOCS-134	Normal - blood derived		1654	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101845	OV-AU	PCAWG	AOCS-134-13	DO46473	AOCS-134	Recurrent tumour - other	recurrent ascitic fluid	1479	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								74	61-80%
+SP101855	OV-AU		AOCS-135-13	DO46478	AOCS-135	Recurrent tumour - other	recurrent ascitic fluid	485	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3									
+SP101865	OV-AU		AOCS-135-9	DO46478	AOCS-135	Normal - blood derived		912	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101860	OV-AU		AOCS-135-14	DO46478	AOCS-135	Recurrent tumour - other	recurrent ascitic fluid 2	999	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3									
+SP101871	OV-AU		AOCS-137-13	DO46483	AOCS-137	Recurrent tumour - other	recurrent ascitic fluid	923	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								100	>81%
+SP101866	OV-AU		AOCS-137-12	DO46483	AOCS-137	Primary tumour - other	primary ascitic fluid	13	surgery		fresh		frozen, vapor phase		no				8140/3								99	>81%
+SP101876	OV-AU		AOCS-137-9	DO46483	AOCS-137	Normal - blood derived		687	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101881	OV-AU	PCAWG	AOCS-138-13	DO46488	AOCS-138	Recurrent tumour - other	recurrent ascitic fluid	1327	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								76	61-80%
+SP101886	OV-AU	PCAWG	AOCS-138-9	DO46488	AOCS-138	Normal - blood derived		1327	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101906	OV-AU		AOCS-139-4	DO46493	AOCS-139	Recurrent tumour - solid tissue		920	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								87	>81%
+SP101891	OV-AU	PCAWG	AOCS-139-1	DO46493	AOCS-139	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	IV			76	61-80%
+SP101901	OV-AU		AOCS-139-17	DO46493	AOCS-139	Metastatic tumour - metastatsis to distant location		920	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								94	>81%
+SP101896	OV-AU		AOCS-139-16	DO46493	AOCS-139	Metastatic tumour - metastatsis to distant location		920	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								88	>81%
+SP101911	OV-AU	PCAWG	AOCS-139-9	DO46493	AOCS-139	Normal - blood derived		63	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101916	OV-AU		AOCS-141-13	DO46498	AOCS-141	Recurrent tumour - other	recurrent ascitic fluid	1464	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								97	>81%
+SP101921	OV-AU	PCAWG	AOCS-141-14	DO46498	AOCS-141	Recurrent tumour - other	recurrent ascitic fluid 2	1743	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								80	61-80%
+SP101926	OV-AU	PCAWG	AOCS-141-9	DO46498	AOCS-141	Normal - blood derived		1466	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101931	OV-AU	PCAWG	AOCS-142-13	DO46503	AOCS-142	Recurrent tumour - other	recurrent ascitic fluid	943	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3									
+SP101936	OV-AU	PCAWG	AOCS-142-9	DO46503	AOCS-142	Normal - blood derived		951	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101946	OV-AU		AOCS-143-9	DO46508	AOCS-143	Normal - blood derived		-1	no treatment		fresh		frozen, -70 freezer															
+SP101941	OV-AU		AOCS-143-1	DO46508	AOCS-143	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III				
+SP101951	OV-AU		AOCS-144-1	DO46513	AOCS-144	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV				
+SP101956	OV-AU		AOCS-144-9	DO46513	AOCS-144	Normal - blood derived		268	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP101966	OV-AU		AOCS-145-9	DO46518	AOCS-145	Normal - blood derived		15	surgery		fresh		frozen, -70 freezer															
+SP101961	OV-AU		AOCS-145-1	DO46518	AOCS-145	Primary tumour - solid tissue		18	surgery		fresh		frozen, vapor phase		no				8140/3	Silverberg	3		FIGO	III				
+SP101971	OV-AU		AOCS-146-1	DO46523	AOCS-146	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV				
+SP101976	OV-AU		AOCS-146-9	DO46523	AOCS-146	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101981	OV-AU		AOCS-147-1	DO46528	AOCS-147	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			76	61-80%
+SP101985	OV-AU		AOCS-147-9	DO46528	AOCS-147	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101995	OV-AU		AOCS-148-9	DO46533	AOCS-148	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP101990	OV-AU		AOCS-148-1	DO46533	AOCS-148	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			89	>81%
+SP102005	OV-AU		AOCS-149-9	DO46538	AOCS-149	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102000	OV-AU		AOCS-149-1	DO46538	AOCS-149	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III				
+SP102020	OV-AU	PCAWG	AOCS-150-9	DO46542	AOCS-150	Normal - blood derived		959	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102010	OV-AU		AOCS-150-13	DO46542	AOCS-150	Recurrent tumour - other	recurrent ascitic fluid	761	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								98	>81%
+SP102015	OV-AU	PCAWG	AOCS-150-14	DO46542	AOCS-150	Recurrent tumour - other	recurrent ascitic fluid 2	956	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								72	61-80%
+SP102025	OV-AU		AOCS-152-1	DO46546	AOCS-152	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			85	>81%
+SP102030	OV-AU		AOCS-152-9	DO46546	AOCS-152	Normal - blood derived		2	surgery		fresh		frozen, -70 freezer															
+SP102035	OV-AU	PCAWG	AOCS-153-1	DO46551	AOCS-153	Primary tumour - solid tissue		23	surgery		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			79	61-80%
+SP102040	OV-AU	PCAWG	AOCS-153-9	DO46551	AOCS-153	Normal - EBV immortalized		23	surgery		fresh		frozen, vapor phase															
+SP102050	OV-AU	PCAWG	AOCS-155-9	DO46556	AOCS-155	Normal - blood derived		-8	no treatment		fresh		frozen, -70 freezer															
+SP102045	OV-AU	PCAWG	AOCS-155-13	DO46556	AOCS-155	Recurrent tumour - other	recurrent ascitic fluid	2897	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								91	>81%
+SP102060	OV-AU	PCAWG	AOCS-157-9	DO46560	AOCS-157	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102055	OV-AU	PCAWG	AOCS-157-1	DO46560	AOCS-157	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	IV			90	>81%
+SP102064	OV-AU	PCAWG	AOCS-158-1	DO46561	AOCS-158	Primary tumour - solid tissue		40	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			94	>81%
+SP102069	OV-AU	PCAWG	AOCS-158-9	DO46561	AOCS-158	Normal - blood derived		40	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102079	OV-AU	PCAWG	AOCS-159-9	DO46566	AOCS-159	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102074	OV-AU	PCAWG	AOCS-159-1	DO46566	AOCS-159	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			83	>81%
+SP102089	OV-AU	PCAWG	AOCS-160-9	DO46568	AOCS-160	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102084	OV-AU	PCAWG	AOCS-160-1	DO46568	AOCS-160	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			89	>81%
+SP102090	OV-AU	PCAWG	AOCS-161-1	DO46571	AOCS-161	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			79	61-80%
+SP102091	OV-AU	PCAWG	AOCS-161-9	DO46571	AOCS-161	Normal - blood derived		-3	no treatment		fresh		frozen, -70 freezer															
+SP102101	OV-AU	PCAWG	AOCS-162-9	DO46576	AOCS-162	Normal - blood derived		63	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102096	OV-AU	PCAWG	AOCS-162-1	DO46576	AOCS-162	Primary tumour - solid tissue		63	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			89	>81%
+SP102103	OV-AU	PCAWG	AOCS-163-1	DO46581	AOCS-163	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			88	>81%
+SP102108	OV-AU	PCAWG	AOCS-163-9	DO46581	AOCS-163	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102118	OV-AU	PCAWG	AOCS-164-9	DO46586	AOCS-164	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102113	OV-AU	PCAWG	AOCS-164-1	DO46586	AOCS-164	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			95	>81%
+SP102128	OV-AU	PCAWG	AOCS-165-9	DO46588	AOCS-165	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102123	OV-AU	PCAWG	AOCS-165-1	DO46588	AOCS-165	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	3		FIGO	III			84	>81%
+SP102133	OV-AU	PCAWG	AOCS-166-1	DO46591	AOCS-166	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3	Silverberg	2		FIGO	III			91	>81%
+SP102138	OV-AU	PCAWG	AOCS-166-9	DO46591	AOCS-166	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102143	OV-AU	PCAWG	AOCS-167-13	DO46593	AOCS-167	Recurrent tumour - other	recurrent ascitic fluid	937	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								85	>81%
+SP102151	OV-AU		AOCS-167-4	DO46593	AOCS-167	Recurrent tumour - solid tissue		937	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								90	>81%
+SP102148	OV-AU		AOCS-167-16	DO46593	AOCS-167	Metastatic tumour - metastatsis to distant location		937	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8140/3								90	>81%
+SP102156	OV-AU	PCAWG	AOCS-167-9	DO46593	AOCS-167	Normal - blood derived		915	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102161	OV-AU	PCAWG	AOCS-168-1	DO46597	AOCS-168	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			89	>81%
+SP102164	OV-AU	PCAWG	AOCS-168-9	DO46597	AOCS-168	Normal - blood derived		0	no treatment		fresh		frozen, -70 freezer															
+SP102168	OV-AU	PCAWG	AOCS-169-1	DO46602	AOCS-169	Primary tumour - solid tissue		108	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			73	61-80%
+SP102173	OV-AU	PCAWG	AOCS-169-9	DO46602	AOCS-169	Normal - blood derived		108	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102182	OV-AU	PCAWG	AOCS-170-9	DO46606	AOCS-170	Normal - blood derived		42	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102177	OV-AU		AOCS-170-12	DO46606	AOCS-170	Primary tumour - other	primary ascitic fluid	0	no treatment		fresh		frozen, vapor phase		no				8140/3								83	>81%
+SP102174	OV-AU	PCAWG	AOCS-170-1	DO46606	AOCS-170	Primary tumour - solid tissue		61	other therapy	Surgery and Chemotherapy	fresh		frozen, vapor phase		no				8441/3		3		FIGO	III			87	>81%
+SP102194	OV-AU	PCAWG	AOCS-171-9	DO46611	AOCS-171	Normal - blood derived		76	other therapy	Surgery and Chemotherapy	fresh		frozen, -70 freezer															
+SP102187	OV-AU	PCAWG	AOCS-171-1	DO46611	AOCS-171	Primary tumour - solid tissue		0	no treatment		fresh		frozen, vapor phase		no				8441/3		2		FIGO	III			80	61-80%
+SP102192	OV-AU		AOCS-171-12	DO46611	AOCS-171	Primary tumour - other	primary ascitic fluid	-23	no treatment		fresh		frozen, vapor phase		no				8140/3								83	>81%
