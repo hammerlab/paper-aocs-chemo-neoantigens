@@ -2,7 +2,7 @@ library(deconstructSigs)
 library(reshape)
 
 raw_my_signatures <- read.csv(
-  "~/sinai/git/paper-201604/data/all_signatures_for_deconstructsigs_with_chicken.csv",
+  "~/sinai/git/paper-201604/data/all_signatures.csv",
   check.names = F,
   row.names = 1)
 my_signatures <- subset(raw_my_signatures, select=colnames(signatures.cosmic))
@@ -14,7 +14,7 @@ raw_input$kind <- NULL
 raw_input$source_id <- NULL
 
 result <- list()
-for(sample in rownames(input)) {
+for(sample in rownames(raw_input)) {
   print(sample)
   output <- whichSignatures(tumor.ref = raw_input,
                             sample.id = sample,
@@ -27,4 +27,4 @@ for(sample in rownames(input)) {
 }
 
 final = reshape::merge_all(result)
-write.csv(final, '~/sinai/git/paper-201604/data/deconstructsigs_output_with_chicken.csv')
+write.csv(final, '~/sinai/git/paper-201604/data/deconstructsigs_output.csv')
