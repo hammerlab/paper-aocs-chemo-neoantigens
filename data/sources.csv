@@ -111,6 +111,6 @@ AOCS-167-16/SP102148,AOCS-167,AOCS,WGS,True,recurrence,True,solid,937.0,WGS,Fals
 AOCS-168-1/SP102161,AOCS-168,AOCS,WGS,False,primary,False,solid,0.0,WGS,False
 AOCS-169-1/SP102168,AOCS-169,AOCS,WGS,True,primary,False,solid,108.0,WGS,False
 AOCS-170-12/SP102177,AOCS-170,AOCS,WGS,False,primary,False,ascites,0.0,WGS,True
-AOCS-170-1/SP102174,AOCS-170,AOCS,WGS,True,primary,False,solid,61.0,WGS,True
+AOCS-170-1/SP102174,AOCS-170,AOCS,WGS,False,primary,False,solid,61.0,WGS,True
 AOCS-171-1/SP102187,AOCS-171,AOCS,WGS,False,primary,False,solid,0.0,WGS,False
 AOCS-171-12/SP102192,AOCS-171,AOCS,WGS,False,primary,False,ascites,-23.0,WGS,False
