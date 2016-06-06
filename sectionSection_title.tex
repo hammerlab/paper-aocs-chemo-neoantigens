@@ -2,7 +2,6 @@
 
 \begin{table}[htbp]
 
-
 \begin{tabular}{lllll}
 \toprule
 {} & samples (RNA) &         Mutatisourons &   Neoantigens & Expressed Neoantigens \\
@@ -16,8 +15,6 @@ solid post-treatment                  &        12 (5) &  11250 $\pm$ 3000 &  253
 \textit{model adjusted change (\%)}   &               &        7 $\pm$ 27 &    5 $\pm$ 38 &          -41 $\pm$ 32 \\
 \bottomrule
 \end{tabular}
-
-
 
 \caption{\textbf{Mean mutations, neoantigens, and expressed noeantigens by sample type and chemotherapy treatment status.} The model-adjusted change is calculated using a Bayesian model that controls for technical variables affecting mutation identification, but does not separate treatment from coincident effects such as surgery and drift. Model effects and means are shown with 95\% credible regions and bootstrap errors of the mean, respectively.}
 \label{tab:cohort}
@@ -38,20 +35,22 @@ solid post-treatment                  &        12 (5) &  11250 $\pm$ 3000 &  253
 \end{figure}
 
 \subsection*{Change in mutations and neoantigens at recurrence}
-The treated samples showed more mutations, neoantigens, and, in the case of ascites samples, more expressed neoantigens (Table \ref{tab:cohort}).
+The treated samples showed more mutations, neoantigens, and, in the case of ascites samples, more expressed neoantigens (Table~\ref{tab:cohort}).
 
-Total somatic mutation burden increased at recurrence in 11 of the 12 donors with pre- and post-treatment samples. A Bayesian model integrating both paired and unpaired samples found the post-treatment timepoint to be associated with a 52\% (95\% credible region -1--134) increase in somatic mutations (Figure \ref{bayesian}), with a 93\% posterior probability that post-treatment timepoint was associated with at least a 5\% increase in mutations. 
+Median somatic mutation burden increased at recurrence in 11 of the 12 donors with pre- and post-treatment samples (Figure~\ref{fig:supp_paired}). A Bayesian model integrating both paired and unpaired samples and controlling for technical variables affecting mutation calling found the post-treatment timepoint to be associated with a 52\% (95\% credible region -1--134) increase in somatic mutations (Figure \ref{bayesian}), with a 93\% posterior probability that post-treatment timepoint was associated with at least a 5\% increase in mutations.
 
-We identified 18,491 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm (Table \ref{tab:cohort}). All but 26 (0.14\%) neoantigens were private to a single donor. The number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, treated samples had 59\% (-15--199) more neoantigens, and, for ascites samples, 106\% (7--305) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a 44\% (4--67) decrease in expressed neoantigens.
+We identified 18,491 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm. All but 26 (0.14\%) neoantigens were private to a single donor. The number of neoantigens tracked the increase in mutational burden at relapse. In the Bayesian analysis, post-treatment samples had 59\% (-15--199) more neoantigens, and, for ascites samples, 106\% (7--305) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a 44\% (4--67) decrease in expressed neoantigens.
+
+These results describe the change in mutations pre- and post-chemotherapy treatment, but do not isolate the effect of chemotherapy from other effects associated with surgery and relapse. A different model that separately probed the effects of treatment and relapse/recurrence time-point, possible due to the handful of neoadjuvant-treated donors for whom there are treated primary samples, had large uncertainties and could not rule out that the increase in mutations and neoantigens at relapse is entirely due non-chemotherapy effects (Figure~\ref{bayesian_model_effects_separate}). We therefore turned to signature deconvolution to assess the extent to which specifically chemotherapy may cause mutations.
+
+Signature deconvolution using the 30 mutational signatures curated by COSMIC\cite{364242}, plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans}\cite{Meier_2014}, and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016} found that the dominant signatures were largely the same in pre- and post-treatment samples (Figure and~\ref{sfig:supp_signatures}). In both groups, the top signatures were \textit{Signature 3}, associated with BRCA disruption and accounting for 37\% (bootstrap 95\% CI 34-39) of mutations, \textit{Signature 8}, of unknown etiology and accounting for 19\% (17-20) of mutations, and \textit{Signature 1}, associated with age at diagnosis and accounting for 10\% (8-11) of mutations. The remaining mutations were sporadically attributed to different signatures.
+
+The \textit{G. gallus} cyclophosphamide signature was detected in two pre-treatment samples from the same donor and four post-treatment samples from different donors, three of whom had a clinical record of cyclophosphamide treatment. This signature may have some ability to detect cyclophosphamide treatment but appears to have a substantial false-positive rate. The \textit{G. gallus} Etoposide signature was detected in six pre-treatment samples and no post-treatment samples, indicating it has no utility as marker of treatment. The \textit{C. Elegans} cisplatin signature from wildtype organisms was not detected in any samples, but several signatures from \textit{C. Elegans} genetic knockouts were detected. The \textit{fcd-2} and \textit{xpf-1} knockout signatures each occurred in one Cisplatin treated sample and no other samples. The \textit{polq-1−} knockout signature seems less useful as marker, appearing in three untreated samples and four treated samples, all of which received carboplatin but not cisplatin.
+
+For better sensitivity to detect chemotherapy-associated signatures, we next focused on the 14 samples from 12 donors with paired pre- and post-treatment samples. For each donor, we extracted the mutations that had evidence exclusively in the treated samples using a read filter requiring at least 30 reads coverage and zero variant reads in the pre-treatment samples. Of 229,132 SNV mutations in the post-treatment samples for these donors, we identified 106,171 such ``unique to treated'' mutations, over which we performed signature deconvolution (Figure ~\ref{fig:signatures}).
+
+The \textit{G. gallus} cisplatin signature, previously undetected in all samples, was found in precisely the two cisplatin-treated samples available to this analysis, highlighting its potential utility as a marker of cisplatin (but not carboplatin) exposure in human samples. The \textit{C. Elegans} \textit{fcd-2} knockout was detected in three samples, all receiving carboplatin but not cisplatin. COSMIC signatures \textit{3} and \textit{8} were detected 14/14 and 9/14 post-treatment samples, respectively, but \textit{Signature 1} was completely absent, consistent with its association with slow mutagenic processes at play pre-oncogenesis.
+
 
 Composition of neoantigens: SNV, MNVS, indels pre and post
-
-
-\subsection*{Mutation signatures}
-Signature deconvolution using the 30 mutational signatures curated by COSMIC\cite{364242}, plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans}\cite{Meier_2014}, and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016} found that the dominant signatures were largely the same in pre- and post-treatment samples (Supplementary Figure \ref{sfig:supp_signatures}). In both groups, the top signatures were \textit{Signature 3}, associated with BRCA disruption and accounting for 37\% (bootstrap 95\% CI 34-39) of mutations, \textit{Signature 8}, of unknown etiology and accounting for 19\% (17-20) of mutations, and \textit{Signature 1}, associated with age at diagnosis and accounting for 10\% (8-11) of mutations. The remaining mutations were attributed to different signatures in various samples. No samples showed presence of either cisplatin signature or the etoposide signature. Two pre-treatment and five post-treatment samples had evidence for the cyclophosphamide signature, but none of these patients had a clinical record of cyclophosphamide use, and 0/10 samples with documented cyclophosphamide use exhibited the signature.
-
-For better sensitivity to detect signatures operative at relapse, we next focused on the 14 samples from 12 donors with paired pre- and post-treatment samples. For each donor, we extracted the mutations that had evidence only in the treated samples using a stringent read filter requiring at least 30 reads coverage and zero variant reads in the pre-treatment samples. Of 229,132 SNV mutations in the relapse samples for these donors, we identified 106,171 such ``unique to treated'' mutations, over which we performed signature deconvolution. Two samples (AOCS-092-13, AOCS-095-13) showed evidence for the chicken cisplatin signature. All four donors (AOCS-064, AOCS-093, AOCS-137, AOCS-139) with a clinical record of cyclophophamide treatment showed evidence for the cyclophosphamide signature. However, five donors (AOCS-086, AOCS-088, AOCS-091, AOCS-092, AOCS-095) without a record of cyclophosphamide use also exhibited this signature. \textit{Signature 1} was completely absent, consistent with its association with slow ongoing mutagenic processes present in all tissue. All samples showed \textit{Signature 3} (BRCA disruption), and 9 of 14 samples showed \textit{Signature 8} (unknown etiology), indicating that the processes likely play a role in the continued evolution post-treatment. Other signatures appeared only sporadically.
-
-sensitivity analysis to detect cisplatin signature
-
 
