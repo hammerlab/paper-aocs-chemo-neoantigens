@@ -1,5 +1,9 @@
 \section*{Discussion}
 
+In this investigation of chemotherapy-associated changes in mutation and neoantigen burden in ovarian cancer, we find that the number of neoantigens after surgery, chemotherapy, and relapse can be as much as double that of the primary tumor. However, for most donors, 
+
+and relapse is  treatment increases substantially in  
+
 Change in neoantigens: is it important, how does total count compare to TCGA
 
 The fraction of cancer cells harboring a neoantigen may be critical in its ability to be targeted by a T cell response \cite{McGranahan_2016}.
@@ -8,5 +12,6 @@ The loss of expressed neoantigens in the solid tumors is interesting. Consistent
 
 Chemo may be immunogenic, which may be a more important factor than neoantigens
 
+Our analysis has focused on single nucleotide variants (SNVs) because existing signature deconvolution tools do not handle multinucleotide variants (MNVs) or insertions / deletions (indels). A substantial fraction of the cisplatin-induced mutations found in \cite{Meier_2014} and \cite{Szikriszt_2016} were dinucleotide variants, however, and there may also be an effect of threatment on indels. Furthermore, MNVs and indels likely generate more neoantigens per mutation than SNVs. Therefore, our analysis likely underestimates the treatment-induced neoantigens. However, the overall fraction of MNVs and indels appears relatively unchanged after treatment, suggesting this effect is small (Figure~\ref{fig:sources}).
 
 There are several limitations... RNA with hard thresholds to detect expressed peptides is subject to confounding by changes in gene expression -- e.g. if something gets upregulated post treatment
