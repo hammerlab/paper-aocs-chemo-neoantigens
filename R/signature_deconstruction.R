@@ -19,6 +19,7 @@ for(sample in rownames(raw_input)) {
   output <- whichSignatures(tumor.ref = raw_input,
                             sample.id = sample,
                             contexts.needed = TRUE,
+                            signature.cutoff = 0.05,
                             tri.counts.method = "default",
                             signatures.ref = my_signatures)
   # makePie(output, sub=sample)
