@@ -4,7 +4,7 @@
 
 \begin{tabular}{lllll}
 \toprule
-{} & samples (RNA) &         Mutatisourons &   Neoantigens & Expressed Neoantigens \\
+{} & samples (RNA) &         Mutations &   Neoantigens & Expressed Neoantigens \\
 \midrule
 ascites pre-treatment                 &         4 (4) &   10336 $\pm$ 800 &  202 $\pm$ 60 &           78 $\pm$ 30 \\
 ascites post-treatment                &       24 (20) &  13757 $\pm$ 1000 &  300 $\pm$ 50 &          145 $\pm$ 30 \\
@@ -49,6 +49,3 @@ For better sensitivity to detect chemotherapy-associated signatures, we next foc
 The \textit{G. gallus} cisplatin signature, previously undetected in all samples, was found in, and only in, the two cisplatin-treated samples available to this analysis, highlighting its potential utility as a marker of cisplatin (but not carboplatin) exposure. The \textit{C. Elegans} \textit{fcd-2} knockout was detected in three samples, all having received carboplatin but not cisplatin. COSMIC signatures \textit{3} and \textit{8} were detected in 14/14 and 9/14 post-treatment samples, respectively, but \textit{Signature 1} was completely absent, consistent with its association with slow mutagenic processes mostly at work before oncogenesis.
 
 Within the paired samples and considering all chemotherapy-associated signatures except etoposide, at least one chemo signature was detected in 9/14 treated samples and 0/13 untreated samples. The magnitude of the effect of chemo-induced mutagenesis appears typically to be small, however, accounting for less than 12\% of the mutations or neoantigens in 13/14 samples (Figure~\ref{fig:sources}). The exception is sample AOCS-092-13, for which chemo signatures account for 24\% of the mutations and 18\% of the neoantigens. This donor is the most heavily treated in the cohort, having received eight distinct chemotherapeutic agents.
-
-Our analysis has focused on single nucleotide variants (SNVs) because existing signature deconvolution tools do not handle multinucleotide variants (MNVs) or insertions / deletions (indels). A substantial fraction of the cisplatin-induced mutations found in \cite{Meier_2014} and \cite{Szikriszt_2016} were dinucleotide variants, however, and there may also be an effect of threatment on indels. Furthermore, MNVs and indels likely generate more neoantigens per mutation than SNVs. Therefore, our analysis likely underestimates the treatment-induced neoantigens. However, the overall fraction of MNVs and indels appears relatively unchanged after treatment, suggesting this effect is small (Figure~\ref{fig:sources}).
-
