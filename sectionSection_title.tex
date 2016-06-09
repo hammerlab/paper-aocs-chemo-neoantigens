@@ -37,14 +37,22 @@ solid post-treatment                  &        11 (4) &  11079 $\pm$ 3000 &  264
 % The treated samples showed more mutations, neoantigens, and, in the case of ascites samples, more expressed neoantigens (Table~\ref{tab:cohort}).
 
 % STATEMENT_TREATMENT_EFFECT 
-In 11/12 donors with paired pre- and post-treatment samples, somatic mutation burden increased after treatment (Figure~\ref{fig:supp_paired}). To determine the effect size, we developed a Bayesian model that used both paired and unpaired samples and controlled for confounding factors including sample type and purity. In this model, the treated samples had 57\% (95\% credible region 0--131) more mutations than pre-treatment samples (Figure~\ref{fig:bayesian_model_effects}); there was a 95\% probability that the increase with treatment was as least 5\%.
+For 11/12 donors with paired pre- and post-treatment samples, somatic mutation burden increased after treatment (Figure~\ref{fig:supp_paired}). We developed a Bayesian model to estimate the magnitude of this increase using paired and unpaired samples and controlling for sample type and purity. The model estimated that treated samples have 57\% more mutations than untreated with 95\% confidence that the increase is at least 5\% (Figure~\ref{fig:bayesian_model_effects}).
+
+%found with 95\% certainty that mutational burden increases by at least 5\% with treatment; mean effect was a 57\% increase.
+
+% 95\% posterior probability 95\% posterior probability, this model confirmed that the number of mutations increases by at least 5\% with treatment, with a point estimate of 57\%.
+
+% that the post-treatment timepoint is associated with at least a 5\% increase in mutations, and the mean effect size was 57\%.
+
+% mutations increasing by at least 5\% with treatment; the  the estimated the effect of treatment to be a 57\% increase in mutations (Figure~\ref{fig:bayesian_model_effects}) and with there was a 95\% probability that the increase with treatment was as least 5\%.
+
+% (95\% credible region 0--131)
 
 % STATEMENT_NEOANTIGENS1
-We identified 18,336 potential neoantigens, defined as mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm. All but 26 (0.14\%) neoantigens were private to a single donor. Neoantigens tracked the increase in mutational burden after chemotherapy. In the Bayesian analysis, treated samples had 65\% (-14--174) more neoantigens, and, for ascites samples, 117\% (3--286) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a 43\% (2--71) decrease in expressed neoantigens.
+Using sequence-based HLA typing and computational pMHC binding prediction, across the cohort we identified 18,336 mutated peptides predicted to bind autologous MHC class I with affinity $\leq 500$nm, which we refer to as neoantigens. All but 26 (0.14\%) neoantigens were private to a single donor. Neoantigens tracked the increase in mutational burden after chemotherapy. In the Bayesian analysis, treated samples had 65\% (-14--174) more neoantigens, and, for ascites samples, 117\% (3--286) more expressed neoantigens. Interestingly, solid tumor samples showed an increase in neoantigens but a 43\% (2--71) decrease in expressed neoantigens.
 
-This cohort included no patients receiving surgery but not chemotherapy, making it impossible to determine if the increase in mutations after treatment was caused by the chemotherapy or other factors. The associations reported above are thus upper bounds on the number of mutations and neoantigens caused by chemotherapy. We turned to signature deconvolution to estimate a lower bound.
-
-Signature deconvolution was performed separately on all samples using the 30 mutational signatures curated by COSMIC\cite{364242}, plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans}\cite{Meier_2014}, and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016}. The top signatures were COSMIC \textit{Signature 3}, associated with BRCA disruption, \textit{Signature 8}, of unknown etiology, and \textit{Signature 1}, associated with a constant mutagenic process present in normal tissue. These signatures together accounted for over half of the mutations and neoantigens in both treated and untreated samples.
+Signature deconvolution was performed separately on all samples onto the 30 mutational signatures curated by COSMIC\cite{364242}, plus four additional signatures extracted from a study of cisplatin-exposed \textit{C. Elegans}\cite{Meier_2014}, and a chicken cell line exposed to cisplatin, cyclophosphamide, and etoposide\cite{Szikriszt_2016}. The top signatures were COSMIC \textit{Signature 3}, associated with BRCA disruption, \textit{Signature 8}, of unknown etiology, and \textit{Signature 1}, associated with a slow mutagenic process active in normal tissue. These signatures together accounted for over half of the mutations and neoantigens in both treated and untreated samples.
 
 The etoposide and \textit{C.Elegans} and \textit{polq-1} knockout cisplatin signatures were found in nine and three of the 80 primary samples, 
 
