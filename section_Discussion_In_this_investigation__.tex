@@ -1,19 +1,13 @@
 \section*{Discussion}
 
-In this investigation of chemotherapy-associated changes in mutation and neoantigen burden in ovarian cancer, we find that the number of neoantigens after surgery, chemotherapy, and relapse can be as much as double that of the primary tumor. However, for most donors, 
+In this investigation of chemotherapy-associated mutations and resulting neoantigens in ovarian cancer, we find that the number of neoantigens after surgery, chemotherapy, and relapse is as much as double that of the primary tumor. However, the number of mutations matching signatures observed in \textit{G. gallus} and \textit{C. Elegans} exposured to cisplatin or cyclophosphamide usually account for less than 5\% of the overall mutation and neoantigen burden after treatment. In the most heavily treated patient, chemotherapy-associated SNVs accounted for 22\% of mutations and 15\% of neoantigens.
 
+A surprising finding was that in samples of post-chemotherapy ascitic fluid, the number of neoantigens with evidence for RNA expression tracks the increase in DNA neoantigens, but decreases in solid tumors, despite the overall increase in neoantigens in the DNA. This raises the possibility of immunoediting\cite{Dunn_2002} at the level of transcription occurring post-chemotherapy in solid tumors. This idea is consistent with studies showing that paclitaxel/carboplatin and other chemotherapies may enhance T cell infiltration and cytotixicity in solid tumors\cite{Demaria2001,Wu_2009,Pfannenstiel_2010,Hodge_2013}, whereas ascites remain immune-suppressed\cite{Giuntoli2009,Simpson-Abelson2013,Singel2016}. However, this result is based on only four post-treatment solid tumor samples with RNA sequencing, and the analyis method is sensitive to changes in the expression of unrelated genes. Larger cohorts with paired pre- and post-chemotherapy RNA sequencing of solid tumors are needed to determine if transcriptional downregulation of neoantigens after treatment is a recurring phenomenon.
 
-It has recently been reported that the fraction of cancer cells harboring a neoantigen may be a critical determinant in its ability to be targeted by a T cell response \cite{McGranahan_2016}. 
-
-and relapse is  treatment increases substantially in  
-
-Change in neoantigens: is it important, how does total count compare to TCGA
-
-
-The loss of expressed neoantigens in the solid tumors is interesting. Consistent with increased immune surveillence.
-
-Chemo may be immunogenic, which may be a more important factor than neoantigens
-
-Our analysis has focused on single nucleotide variants (SNVs) because existing signature deconvolution tools do not handle multinucleotide variants (MNVs) or insertions / deletions (indels). A substantial fraction of the cisplatin-induced mutations found in \cite{Meier_2014} and \cite{Szikriszt_2016} were dinucleotide variants, however, and there may also be an effect of threatment on indels. Furthermore, MNVs and indels likely generate more neoantigens per mutation than SNVs. Therefore, our analysis likely underestimates the treatment-induced neoantigens. However, the overall fraction of MNVs and indels appears relatively unchanged after treatment, suggesting this effect is small (Figure~\ref{fig:sources}).
+This study makes several technical contributions, which we hope may be a foundation for future work by ourselves and others. We introduced a Bayesian regression model to combine paired and unpaired mutation counts while controlling for confounding variables. We developed a method for the extraction of SNV mutational signatures from animal treated/control mutagenicity studies, and demonstrate a pipeline for applying these to human data using the deconstructSigs package. The nine extracted signatures are made available with this publication. Our neoantigen identification pipeline is also made available, which includes support for indels and the identification of neoantigens with RNA support. 
 
 There are several limitations... RNA with hard thresholds to detect expressed peptides is subject to confounding by changes in gene expression -- e.g. if something gets upregulated post treatment. Also not including SVs and fusions, which may be immongenic, and likely under-calling indels. Substantial fraction of mutations are unresolved by signature deconvolution, and this amount increases with treatment
+
+TODO: some sort of comparison of our neoantigen counts against another study in e.g. TCGA, and perhaps a calculation for how much more likely someone is to benefit from chekcpoint blockade based on these mutations
+
+
