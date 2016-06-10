@@ -1,11 +1,27 @@
-The Australian Ovarian Cancer Study (AOCS)\cite{Patch_2015} performed whole genome sequencing on 92 high grade serous Ovarian cancer tumors, including 15 donors with matched primary and acquired resistance samples. Their analysis found that the recurrence samples harbored more somatic mutations than the primary samples and were enriched for mutations in a $C(C \gt T)C$ context, suggestive of a possible impact of chemotherapy. We extend this analysis by quantifying the number of potential neoantigen-generating mutations in the primary and recurrence samples and testing whether mutational signature deconvolution attributes the unique-to-recurrence mutations to the \textit{C. Elegans} cisplatin signature. We include three additional donors from TCGA and one donor from our institution in our analysis (\ref{tab:cohort}).
+The role of tumor neoantigens is of increasing interest with the advent of immunotherapy. There is also increased interest in combining immunotherapies with traditional chemotherapies, as well as some evidence that chemotherapies may be working by immunolgic mechanisms. While there are many ways in which chemotherapy may enhance or weaken\cite{Litterman_2013} an anti-tumor immune response, the creation of tumor neoantigens from somatic mutations induced by mutagenic chemotherapies such as platinum is an intriguing possibility.
+
+Platinum chemotherapy has long been known to be mutagenic
+
+http://www.ncbi.nlm.nih.gov/pubmed/16158952
+
+
+Several studies have identified mutations attributable to platinum chemotherapy\cite{Murugaesu_2015}. 
+
+esophagael
+
+At the same 
+
+
+The Australian Ovarian Cancer Study performed whole genome sequencing on 115 cancer samples from 93 donors with high grade serous ovarian carcinomas\cite{Patch_2015}. Eighty samples were taken before chemotherapy treatment and 35 after combination carboplatin/paclitaxel and other treatments. The primary analysis found that the recurrence samples harbored more somatic mutations than the primary samples and exhibited evidence of chemotherapy-associated mutations. Here we extend these results by quantifying the change in neoantigen burden with treatment and estimating the number of neoantigens attributable to chemotherapy-associated mutational signatures.
+
+Mutational signature deconvolution Our analysis is made possible by two recent reports of mutations detected in chemotherapy-exposed \textit{C. Elegans} organisms\cite{Meier_2014} and a \textit{G. Gallus} (chicken) cell line \cite{Szikriszt_2016}.
+
+in widtype and various knockout contexts, and three signatures from a chicken cell line exposed to cisplatin, cyclophosphamide, or etoposide
+
 
 TCGA neoantigen predictions: \cite{Brown_2014} (median of 3 neoantigens per tumor) \cite{Rooney_2015} (only 7\% of ovarian tumors have >20 mutations predicted to generate neoantigens)
 
-Ideally we would have some non-chemo treated surigical patients to serve as control. As platinum chemo is standard of care, we have to use signatures to figure out if it's likely due to chemo.
-
-As surgery is not usually performed for relapsed disease, the AOCS relapsed samples consist predominantly of drained ascites samples. These are a potential confounder and needs to be handled carefully.
 
 We set out to answer two questions: how many more mutations and neoantigens are there post-treatment, and what are the likely mutagenic mechanisms that are causing them
 
-This cohort included no patients receiving surgery but not chemotherapy, making it impossible to determine if the increase in mutations after treatment was caused by the chemotherapy or other factors. The associations reported above are thus upper bounds on the number of mutations and neoantigens caused by chemotherapy. We turned to signature deconvolution to estimate a lower bound.
+Several aspects of this dataset require careful analysis. First, as adjuvant paclitaxel/carboplatin therapy is standard of care, there are no relapse samples that were not exposed to chemotherapy. Therefore, the effects of chemotherapy cannot be statistically separated from those of surgery, drift, and relapse, motivating the mutational signature approach we use here. Second, 76/80 pre-treatment samples are solid tumor, whereas 24/35 post-treatment samples are drained ascitic fluid. This imbalance occurs because surgery is rarely performed for relapsed disease. We find evidence that ascites samples tend to harbor more detectable mutations than solid tumors, a phenomenon Patch et al suggest may be due to increased mixing of subclones in ascites. This must be accounted for if one is to compare the mostly solid tumor pre-treatment samples to predominantly ascitic post-treatment samples. We propose a Bayesian regression model to control for tissue type and other variables. Third, 12/93 donors in the cohort have both pre-treatment and post-treatment samples; the remaining donors have only treated or only untreated samples. In assessing changes in mutations after treatment, we would like to maximize statistical power with a paired (within-subject) analysis when possible while also making use of the unpaired samples. The Bayesian model we propose therefore includes a hierarchical component that models donor-specific effects.
