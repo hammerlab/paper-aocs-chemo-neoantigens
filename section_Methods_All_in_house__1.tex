@@ -13,9 +13,9 @@ This model integrated information from paired pre- and post-treatment samples an
 HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and OptiType\cite{Szolek_2014} across the available samples for each donor. Variant annotation was performed using Varcode (https://github.com/hammerlab/varcode). Class I MHC binding predictions were done with NetMHCpan 2.8\cite{Lundegaard_2008}.
 
 \subsection*{Signature extraction}
-Both ~\cite{Meier_2014} and ~\cite{Szikriszt_2016} performed sequencing on several replicates of chemotherapy-treated and untreated organisms. The signature extraction task is to splitting the mutations observed in the treated group into background and treatment-specific components.
+Both ~\cite{Meier_2014} and ~\cite{Szikriszt_2016} performed sequencing on several replicates of chemotherapy-treated and untreated organisms. The signature extraction task is to split the mutations observed in the treated group into background and treatment-specific components.
 
-Let $C_{e,i}$ be the count of mutations observed in experiment $0 \leq e \lt E$ for mutational trinucletoide context $0 \leq i \lt 96$. Let $s_e \in \{0,1\}$ be 1 if the experiment was treated and 0 if it was a control. We estimate the number of mutations for each context arising due to background (non-treatment) processes $B_i$ and the number due to treatment $T_i$ according to the model:
+We consider each study and chemotherapy drug separately. Let $C_{e,i}$ be the count of mutations observed in experiment $0 \leq e \lt E$ for mutational trinucletoide context $0 \leq i \lt 96$. Let $s_e \in \{0,1\}$ be 1 if the treatment was administered in experiment $e$ and 0 if it was a control. We estimate the number of mutations for each context arising due to background (non-treatment) processes $B_i$ and the number due to treatment $T_i$ according to the model:
 
 \[
 C_{e,i} \sim \mathit{Poisson}(B_i + a_e T_i)
