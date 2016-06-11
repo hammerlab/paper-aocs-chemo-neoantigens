@@ -15,11 +15,18 @@ HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and Opti
 \subsection*{Signature extraction}
 Both ~\cite{Meier_2014} and ~\cite{Szikriszt_2016} performed sequencing on several replicates of chemotherapy-treated and untreated organisms. The signature extraction task is to splitting the mutations observed in the treated group into background and treatment-specific components.
 
-Let $0 \leq i \lt 96$ be a mutational trinucleotide context, $0 \leq r \lt R$ an experimental replicate,   $T_i$ and $B_i$ be the number 
+Let $C_{e,i}$ be the count of mutations observed in experiment $0 \leq e \lt E$ for mutational trinucletoide context $0 \leq i \lt 96$. Let $a_e \in {0,1}$ be 1 if the experiment was treated and 0 otherwise. We estimate the number of mutations for each context arising due to background (non-treatment) processes $B_i$ and the treated rate $T_i$ according to the model:
 
-The signature extraction task is to estimate the proba$T_i$ 
+\[
 
-{\rightarrow}$ a 96-element vector giving the probability of 
+C_{e,i} \sim \mathit{Poisson}(B_i + a_e * T_i)
+
+\]
+
+We fit this model using Stan\cite{Gelman_2015}.
+
+The normalized treatment-associated counts $N_i = \frac{T_i}{\sum{T_i}_i}$ give a ``mutational signature'' for treatment in the animal the experiment was conducted in. To derive human mutational signatures, we multipled these rates by the ratio of the trinucletoide ocurence rates in human and animal genomes.
+
 
 \subsection*{Signature deconvolution}
 Signatures were deconvolved using the deconstructSigs\cite{Rosenthal_2016}
