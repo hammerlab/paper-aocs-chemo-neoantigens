@@ -12,9 +12,9 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
 \tikzstyle{connect}=[-latex, thick]
 \tikzstyle{box}=[rectangle, draw=black!100]
   \node[main] (coefficients) [label=above:Predictors] {$\Beta$};
-  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] {\mu_{\text global}};
-  \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] {$\sigma_{donor}$};
-  \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] {$\sigma_{sample}$};
+  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] { $\mu_\text{global}$ };
+  \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] { $\sigma_{donor}$ };
+  \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] { $\sigma_{sample}$ };
 
   \node[main] (donormean) [below=of globalmean] {$\mu_d$};
 
