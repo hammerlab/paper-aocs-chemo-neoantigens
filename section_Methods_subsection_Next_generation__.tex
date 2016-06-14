@@ -18,10 +18,10 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
 
   \node[main] (donormean) [below=of globalmean] {$\mu_d$};
 
-  \node[main] (mu) [below=of donormean,label=below:] { $\mu_s$ };
-  \node[main, fill = white!100] (data) [left of=mu,label=below:Data] { $x$ };
+  \node[main] (mu) [below=of donormean,label=below:] { $\mu_i$ };
+  \node[main, fill = white!100] (data) [left of=mu,label=below:Data] { $x_i$ };
 
-  \node[main] (y) [below=of mu,label=below:$y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}$] {$y$};
+  \node[main] (y) [below=of mu,label=below:$y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}$] {$y_i$};
 
   \path (globalmean) edge [connect] (donormean)
         (donorsigma) edge [connect] (donormean)
@@ -31,7 +31,9 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
         (mu) edge [connect] (y)
         (samplesigma) edge [connect] (y);
 
-  \node[rectangle, inner sep=0mm,draw=black!100, fit= (donormean) (y) ,label=below right:$d \in \text{donors}$, xshift=13mm] {};
+  \node[rectangle, inner sep=5mm,draw=black!100, fit= (donormean) (y) ,label=below:$d \in \text{donors}$] {};
+  \node[rectangle, inner sep=5mm,draw=black!100, fit= (data) (y) ,label=below:$i \in \text{samples for donor $d$}$] {};
+
 %  \node[rectangle, inner sep=4.4mm,draw=black!100, fit= (z) (w)] {};
 %  \node[rectangle, inner sep=4.6mm, fit= (z) (w),label=below right:M, xshift=12.5mm] {};
 %  \node[rectangle, inner sep=9mm, draw=black!100, fit = (theta) (z) (w)] {};
