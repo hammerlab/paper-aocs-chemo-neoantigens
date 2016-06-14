@@ -11,17 +11,17 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
 \tikzstyle{main}=[circle, minimum size = 10mm, thick, draw =black!80, node distance = 16mm]
 \tikzstyle{connect}=[-latex, thick]
 \tikzstyle{box}=[rectangle, draw=black!100]
-  \node[main, fill = white!100] (data) [label=below:Data] { Data };
-  \node[main] (coefficients) [right=of data,label=below:Coefficients] { };
-  \node[main] (globalmean) [right=of coefficients,label=below:Global Mean] {};
-  \node[main] (donorsigma) [right=of globalmean,label=below:Donor $\sigma$] {};
-  \node[main] (samplesigma) [right=of donorsigma,label=below:Sample $\sigma$] {};
+  \node[main] (coefficients) [label=above:Predictors] {\Beta};
+  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] {\mu_{\text global}};
+  \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] {$\sigma_{donor}$};
+  \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] {$\sigma_{sample}$};
 
-  \node[main] (donormean) [below=of globalmean,label=below:Donor Mean] { };
+  \node[main] (donormean) [below=of globalmean] {$\mu_d$};
 
   \node[main] (mu) [below=of donormean,label=below:$\mu_s$] {};
-  
-  \node[main] (y) [below=of mu,label=below:$y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}$] {};
+  \node[main, fill = white!100] (data) [left of=mu,label=below:Data] { $x$ };
+
+  \node[main] (y) [below=of mu,label=below:$y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}$] {$y$};
 
   \path (globalmean) edge [connect] (donormean)
         (donorsigma) edge [connect] (donormean)
