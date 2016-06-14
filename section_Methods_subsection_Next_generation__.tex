@@ -12,11 +12,11 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
 \tikzstyle{connect}=[-latex, thick]
 \tikzstyle{box}=[rectangle, draw=black!100]
   \node[main] (coefficients) [label=above:Coefficients] { $\beta$ };
-  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] { $\mu_\text{global}$ };
-  \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] { $\sigma_\text{donor}$ };
-  \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] { $\sigma_\text{sample}$ };
+  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] { $\mu_\text{global} \sim \textit{N}(0, 100) $ };
+  \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] { $\sigma_\text{donor} \sim \textit{Cauchy}(0, 2) $ };
+  \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] { $\sigma_\text{sample} \sim \textit{Cauchy}(0, 2) $ };
 
-  \node[main] (donormean) [below=of globalmean] {$\mu_d \sim \mathit{N($\mu_\text{global}$, $\sigma_\text{donor}$)}$};
+  \node[main] (donormean) [below=of globalmean] {$\mu_d \sim \mathit{N}(\mu_\text{global}, \sigma_\text{donor})$};
 
   \node[main] (mu) [below=of donormean,label=below:] { $\mu_i = \mu_d + x_i \cdot \beta $ };
   \node[main, fill = white!100] (data) [left of=mu,label=above:Predictors] { $x_i$ };
