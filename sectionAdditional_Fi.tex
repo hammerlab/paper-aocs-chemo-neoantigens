@@ -50,13 +50,11 @@
         (mu) edge [connect] (y)
         (samplesigma) edge [connect] (y);
 
-  \node[rectangle, inner sep=8mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (donormean) (y) (data) ,yshift=-3mm,xshift=2mm,label=below:$d \in \text{donors}$] {};
+  \node[rectangle, inner sep=8mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (donormean) (y) (data) ,yshift=-3mm,xshift=1mm,label=below:$d \in \text{donors}$] {};
   \node[rectangle, inner sep=6mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (mu) (y) (data),yshift=1mm,xshift=1mm,label=below:$i \in \text{samples($d$)}$] {};
 
-%  \node[rectangle, inner sep=4.4mm,draw=black!100, fit= (z) (w)] {};
-%  \node[rectangle, inner sep=4.6mm, fit= (z) (w),label=below right:M, xshift=12.5mm] {};
-%  \node[rectangle, inner sep=9mm, draw=black!100, fit = (theta) (z) (w)] {};
-\end{tikzpicture
+
+\end{tikzpicture}
 \caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$.}
 \label{fig:model_architecture}
 \end{figure}
