@@ -16,12 +16,12 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
   \node[main] (donorsigma) [right=of globalmean,label=above:Donor Variance] { $\sigma_\text{donor} \sim \textit{Cauchy}(0, 2) $ };
   \node[main] (samplesigma) [right=of donorsigma,label=above:Sample Variance] { $\sigma_\text{sample} \sim \textit{Cauchy}(0, 2) $ };
 
-  \node[main] (donormean) [below=of globalmean] {$\mu_d \sim \mathit{N}(\mu_\text{global}, \sigma_\text{donor})$};
+  \node[main] (donormean) [below=of globalmean] {$\mu_d \sim \mathit{N}(\mu_\text{global}, \sigma_\text{donor}) $};
 
   \node[main] (mu) [below=of donormean,label=below:] { $\mu_i = \mu_d + x_i \cdot \beta $ };
   \node[main, fill = white!100] (data) [left of=mu,label=above:Predictors] { $x_i$ };
 
-  \node[main] (y) [below=of mu] {$\log y_i \sim \mathit{N($\mu_i$, $\sigma_{sample}$)}$};
+  \node[main] (y) [below=of mu] {$\log y_i \sim \mathit{N}(\mu_i, \sigma_{sample})$};
 
   \path (globalmean) edge [connect] (donormean)
         (donorsigma) edge [connect] (donormean)
