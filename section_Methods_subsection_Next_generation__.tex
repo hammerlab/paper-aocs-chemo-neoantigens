@@ -40,19 +40,6 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
 \end{tikzpicture}
 \end{figure}
 
-
-\[
-y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}
-\]
-
-with the uninformative priors:
-
-\[
-\mu_g \sim \mathit{Normal($0$, $100$)} \\
-\sigma_{donor} \sim \mathit{Cauchy($0$, 2)} \\
-\sigma_{sample} \sim \mathit{Cauchy($0$, 2)}
-\]
-
 We note that if one makes the assumption that adjuvant and neoadjuvant treatments have identical effects on mutational burden, then in principle the five neoadjuvant-treated primary samples enable disentangling the effects of treatment and relapse time-point. However, such a model had large uncertainties and proved inconclusive (Figure~\ref{fig:bayesian_model_effects_separate}). 
 
 \subsection*{HLA typing and MHC binding prediction}
