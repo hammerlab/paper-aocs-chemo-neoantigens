@@ -32,7 +32,7 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
         (samplesigma) edge [connect] (y);
 
   \node[rectangle, inner sep=10mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (donormean) (y) (data) ,label=above:$d \in \text{donors}$] {};
-  \node[rectangle, inner sep=5mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (mu) (y) (data),right=30mm of y,label=above:$i \in \text{samples($d$)}$] {};
+  \node[rectangle, inner sep=5mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (mu) (y) (data),right=30mm of y,left=10mm of data, label=below:$i \in \text{samples($d$)}$] {};
 
 %  \node[rectangle, inner sep=4.4mm,draw=black!100, fit= (z) (w)] {};
 %  \node[rectangle, inner sep=4.6mm, fit= (z) (w),label=below right:M, xshift=12.5mm] {};
