@@ -23,11 +23,14 @@ Our model design is driven by two aspects of the AOCS dataset. First, 76/80 pre-
   
   \node[main] (y) [below=of mu,label=below:$y_i \sim \mathit{Normal($\mu_i$, $\sigma_{sample}$)}$] {};
 
-%  \node[main, fill = black!10] (w) [right=of z,label=below:w] { };
-%  \path (alpha) edge [connect] (theta)
-%        (theta) edge [connect] (z)
-%        (z) edge [connect] (w)
-%        (beta) edge [connect] (w);
+  \path (globalmean) edge [connect] (donormean)
+        (donorsigma) edge [connect] (donormean)
+        (coefficients) edge [connect] (mu)
+        (data) edge [connect] (mu)
+        (donormean) edge [connect] (mu)
+        (mu) edge [connect] (y)
+        (samplesigma) edge [connect] (y);
+
 %  \node[rectangle, inner sep=0mm, fit= (z) (w),label=below right:N, xshift=13mm] {};
 %  \node[rectangle, inner sep=4.4mm,draw=black!100, fit= (z) (w)] {};
 %  \node[rectangle, inner sep=4.6mm, fit= (z) (w),label=below right:M, xshift=12.5mm] {};
