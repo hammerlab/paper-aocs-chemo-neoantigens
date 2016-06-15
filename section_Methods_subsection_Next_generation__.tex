@@ -36,6 +36,8 @@ The signature deconvolution itself was performed with the deconstructSigs\cite{R
 
 The \texttt{signature.cutoff} was lowered from the default of $0.06$ as many of the chemotherapy signatures appear to be near this threshold and we would rather over-detect than under-detect them.
 
+To verify that the extracted signatures are in principle distinguishable from the other signatures used in deconvolution, we tested that signature deconvolution on the animal samples ascribed most mutations to the extracted signatures.
+
 The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample, then discards signatures with contribution less than the $0.05$ threshold. The solutions returned by deconstructSigs therefore do not account for all mutations in a sample, i.e. the weights for each signature sum to less than 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample $i$, we post-hoc extracted a ``residual signature'' $R_i$. Like all signatures, $R_i$ is a 96-element vector giving a weight to each mutational context and summing to 1. The residual signature makes it straightforward to quantify the mutations and neoantigens not accounted for by the deconvolution, and we include it as a signature in subsequent analyses. It was calculated as:
 
 \[ K_{i,j} = \max(0, C_{i,j} - \sum_s{D_{i,s} \, H_{s, j}}) \]
