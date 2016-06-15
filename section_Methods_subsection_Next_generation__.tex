@@ -34,11 +34,8 @@ The signature deconvolution itself was performed with the deconstructSigs\cite{R
 
 The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample, then discards signatures with contribution less than the $0.05$ threshold. The solutions returned by deconstructSigs therefore do not account for all mutations in a sample, i.e. the weights for each signature sum to less than 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample $i$, we post-hoc extracted a ``residual signature'' $R_i$. Like all signatures, $R_i$ is a 96-element vector giving a weight to each mutational context and summing to 1. The residual signature makes it straightforward to quantify the mutations and neoantigens not accounted for by the deconvolution, and we include it as a signature in subsequent analyses. It was calculated as:
 
-\[
-K_i = \min(0, C_{i, \cdot} - \sum_s{D_{i,s} H_{s, \cdot}})
-
-R_i = \frac{K_{i, \cdot}}{\sum_j{K_{i,j}}}
-\]
+\[ K_i = \min(0, C_{i, \cdot} - \sum_s{D_{i,s} H_{s, \cdot}}) \]
+\[ R_i = \frac{K_{i, \cdot}}{\sum_j{K_{i,j}}} \]
 
 where $H_{s,j}$ is the weight for signature $s$ on mutational context $j$, $D_{i,s}$ gives the contribution of signature $s$ to sample $i$, and the minimum is taken element-wise across the vector.
 
