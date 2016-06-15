@@ -32,7 +32,7 @@ where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ oc
 
 The signature deconvolution itself was performed with the deconstructSigs\cite{Rosenthal_2016} package using the following parameters passed to \texttt{whichSignatures()}: \texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.05}, \texttt{tri.counts.method="default"}.
 
-The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample. The solutions returned by deconstructSigs typically do not account for all mutations in a sample, i.e. the weights for each signature in a sample do not sum to 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample, we additionally extracted a ``residual signature'' $R_i$, enabling us to quantify the number of mutations or neoantigens resulting from these mutations. 
+The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample, followed by discarding signatures with contribution less than a threshold. The solutions returned by deconstructSigs typically do not account for all mutations in a sample, i.e. the weights for each signature sum to less than 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample, we additionally extracted a ``residual signature'' $R_i$, enabling us to quantify the number of mutations or neoantigens resulting from these mutations. 
 
 \[
 R_i = \min(0, C_{i, \cdot} - \sum_s{D_{i,s} H_{s, \cdot}} 
