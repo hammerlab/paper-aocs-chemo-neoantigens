@@ -70,7 +70,7 @@
 
 
 \end{tikzpicture}
-\caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$.}
+\caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$. Three models were fit separately, setting $y_i$ to the number of mutations, the number of neoantigens, and the number of expressed neoantigens in sample $i$. The features used ($x_i$) were whether the sample was chemotherapy-treated (binary), whether it was low purity (binary -- low purity taken to be the bottom quartile of the AOCS purity estimate from qPure\cite{Song_2012}), whether the tissue type was ascites (binary), the number of samples from the same donor (integer), and an interaction variable that was 1 if the sample was both solid tumor and treated, and otherwise 0 (binary).}
 \label{fig:model_architecture}
 \end{figure}
 
@@ -84,7 +84,7 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=1.0]{figures/bayesian_model_effects_separate.pdf}
-\caption{Parameter estimates for a model separating treatment effect from recurrence/relapse time-point. }
+\caption{Parameter estimates for a model separating treatment effect from recurrence/relapse time-point. The architecture is the same as in Figure~\ref{fig:model_architecture}. This model had high uncertainties and its results are not reported in the paper.}
 \label{fig:bayesian_model_effects_separate}
 \end{figure}
 
@@ -106,14 +106,14 @@
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/extracted_signatures_chicken.pdf}
-\caption{Mutational signatures extracted from \cite{Szikriszt_2016}}
+\caption{Mutational signatures extracted from Szikriszt et al.~\cite{Szikriszt_2016}}
 \label{fig:supp_extracted_signatures_chicken}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/extracted_signatures_worm.pdf}
-\caption{Mutational signatures extracted from \cite{Meier_2014}}
+\caption{Mutational signatures extracted from Meier et al.~\cite{Meier_2014}}
 \label{fig:supp_extracted_signatures_worm}
 \end{figure}
 
