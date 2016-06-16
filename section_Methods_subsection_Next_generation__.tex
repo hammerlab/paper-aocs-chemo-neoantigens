@@ -52,3 +52,5 @@ Suppose a mutation occurs in context $j$ and sample $i$. We write $\Pr[s \mid j]
 \[
 \Pr[s \mid j] = \frac{\Pr[j \mid s] \Pr[s]}{\sum_{s'}{\Pr[j \mid s']\Pr[s']}} = \frac{H_{s,j} \, D_{i,s}}{\sum_{s'}{H_{s',j} \, D_{i,s'}}}
 \]
+
+For treated samples with a pre-treatment sample available from the same donor, we deconvolved signatures both for the full sample and for the mutations detectable only after treatment (``new'' mutations). When calculating the SNVs and neoantigens attributable to a signature for these samples, we use the new mutations deconvolution matrix $D_{i,s}$ if the mutation was classified as new and otherwise the deconvolution result matrix for the full sample.
