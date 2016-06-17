@@ -70,7 +70,7 @@
 
 
 \end{tikzpicture}
-\caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$. Three models were fit separately, setting $y_i$ to the number of mutations, the number of neoantigens, and the number of expressed neoantigens in sample $i$. The features used ($x_i$) were whether the sample was chemotherapy-treated (binary), whether it was low purity (binary -- low purity taken to be the bottom quartile of the AOCS purity estimate from qPure\cite{Song_2012}), whether the tissue type was ascites (binary), the number of samples from the same donor (integer), and an interaction variable that was 1 if the sample was both solid tumor and treated, and otherwise 0 (binary).}
+\caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$. Three models were fit separately, using the same predictive variables $x_i$ but setting the predicted variable $y_i$ to the number of mutations, the number of neoantigens, and the number of expressed neoantigens in a sample $i$. The $x_i$ were whether the sample was chemotherapy-treated (binary), whether it was low purity (binary -- low purity taken to be the bottom quartile of the AOCS purity estimate from qPure~\cite{Song_2012}), whether the tissue type was ascites (binary), the number of samples from the same donor (integer), and an interaction variable that was 1 if the sample was both solid tumor and treated, and otherwise 0 (binary).}
 \label{fig:model_architecture}
 \end{figure}
 
