@@ -4,6 +4,7 @@ subsection_Background_Several_chemotherapies_including__.tex
 begin_table_htbp_begin_tabular__.tex
 sectionSection_title.tex
 section_Discussion_In_this_study__.tex
+section_Conclusion__.tex
 section_Methods_subsection_Next_generation__.tex
 section_List_of_abbreviations_TODO__.tex
 figures/download (2)/download (2).png
