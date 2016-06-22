@@ -9,7 +9,7 @@ Figure~\ref{fig:model_architecture} shows the model architecture and figure ~\re
 We note that if one makes the assumption that adjuvant and neoadjuvant treatments have identical effects on mutational burden, then in principle the five neoadjuvant-treated primary samples might enable disentangling the effects of treatment and relapse time-point. However, such a model had large uncertainties and proved inconclusive (Figure~\ref{fig:bayesian_model_effects_separate}). 
 
 \subsection*{HLA typing, variant annotation, and MHC binding prediction}
-HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and OptiType\cite{Szolek_2014} across the available samples for each patient. Variant annotation was performed using Varcode (https://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were done with NetMHCpan 2.8\cite{Lundegaard_2008}.
+HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and OptiType\cite{Szolek_2014} across the available samples for each patient. The most disruptive effect of each variant was predicted using Varcode (https://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8\cite{Lundegaard_2008} with default arguments.
 
 \subsection*{Mutational signatures}
 Previous studies have mostly performed signature extraction \textit{de novo} and interpreted the results by comparing to existing signatures. We instead deconvolve onto existing signatures. This is more appropriate for our relatively small dataset and enables a straightforward interpretation.
