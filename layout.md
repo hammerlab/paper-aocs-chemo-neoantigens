@@ -2,7 +2,7 @@ abstract.tex
 textbf_Keywords_cancer_neoantigens_mutation__.tex
 subsection_Background_Several_chemotherapies_including__.tex
 section_Methods_As_paclitaxel_carboplatin__.tex
-begin_table_htbp_begin_tabular__.tex
+begin_table_htbp_begin_figure__.tex
 sectionSection_title.tex
 section_Discussion_In_this_study__.tex
 section_Conclusion__.tex
