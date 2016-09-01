@@ -5,14 +5,17 @@
 set -e
 set -x
 
-IN=data/derived/raw_mutations.csv.bz2
+# If needed run:
+# bunzip2 -k data/derived/raw_mutations.csv.bz2
+
+IN=data/derived/raw_mutations.csv
 OUT=data/derived/annotated_mutations.csv
 
 # Change to path to your grch37 reference fasta.
 REFERENCE_FASTA=~ahujaa01/reference_genomes/human_g1k_v37.fasta
 
 time varlens-variants \
-    --variants $IN \
+    $IN \
     --chunk-rows 10000 \
     --survive-errors \
     --include-effect \
