@@ -4,10 +4,12 @@
 
 Analyses were run in this order.
 
- * Run 'samples' notebook
- * Run scripts/annotate_variants.sh
- * Run 'prepare and merge varlens annotated mutations' notebook
- * Run 'neoantigen and mutation counts' notebook
- * Run 'prepare and merge varlens annotated mutations' notebook
- * 
+ * 'samples' notebook
+ * scripts/annotate_variants.sh
+ * 'prepare and merge varlens annotated mutations' notebook
+ * 'neoantigen and mutation counts' notebook
+ * 'prepare and merge varlens annotated mutations' notebook
+ *  R script: R/signature_deconstruction.R
+ * 'deconstructSigs results' notebook
+
  
