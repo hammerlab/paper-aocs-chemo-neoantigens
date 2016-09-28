@@ -9,6 +9,7 @@ Analyses were run in this order.
  * 'prepare and merge varlens annotated mutations' notebook
  * 'neoantigen and mutation counts' notebook
  * 'prepare and merge varlens annotated mutations' notebook
+ * 'signature extractions with model' notebook
  *  R script: R/signature_deconstruction.R
  * 'deconstructSigs results' notebook
 

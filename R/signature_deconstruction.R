@@ -2,7 +2,7 @@ library(deconstructSigs)
 library(reshape)
 
 raw_my_signatures <- read.csv(
-  "~/sinai/git/paper-201604/data/all_signatures.csv",
+  "~/sinai/git/paper-201604/data/derived/all_signatures.csv",
   check.names = F,
   row.names = 1)
 my_signatures <- subset(raw_my_signatures, select=colnames(signatures.cosmic))
