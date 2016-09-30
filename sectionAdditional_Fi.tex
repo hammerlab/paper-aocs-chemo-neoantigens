@@ -30,6 +30,10 @@
 \end{center}
 
 \section*{Supplemental Methods}
+\subsection*{Bayesian model of the change in mutations, neoantigens, and expressed neoantigens after treatment}
+Two aspects of the AOCS dataset motivated a hierarchical Bayesian model to estimate the overall change in mutations and neoantigens after chemotherapy treatment. First, 76/80 pre-treatment samples are solid tumor, whereas 24/35 post-treatment samples are drained ascitic fluid. This imbalance occurs because surgery is rarely performed for relapsed disease. We find evidence that ascites samples tend to harbor more detectable mutations than solid tumors, a phenomenon Patch et al suggest may be due to increased mixing of subclones in ascites. This must be accounted for if one is to compare the mostly solid tumor pre-treatment samples to predominantly ascitic post-treatment samples. Our model therefore controls for tissue type and other variables when analyzing changes in mutations and neoantigens with treatment (TODO DB: explain how). Second, 12/93 patients in the cohort have both pre-treatment and post-treatment samples; the remaining patients have only treated or only untreated samples. In assessing changes in mutations after treatment, we would like to maximize statistical power with a paired (within-subject) analysis when possible while also making use of the unpaired samples. The model we propose therefore includes a hierarchical component that models patient-specific effects. Several posterior predictive checks were performed, which indicated the model appears reasonable for this dataset. Figure~\ref{fig:model_architecture} shows the model architecture and figure~\ref{fig:bayesian_model_effects} the results. 
+
+
 \subsection*{Signature extraction}
 Both Meier et al~\cite{Meier_2014} and Szikriszt et al~\cite{Szikriszt_2016} sequenced replicates of chemotherapy-treated and untreated (control) organisms. Identifying a mutational signature associated with treatment requires splitting the mutations observed in the treated group into background (i.e. those we would expect to see without treatment) and treatment effects. We do this for each study and chemotherapy drug separately.
 
