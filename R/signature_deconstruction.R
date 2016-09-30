@@ -1,29 +1,32 @@
 library(deconstructSigs)
 library(reshape)
 
-raw_my_signatures <- read.csv(
-  "~/sinai/git/paper-201604/data/derived/all_signatures.csv",
+raw.my.signatures <- read.csv(
+  "~/sinai/git/paper-201604/data/derived/main_signatures.csv",
   check.names = F,
   row.names = 1)
-my_signatures <- subset(raw_my_signatures, select=colnames(signatures.cosmic))
-rownames(my_signatures) <- make.names(rownames(my_signatures))
+my.signatures <- subset(raw.my.signatures, select=colnames(signatures.cosmic))
+print(colnames(signatures.cosmic))
+print(colnames(my.signatures))
+rownames(my.signatures) <- make.names(rownames(my.signatures))
+print(my.signatures)
 
-raw_input <- read.csv("~/sinai/git/paper-201604/data/derived/mutation_contexts_counts.csv",
+raw.input <- read.csv("~/sinai/git/paper-201604/data/derived/mutation_contexts_counts.csv",
                       check.names = F)
-rownames(raw_input) <- paste(raw_input$source_id, raw_input$kind, sep=" ")
-raw_input$kind <- NULL
-raw_input$source_id <- NULL
+rownames(raw.input) <- paste(raw.input$source_id, raw.input$kind, sep=" ")
+raw.input$kind <- NULL
+raw.input$source_id <- NULL
 
 result <- list()
-for(sample in rownames(raw_input)) {
+for(sample in rownames(raw.input)) {
   print(sample)
-  output <- whichSignatures(tumor.ref = raw_input,
+  output <- whichSignatures(tumor.ref = raw.input,
                             sample.id = sample,
                             contexts.needed = TRUE,
-                            signature.cutoff = 0.05,
+                            signature.cutoff = 0.00,
                             tri.counts.method = "default",
-                            signatures.ref = my_signatures)
-  
+                            signatures.ref = my.signatures)
+
   # makePie(output, sub=sample)
   output$weights['Sample'] <- sample
   result[[sample]] <- output$weights

@@ -12,5 +12,7 @@ Analyses were run in this order.
  * 'prepare mutation counts for deconstructsigs' notebook 
  *  R script: R/signature_deconstruction.R
  * 'deconstructSigs results' notebook
+ * 'signature probabilities per mutation' notebook
+ * 'bayesian model'
 
  
