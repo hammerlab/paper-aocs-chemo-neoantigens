@@ -1,7 +1,9 @@
 \section*{Methods}
 
 \subsection*{Samples and mutation calls}
-We analyzed the mutation calls published by Patch et al~\cite{Patch_2015} in their cohort of 114 high grade serous ovarian carcinoma samples. We combined adjacent SNVs from the same patient to form MNVs. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive (accession EGAD00001000877). As in Patch et al, one sample (AOCS-002) under this accession was excluded because it was not classified as high grade serous. For samples taken after chemotherapy treatment, we defined those listed with a collection point of ``primary'' as neoadjuvant-treated and those with a collection point of ``recurrence'' or ``autopsy'' as adjuvant-treated.
+We analyzed the mutation calls published by Patch et al~\cite{Patch_2015} in their cohort of 114 high grade serous ovarian carcinoma samples. We combined adjacent SNVs from the same patient to form MNVs. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive (accession EGAD00001000877). Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered neoadjuvant chemotherapy-treated samples, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered adjuvant-treated.
+
+% As in Patch et al, one sample (AOCS-002) under this accession was excluded because it was not classified as high grade serous.
 
 We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
 
