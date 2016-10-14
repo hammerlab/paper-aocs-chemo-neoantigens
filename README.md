@@ -13,6 +13,7 @@ Analyses were run in this order.
  *  R script: R/signature_deconstruction.R
  * 'deconstructSigs results' notebook
  * 'signature probabilities per mutation' notebook
+ * 'plot mutation and neoantigen signature sources' notebook
  * 'bayesian model'
 
  
