@@ -54,7 +54,7 @@ where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ oc
 \subsection*{Signature deconvolution}
 The signature deconvolution itself was performed with the deconstructSigs\cite{Rosenthal_2016} package using the following parameters passed to \texttt{whichSignatures()}:
 
-\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.05}, \texttt{tri.counts.method="default"}
+\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
 
 The \texttt{signature.cutoff} was lowered from the default of $0.06$ as many of the chemotherapy signatures appear to be near this threshold and we would rather over-detect than under-detect them.
 
