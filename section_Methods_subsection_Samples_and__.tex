@@ -1,7 +1,7 @@
 \section*{Methods}
 
 \subsection*{Samples and mutation calls}
-We analyzed the mutation calls published by Patch et al~\cite{Patch_2015} in their cohort of 114 high grade serous ovarian carcinoma samples. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive (accession EGAD00001000877). We combined adjacent SNVs from the same patient to form MNVs. Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered neoadjuvant chemotherapy-treated samples, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered adjuvant-treated.
+We analyzed the mutation calls published by Patch et al~\cite{Patch_2015} in their cohort of 114 high grade serous ovarian carcinoma samples. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. We combined adjacent SNVs from the same patient to form MNVs. Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered neoadjuvant chemotherapy-treated samples, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered adjuvant-treated.
 
 % As in Patch et al, one sample (AOCS-002) under this accession was excluded because it was not classified as high grade serous.
 
@@ -11,12 +11,12 @@ We considered a mutation to be present in a sample if it was called in any sampl
 
 \subsection*{HLA typing, variant annotation, and MHC binding prediction}
 \begin{sloppypar}
-HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and OptiType\cite{Szolek_2014} across the available samples for each patient. The most disruptive effect of each variant was predicted using Varcode (https://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8\cite{Lundegaard_2008} with default arguments.
+HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and OptiType\cite{Szolek_2014} across the samples for each patient. The most disruptive effect of each variant was predicted using Varcode (https://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8\cite{Lundegaard_2008} with default arguments.
 \end{sloppypar}
 
 \subsection*{Mutational signatures}
-Previous studies have mostly performed signature extraction \textit{de novo} and interpreted the results by comparing to existing signatures. We instead deconvolve onto existing signatures. This is more appropriate for our relatively small dataset and enables a straightforward interpretation.
+Previous studies have mostly performed signature extraction \textit{de novo} and interpreted the results by comparing to existing signatures. We instead deconvolved onto existing signatures, as this is more appropriate for our relatively small dataset and enables a straightforward interpretation.
 
 Signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package for each sample individually. We used the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include a signature extracted from a study of cisplatin-exposed \textit{C. Elegans}~\cite{Meier_2014} in widtype and various knockout contexts, and three signatures from a \textit{G. Gallus} cell line exposed to cisplatin, cyclophosphamide, or etoposide~\cite{Szikriszt_2016} (Figure~\ref{fig:supp_signatures}).
 
-Both Meier et al~\cite{Meier_2014} and Szikriszt et al~\cite{Szikriszt_2016} sequenced replicates of chemotherapy-treated and untreated (control) organisms. Identifying a mutational signature associated with treatment requires splitting the mutations observed in the treated group into background (i.e. those we would expect to see without treatment) and treatment effects. We do this for each study and chemotherapy drug separately (Supplemental Methods).
+Both Meier et al~\cite{Meier_2014} and Szikriszt et al~\cite{Szikriszt_2016} sequenced replicates of chemotherapy-treated and untreated (control) organisms. Identifying a mutational signature associated with treatment requires splitting the mutations observed in the treated group into background (i.e. those we would expect to see without treatment) and treatment effects. We did this using a Bayesian model for each study and chemotherapy drug separately (Supplemental Methods).
