@@ -14,6 +14,8 @@ Analyses were run in this order.
  * 'deconstructSigs results' notebook
  * 'signature probabilities per mutation' notebook
  * 'plot mutation and neoantigen signature sources' notebook
+ * 'plot extracted signatures'
  * 'bayesian model'
+
 
  
