@@ -1,13 +1,13 @@
 \section*{Methods}
 
-\subsection*{Samples and mutation calls}
+\subsection*{Mutation calls}
 We analyzed the mutation calls published by Patch et al~\cite{Patch_2015}. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. We combined adjacent SNVs from the same patient to form MNVs.
-
-Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered neoadjuvant chemotherapy-treated samples, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered adjuvant-treated, since all patients received adjuvant chemotherapy after primary debulking surgery.
 
 % As in Patch et al, one sample (AOCS-002) under this accession was excluded because it was not classified as high grade serous.
 
 We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
+
+
 
 % We note that if one makes the assumption that adjuvant and neoadjuvant treatments have identical effects on mutational burden, then in principle the five neoadjuvant-treated primary samples might enable disentangling the effects of treatment and relapse time-point. However, such a model had large uncertainties and proved inconclusive (Figure~\ref{fig:bayesian_model_effects_separate}). 
 
@@ -17,7 +17,7 @@ HLA typing was performed using a consensus of seq2HLA\cite{Boegel_2012} and Opti
 \end{sloppypar}
 
 \subsection*{Comparison of mutation and neoantigen burden between treated and untreated samples}
-We assessed changes in mutation and neoantigen burden by stratifying on treatment time point (adjuvant, i.e. post-surgery, or neoadjuvant, i.e. pre-surgery) and sample tissue type (solid tumor or ascites). Most post-treatment samples are relapse samples. The mutations introduced in these samples may be due either to chemotherapy or to genetic drift and selection as the residual clones remaining after surgery regrow into tumors. The mutations introduced in neoadjuvant-treated tumors, in contrast, may better isolate the effect of chemotherapy because primary tumor is sampled. We additionally stratify by tissue type because, independent of treatment, ascites samples trend toward increased numbers of detected mutations, perhaps because diverse clones more readily intermix in the fluid environment.
+We assessed changes in mutation and neoantigen burden by stratifying on treatment time point (adjuvant or neoadjuvant) and sample tissue type (solid tumor or ascites). Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered neoadjuvant chemotherapy-treated samples, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered adjuvant-treated, since all patients received adjuvant chemotherapy after debulking surgery. Most post-treatment samples are relapse samples. The mutations introduced in these samples may be due either to chemotherapy or to genetic drift and selection as the residual clones remaining after surgery regrow into tumors. The mutations introduced in neoadjuvant-treated tumors, in contrast, may better isolate the effect of chemotherapy because primary tumor is sampled. We additionally stratified by tissue type because, independent of treatment, ascites samples trend toward increased numbers of detected mutations, perhaps because diverse clones more readily intermix in the fluid environment.
 
 \subsection*{Mutational signatures}
 Previous studies have mostly performed signature extraction \textit{de novo} and interpreted the results by comparing to existing signatures. We instead deconvolved onto existing signatures, as this is more appropriate for our relatively small dataset and enables a straightforward interpretation.
