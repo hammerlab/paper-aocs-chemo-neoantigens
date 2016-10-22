@@ -73,7 +73,23 @@ Suppose a mutation occurs in context $j$ and sample $i$. We write $\Pr[s \mid j]
 
 For treated samples with a pre-treatment sample available from the same patient, we deconvolved signatures both for the full sample and for the mutations detectable only after treatment (``new'' mutations). When calculating the SNVs and neoantigens attributable to a signature for these samples, we use the new mutations deconvolution matrix $D_{i,s}$ if the mutation was classified as new and otherwise the matrix for the full sample.
 
+\section*{Supplemental Figures}
 
+\FloatBarrier
+
+\begin{figure}
+\centering
+\includegraphics[scale=1.0]{figures/extracted_signatures_chicken.pdf}
+\caption{Mutational signatures extracted from Szikriszt et al.~\cite{Szikriszt_2016}}
+\label{fig:supp_extracted_signatures_chicken}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=1.0]{figures/extracted_signatures_worm.pdf}
+\caption{Mutational signature extracted from Meier et al.~\cite{Meier_2014}}
+\label{fig:supp_extracted_signatures_worm}
+\end{figure}
 
 \begin{figure}
 \centering
@@ -94,20 +110,6 @@ For treated samples with a pre-treatment sample available from the same patient,
 \includegraphics[scale=1.0]{figures/supplementary_signatures_no_cutoff.pdf}
 \caption{\textbf{Mutational signature deconvolutions for all samples, without any minimum threshold.} The symbols are as in main text figure~\ref{fig:signatures}.}
 \label{fig:supplementary_signatures_no_cutoff.pdf}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[scale=1.0]{figures/extracted_signatures_chicken.pdf}
-\caption{Mutational signatures extracted from Szikriszt et al.~\cite{Szikriszt_2016}}
-\label{fig:supp_extracted_signatures_chicken}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[scale=1.0]{figures/extracted_signatures_worm.pdf}
-\caption{Mutational signature extracted from Meier et al.~\cite{Meier_2014}}
-\label{fig:supp_extracted_signatures_worm}
 \end{figure}
 
 \FloatBarrier
