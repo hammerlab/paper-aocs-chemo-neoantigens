@@ -82,65 +82,6 @@ For treated samples with a pre-treatment sample available from the same patient,
 \label{fig:supp_paired}
 \end{figure}
 
-\begin{comment}
-\usetikzlibrary{fit,positioning}
-\begin{figure}
-\centering
-\begin{tikzpicture}
-\tikzstyle{main}=[rectangle, rounded corners, minimum size = 10mm, thick, draw =black!80, node distance = 10mm]
-\tikzstyle{connect}=[-latex, thick]
-\tikzstyle{box}=[rectangle, draw=black!100]
-  \node[main] (coefficients) [label=above:Coefficients] { $\beta \sim \mathit{N}(0, 20)$ };
-  \node[main] (globalmean) [right=of coefficients,label=above:Global Mean] { $\mu_\text{global} \sim \mathit{N}(0, 100) $ };
-  \node[main] (patientsigma) [right=of globalmean,label=above:Patient Variance] { $\sigma_\text{patient} \sim \mathit{Cauchy}(0, 2) $ };
-  \node[main] (samplesigma) [right=of patientsigma,label=above:Sample Variance] { $\sigma_\text{sample} \sim \mathit{Cauchy}(0, 2) $ };
-
-  \node[main] (patientmean) [below=of globalmean, xshift=25mm] {$\mu_d \sim \mathit{N}(\mu_\text{global}, \sigma_\text{patient}) $};
-
-  \node[main] (mu) [below=of patientrmean,label=below:] { $\mu_i = \mu_d + \beta \cdot x_i $ };
-  \node[circle, thick, draw=black!80] (data) [left=10mm of mu,label=above:Observed] { $x_i$ };
-
-  \node[main] (y) [below=of mu] {$\log y_i \sim \mathit{N}(\mu_i, \sigma_{sample})$};
-  \node[circle, thick, draw=black!80] (obsy) [left=5mm of y,label=above:Observed] { $y_i$ };
-
-  \path (globalmean) edge [connect] (patientmean)
-        (patientsigma) edge [connect] (patientmean)
-        (coefficients) edge [connect] (mu)
-        (data) edge [connect] (mu)
-        (obsy) edge [connect] (y)
-        (patientmean) edge [connect] (mu)
-        (mu) edge [connect] (y)
-        (samplesigma) edge [connect] (y);
-
-  \node[rectangle, inner sep=8mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (patientmean) (y) (data) ,yshift=-3mm,xshift=1mm,label=below:$d \in \text{patients}$] {};
-  \node[rectangle, inner sep=6mm,fill=gray!100, draw=black!100, fill opacity=0.2, fit= (mu) (y) (data),yshift=1mm,xshift=1mm,label=below:$i \in \text{samples($d$)}$] {};
-
-
-\end{tikzpicture}
-\caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$. Three models were fit separately, using the same predictive variables $x_i$ but setting the predicted variable $y_i$ to the number of mutations, the number of neoantigens, and the number of expressed neoantigens in a sample $i$. The $x_i$ were whether the sample was chemotherapy-treated (binary), whether it was low purity (binary -- low purity taken to be the bottom quartile of the AOCS purity estimate from qPure~\cite{Song_2012}), whether the tissue type was ascites (binary), the number of samples from the same patient (integer), and an interaction variable that was 1 if the sample was both solid tumor and treated, and otherwise 0 (binary).}
-\label{fig:model_architecture}
-\end{figure}
-\end{comment}
-
-
-\begin{comment}
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=1.0]{figures/bayesian_model_effects.pdf}
-\caption{Bayesian model effects. }
-\label{fig:bayesian_model_effects}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=1.0]{figures/bayesian_model_effects_separate.pdf}
-\caption{Parameter estimates for a model separating treatment effect from recurrence/relapse time-point. The architecture is the same as in Figure~\ref{fig:model_architecture}. This model had high uncertainties and its results are not reported in the paper.}
-\label{fig:bayesian_model_effects_separate}
-\end{figure}
-\end{comment}
-
-
-
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/supplementary_signatures.pdf}
@@ -154,16 +95,6 @@ For treated samples with a pre-treatment sample available from the same patient,
 \caption{\textbf{Mutational signature deconvolutions for all samples, without any minimum threshold.} The symbols are as in main text figure~\ref{fig:signatures}.}
 \label{fig:supplementary_signatures_no_cutoff.pdf}
 \end{figure}
-
-\begin{comment}
-\begin{figure}
-\centering
-\includegraphics[scale=1.0]{figures/sources_of_mutations_and_neoantigens_ungrouped.pdf}
-\caption{\textbf{Contributions of chemotherapy-associated mutational signatures to mutations and neoantigens, as a fraction of total.}}
-\label{fig:supp_sources}
-\end{figure}
-\end{comment}
-
 
 \begin{figure}
 \centering
