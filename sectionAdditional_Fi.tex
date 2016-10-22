@@ -30,9 +30,6 @@
 \end{center}
 
 \section*{Supplemental Methods}
-\subsection*{Bayesian model of the change in mutations, neoantigens, and expressed neoantigens after treatment}
-Two aspects of the AOCS dataset motivated a hierarchical Bayesian model to estimate the overall change in mutations and neoantigens after chemotherapy treatment. First, 76/80 pre-treatment samples are solid tumor, whereas 24/35 post-treatment samples are drained ascitic fluid. This imbalance occurs because surgery is rarely performed for relapsed disease. We find evidence that ascites samples tend to harbor more detectable mutations than solid tumors, a phenomenon Patch et al suggest may be due to increased mixing of subclones in ascites. This must be accounted for if one is to compare the mostly solid tumor pre-treatment samples to predominantly ascitic post-treatment samples. Our model therefore controls for tissue type and other variables when analyzing changes in mutations and neoantigens with treatment (TODO DB: explain how). Second, 12/93 patients in the cohort have both pre-treatment and post-treatment samples; the remaining patients have only treated or only untreated samples. In assessing changes in mutations after treatment, we would like to maximize statistical power with a paired (within-subject) analysis when possible while also making use of the unpaired samples. The model we propose therefore includes a hierarchical component that models patient-specific effects. Several posterior predictive checks were performed, which indicated the model appears reasonable for this dataset. Figure~\ref{fig:model_architecture} shows the model architecture and figure~\ref{fig:bayesian_model_effects} the results. 
-
 
 \subsection*{Signature extraction}
 Both Meier et al~\cite{Meier_2014} and Szikriszt et al~\cite{Szikriszt_2016} sequenced replicates of chemotherapy-treated and untreated (control) organisms. Identifying a mutational signature associated with treatment requires splitting the mutations observed in the treated group into background (i.e. those we would expect to see without treatment) and treatment effects. We do this for each study and chemotherapy drug separately.
@@ -56,16 +53,14 @@ The signature deconvolution itself was performed with the deconstructSigs\cite{R
 
 \texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
 
-The \texttt{signature.cutoff} was lowered from the default of $0.06$ as many of the chemotherapy signatures appear to be near this threshold and we would rather over-detect than under-detect them.
+% To verify that the extracted signatures are in principle distinguishable from the other signatures used in deconvolution, we tested that signature deconvolution on the animal samples attributed most mutations to the extracted signatures.
 
-To verify that the extracted signatures are in principle distinguishable from the other signatures used in deconvolution, we tested that signature deconvolution on the animal samples ascribed most mutations to the extracted signatures.
+% The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample. The solutions returned by deconstructSigs therefore do not account for all mutations in a sample, i.e. the weights for each signature sum to less than 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample $i$, we post-hoc extracted a ``residual signature'' $R_i$. Like all signatures, $R_i$ is a 96-element vector giving a weight to each mutational context and summing to 1. The residual signature makes it straightforward to quantify the mutations and neoantigens not accounted for by the deconvolution, and we include it as a signature in subsequent analyses. It was calculated as:
 
-The deconstructSigs package uses a forward-selection procedure with stopping criteria to select the signatures that best explain the mutations in a sample, then discards signatures with contribution less than the $0.05$ threshold. The solutions returned by deconstructSigs therefore do not account for all mutations in a sample, i.e. the weights for each signature sum to less than 1. We refer to the mutations not accounted for by the deconvolution as the ``residual'' mutations. For each sample $i$, we post-hoc extracted a ``residual signature'' $R_i$. Like all signatures, $R_i$ is a 96-element vector giving a weight to each mutational context and summing to 1. The residual signature makes it straightforward to quantify the mutations and neoantigens not accounted for by the deconvolution, and we include it as a signature in subsequent analyses. It was calculated as:
+% \[ K_{i,j} = \max(0, C_{i,j} - \sum_s{D_{i,s} \, H_{s, j}}) \]
+% \[ R_{i,j} = \frac{K_{i, j}}{\sum_{j'}{K_{i,j'}}} \]
 
-\[ K_{i,j} = \max(0, C_{i,j} - \sum_s{D_{i,s} \, H_{s, j}}) \]
-\[ R_{i,j} = \frac{K_{i, j}}{\sum_{j'}{K_{i,j'}}} \]
-
-where $D_{i,s}$ gives the contribution of signature $s$ to sample $i$ and $H_{s,j}$ is the weight for signature $s$ on mutational context $j$.
+% where $D_{i,s}$ gives the contribution of signature $s$ to sample $i$ and $H_{s,j}$ is the weight for signature $s$ on mutational context $j$.
 
 \subsection*{Quantifying the mutations and neoantigens contributed by a signature}
 To estimate the number of SNVs and neoantigens generated by a signature, we calculated the posterior probability that the signature generated each mutation over the mutations in the sample, as described below. The sum of these probabilities gives the expected number of SNVs attributable to each signature. For neoantigens, we weight the terms of this sum by the number of neoantigens generated by each mutation.
@@ -87,6 +82,7 @@ For treated samples with a pre-treatment sample available from the same patient,
 \label{fig:supp_paired}
 \end{figure}
 
+\begin{comment}
 \usetikzlibrary{fit,positioning}
 \begin{figure}
 \centering
@@ -124,7 +120,10 @@ For treated samples with a pre-treatment sample available from the same patient,
 \caption{Bayesian model architecture for paired samples. For unpaired samples, $\mu_d$ is set to $\mu_\text{global}$. Three models were fit separately, using the same predictive variables $x_i$ but setting the predicted variable $y_i$ to the number of mutations, the number of neoantigens, and the number of expressed neoantigens in a sample $i$. The $x_i$ were whether the sample was chemotherapy-treated (binary), whether it was low purity (binary -- low purity taken to be the bottom quartile of the AOCS purity estimate from qPure~\cite{Song_2012}), whether the tissue type was ascites (binary), the number of samples from the same patient (integer), and an interaction variable that was 1 if the sample was both solid tumor and treated, and otherwise 0 (binary).}
 \label{fig:model_architecture}
 \end{figure}
+\end{comment}
 
+
+\begin{comment}
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=1.0]{figures/bayesian_model_effects.pdf}
@@ -138,6 +137,8 @@ For treated samples with a pre-treatment sample available from the same patient,
 \caption{Parameter estimates for a model separating treatment effect from recurrence/relapse time-point. The architecture is the same as in Figure~\ref{fig:model_architecture}. This model had high uncertainties and its results are not reported in the paper.}
 \label{fig:bayesian_model_effects_separate}
 \end{figure}
+\end{comment}
+
 
 
 \begin{figure}
@@ -149,17 +150,20 @@ For treated samples with a pre-treatment sample available from the same patient,
 
 \begin{figure}
 \centering
-\includegraphics[scale=1.0]{figures/supplementary_signatures.pdf}
+\includegraphics[scale=1.0]{figures/supplementary_signatures_no_cutoff.pdf}
 \caption{\textbf{Mutational signature deconvolutions for all samples, without any minimum threshold.} The symbols are as in main text figure~\ref{fig:signatures}.}
 \label{fig:supplementary_signatures_no_cutoff.pdf}
 \end{figure}
 
+\begin{comment}
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/sources_of_mutations_and_neoantigens_ungrouped.pdf}
 \caption{\textbf{Contributions of chemotherapy-associated mutational signatures to mutations and neoantigens, as a fraction of total.}}
 \label{fig:supp_sources}
 \end{figure}
+\end{comment}
+
 
 \begin{figure}
 \centering
@@ -171,7 +175,7 @@ For treated samples with a pre-treatment sample available from the same patient,
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/extracted_signatures_worm.pdf}
-\caption{Mutational signatures extracted from Meier et al.~\cite{Meier_2014}}
+\caption{Mutational signature extracted from Meier et al.~\cite{Meier_2014}}
 \label{fig:supp_extracted_signatures_worm}
 \end{figure}
 
