@@ -3,17 +3,12 @@
 \subsection*{Mutation calls}
 We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015}. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs).
 
-% As in Patch et al, one sample (AOCS-002) under this accession was excluded because it was not classified as high grade serous.
-
 We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
 
 \subsection*{Samples}
 Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered to have received NACT, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered to have received AMCT.
 
 We assessed overall differences in mutation and neoantigen burden by stratifying on treatment time point (adjuvant or neoadjuvant) and sample tissue type (solid tumor or ascites). Stratifying by tissue type is necessary because, independent of treatment, ascites samples trend toward increased numbers of detected mutations, perhaps due to increased intermixing of clones.
-
-
-% We note that if one makes the assumption that adjuvant and neoadjuvant treatments have identical effects on mutational burden, then in principle the five neoadjuvant-treated primary samples might enable disentangling the effects of treatment and relapse time-point. However, such a model had large uncertainties and proved inconclusive (Figure~\ref{fig:bayesian_model_effects_separate}). 
 
 \subsection*{HLA typing, variant annotation, and MHC binding prediction}
 \begin{sloppypar}
