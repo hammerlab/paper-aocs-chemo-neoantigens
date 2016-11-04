@@ -7,6 +7,6 @@ section_Discussion_In_this_analysis__.tex
 section_Conclusion_In_this_study__.tex
 section_Supplemental_Methods_subsection_Signature__.tex
 section_List_of_abbreviations_textbf__.tex
-FloatBarrier_subsection_Figures_begin_figure__1.tex
+FloatBarrier_begin_figure_centering_includegraphics__.tex
 figures/download (2)/download (2).png
 sectionAdditional_Fi.tex
