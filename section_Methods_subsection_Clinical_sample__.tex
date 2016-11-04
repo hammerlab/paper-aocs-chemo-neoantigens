@@ -1,33 +1,33 @@
 \section*{Methods}
 
 \subsection*{Clinical sample information}
-Sample and patient information including chemotherapy treatments is listed in Additional File 1. Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered to have received NACT, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered to have received AMCT.
+Sample and clinical information including chemotherapy treatments is listed in Additional File 1. Samples collected after chemotherapy with a collection point of ``primary'' were considered to have received NACT, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered to have received AMCT.
 
 We assessed overall differences in mutation and neoantigen burden by stratifying on treatment time point (NACT or AMCT) and sample tissue type (solid tumor or ascites). Stratifying by tissue type is necessary because, independent of treatment, ascites samples trend toward increased numbers of detected mutations, perhaps due to increased intermixing of clones.
 
 \subsection*{Mutation calls}
-We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015}. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs). Additional File 2 lists mutations and their predicted effects, read counts, and predicted neoantigens.
+We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015} (Additional File 2). DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs). 
 
 We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
 
 \subsection*{HLA typing, variant annotation, and MHC binding prediction}
 \begin{sloppypar}
-HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3). The most disruptive effect of each variant was predicted using Varcode (http://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments.
+HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3). The most disruptive effect of each variant was predicted using Varcode (http://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments (predicted neoantigens are listed in Additional File 2).
 \end{sloppypar}
 
 \subsection*{Mutational signatures}
 The Catalogue Of Somatic Mutations In Cancer (COSMIC) Signature Resource curates 30 signatures discovered in a pan-cancer analysis of untreated primary tissue samples. While signatures for exposure to the chemotherapies used in ovarian cancer have not been established from human studies, two recent reports provide data on mutations detected in cisplatin-exposed \textit{C. Elegans} organisms~\cite{Meier_2014} and a \textit{G. Gallus} cell line exposed to several chemotherapies including cisplatin, chyclophosphamide, and etoposide ~\cite{Szikriszt_2016}. From the SNVs identified in these studies, we defined two signatures for cisplatin, a signature for cyclophosphamide, and a signature for etoposide (Figures~\ref{fig:supp_extracted_signatures_chicken} and~\ref{fig:supp_extracted_signatures_worm}). As both studies sequenced replicates of chemotherapy-treated and untreated (control) organisms, identifying a mutational signature associated with treatment required splitting the mutations observed in the treated group into background and treatment effects. We did this using a Bayesian model for each study and chemotherapy drug separately.
 
-Let $C_{i,j}$ be the number of mutations observed in experiment $i$ for mutational trinucletoide context $0 \leq j < 96$. Let $t_i \in \{0,1\}$ be 1 if the treatment was administered in experiment $i$ and 0 if it was a control. We estimate the number of mutations in each context typically arising due to background (non-treatment) processes $B_j$ and the number due to treatment $T_j$ according to the model:
+Let $C_{i,j}$ be the number of mutations observed in experiment $i$ for mutational trinucletoide context $0 \leq j < 96$. Let $t_i \in \{0,1\}$ be 1 if the treatment was administered in experiment $i$ and 0 if it was a control. We estimate the number of mutations in each context arising due to background (non-treatment) processes $B_j$ and the number due to treatment $T_j$ according to the model:
 
 \[
 C_{i,j} \sim \mathit{Poisson}(B_j + t_i T_j)
 \]
 
-We fit this model using Stan\cite{Gelman_2015} with a uniform (improper) prior on the entries of $B$ and $T$. The treatment-associated mutational signature $N$ was calculated from a point estimate of $T$ as:
+We fit this model using Stan~\cite{Gelman_2015} with a uniform (improper) prior on the entries of $B$ and $T$. The treatment-associated mutational signature $N$ was calculated from a point estimate of $T$ as:
 
 \[
-N_j = \left ( \frac{T_j}{\sum_{j'}{T_{j'}}} \right ) \left ( \frac{h_j}{a_j} \right )
+N_j = \left ( \frac{T_j}{\sum_{j'}{T_{j'}}} \right ) \left ( \frac{h_j}{m_j} \right )
 \]
 
 where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ occurs in the human and preclinical model (\textit{C. Elegans} or \textit{G. Gallus}) genomes, respectively.
@@ -38,7 +38,7 @@ Signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_20
 
 %\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
 
-To estimate the number of SNVs and neoantigens generated by a signature, for each mutation in the sample we calculated the posterior probability that the signature generated the mutation, as described below. The sum of these probabilities gives the expected number of SNVs attributable to each signature. For neoantigens, we weight the terms of this sum by the number of neoantigens generated by each mutation.
+To estimate the number of SNVs and neoantigens generated by a signature, for each mutation in the sample we calculated the posterior probability that the signature generated the mutation, as described below. The sum of these probabilities gives the expected number of SNVs attributable to each signature. For neoantigens, we weighted the terms of this sum by the number of neoantigens generated by each mutation.
 
 Suppose a mutation occurs in context $j$ and sample $i$. We calculate $\Pr[s \mid j]$, the probability that signature $s$ gave rise to this mutation, using Bayes' rule:
 
@@ -46,6 +46,6 @@ Suppose a mutation occurs in context $j$ and sample $i$. We calculate $\Pr[s \mi
 \Pr[s \mid j] = \frac{\Pr[j \mid s] \Pr[s]}{\sum_{s'}{\Pr[j \mid s']\Pr[s']}} = \frac{H_{s,j} \, D_{i,s}}{\sum_{s'}{H_{s',j} \, D_{i,s'}}}
 \]
 
-For treated samples with a pre-treatment sample available from the same patient, we deconvolved signatures for both the full set of mutations and for the mutations detected only after treatment. When calculating the SNVs and neoantigens attributable to a signature for these samples, for each mutation we used the corresponding deconvolution matrix based on whether it was unique to the post-treatment sample.
+For treated samples with a pre-treatment sample available from the same patient, we deconvolved signatures for both the full set of mutations and for the mutations detected only after treatment. When calculating the SNVs and neoantigens attributable to a signature for these samples, for each mutation we used the corresponding deconvolution matrix based on whether the mutation was unique to the post-treatment sample.
 
 % Previous studies have often performed signature extraction \textit{de novo} and interpreted the results by comparing to existing signatures. We deconvolved onto existing signatures, as enables a more straightforward interpretation of this relatively small data set. Deconvolution was performed with the deconstructSigs~\cite{Rosenthal_2016} package for each sample individually. We used the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include the putative chemotherapy-associated signatures. When establishing whether a signature was detected in a sample, we applied the 6\% cutoff recommended by the authors of the deconstructSigs package. Signatures assigned weights less than this threshold were considered undetected.
