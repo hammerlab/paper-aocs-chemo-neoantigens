@@ -1,18 +1,18 @@
 \section*{Methods}
 
-\subsection*{Mutation calls}
-We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015}. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs).
-
-We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
-
-\subsection*{Samples}
-Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered to have received NACT, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered to have received AMCT.
+\subsection*{Clinical sample information}
+Sample information, including chemotherapy treatments, is listed in Additional File 1. Samples collected after chemotherapy treatment that were listed with a collection point of ``primary'' were considered to have received NACT, whereas those with a collection point of ``recurrence'' or ``autopsy'' were considered to have received AMCT.
 
 We assessed overall differences in mutation and neoantigen burden by stratifying on treatment time point (adjuvant or neoadjuvant) and sample tissue type (solid tumor or ascites). Stratifying by tissue type is necessary because, independent of treatment, ascites samples trend toward increased numbers of detected mutations, perhaps due to increased intermixing of clones.
 
+\subsection*{Mutation calls}
+We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015}. DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs). See Additional File 2 for mutations and their predicted effects, read counts, and predicted mutated MHC class I epitopes.
+
+We considered a mutation to be present in a sample if it was called in any sample from the same patient and more than 5 percent of the overlapping reads (and at least 6 reads total) supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele.
+
 \subsection*{HLA typing, variant annotation, and MHC binding prediction}
 \begin{sloppypar}
-HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient. The most disruptive effect of each variant was predicted using Varcode (http://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8\cite{Lundegaard_2008} with default arguments.
+HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (HLA types are listed in Additional File 3). The most disruptive effect of each variant was predicted using Varcode (http://github.com/hammerlab/varcode). For indels, all peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8\cite{Lundegaard_2008} with default arguments.
 \end{sloppypar}
 
 \subsection*{Mutational signatures}
@@ -34,7 +34,7 @@ where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ oc
 
 %The signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package using the following parameters passed to \texttt{whichSignatures()}:
 
-The signature deconvolution on the clinical samples was performed with the deconstructSigs\cite{Rosenthal_2016} package using the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include the putative chemotherapy-associated signatures. When establishing whether a signature was detected in a sample, we applied the 6\% cutoff recommended by the authors of the deconstructSigs package. Signatures assigned weights less than this threshold were considered undetected.
+Signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package using the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include the putative chemotherapy-associated signatures (Additional Files 4 and 5). When establishing whether a signature was detected in a sample, we applied the 6\% cutoff recommended by the authors of the deconstructSigs package. Signatures assigned weights less than this threshold were considered undetected.
 
 %\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
 
