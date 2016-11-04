@@ -13,17 +13,17 @@
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
     \textbf{Data File} & \textbf{Format} & \textbf{Title} & \textbf{Description} \\ \hline
-    \texttt{Additional File 1.csv} & CSV & Samples & Sample identifiers, pathology data, mutation and predicted neoantigen counts, contributions of major mutational signatures to mutations and neoantigens, and clinical record of chemotherapy treatments \\ \hline
+    \texttt{Additional File 1.csv} & CSV & Samples & Sample identifiers, basic clinical information, specimen purities, mutation and neoantigen burden, contributions of major mutational signatures to mutations and neoantigens, and chemotherapy treatments \\ \hline
 
     \texttt{Additional File 2.csv.zip} & CSV zip & Mutations & Mutations, read counts, predicted effects, and resulting neoantigens \\ \hline
     
-    \texttt{Additional File 3.csv} & CSV & HLA types & Consensus HLA types for each donor \\ \hline
+    \texttt{Additional File 3.csv} & CSV & HLA types & HLA types for each donor \\ \hline
     
     \texttt{Additional File 4.csv} & CSV & Mutational signatures & COSMIC curated signatures and the extracted chemotherapy signatures \\ \hline
 
-    \texttt{Additional File 5.csv} & CSV & Deconvolution results & Mutational signature deconvolution results for all samples, including the analysis of all mutations and the analysis of only the mutations unique to the treated paired samples  \\ \hline
+    \texttt{Additional File 5.csv} & CSV & Signature deconvolutions & Results of mutational signature deconvolution for all samples, including separate analyses of all mutations and mutations unique to the treated paired samples  \\ \hline
     
-    \texttt{Additional File 6.csv} & CSV & Shared neoantigens & Neoantigens predicted in more than one patient  \\ \hline
+    \texttt{Additional File 6.csv} & CSV & Shared neoantigens & Neoantigens predicted for multiple patients  \\ \hline
     \end{tabular}
 \end{center}
 
@@ -61,7 +61,7 @@
 \begin{figure}
 \centering
 \includegraphics[scale=1.0]{figures/supplementary_signatures_no_cutoff.pdf}
-\caption{\textbf{Mutational signature deconvolutions for all samples, without any minimum threshold.} Signatures accounting for less than the 6\% recommended threshold are included. The symbols are as in main text Figure~\ref{fig:signatures}.}
+\caption{\textbf{Mutational signature deconvolutions for all samples, without any minimum threshold.} Signatures accounting for less than the 6\% recommended detection threshold are included. The symbols are as in main text Figure~\ref{fig:signatures}.}
 \label{fig:supplementary_signatures_no_cutoff.pdf}
 \end{figure}
 
