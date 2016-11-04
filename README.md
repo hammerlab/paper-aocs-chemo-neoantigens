@@ -15,7 +15,7 @@ Analyses were run in this order.
  * 'signature probabilities per mutation' notebook
  * 'plot mutation and neoantigen signature sources' notebook
  * 'plot extracted signatures'
- * 'bayesian model'
+ * 'prepare additional files'
 
 
  
