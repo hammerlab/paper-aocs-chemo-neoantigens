@@ -10,9 +10,13 @@ We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015} (Addi
 
 We considered a mutation to be present in a sample if it was called for the patient and more than 5 percent of the overlapping reads and at least 6 reads total supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele. In the analysis of paired pre- and post-treatment samples from the same donors, we defined a mutation as unique to the post-treatment sample if the pre-treatment sample contained greater than 30 reads coverage and no variant reads at the site.
 
-\subsection*{HLA typing, variant annotation, and MHC binding prediction}
+\subsection*{Variant annotation, HLA typing, and MHC binding prediction}
 \begin{sloppypar}
-HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3). The most disruptive effect (in terms of amino acid sequence) of each protein-changing variant was predicted using Varcode (http://github.com/hammerlab/varcode). For insertions or deletions (indels) that were predicted to disrupt the reading frame, all downstream peptides potentially generated up to a stop codon were considered. Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments (predicted neoantigens are listed in Additional File 2).
+The most disruptive effect (in terms of amino acid sequence) of each protein-changing variant was predicted using Varcode (http://github.com/hammerlab/varcode). For insertions or deletions (indels) that were predicted to disrupt the reading frame, all downstream peptides potentially generated up to a stop codon were considered.
+
+HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3).
+
+Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments (predicted neoantigens are listed in Additional File 2).
 \end{sloppypar}
 
 \subsection*{Mutational signatures}
