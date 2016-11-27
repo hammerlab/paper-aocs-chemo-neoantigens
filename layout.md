@@ -2,6 +2,7 @@ abstract.tex
 textbf_Keywords_cancer_neoantigens_mutation__.tex
 section_Background_Many_chemotherapies_including__.tex
 section_Methods_subsection_Clinical_sample__.tex
+FloatBarrier_begin_figure_htbp_centering__1.tex
 sectionSection_title.tex
 section_Discussion_In_this_analysis__.tex
 section_Conclusion_In_this_study__.tex
