@@ -1,5 +1,7 @@
 # paper-201604
 
+This repository has the notebooks, LaTeX source, data, figures, and supplemental files for the article ["Chemotherapy weakly contributes to predicted neoantigen expression in ovarian cancer"](http://biorxiv.org/content/early/2016/11/28/090134).
+
 ## Running the analyses
 
 Analyses were run in this order.
