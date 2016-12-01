@@ -10,13 +10,6 @@ For better sensitivity, we next focused on the 14 relapse/treated samples from t
 
 In summary, the mutational signatures for cisplatin and cyclophosphamide extracted from experiments of a \textit{G. Gallus} cell line showed significant but inexact associations with clinical chemotherapy exposure.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=1.0]{figures/signatures.pdf}
-\caption{\textbf{Detected mutational signatures for donor-matched primary/untreated and relapse/treated samples.} \textit{(Top)} Signatures detected in the pre-treatment samples. The first four signatures were extracted from reports of a \textit{G. gallus} cell line and \textit{C. Elegans} after exposure to chemotherapy, and the rest are COSMIC curated signatures. COSMIC signature numbers are shown in parentheses, and the associated mutagenic process is indicated when known. Signatures not shown were undetected in these samples. \textit{(Bottom)} Clinical treatments and detected signatures for the mutations unique to the post-treatment samples (those with no evidence in the matched pre-treatment sample). Cases where a chemotherapy signature is detected are annotated with a (*) if the patient received the associated drug and a (?) otherwise.}
-\label{fig:signatures}
-\end{figure}
-
 \subsection*{Neoantigen burden increases at relapse}
 
 % STATEMENT_TREATMENT_EFFECT
@@ -25,13 +18,6 @@ Across the cohort, we identified 17,689 mutated peptides predicted to bind autol
 Relapse/treated samples showed more expressed neoantigens than primary/untreated samples. Solid tissue relapse samples harbored a median of 81\% (bootstrap 95\% CI 40--123) more mutations, 124\% (58--191) more neoantigens, and 90\% (40--142) more expressed neoantigens than primary/untreated solid tissue samples (Figure~\ref{fig:counts}), all significant increases (Mann-Whitney $p < 0.004$ for each of the three tests). A similar trend was observed for ascites samples. Relapse/treated ascites samples harbored 31\% (14--49), 59\% (14--124), and 90\% (27--190) more mutations, neoantigens, and expressed neoantigens than primary/untreated ascites samples, respectively ($p=0.08, 0.11, 0.04$ for the three tests). This trend was also apparent in a comparison of paired samples from the same donors (Figure~\ref{fig:supp_paired}). 
 
 In contrast, primary/treated samples, which were exposed to neoadjuvant chemotherapy (NACT) prior to surgery, did not exhibit increased numbers of mutations, neoantigens, or expressed neoantigens, and in fact trended toward decreased expressed neoantigen burden. The five primary/treated samples, all from solid tissue resections, harbored a median of 16 (9--89) expressed neoantigens compared to the median of 44 (39--60) observed in primary/untreated solid tissue samples, due to both fewer neoantigens in the DNA (median of 85 (36--306) vs. 130 (108--150)) and a lower rate of expression (median 19 (14--37) vs. 39 (36--42) percent of neoantigens). This trend did not reach significance (Mann-Whitney $p=0.09$), and will require larger cohorts to assess.
-
-\begin{figure}
-\centering
-\includegraphics[scale=1.0]{figures/counts.pdf}
-\caption{\textbf{Stratified comparison of mutation and neoantigen burden of chemotherapy-treated and untreated samples.} Mutations (upper left), neoantigens (upper right), and expressed neoantigens by count (lower left) and as a percent of total neoantigens (lower right) are shown for primary/untreated samples (blue; solid tumor n=75, ascites n=4), primary/treated samples (green; solid tumor n=5), and relapse/treated samples (red; solid tumor n=6, ascites n=24). The shaded boxes indicate the interquartile region and the median line. Points indicate individual samples.}
-\label{fig:counts}
-\end{figure}
 
 \subsection*{Chemotherapy signatures weakly contribute to neoantigen burden at relapse}
 
@@ -47,10 +33,3 @@ Signature deconvolution considers only SNVs, but studies of platinum-induced mut
 
 % It was recently reported that high variant-allele frequency (i.e. clonal) neoantigens are required to elicit a cytotoxic T cell response~\cite{McGranahan_2016}. In our study, in the treated samples, chemotherapy-associated SNVs had on average 11\% (8--15) lower variant allele frequency than other SNVs and were approximately half as likely to be found in the top decile of variant allele frequency.
 % STATEMENT_UNIQUE_TO_TREATED_COUNT
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=1.0]{figures/sources_of_mutations_and_neoantigens.pdf}
-\caption{\textbf{Contribution of key SNV signatures, MNVs, and indels on mutations \textit{(left)}, neoantigens \textit{(center)}, and expressed neoantigens \textit{(right)}.} The \textit{Chemo} category combines the contributions from the chemotherapy signatures (cisplatin, cyclophosphamide, and etoposide). COSMIC signature numbers are in parentheses. The \textit{Other SNV} category represents SNVs not accounted for by the signatures shown. Bars give the mean, and points indicate individual samples.}
-\label{fig:sources}
-\end{figure}
