@@ -257,49 +257,128 @@ Many chemotherapies including platinum compounds~\cite{Hannan_1989}, cyclophosph
 
 Investigators associated with the Australian Ovarian Cancer Study (AOCS) performed whole genome and RNA sequencing of 79 pre-treatment and 35 post-treatment cancer samples from 92 HGSC patients, including 12 patients with both pre- and post-treatment samples~\cite{Patch_2015}. The samples were obtained from solid tissue resections, autopsies, and ascites drained to relieve abdominal distension. Treatment regimes varied but primary treatment always included platinum-based chemotherapy. In their analysis, Patch et al. reported that post-treatment samples harbored more somatic mutations than pre-treatment samples and exhibited evidence of chemotherapy-associated mutations. Here we extend these results by quantifying the mutations and predicted neoantigens attributable to chemotherapy-associated mutational signatures. We find that, while neoantigen expression increases after treatment and relapse, only a small part of the increase is due to mutations associated with chemotherapy signatures.
 
-\section*{Content}
-Text and results for this section, as per the individual journal's instructions for authors. %\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
+\section*{Methods}
+\subsection*{Clinical sample information}
+We grouped the AOCS samples into three sets --- ``primary/untreated,'' ``primary/treated,'' and ``relapse/treated'' --- according to collection time point and chemotherapy exposure. The primary/untreated group consists of 75 primary debulking surgical samples and 4 samples of drained ascites. The primary/treated group consists of 5 primary debulking surgical samples obtained from patients pretreated with chemotherapy prior to surgery (neoadjuvant chemotherapy). The relapse/treated group consists of 24 relapse or recurrence ascites samples, 5 metastatic samples obtained in autopsies of two patients, and 1 solid tissue relapse surgical sample, all of which were obtained after prior exposure to one or more lines of chemotherapy.  In summary, these groupings yield 79 primary/untreated samples, 5 primary/treated samples, and 30 relapse/treated samples. Sample and clinical information including chemotherapy treatments is listed in Additional File 1.
 
-\section*{Section title}
-Text for this section \ldots
-\subsection*{Sub-heading for section}
-Text for this sub-heading \ldots
-\subsubsection*{Sub-sub heading for section}
-Text for this sub-sub-heading \ldots
-\paragraph*{Sub-sub-sub heading for section}
-Text for this sub-sub-sub-heading \ldots
-In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and $Z_2$. In
-addition, we examine a common modeling assumption and note the
-importance of considering the tails of the extinction time $T_x$ in
-studies of escape dynamics.
-We will first consider the expected resistant population at $vT_x$ for
-some $v>0$, (and temporarily assume $\alpha=0$)
-%
+Independent of treatment, ascites samples trend toward more detected mutations, perhaps due to increased intermixing of clones. We therefore stratified by tissue type (solid tumor or ascites) when comparing the mutation and neoantigen burdens of pre- and post-treatment samples.
+
+\subsection*{Mutation calls}
+We analyzed the mutation calls published by Patch et al.~\cite{Patch_2015} (Additional File 2). DNA and RNA sequencing reads were downloaded from the European Genome-phenome Archive under accession EGAD00001000877. Adjacent SNVs from the same patient were combined to form multinucleotide variants (MNVs). 
+
+We considered a mutation to be present in a sample if it was called for the patient and more than 5 percent of the overlapping reads and at least 6 reads total supported the alternate allele. We considered a mutation to be expressed if there were 3 or more RNA reads supporting the alternate allele. In the analysis of paired pre- and post-treatment samples from the same donors, we defined a mutation as unique to the post-treatment sample if the pre-treatment sample contained greater than 30 reads coverage and no variant reads at the site.
+
+\subsection*{Variant annotation, HLA typing, and MHC binding prediction}
+\begin{sloppypar}
+The most disruptive effect (in terms of amino acid sequence) of each protein-changing variant was predicted using Varcode~\cite{2016}. For insertions or deletions (indels) that were predicted to disrupt the reading frame, all downstream peptides potentially generated up to a stop codon were considered.
+
+HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3).
+
+Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments (predicted neoantigens are listed in Additional File 2).
+\end{sloppypar}
+
+\subsection*{Mutational signatures}
+The use of mutational signatures is necessary because it is not possible to distinguish chemotherapy-induced mutations from temporal effects when comparing primary and relapse samples by mutation count alone. A mutational signature ascribes a probability to each of the 96 possible single-nucleotide variants, where a variant is defined by its reference base pair, alternate base pair, and base pairs immediately adjacent to the mutation. Signatures have been associated with exposure to particular mutagens, age related DNA changes, and disruption of DNA damage repair pathways due to somatic mutations or germline risk variants in melanoma, breast, lung and other cancers~\cite{Alexandrov2013}, and provide a means of identifying the contribution that chemotherapy may make to the mutations seen in post-treatment samples. For example, the chemotherapy temozolomide has been shown to induce mutations consisting predominantly of $C \rightarrow T$ (equivalently, $G \rightarrow A$) transitions at CpC and CpT dinucleotides~\cite{Johnson_2013}. To perform deconvolution, the single nucleotide variants (SNVs) observed in a sample are tabulated by trinucleotide context, and a combination of signatures, each corresponding to a mutagenic process, is found that best explains the observed counts. Mutational signatures may be discovered \textit{de novo} from large cancer sequencing projects but for smaller studies it is preferable to deconvolve using known signatures~\cite{Rosenthal_2016}.
+
+The Catalogue Of Somatic Mutations In Cancer (COSMIC) Signature Resource curates 30 signatures discovered in a pan-cancer analysis of untreated primary tissue samples. While signatures for exposure to the chemotherapies used in ovarian cancer have not been established from human studies, two recent reports provide data on mutations detected in cisplatin-exposed \textit{C. Elegans}~\cite{Meier_2014} and a \textit{G. Gallus} cell line exposed to several chemotherapies including cisplatin, chyclophosphamide, and etoposide ~\cite{Szikriszt_2016}. From the SNVs identified in these studies, we defined two signatures for cisplatin, a signature for cyclophosphamide, and a signature for etoposide (Figures~S1 and~S2). As both studies sequenced replicates of chemotherapy-treated and untreated (control) samples, identifying a mutational signature associated with treatment required splitting the mutations observed in the treated group into background and treatment effects. We did this using a Bayesian model for each study and chemotherapy drug separately.
+
+Let $C_{i,j}$ be the number of mutations observed in experiment $i$ for mutational trinucletoide context $0 \leq j < 96$. Let $t_i \in \{0,1\}$ be 1 if the treatment was administered in experiment $i$ and 0 if it was a control. We estimate the number of mutations in each context arising due to background (non-treatment) processes $B_j$ and the number due to treatment $T_j$ according to the model:
+
 \[
- E \bigl[Z_1(vT_x) \bigr]= E
-\biggl[\mu T_x\int_0^{v\wedge
-1}Z_0(uT_x)
-\exp \bigl(\lambda_1T_x(v-u) \bigr)\,du \biggr].
+C_{i,j} \sim \mathit{Poisson}(B_j + t_i T_j)
 \]
-%
-If we assume that sensitive cells follow a deterministic decay
-$Z_0(t)=xe^{\lambda_0 t}$ and approximate their extinction time as
-$T_x\approx-\frac{1}{\lambda_0}\log x$, then we can heuristically
-estimate the expected value as
-%
-\begin{eqnarray}\label{eqexpmuts}
-E\bigl[Z_1(vT_x)\bigr] &=& \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du
-\nonumber\\
-&=& \frac{\mu}{r}x^{1-{\lambda_1}/{\lambda_0}v}\log x\int_0^{v\wedge
-1}x^{-u(1+{\lambda_1}/{r})}\,du
-\nonumber\\
-&=& \frac{\mu}{\lambda_1-\lambda_0}x^{1+{\lambda_1}/{r}v} \biggl(1-\exp \biggl[-(v\wedge1) \biggl(1+
-\frac{\lambda_1}{r}\biggr)\log x \biggr] \biggr).
-\end{eqnarray}
-%
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,khar,zvai,xjon,marg}).
-%\nocite{oreg,schn,pond,smith,marg,hunn,advi,koha,mouse}
+
+We fit this model using Stan~\cite{Gelman_2015} with a uniform (improper) prior on the entries of $B$ and $T$. The treatment-associated mutational signature $N$ was calculated from a point estimate of $T$ as:
+
+\[
+N_j = \left ( \frac{T_j}{\sum_{j'}{T_{j'}}} \right ) \left ( \frac{h_j}{m_j} \right )
+\]
+
+where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ occurs in the human and preclinical model (\textit{C. Elegans} or \textit{G. Gallus}) genomes, respectively.
+
+%The signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package using the following parameters passed to \texttt{whichSignatures()}:
+
+Signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package using the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include the putative chemotherapy-associated signatures (Additional Files 4 and 5). When establishing whether a signature was detected in a sample, we applied the 6\% cutoff recommended by the authors of the deconstructSigs package. Signatures assigned weights less than this threshold in a sample were considered undetected.
+
+%\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
+
+To estimate the number of SNVs and neoantigens generated by a signature, for each mutation in the sample we calculated the posterior probability that the signature generated the mutation, as described below. The sum of these probabilities gives the expected number of SNVs attributable to each signature. For neoantigens, we weighted the terms of this sum by the number of neoantigens generated by each mutation.
+
+Suppose a mutation occurs in context $j$ and sample $i$. We calculate $\Pr[s \mid j]$, the probability that signature $s$ gave rise to this mutation, using Bayes' rule:
+
+\[
+\Pr[s \mid j] = \frac{\Pr[j \mid s] \Pr[s]}{\sum_{s'}{\Pr[j \mid s']\Pr[s']}} = \frac{H_{s,j} \, D_{i,s}}{\sum_{s'}{H_{s',j} \, D_{i,s'}}}
+\]
+
+where $D_{i,s}$ gives the contribution of signature $s$ to sample $i$ and $H_{s,j}$ is the weight for signature $s$ on mutational context $j$. For treated samples with a pre-treatment sample available from the same patient, we deconvolved signatures for both the full set of mutations and for the mutations detected only after treatment. When calculating $\Pr[s \mid j]$ for these samples, for each mutation we selected the appropriate deconvolution matrix $D_{i,s}$ based on whether the mutation was unique to the post-treatment sample.
+
+
+\section*{Results}
+
+\subsection*{Cisplatin and cyclophosphamide mutational signatures correlate with clinical treatment}
+
+We identified mutational signatures for cisplatin, cyclophosphamide, and etoposide from the \textit{G. Gallus} cell line data (Figure~S1), as well as a second cisplatin signature from experiments in \textit{C. Elegans} (Figure~S2). The two cisplatin signatures were not identical. Both signatures placed most probability mass on $C \rightarrow A$ mutations, but differed in preference for the nucleotides adjacent to the mutation. The \textit{G. Gallus} signature was relatively indifferent to the 5' base and favored a 3' cytosine, whereas the \textit{C. Elegans} signature was specific for a 5' cytosine and a 3' pyrmidine. The \textit{G. Gallus} cisplatin signature was closest in cosine distance to COSMIC \textit{Signature (24) Aflatoxin}, \textit{Signature (4) Smoking}, and \textit{Signature (29) Chewing tobacco}, all associated with guanine adducts. The \textit{C. Elegans} cisplatin signature was similar to \textit{Signature (4) Smoking}, \textit{Signature (20) Mismatch repair}, and \textit{Signature (14) Unknown}. The \textit{G. Gallus} cyclophosphamide signature favored $T \rightarrow A$ and $C \rightarrow T$ mutations and was most similar to COSMIC Signatures \textit{(25)}, \textit{(8)}, and \textit{(5)}, all of unknown etiology. The \textit{G. Gallus} etoposide signature distributed probability mass nearly uniformly across mutation contexts and was most similar to COSMIC \textit{Signature (5) Unknown}, \textit{Signature (3) BRCA}, and \textit{Signature (16) Unknown}. Overall, the chemotherapy signatures were no closer to any COSMIC signatures than the two most similar COSMIC signatures (\textit{Signature (12) Unknown} and \textit{Signature (26) Mismatch repair}) are to each other, suggesting that deconvolution could in principle distinguish their contributions.
+
+We performed signature deconvolution on each sample's SNVs (top and middle of Figures~S3 and~S4). Detection of the cyclophosphamide signature at the 6\% threshold was associated with clinical cyclophosphamide treatment (Bonferroni-corrected Fischer's exact test $p = 0.004$), occurring in 4/10 samples taken after cyclophosphamide treatment, 2/79 pre-treatment samples, and 2/25 samples exposed to chemotherapies other than cyclophosphamide. In contrast, the two cisplatin signatures were found in no samples, and the etoposide signature was found only in four pre-treatment samples.
+
+For better sensitivity, we next focused on the 14 relapse/treated samples from the 12 patients with both pre- and post-treatment samples. For each patient, we extracted the mutations that had evidence exclusively in the treated samples. Of 206,766 SNVs in the post-treatment samples for these patients, 93,986 (45\%) satisfied our filter and were subjected to signature deconvolution (Figure~1, bottom of Figures~S3 and~S4). Within this subgroup, the \textit{G. gallus} cisplatin signature was identified only in the two samples taken after cisplatin therapy, a significant association ($p = 0.04$). The \textit{C. Elegans} cisplatin signature was detected in no samples, and the cyclophosphamide signature was detected in 3/6 cyclophosphamide-treated samples, but, unexpectedly, also in 6/8 non-cyclophosphamide-treated samples. These included the two post-treatment samples in which the signature was detected in the earlier analysis plus four additional samples. COSMIC \textit{Signature (3) BRCA} and \textit{Signature (8) Unknown etiology} were detected in 14/14 and 9/14 post-treatment samples, respectively, but \textit{Signature (1) Age} was absent, consistent with its association with a slow mutagenic process operative before oncogenesis.
+
+In summary, the mutational signatures for cisplatin and cyclophosphamide extracted from experiments of a \textit{G. Gallus} cell line showed significant but inexact associations with clinical chemotherapy exposure.
+
+\subsection*{Neoantigen burden increases at relapse}
+
+% STATEMENT_TREATMENT_EFFECT
+Across the cohort, we identified 17,689 mutated peptides predicted to bind autologous MHC class I with affinity 500nm or tighter~\cite{Sette1994}. All but 21 (0.12\%) of these predicted neoantigens were private to a single patient (shared neoantigens are listed in Additional File 6).
+
+Relapse/treated samples showed more expressed neoantigens than primary/untreated samples. Solid tissue relapse samples harbored a median of 81\% (bootstrap 95\% CI 40--123) more mutations, 124\% (58--191) more neoantigens, and 90\% (40--142) more expressed neoantigens than primary/untreated solid tissue samples (Figure~2), all significant increases (Mann-Whitney $p < 0.004$ for each of the three tests). A similar trend was observed for ascites samples. Relapse/treated ascites samples harbored 31\% (14--49), 59\% (14--124), and 90\% (27--190) more mutations, neoantigens, and expressed neoantigens than primary/untreated ascites samples, respectively ($p=0.08, 0.11, 0.04$ for the three tests). This trend was also apparent in a comparison of paired samples from the same donors (Figure~S5). 
+
+In contrast, primary/treated samples, which were exposed to neoadjuvant chemotherapy (NACT) prior to surgery, did not exhibit increased numbers of mutations, neoantigens, or expressed neoantigens, and in fact trended toward decreased expressed neoantigen burden. The five primary/treated samples, all from solid tissue resections, harbored a median of 16 (9--89) expressed neoantigens compared to the median of 44 (39--60) observed in primary/untreated solid tissue samples, due to both fewer neoantigens in the DNA (median of 85 (36--306) vs. 130 (108--150)) and a lower rate of expression (median 19 (14--37) vs. 39 (36--42) percent of neoantigens). This trend did not reach significance (Mann-Whitney $p=0.09$), and will require larger cohorts to assess.
+
+\subsection*{Chemotherapy signatures weakly contribute to neoantigen burden at relapse}
+
+%We next performed signature deconvolution on the mutations detected in each sample (Figure~\ref{fig:supp_signatures} top and middle).
+
+While we cannot determine with certainty whether any particular mutation was chemotherapy-induced, we can estimate the fraction of mutations and neoantigens attributable to each signature in a sample (Figures~3 and S6).
+
+Similarly to results reported by Patch et al., the most prevalent mutational signatures in this cohort were COSMIC \textit{Signature (3)}, associated with BRCA disruption, \textit{Signature (8)}, of unknown etiology, and \textit{Signature (1)}, associated with spontaneous deamination of 5-methylcytosine, a slow process active in healthy tissue that correlates with age (Figure~S3 top and middle). These signatures together accounted for a median of 67\% (95\% CI 66--69) of mutations, 58\% (56--61) of neoantigens, and 68\% (67--71) expressed neoantigens across samples. These rates did not substantially differ with chemotherapy treatment.
+
+The chemotherapy signatures accounted for a small but detectable part of the increased neoantigen burden of relapse samples. In primary/untreated samples, which indicate the background rate of chance attribution, chemotherapy mutational signatures accounted for a mean of 2\% of the mutations (range 0--8), 2\% (0--7) of the neoantigens, and 2\% (0--8) of the expressed neoantigens. In each of the five primary/treated samples, less than 1\% of the mutation, neoantigen, and expressed neoantigen burdens were attributed to chemotherapy signatures. For the relapse/treated samples, chemotherapy signatures accounted for a mean of 6\% (range 0--21) of the mutations, 5\% (0--15) of the neoantigens, and 5\% (0--16) of the expressed neoantigens. The highest attribution to chemotherapy signatures occurred in sample AOCS-092-3-3, a relapse/treated sample from a patient who received five lines of platinum chemotherapy and eight distinct chemotherapeutic agents, the most in the cohort. For this sample, 21\% (or approximately 3,200 of 15,491) of the SNVs, 15\% (9 of 61) of the neoantigens, and 16\% (5 of 30) of the expressed neoantigens were attributed to chemotherapy signatures.
+
+Signature deconvolution considers only SNVs, but studies of platinum-induced mutations have also reported increases in the rate of dinucleotide variants and indels. Indeed, we observed more MNVs overall and specifically the platinum-associated MNVs $CT \rightarrow AC$ and $CA \rightarrow AC$ reported by Meier et al.~\cite{Meier_2014} in treated patients in both absolute count and as a fraction of mutational burden ($p < 10^{-6}$ for all tests). Sample AOCS-092-3-3, previously found to have the most chemotherapy-signature SNVs, also had the most platinum-associated dinucleotide variants and the second-most MNVs overall. This sample harbored 59 $CT \rightarrow AC$ or $CA \rightarrow AC$ mutations, compared to a mean of 3.2 (2.2--4.4) across all samples. Treated samples also harbored more indels in terms of absolute count ($p=10^{-4}$). Overall, while MNVs and indels generate more neoantigens per mutation than SNVs, they are rare, comprising less than 3\% of the mutational burden and 13\% of the neantigens in every sample (Figure~3), making it unlikely that chemotherapy-induced MNVs and indels have a large impact on neoantigen burden.
+
+
+\section*{Discussion}
+In this analysis of neoantigens predicted from DNA and RNA sequencing of ovarian cancer tumors and ascites samples, relapse samples obtained after chemotherapy exposure had a median of 90\% more expressed neoantigens than untreated primary samples. However, our proposed chemotherapy mutational signatures accounted for no more than 16\% of the expressed neoantigen burden in any sample. Most of the increase was instead attributable to mutagenic processes already at work in the primary samples, including COSMIC \textit{Signature (3) BRCA} and \textit{Signature (8) Unknown etiology}. Our results are in contrast to a study of NACT temozlomide-treated glioma, in which it was reported that over 98\% of mutations detectable with bulk sequencing in some samples were attributable to temozolomide~\cite{Johnson_2013}. Whether this difference is due to the drug used or disease biology requires further study.
+
+% This data suggests that mutagenesis from chemotherapy is likely not a dominant factor in this effect. 
+
+Detection of the cyclophosphamide and cisplatin signatures from the \textit{G. Gallus} experiments showed some correlation with clinical treatment, whereas the \textit{G. Gallus} etoposide and \textit{C. Elegans} cisplatin signatures were not detected in chemotherapy-exposed samples. Many treated samples showed no chemotherapy signatures; when chemotherapy signatures were detected, they were found at levels close to the 6\% detection threshold. In the case of cyclophosphamide, the deconvolution of all mutations from all samples identified the signature in 4/10 samples treated with cyclophosphamide and 4/104 unexposed samples. However, when we focused on mutations detected uniquely in the post-treatment paired samples, 6/8 samples exposed only to non-cyclophosphamide chemotherapies exhibited the signature. As it was rarely detected in pre-treatment samples, we suggest that the cyclophosphamide signature present in these post-treatment samples may reflect the effect of other chemotherapy, such as carboplatin, paclitaxel, doxorubicin, or gemcitabine. Analysis of the paired pre- and post-treatment samples indicated that the \textit{G. Gallus} cisplatin signature was specific for cisplatin rather than carboplatin exposure, suggesting that carboplatin may induce fewer mutations or mutations with a different signature than cisplatin. The \textit{C. Elegans} cisplatin signature may be less accurate than the \textit{G. Gallus} cisplatin signature because it was derived from fewer mutations (784 vs. 2633) and from experiments of \textit{C. Elegans} in various knockout backgrounds, which may not be relevant to these clinical samples. While only SNVs are accounted for by mutational signatures, an increase in indels and cisplatin-associated dinucleotide variants was observed in relapse/treated samples, but these variants remained relatively rare and generated less than 13\% of the predicted neoantigen burden in every sample. Etoposide-induced mutations may be difficult to detect because in the \textit{G. Gallus} experiments they occurred at a more uniform distribution of mutational contexts and at a much lower overall rate than mutations induced by cisplatin or cyclophosphamide. Importantly, only one patient in this cohort received etoposide.
+
+% Etoposide-induced mutations may be difficult to detect because in the \textit{G. Gallus} experiments they occurred at a more uniform distribution of mutational contexts and at a much lower overall rate than mutations induced by cisplatin or cyclophosphamide.
+
+The observed association between mutational signatures and clinical exposures gives some confidence that our analysis captures the effect of chemotherapy, but, as the preclinical signatures may differ from actual effects in patients, chemotherapy-induced mutations could be erroneously attributed to non-chemotherapy signatures. This would result in an underestimation of the impact of chemotherapy. We note, however, that the signatures dominant in the primary/untreated samples --- COSMIC Signatures (1), (3), and (8) --- also account for most of the SNVs in the relapse/treated samples. Therefore, irrespective of the accuracy of the chemotherapy signatures, it appears that most mutations in relapse samples are due to mutagenic processes operative prior to therapy.
+
+% It appears unlikely that chemotherapy-induced mutations would happen to match the same signatures operative prior to treatment.
+
+%Relapse/treated samples had a median of 26\% (95\% CI 23--27) of their SNVs attributed to other signatures, compared to 29\% (26--30) for primary/untreated samples.
+
+% If this were a significant effect, however, we would expect to see more mutations attributed to signatures other than chemotherapy and those active in the primaries (COSMIC Signatures 1, 3, and 8) in the relapse/treated samples. We do not see such an increase (see ``Other SNV'' in Figure~\ref{fig:sources}). 
+
+NACT-treated tumors, which were exposed to chemotherapy as large tumors and for a short duration (typically 3 cycles), did not show increased mutation or neoantigen burden over untreated samples and had very few mutations attributed to chemotherapy. This is likely because neoadjuvant chemotherapy-induced mutations remain at undetectable allelic fractions without the population bottleneck created by surgery and/or the multiple lines of chemotherapy provided in the adjuvant setting.
+
+% The observation that the NACT samples trended toward fewer expressed neoantigens raises the possibility of immunoediting after chemotherapy~\cite{Dunn_2002}, consistent with suggestions that paclitaxel/carboplatin and other chemotherapies may enhance T cell infiltration and cytotoxicity in solid tumors~\cite{Demaria2001,Wu_2009,Pfannenstiel_2010,Hodge_2013}. However, this observation is based on only five samples, none of which were paired with a pre-treatment sample, and our analysis method (hard thresholds on the count of RNA reads at variant positions) is sensitive to changes in expression of unrelated genes. Larger cohorts of matched biopsies and post-NACT tumor samples are likely required to investigate this question.
+
+% Such subclonal neoantigens may be unable to support an effective anti-tumor immune response~\cite{McGranahan_2016}.
+
+% STATEMENT_MEDIAN_NEOANTIGENS
+
+We predicted a median of 64 (50--75) expressed MHC I neoantigens across all samples in the cohort, significantly more than the median of 6 recently reported by Martin et al. in this disease~\cite{Martin_2016}. However, Martin et al. did not consider indels, MNVs, or multiple neoantigens that can result from the same missense mutation, used a 100nm instead of 500nm MHC I binding threshold, used predominantly lower quality (50bp) sequencing, and only explicitly considered HLA-A alleles. Predicted neoantigen burden is best considered a relative measure of tumor foreignness, not an absolute quantity readily comparable across studies.
+
+This study has several important limitations. As it is based on bulk DNA sequencing of heterogeneous clinical samples, the analysis is limited to neoantigens arising from mutations that are present in at least 5-10\% of the cells in a sample. Data from Patch et al. suggests that even late-stage disease remains polyclonal, therefore potentially obscuring the impact of chemotherapy on the tumor genome. While we may have been unable to detect subclonal mutations due to the depth of whole genome sequencing, it is expected that such clones would be unable to trigger an anti-tumor immune response that is effective against the bulk of the tumor~\cite{McGranahan_2016}. Additionally, while the number of mutations attributed to signatures other than chemotherapy and those active in the primaries (COSMIC Signatures 1, 3, and 8) suggest that the preclinical signatures capture most chemotherapy-induced mutations, this reasoning assumes that chemotherapy does not induce mutations that are erroneously attributed to COSMIC Signatures 1, 3, or 8. Experiments using human cell lines exposed to the range of chemotherapies used in recurrent ovarian cancer may be needed to fully address this question. A further limitation is that this study does not consider neoantigens resulting from structural rearrangements such as gene fusions. Finally, this study relies on only 35 post-chemotherapy samples.
+
+\section*{Conclusion}
+In this study, we demonstrate a method for connecting mutational signatures extracted from studies of mutagen exposure in preclinical models with computationally predicted neoantigen burden in clinical samples. We found that relapsed high grade serous ovarian cancer tumors harbor nearly double the predicted expressed neoantigen burden of primary samples, and that cisplatin and cyclophophamide chemotherapy treatments account for a small but detectable part of this effect. The mutagenic processes responsible for most mutations at relapse are similar to those operative in primary tumors, with COSMIC \textit{Signature (3) BRCA}, \textit{Signature (1) Age}, and \textit{Signature (8) Unknown etiology} accounting for most mutations and predicted neoantigens both before and after chemotherapy.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -309,14 +388,30 @@ Thus we observe that this expected value is finite for all $v>0$ (also see \cite
 
 \begin{backmatter}
 
+\section*{List of abbreviations}
+\textbf{AOCS}: Australian Ovarian Cancer Study, \textbf{COSMIC}: the Catalogue Of Somatic Mutations In Cancer, \textbf{HGSC}: high grade serous ovarian carcinoma, \textbf{indel}: an insertion or deletion mutation, \textbf{MNV}: multi nucleotide variant, \textbf{NACT}: neoadjuvant chemotherapy, \textbf{SNV}: single nucleotide variant
+
+\section*{Ethics approval and consent to participate}
+The AOCS obtained ethics board approval at all institutions for patient recruitment, sample collection and research studies. Written informed consent was obtained from all participants in this study.
+
+\section*{Consent for publication}
+Not applicable.
+
+\section*{Availability of data and materials}
+All data generated during this study are included in this published article and its supplementary information files. The notebooks used to perform the analyses are available at https://github.com/hammerlab/paper-aocs-chemo-neoantigens.
+
 \section*{Competing interests}
   The authors declare that they have no competing interests.
+  
+\section*{Funding}
+This research was supported by the Marsha Rivkin Foundation and NIH/NCI Cancer Center Support Grant P30 CA008748.
 
 \section*{Author's contributions}
-    Text for this section \ldots
+ AS, DB, JH, and TO conceived and coordinated the study. TO performed the research and wrote the manuscript. EC curated the clinical records. AA, BAA, and JB advised on analysis methods.  All authors revised the manuscript critically.
 
 \section*{Acknowledgements}
-  Text for this section \ldots
+We thank Leonid Rozenberg for assistance with sequence-based HLA typing. We also thank Dariush Etemadmoghadam and Ann-Marie Patch at Peter MacCallum Cancer Centre for assistance accessing AOCS data sets.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                  The Bibliography                       %%
 %%                                                         %%
@@ -361,15 +456,20 @@ Thus we observe that this expected value is finite for all $v>0$ (also see \cite
 %% Do not use \listoffigures as most will included as separate files
 
 \section*{Figures}
-  \begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      A short description of the figure content
-      should go here.}
-      \end{figure}
 
 \begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      Figure legend text.}
+  \caption{\csentence{Detected mutational signatures for donor-matched primary/untreated and relapse/treated samples.}
+      Signatures detected in the pre-treatment samples. The first four signatures were extracted from reports of a \textit{G. gallus} cell line and \textit{C. Elegans} after exposure to chemotherapy, and the rest are COSMIC curated signatures. COSMIC signature numbers are shown in parentheses, and the associated mutagenic process is indicated when known. Signatures not shown were undetected in these samples. \textit{(Bottom)} Clinical treatments and detected signatures for the mutations unique to the post-treatment samples (those with no evidence in the matched pre-treatment sample). Cases where a chemotherapy signature is detected are annotated with a (*) if the patient received the associated drug and a (?) otherwise.}
+      \end{figure}
+
+  \begin{figure}[h!]
+  \caption{\csentence{Stratified comparison of mutation and neoantigen burden of chemotherapy-treated and untreated samples.}
+      Mutations (upper left), neoantigens (upper right), and expressed neoantigens by count (lower left) and as a percent of total neoantigens (lower right) are shown for primary/untreated samples (blue; solid tumor n=75, ascites n=4), primary/treated samples (green; solid tumor n=5), and relapse/treated samples (red; solid tumor n=6, ascites n=24). The shaded boxes indicate the interquartile region and the median line. Points indicate individual samples.}
+      \end{figure}
+      
+\begin{figure}[h!]
+  \caption{\csentence{Contribution of key SNV signatures, MNVs, and indels on mutations \textit{(left)}, neoantigens \textit{(center)}, and expressed neoantigens \textit{(right)}.}
+      The \textit{Chemo} category combines the contributions from the chemotherapy signatures (cisplatin, cyclophosphamide, and etoposide). COSMIC signature numbers are in parentheses. The \textit{Other SNV} category represents SNVs not accounted for by the signatures shown. Bars give the mean, and points indicate individual samples.}
       \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -380,17 +480,17 @@ Thus we observe that this expected value is finite for all $v>0$ (also see \cite
 
 %% Use of \listoftables is discouraged.
 %%
-\section*{Tables}
-\begin{table}[h!]
-\caption{Sample table title. This is where the description of the table should go.}
-      \begin{tabular}{cccc}
-        \hline
-           & B1  &B2   & B3\\ \hline
-        A1 & 0.1 & 0.2 & 0.3\\
-        A2 & ... & ..  & .\\
-        A3 & ..  & .   & .\\ \hline
-      \end{tabular}
-\end{table}
+%\section*{Tables}
+%\begin{table}[h!]
+%\caption{Sample table title. This is where the description of the table should go.}
+%     \begin{tabular}{cccc}
+%        \hline
+%           & B1  &B2   & B3\\ \hline
+%        A1 & 0.1 & 0.2 & 0.3\\
+%        A2 & ... & ..  & .\\
+%        A3 & ..  & .   & .\\ \hline
+%      \end{tabular}
+%\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                               %%
@@ -399,14 +499,26 @@ Thus we observe that this expected value is finite for all $v>0$ (also see \cite
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Additional Files}
-  \subsection*{Additional file 1 --- Sample additional file title}
-    Additional file descriptions text (including details of how to
-    view the file, if it is in a non-standard format or the file extension).  This might
-    refer to a multi-page table or a figure.
+  \subsection*{Additional file 1 --- Samples}
+    Sample identifiers, basic clinical information, specimen purities, mutation and neoantigen burden, contributions of major mutational signatures to mutations and neoantigens, and chemotherapy treatments.
 
-  \subsection*{Additional file 2 --- Sample additional file title}
-    Additional file descriptions text.
-
-
+  \subsection*{Additional file 2 --- Mutations}
+    Somatic variants and their read counts, predicted effects, and resulting neoantigens.
+  
+  \subsection*{Additional file 3 --- HLA types}
+    Patient HLA types.
+    
+  \subsection*{Additional file 4 --- Mutational signatures}
+    COSMIC signatures and extracted chemotherapy signatures.
+    
+  \subsection*{Additional file 5 --- Signature deconvolutions}
+    Results of mutational signature deconvolution, including a separate analysis of mutations unique to the treated paired samples
+    
+  \subsection*{Additional file 6 --- Shared neoantigens}
+    Neoantigens predicted for multiple patients
+    
+  \subsection*{Additional file 7 --- Supplemental figures}
+    Supplemental figures S1--S6.
+    
 \end{backmatter}
 \end{document}

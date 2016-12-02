@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{14}
+\begin{thebibliography}{26}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -87,8 +87,7 @@ doi:\doiurl{10.1016/0027-5107(95)00039-l}
 \bjtitle{J. Toxicol. Sci.}
 \bvolume{11}(\bissue{{SupplementI}}),
 \bfpage{301}--\blpage{310}
-(\byear{1986}).
-doi:\doiurl{10.2131/jts.11.supplementi_301}
+(\byear{1986})
 \end{barticle}
 \endbibitem
 
@@ -513,16 +512,349 @@ doi:\doiurl{10.1038/nature14410}
 \endbibitem
 
 %%% 14
-\bibitem{koon}
+\bibitem{2016}
+\begin{botherref}
+{Varcode}.
+Github
+(2016).
+\url{https://github.com/hammerlab/varcode}
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem{Boegel_2012}
 \begin{barticle}
-\bauthor{\bsnm{Koonin}, \binits{E.V.}},
-\bauthor{\bsnm{Altschul}, \binits{S.F.}},
-\bauthor{\bsnm{Bork}, \binits{P.}}:
-\batitle{{BRCA1 protein products: functional motifs}}.
-\bjtitle{Nat Genet}
-\bvolume{13},
-\bfpage{266}--\blpage{267}
-(\byear{1996})
+\bauthor{\bsnm{Boegel}, \binits{S.}},
+\bauthor{\bsnm{Löwer}, \binits{M.}},
+\bauthor{\bsnm{Schäfer}, \binits{M.}},
+\bauthor{\bsnm{Bukur}, \binits{T.}},
+\bauthor{\bparticle{de} \bsnm{Graaf}, \binits{J.}},
+\bauthor{\bsnm{Boisgu{\'{e}}rin}, \binits{V.}},
+\bauthor{\bparticle{Özlem} \bsnm{Türeci}},
+\bauthor{\bsnm{Diken}, \binits{M.}},
+\bauthor{\bsnm{Castle}, \binits{J.C.}},
+\bauthor{\bsnm{Sahin}, \binits{U.}}:
+\batitle{{{HLA} typing from {RNA}-Seq sequence reads}}.
+\bjtitle{Genome Medicine}
+\bvolume{4}(\bissue{12}),
+\bfpage{102}
+(\byear{2012}).
+doi:\doiurl{10.1186/gm403}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{Szolek_2014}
+\begin{barticle}
+\bauthor{\bsnm{Szolek}, \binits{A.}},
+\bauthor{\bsnm{Schubert}, \binits{B.}},
+\bauthor{\bsnm{Mohr}, \binits{C.}},
+\bauthor{\bsnm{Sturm}, \binits{M.}},
+\bauthor{\bsnm{Feldhahn}, \binits{M.}},
+\bauthor{\bsnm{Kohlbacher}, \binits{O.}}:
+\batitle{{{OptiType}: precision {HLA} typing from next-generation sequencing
+  data}}.
+\bjtitle{Bioinformatics}
+\bvolume{30}(\bissue{23}),
+\bfpage{3310}--\blpage{3316}
+(\byear{2014}).
+doi:\doiurl{10.1093/bioinformatics/btu548}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{Lundegaard_2008}
+\begin{barticle}
+\bauthor{\bsnm{Lundegaard}, \binits{C.}},
+\bauthor{\bsnm{Lamberth}, \binits{K.}},
+\bauthor{\bsnm{Harndahl}, \binits{M.}},
+\bauthor{\bsnm{Buus}, \binits{S.}},
+\bauthor{\bsnm{Lund}, \binits{O.}},
+\bauthor{\bsnm{Nielsen}, \binits{M.}}:
+\batitle{{{NetMHC}-3.0: accurate web accessible predictions of human mouse and
+  monkey {MHC} class I affinities for peptides of length 8-11}}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{36}(\bissue{Web Server}),
+\bfpage{509}--\blpage{512}
+(\byear{2008}).
+doi:\doiurl{10.1093/nar/gkn202}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{Alexandrov2013}
+\begin{barticle}
+\bauthor{\bsnm{Alexandrov}, \binits{L.B.}},
+\bauthor{\bsnm{Nik-Zainal}, \binits{S.}},
+\bauthor{\bsnm{Wedge}, \binits{D.C.}},
+\bauthor{\bsnm{Aparicio}, \binits{S.a.J.R.}},
+\bauthor{\bsnm{Behjati}, \binits{S.}},
+\bauthor{\bsnm{Biankin}, \binits{A.V.}},
+\bauthor{\bsnm{Bignell}, \binits{G.R.}},
+\bauthor{\bsnm{Bolli}, \binits{N.}},
+\bauthor{\bsnm{Borg}, \binits{A.}},
+\bauthor{\bsnm{B{\o}rresen-Dale}, \binits{A.-L.}},
+\bauthor{\bsnm{Boyault}, \binits{S.}},
+\bauthor{\bsnm{Burkhardt}, \binits{B.}},
+\bauthor{\bsnm{Butler}, \binits{A.P.}},
+\bauthor{\bsnm{Caldas}, \binits{C.}},
+\bauthor{\bsnm{Davies}, \binits{H.R.}},
+\bauthor{\bsnm{Desmedt}, \binits{C.}},
+\bauthor{\bsnm{Eils}, \binits{R.}},
+\bauthor{\bsnm{Eyfj{\"{o}}rd}, \binits{J.E.}},
+\bauthor{\bsnm{Foekens}, \binits{J.a.}},
+\bauthor{\bsnm{Greaves}, \binits{M.}},
+\bauthor{\bsnm{Hosoda}, \binits{F.}},
+\bauthor{\bsnm{Hutter}, \binits{B.}},
+\bauthor{\bsnm{Ilicic}, \binits{T.}},
+\bauthor{\bsnm{Imbeaud}, \binits{S.}},
+\bauthor{\bsnm{Imielinski}, \binits{M.}},
+\bauthor{\bsnm{Imielinsk}, \binits{M.}},
+\bauthor{\bsnm{J{\"{a}}ger}, \binits{N.}},
+\bauthor{\bsnm{Jones}, \binits{D.T.W.}},
+\bauthor{\bsnm{Jones}, \binits{D.}},
+\bauthor{\bsnm{Knappskog}, \binits{S.}},
+\bauthor{\bsnm{Kool}, \binits{M.}},
+\bauthor{\bsnm{Lakhani}, \binits{S.R.}},
+\bauthor{\bsnm{L{\'{o}}pez-Ot{\'{i}}n}, \binits{C.}},
+\bauthor{\bsnm{Martin}, \binits{S.}},
+\bauthor{\bsnm{Munshi}, \binits{N.C.}},
+\bauthor{\bsnm{Nakamura}, \binits{H.}},
+\bauthor{\bsnm{Northcott}, \binits{P.a.}},
+\bauthor{\bsnm{Pajic}, \binits{M.}},
+\bauthor{\bsnm{Papaemmanuil}, \binits{E.}},
+\bauthor{\bsnm{Paradiso}, \binits{A.}},
+\bauthor{\bsnm{Pearson}, \binits{J.V.}},
+\bauthor{\bsnm{Puente}, \binits{X.S.}},
+\bauthor{\bsnm{Raine}, \binits{K.}},
+\bauthor{\bsnm{Ramakrishna}, \binits{M.}},
+\bauthor{\bsnm{Richardson}, \binits{A.L.}},
+\bauthor{\bsnm{Richter}, \binits{J.}},
+\bauthor{\bsnm{Rosenstiel}, \binits{P.}},
+\bauthor{\bsnm{Schlesner}, \binits{M.}},
+\bauthor{\bsnm{Schumacher}, \binits{T.N.}},
+\bauthor{\bsnm{Span}, \binits{P.N.}},
+\bauthor{\bsnm{Teague}, \binits{J.W.}},
+\bauthor{\bsnm{Totoki}, \binits{Y.}},
+\bauthor{\bsnm{Tutt}, \binits{A.N.J.}},
+\bauthor{\bsnm{Vald{\'{e}}s-Mas}, \binits{R.}},
+\bauthor{\bparticle{van} \bsnm{Buuren}, \binits{M.M.}},
+\bauthor{\bsnm{{van 't Veer}}, \binits{L.}},
+\bauthor{\bsnm{Vincent-Salomon}, \binits{A.}},
+\bauthor{\bsnm{Waddell}, \binits{N.}},
+\bauthor{\bsnm{Yates}, \binits{L.R.}},
+\bauthor{\bsnm{Zucman-Rossi}, \binits{J.}},
+\bauthor{\bsnm{Futreal}, \binits{P.A.}},
+\bauthor{\bsnm{McDermott}, \binits{U.}},
+\bauthor{\bsnm{Lichter}, \binits{P.}},
+\bauthor{\bsnm{Meyerson}, \binits{M.}},
+\bauthor{\bsnm{Grimmond}, \binits{S.M.}},
+\bauthor{\bsnm{Siebert}, \binits{R.}},
+\bauthor{\bsnm{Campo}, \binits{E.}},
+\bauthor{\bsnm{Shibata}, \binits{T.}},
+\bauthor{\bsnm{Pfister}, \binits{S.M.}},
+\bauthor{\bsnm{Campbell}, \binits{P.J.}},
+\bauthor{\bsnm{Stratton}, \binits{M.R.}}:
+\batitle{{Signatures of mutational processes in human cancer.}}
+\bjtitle{Nature}
+\bvolume{500}(\bissue{7463}),
+\bfpage{415}--\blpage{21}
+(\byear{2013}).
+doi:\doiurl{10.1038/nature12477}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{Rosenthal_2016}
+\begin{botherref}
+\oauthor{\bsnm{Rosenthal}, \binits{R.}},
+\oauthor{\bsnm{McGranahan}, \binits{N.}},
+\oauthor{\bsnm{Herrero}, \binits{J.}},
+\oauthor{\bsnm{Taylor}, \binits{B.S.}},
+\oauthor{\bsnm{Swanton}, \binits{C.}}:
+{{deconstructSigs}: delineating mutational processes in single tumors
+  distinguishes {DNA} repair deficiencies and patterns of carcinoma evolution}.
+Genome Biol
+\textbf{17}(1)
+(2016).
+doi:\doiurl{10.1186/s13059-016-0893-4}
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem{Meier_2014}
+\begin{barticle}
+\bauthor{\bsnm{Meier}, \binits{B.}},
+\bauthor{\bsnm{Cooke}, \binits{S.L.}},
+\bauthor{\bsnm{Weiss}, \binits{J.}},
+\bauthor{\bsnm{Bailly}, \binits{A.P.}},
+\bauthor{\bsnm{Alexandrov}, \binits{L.B.}},
+\bauthor{\bsnm{Marshall}, \binits{J.}},
+\bauthor{\bsnm{Raine}, \binits{K.}},
+\bauthor{\bsnm{Maddison}, \binits{M.}},
+\bauthor{\bsnm{Anderson}, \binits{E.}},
+\bauthor{\bsnm{Stratton}, \binits{M.R.}},
+\bauthor{\bsnm{Gartner}, \binits{A.}},
+\bauthor{\bsnm{Campbell}, \binits{P.J.}}:
+\batitle{{C. elegans whole-genome sequencing reveals mutational signatures
+  related to carcinogens and {DNA} repair deficiency}}.
+\bjtitle{Genome Research}
+\bvolume{24}(\bissue{10}),
+\bfpage{1624}--\blpage{1636}
+(\byear{2014}).
+doi:\doiurl{10.1101/gr.175547.114}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Szikriszt_2016}
+\begin{botherref}
+\oauthor{\bsnm{Szikriszt}, \binits{B.}},
+\oauthor{\bsnm{P{\'{o}}ti}, \binits{{\'{A}}.}},
+\oauthor{\bsnm{Pipek}, \binits{O.}},
+\oauthor{\bsnm{Krzystanek}, \binits{M.}},
+\oauthor{\bsnm{Kanu}, \binits{N.}},
+\oauthor{\bsnm{Moln{\'{a}}r}, \binits{J.}},
+\oauthor{\bsnm{Ribli}, \binits{D.}},
+\oauthor{\bsnm{Szeltner}, \binits{Z.}},
+\oauthor{\bsnm{Tusn{\'{a}}dy}, \binits{G.E.}},
+\oauthor{\bsnm{Csabai}, \binits{I.}},
+\oauthor{\bsnm{Szallasi}, \binits{Z.}},
+\oauthor{\bsnm{Swanton}, \binits{C.}},
+\oauthor{\bsnm{Szüts}, \binits{D.}}:
+{A comprehensive survey of the mutagenic impact of common cancer cytotoxics}.
+Genome Biol
+\textbf{17}(1)
+(2016).
+doi:\doiurl{10.1186/s13059-016-0963-7}
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem{Gelman_2015}
+\begin{barticle}
+\bauthor{\bsnm{Gelman}, \binits{A.}},
+\bauthor{\bsnm{Lee}, \binits{D.}},
+\bauthor{\bsnm{Guo}, \binits{J.}}:
+\batitle{{Stan: A Probabilistic Programming Language for Bayesian Inference and
+  Optimization}}.
+\bjtitle{Journal of Educational and Behavioral Statistics}
+\bvolume{40}(\bissue{5}),
+\bfpage{530}--\blpage{543}
+(\byear{2015}).
+doi:\doiurl{10.3102/1076998615606113}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem{364242}
+\begin{botherref}
+\oauthor{\bsnm{Institute}, \binits{W.T.S.}}:
+{Signatures of Mutational Processes in Human Cancer}.
+\url{http://cancer.sanger.ac.uk/cosmic/signatures}.
+[Online; accessed 27-May-2016]
+(2016).
+\url{http://cancer.sanger.ac.uk/cosmic/signatures}
+Accessed 2016-05-27
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem{Sette1994}
+\begin{barticle}
+\bauthor{\bsnm{Sette}, \binits{A.}},
+\bauthor{\bsnm{Vitiello}, \binits{A.}},
+\bauthor{\bsnm{Reherman}, \binits{B.}},
+\bauthor{\bsnm{Fowler}, \binits{P.}},
+\bauthor{\bsnm{Nayersina}, \binits{R.}},
+\bauthor{\bsnm{Kast}, \binits{W.M.}},
+\bauthor{\bsnm{Melief}, \binits{C.J.}},
+\bauthor{\bsnm{Oseroff}, \binits{C.}},
+\bauthor{\bsnm{Yuan}, \binits{L.}},
+\bauthor{\bsnm{Ruppert}, \binits{J.}},
+\bauthor{\bsnm{Sidney}, \binits{J.}},
+\bauthor{\bparticle{del} \bsnm{Guercio}, \binits{M.F.}},
+\bauthor{\bsnm{Southwood}, \binits{S.}},
+\bauthor{\bsnm{Kubo}, \binits{R.T.}},
+\bauthor{\bsnm{Chesnut}, \binits{R.W.}},
+\bauthor{\bsnm{Grey}, \binits{H.M.}},
+\bauthor{\bsnm{Chisari}, \binits{F.V.}}:
+\batitle{{The relationship between class I binding affinity and immunogenicity
+  of potential cytotoxic T cell epitopes.}}
+\bjtitle{Journal of immunology (Baltimore, Md. : 1950)}
+\bvolume{153}(\bissue{12}),
+\bfpage{5586}--\blpage{92}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem{Martin_2016}
+\begin{barticle}
+\bauthor{\bsnm{Martin}, \binits{S.D.}},
+\bauthor{\bsnm{Brown}, \binits{S.D.}},
+\bauthor{\bsnm{Wick}, \binits{D.A.}},
+\bauthor{\bsnm{Nielsen}, \binits{J.S.}},
+\bauthor{\bsnm{Kroeger}, \binits{D.R.}},
+\bauthor{\bsnm{Twumasi-Boateng}, \binits{K.}},
+\bauthor{\bsnm{Holt}, \binits{R.A.}},
+\bauthor{\bsnm{Nelson}, \binits{B.H.}}:
+\batitle{{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
+  Neoantigen-Targeted Vaccines}}.
+\bjtitle{{PLOS} {ONE}}
+\bvolume{11}(\bissue{5}),
+\bfpage{0155189}
+(\byear{2016}).
+doi:\doiurl{10.1371/journal.pone.0155189}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{McGranahan_2016}
+\begin{barticle}
+\bauthor{\bsnm{McGranahan}, \binits{N.}},
+\bauthor{\bsnm{Furness}, \binits{A.J.S.}},
+\bauthor{\bsnm{Rosenthal}, \binits{R.}},
+\bauthor{\bsnm{Ramskov}, \binits{S.}},
+\bauthor{\bsnm{Lyngaa}, \binits{R.}},
+\bauthor{\bsnm{Saini}, \binits{S.K.}},
+\bauthor{\bsnm{Jamal-Hanjani}, \binits{M.}},
+\bauthor{\bsnm{Wilson}, \binits{G.A.}},
+\bauthor{\bsnm{Birkbak}, \binits{N.J.}},
+\bauthor{\bsnm{Hiley}, \binits{C.T.}},
+\bauthor{\bsnm{Watkins}, \binits{T.B.K.}},
+\bauthor{\bsnm{Shafi}, \binits{S.}},
+\bauthor{\bsnm{Murugaesu}, \binits{N.}},
+\bauthor{\bsnm{Mitter}, \binits{R.}},
+\bauthor{\bsnm{Akarca}, \binits{A.U.}},
+\bauthor{\bsnm{Linares}, \binits{J.}},
+\bauthor{\bsnm{Marafioti}, \binits{T.}},
+\bauthor{\bsnm{Henry}, \binits{J.Y.}},
+\bauthor{\bsnm{Allen}, \binits{E.M.V.}},
+\bauthor{\bsnm{Miao}, \binits{D.}},
+\bauthor{\bsnm{Schilling}, \binits{B.}},
+\bauthor{\bsnm{Schadendorf}, \binits{D.}},
+\bauthor{\bsnm{Garraway}, \binits{L.A.}},
+\bauthor{\bsnm{Makarov}, \binits{V.}},
+\bauthor{\bsnm{Rizvi}, \binits{N.A.}},
+\bauthor{\bsnm{Snyder}, \binits{A.}},
+\bauthor{\bsnm{Hellmann}, \binits{M.D.}},
+\bauthor{\bsnm{Merghoub}, \binits{T.}},
+\bauthor{\bsnm{Wolchok}, \binits{J.D.}},
+\bauthor{\bsnm{Shukla}, \binits{S.A.}},
+\bauthor{\bsnm{Wu}, \binits{C.J.}},
+\bauthor{\bsnm{Peggs}, \binits{K.S.}},
+\bauthor{\bsnm{Chan}, \binits{T.A.}},
+\bauthor{\bsnm{Hadrup}, \binits{S.R.}},
+\bauthor{\bsnm{Quezada}, \binits{S.A.}},
+\bauthor{\bsnm{Swanton}, \binits{C.}}:
+\batitle{{Clonal neoantigens elicit T cell immunoreactivity and sensitivity to
+  immune checkpoint blockade}}.
+\bjtitle{Science}
+\bvolume{351}(\bissue{6280}),
+\bfpage{1463}--\blpage{1469}
+(\byear{2016}).
+doi:\doiurl{10.1126/science.aaf1490}
 \end{barticle}
 \endbibitem
 
@@ -588,7 +920,6 @@ doi:\doiurl{10.1038/nature14410}
   <issue>{SupplementI}</issue>
   <fpage>301</fpage>
   <lpage>-310</lpage>
-  <url>http://dx.doi.org/10.2131/jts.11.supplementi_301</url>
 </bibl>
 
 <bibl id="B4">
@@ -1037,17 +1368,367 @@ doi:\doiurl{10.1038/nature14410}
 </bibl>
 
 <bibl id="B14">
-  <title><p>{BRCA1 protein products: functional motifs}</p></title>
+  <title><p>{Varcode}</p></title>
+  <source>Varcode GitHub</source>
+  <publisher>Github</publisher>
+  <pubdate>2016</pubdate>
+  <url>https://github.com/hammerlab/varcode</url>
+</bibl>
+
+<bibl id="B15">
+  <title><p>{{HLA} typing from {RNA}-Seq sequence reads}</p></title>
   <aug>
-    <au><snm>Koonin</snm><fnm>E V</fnm></au>
-    <au><snm>Altschul</snm><fnm>S F</fnm></au>
-    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Boegel</snm><fnm>S</fnm></au>
+    <au><snm>Löwer</snm><fnm>M</fnm></au>
+    <au><snm>Schäfer</snm><fnm>M</fnm></au>
+    <au><snm>Bukur</snm><fnm>T</fnm></au>
+    <au><snm>Graaf</snm><fnm>J</fnm></au>
+    <au><snm>Boisgu{\'{e}}rin</snm><fnm>V</fnm></au>
+    <au><cnm>Türeci</cnm></au>
+    <au><snm>Diken</snm><fnm>M</fnm></au>
+    <au><snm>Castle</snm><fnm>JC</fnm></au>
+    <au><snm>Sahin</snm><fnm>U</fnm></au>
   </aug>
-  <source>Nat Genet</source>
-  <pubdate>1996</pubdate>
-  <volume>13</volume>
-  <fpage>266</fpage>
-  <lpage>267</lpage>
+  <source>Genome Medicine</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
+  <pubdate>2012</pubdate>
+  <volume>4</volume>
+  <issue>12</issue>
+  <fpage>102</fpage>
+  <url>http://dx.doi.org/10.1186/gm403</url>
+</bibl>
+
+<bibl id="B16">
+  <title><p>{{OptiType}: precision {HLA} typing from next-generation sequencing
+  data}</p></title>
+  <aug>
+    <au><snm>Szolek</snm><fnm>A.</fnm></au>
+    <au><snm>Schubert</snm><fnm>B.</fnm></au>
+    <au><snm>Mohr</snm><fnm>C.</fnm></au>
+    <au><snm>Sturm</snm><fnm>M.</fnm></au>
+    <au><snm>Feldhahn</snm><fnm>M.</fnm></au>
+    <au><snm>Kohlbacher</snm><fnm>O.</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2014</pubdate>
+  <volume>30</volume>
+  <issue>23</issue>
+  <fpage>3310</fpage>
+  <lpage>-3316</lpage>
+  <url>http://dx.doi.org/10.1093/bioinformatics/btu548</url>
+</bibl>
+
+<bibl id="B17">
+  <title><p>{{NetMHC}-3.0: accurate web accessible predictions of human mouse
+  and monkey {MHC} class I affinities for peptides of length 8-11}</p></title>
+  <aug>
+    <au><snm>Lundegaard</snm><fnm>C.</fnm></au>
+    <au><snm>Lamberth</snm><fnm>K.</fnm></au>
+    <au><snm>Harndahl</snm><fnm>M.</fnm></au>
+    <au><snm>Buus</snm><fnm>S.</fnm></au>
+    <au><snm>Lund</snm><fnm>O.</fnm></au>
+    <au><snm>Nielsen</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2008</pubdate>
+  <volume>36</volume>
+  <issue>Web Server</issue>
+  <fpage>W509</fpage>
+  <lpage>-W512</lpage>
+  <url>http://dx.doi.org/10.1093/nar/gkn202</url>
+</bibl>
+
+<bibl id="B18">
+  <title><p>{Signatures of mutational processes in human cancer.}</p></title>
+  <aug>
+    <au><snm>Alexandrov</snm><fnm>LB</fnm></au>
+    <au><snm>Nik Zainal</snm><fnm>S</fnm></au>
+    <au><snm>Wedge</snm><fnm>DC</fnm></au>
+    <au><snm>Aparicio</snm><fnm>SaJR</fnm></au>
+    <au><snm>Behjati</snm><fnm>S</fnm></au>
+    <au><snm>Biankin</snm><fnm>AV</fnm></au>
+    <au><snm>Bignell</snm><fnm>GR</fnm></au>
+    <au><snm>Bolli</snm><fnm>N</fnm></au>
+    <au><snm>Borg</snm><fnm>A</fnm></au>
+    <au><snm>B{\o}rresen Dale</snm><fnm>AL</fnm></au>
+    <au><snm>Boyault</snm><fnm>S</fnm></au>
+    <au><snm>Burkhardt</snm><fnm>B</fnm></au>
+    <au><snm>Butler</snm><fnm>AP</fnm></au>
+    <au><snm>Caldas</snm><fnm>C</fnm></au>
+    <au><snm>Davies</snm><fnm>HR</fnm></au>
+    <au><snm>Desmedt</snm><fnm>C</fnm></au>
+    <au><snm>Eils</snm><fnm>R</fnm></au>
+    <au><snm>Eyfj{\"{o}}rd</snm><fnm>JE</fnm></au>
+    <au><snm>Foekens</snm><fnm>Ja</fnm></au>
+    <au><snm>Greaves</snm><fnm>M</fnm></au>
+    <au><snm>Hosoda</snm><fnm>F</fnm></au>
+    <au><snm>Hutter</snm><fnm>B</fnm></au>
+    <au><snm>Ilicic</snm><fnm>T</fnm></au>
+    <au><snm>Imbeaud</snm><fnm>S</fnm></au>
+    <au><snm>Imielinski</snm><fnm>M</fnm></au>
+    <au><snm>Imielinsk</snm><fnm>M</fnm></au>
+    <au><snm>J{\"{a}}ger</snm><fnm>N</fnm></au>
+    <au><snm>Jones</snm><fnm>DTW</fnm></au>
+    <au><snm>Jones</snm><fnm>D</fnm></au>
+    <au><snm>Knappskog</snm><fnm>S</fnm></au>
+    <au><snm>Kool</snm><fnm>M</fnm></au>
+    <au><snm>Lakhani</snm><fnm>SR</fnm></au>
+    <au><snm>L{\'{o}}pez Ot{\'{i}}n</snm><fnm>C</fnm></au>
+    <au><snm>Martin</snm><fnm>S</fnm></au>
+    <au><snm>Munshi</snm><fnm>NC</fnm></au>
+    <au><snm>Nakamura</snm><fnm>H</fnm></au>
+    <au><snm>Northcott</snm><fnm>Pa</fnm></au>
+    <au><snm>Pajic</snm><fnm>M</fnm></au>
+    <au><snm>Papaemmanuil</snm><fnm>E</fnm></au>
+    <au><snm>Paradiso</snm><fnm>A</fnm></au>
+    <au><snm>Pearson</snm><fnm>JV</fnm></au>
+    <au><snm>Puente</snm><fnm>XS</fnm></au>
+    <au><snm>Raine</snm><fnm>K</fnm></au>
+    <au><snm>Ramakrishna</snm><fnm>M</fnm></au>
+    <au><snm>Richardson</snm><fnm>AL</fnm></au>
+    <au><snm>Richter</snm><fnm>J</fnm></au>
+    <au><snm>Rosenstiel</snm><fnm>P</fnm></au>
+    <au><snm>Schlesner</snm><fnm>M</fnm></au>
+    <au><snm>Schumacher</snm><fnm>TN</fnm></au>
+    <au><snm>Span</snm><fnm>PN</fnm></au>
+    <au><snm>Teague</snm><fnm>JW</fnm></au>
+    <au><snm>Totoki</snm><fnm>Y</fnm></au>
+    <au><snm>Tutt</snm><fnm>ANJ</fnm></au>
+    <au><snm>Vald{\'{e}}s Mas</snm><fnm>R</fnm></au>
+    <au><snm>Buuren</snm><fnm>MM</fnm></au>
+    <au><snm>{van 't Veer}</snm><fnm>L</fnm></au>
+    <au><snm>Vincent Salomon</snm><fnm>A</fnm></au>
+    <au><snm>Waddell</snm><fnm>N</fnm></au>
+    <au><snm>Yates</snm><fnm>LR</fnm></au>
+    <au><snm>Zucman Rossi</snm><fnm>J</fnm></au>
+    <au><snm>Futreal</snm><fnm>PA</fnm></au>
+    <au><snm>McDermott</snm><fnm>U</fnm></au>
+    <au><snm>Lichter</snm><fnm>P</fnm></au>
+    <au><snm>Meyerson</snm><fnm>M</fnm></au>
+    <au><snm>Grimmond</snm><fnm>SM</fnm></au>
+    <au><snm>Siebert</snm><fnm>R</fnm></au>
+    <au><snm>Campo</snm><fnm>E</fnm></au>
+    <au><snm>Shibata</snm><fnm>T</fnm></au>
+    <au><snm>Pfister</snm><fnm>SM</fnm></au>
+    <au><snm>Campbell</snm><fnm>PJ</fnm></au>
+    <au><snm>Stratton</snm><fnm>MR</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <pubdate>2013</pubdate>
+  <volume>500</volume>
+  <issue>7463</issue>
+  <fpage>415</fpage>
+  <lpage>-21</lpage>
+  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3776390{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+</bibl>
+
+<bibl id="B19">
+  <title><p>{{deconstructSigs}: delineating mutational processes in single
+  tumors distinguishes {DNA} repair deficiencies and patterns of carcinoma
+  evolution}</p></title>
+  <aug>
+    <au><snm>Rosenthal</snm><fnm>R</fnm></au>
+    <au><snm>McGranahan</snm><fnm>N</fnm></au>
+    <au><snm>Herrero</snm><fnm>J</fnm></au>
+    <au><snm>Taylor</snm><fnm>BS</fnm></au>
+    <au><snm>Swanton</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Genome Biol</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
+  <pubdate>2016</pubdate>
+  <volume>17</volume>
+  <issue>1</issue>
+  <url>http://dx.doi.org/10.1186/s13059-016-0893-4</url>
+</bibl>
+
+<bibl id="B20">
+  <title><p>{C. elegans whole-genome sequencing reveals mutational signatures
+  related to carcinogens and {DNA} repair deficiency}</p></title>
+  <aug>
+    <au><snm>Meier</snm><fnm>B</fnm></au>
+    <au><snm>Cooke</snm><fnm>SL</fnm></au>
+    <au><snm>Weiss</snm><fnm>J</fnm></au>
+    <au><snm>Bailly</snm><fnm>AP</fnm></au>
+    <au><snm>Alexandrov</snm><fnm>LB</fnm></au>
+    <au><snm>Marshall</snm><fnm>J</fnm></au>
+    <au><snm>Raine</snm><fnm>K</fnm></au>
+    <au><snm>Maddison</snm><fnm>M</fnm></au>
+    <au><snm>Anderson</snm><fnm>E</fnm></au>
+    <au><snm>Stratton</snm><fnm>MR</fnm></au>
+    <au><snm>Gartner</snm><fnm>A</fnm></au>
+    <au><snm>Campbell</snm><fnm>PJ</fnm></au>
+  </aug>
+  <source>Genome Research</source>
+  <publisher>Cold Spring Harbor Laboratory Press</publisher>
+  <pubdate>2014</pubdate>
+  <volume>24</volume>
+  <issue>10</issue>
+  <fpage>1624</fpage>
+  <lpage>-1636</lpage>
+  <url>http://dx.doi.org/10.1101/gr.175547.114</url>
+</bibl>
+
+<bibl id="B21">
+  <title><p>{A comprehensive survey of the mutagenic impact of common cancer
+  cytotoxics}</p></title>
+  <aug>
+    <au><snm>Szikriszt</snm><fnm>B</fnm></au>
+    <au><snm>P{\'{o}}ti</snm><fnm>{\'{A}}</fnm></au>
+    <au><snm>Pipek</snm><fnm>O</fnm></au>
+    <au><snm>Krzystanek</snm><fnm>M</fnm></au>
+    <au><snm>Kanu</snm><fnm>N</fnm></au>
+    <au><snm>Moln{\'{a}}r</snm><fnm>J</fnm></au>
+    <au><snm>Ribli</snm><fnm>D</fnm></au>
+    <au><snm>Szeltner</snm><fnm>Z</fnm></au>
+    <au><snm>Tusn{\'{a}}dy</snm><fnm>GE</fnm></au>
+    <au><snm>Csabai</snm><fnm>I</fnm></au>
+    <au><snm>Szallasi</snm><fnm>Z</fnm></au>
+    <au><snm>Swanton</snm><fnm>C</fnm></au>
+    <au><snm>Szüts</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Genome Biol</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
+  <pubdate>2016</pubdate>
+  <volume>17</volume>
+  <issue>1</issue>
+  <url>http://dx.doi.org/10.1186/s13059-016-0963-7</url>
+</bibl>
+
+<bibl id="B22">
+  <title><p>{Stan: A Probabilistic Programming Language for Bayesian Inference
+  and Optimization}</p></title>
+  <aug>
+    <au><snm>Gelman</snm><fnm>A.</fnm></au>
+    <au><snm>Lee</snm><fnm>D.</fnm></au>
+    <au><snm>Guo</snm><fnm>J.</fnm></au>
+  </aug>
+  <source>Journal of Educational and Behavioral Statistics</source>
+  <publisher>American Educational Research Association ({AERA})</publisher>
+  <pubdate>2015</pubdate>
+  <volume>40</volume>
+  <issue>5</issue>
+  <fpage>530</fpage>
+  <lpage>-543</lpage>
+  <url>http://dx.doi.org/10.3102/1076998615606113</url>
+</bibl>
+
+<bibl id="B23">
+  <title><p>{Signatures of Mutational Processes in Human Cancer}</p></title>
+  <aug>
+    <au><snm>Institute</snm><fnm>WTS</fnm></au>
+  </aug>
+  <source>\url{http://cancer.sanger.ac.uk/cosmic/signatures}</source>
+  <pubdate>2016</pubdate>
+  <url>http://cancer.sanger.ac.uk/cosmic/signatures</url>
+  <note>[Online; accessed 27-May-2016]</note>
+</bibl>
+
+<bibl id="B24">
+  <title><p>{The relationship between class I binding affinity and
+  immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
+  <aug>
+    <au><snm>Sette</snm><fnm>A</fnm></au>
+    <au><snm>Vitiello</snm><fnm>A</fnm></au>
+    <au><snm>Reherman</snm><fnm>B</fnm></au>
+    <au><snm>Fowler</snm><fnm>P</fnm></au>
+    <au><snm>Nayersina</snm><fnm>R</fnm></au>
+    <au><snm>Kast</snm><fnm>W M</fnm></au>
+    <au><snm>Melief</snm><fnm>C J</fnm></au>
+    <au><snm>Oseroff</snm><fnm>C</fnm></au>
+    <au><snm>Yuan</snm><fnm>L</fnm></au>
+    <au><snm>Ruppert</snm><fnm>J</fnm></au>
+    <au><snm>Sidney</snm><fnm>J</fnm></au>
+    <au><snm>Guercio</snm><fnm>M F</fnm></au>
+    <au><snm>Southwood</snm><fnm>S</fnm></au>
+    <au><snm>Kubo</snm><fnm>R T</fnm></au>
+    <au><snm>Chesnut</snm><fnm>R W</fnm></au>
+    <au><snm>Grey</snm><fnm>H M</fnm></au>
+    <au><snm>Chisari</snm><fnm>F V</fnm></au>
+  </aug>
+  <source>Journal of immunology (Baltimore, Md. : 1950)</source>
+  <pubdate>1994</pubdate>
+  <volume>153</volume>
+  <issue>12</issue>
+  <fpage>5586</fpage>
+  <lpage>-92</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
+</bibl>
+
+<bibl id="B25">
+  <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
+  Neoantigen-Targeted Vaccines}</p></title>
+  <aug>
+    <au><snm>Martin</snm><fnm>SD</fnm></au>
+    <au><snm>Brown</snm><fnm>SD</fnm></au>
+    <au><snm>Wick</snm><fnm>DA</fnm></au>
+    <au><snm>Nielsen</snm><fnm>JS</fnm></au>
+    <au><snm>Kroeger</snm><fnm>DR</fnm></au>
+    <au><snm>Twumasi Boateng</snm><fnm>K</fnm></au>
+    <au><snm>Holt</snm><fnm>RA</fnm></au>
+    <au><snm>Nelson</snm><fnm>BH</fnm></au>
+  </aug>
+  <source>{PLOS} {ONE}</source>
+  <publisher>Public Library of Science ({PLoS})</publisher>
+  <editor>Ali A. Ashkar</editor>
+  <pubdate>2016</pubdate>
+  <volume>11</volume>
+  <issue>5</issue>
+  <fpage>e0155189</fpage>
+  <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
+</bibl>
+
+<bibl id="B26">
+  <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
+  to immune checkpoint blockade}</p></title>
+  <aug>
+    <au><snm>McGranahan</snm><fnm>N.</fnm></au>
+    <au><snm>Furness</snm><fnm>A. J. S.</fnm></au>
+    <au><snm>Rosenthal</snm><fnm>R.</fnm></au>
+    <au><snm>Ramskov</snm><fnm>S.</fnm></au>
+    <au><snm>Lyngaa</snm><fnm>R.</fnm></au>
+    <au><snm>Saini</snm><fnm>S. K.</fnm></au>
+    <au><snm>Jamal Hanjani</snm><fnm>M.</fnm></au>
+    <au><snm>Wilson</snm><fnm>G. A.</fnm></au>
+    <au><snm>Birkbak</snm><fnm>N. J.</fnm></au>
+    <au><snm>Hiley</snm><fnm>C. T.</fnm></au>
+    <au><snm>Watkins</snm><fnm>T. B. K.</fnm></au>
+    <au><snm>Shafi</snm><fnm>S.</fnm></au>
+    <au><snm>Murugaesu</snm><fnm>N.</fnm></au>
+    <au><snm>Mitter</snm><fnm>R.</fnm></au>
+    <au><snm>Akarca</snm><fnm>A. U.</fnm></au>
+    <au><snm>Linares</snm><fnm>J.</fnm></au>
+    <au><snm>Marafioti</snm><fnm>T.</fnm></au>
+    <au><snm>Henry</snm><fnm>J. Y.</fnm></au>
+    <au><snm>Allen</snm><fnm>EMV</fnm></au>
+    <au><snm>Miao</snm><fnm>D.</fnm></au>
+    <au><snm>Schilling</snm><fnm>B.</fnm></au>
+    <au><snm>Schadendorf</snm><fnm>D.</fnm></au>
+    <au><snm>Garraway</snm><fnm>L. A.</fnm></au>
+    <au><snm>Makarov</snm><fnm>V.</fnm></au>
+    <au><snm>Rizvi</snm><fnm>N. A.</fnm></au>
+    <au><snm>Snyder</snm><fnm>A.</fnm></au>
+    <au><snm>Hellmann</snm><fnm>M. D.</fnm></au>
+    <au><snm>Merghoub</snm><fnm>T.</fnm></au>
+    <au><snm>Wolchok</snm><fnm>J. D.</fnm></au>
+    <au><snm>Shukla</snm><fnm>S. A.</fnm></au>
+    <au><snm>Wu</snm><fnm>C. J.</fnm></au>
+    <au><snm>Peggs</snm><fnm>K. S.</fnm></au>
+    <au><snm>Chan</snm><fnm>T. A.</fnm></au>
+    <au><snm>Hadrup</snm><fnm>S. R.</fnm></au>
+    <au><snm>Quezada</snm><fnm>S. A.</fnm></au>
+    <au><snm>Swanton</snm><fnm>C.</fnm></au>
+  </aug>
+  <source>Science</source>
+  <publisher>American Association for the Advancement of Science
+  ({AAAS})</publisher>
+  <pubdate>2016</pubdate>
+  <volume>351</volume>
+  <issue>6280</issue>
+  <fpage>1463</fpage>
+  <lpage>-1469</lpage>
+  <url>http://dx.doi.org/10.1126/science.aaf1490</url>
 </bibl>
 
 </refgrp>
