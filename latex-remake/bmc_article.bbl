@@ -1,0 +1,1054 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{14}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Hannan_1989}
+\begin{barticle}
+\bauthor{\bsnm{Hannan}, \binits{M.A.}},
+\bauthor{\bsnm{Al-Dakan}, \binits{A.A.}},
+\bauthor{\bsnm{Hussain}, \binits{S.S.}},
+\bauthor{\bsnm{Amer}, \binits{M.H.}}:
+\batitle{{Mutagenicity of cisplatin and carboplatin used alone and in
+  combination with four other anticancer drugs}}.
+\bjtitle{Toxicology}
+\bvolume{55}(\bissue{1-2}),
+\bfpage{183}--\blpage{191}
+(\byear{1989}).
+doi:\doiurl{10.1016/0300-483x(89)90185-6}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Anderson_1995}
+\begin{barticle}
+\bauthor{\bsnm{Anderson}, \binits{D.}},
+\bauthor{\bsnm{Bishop}, \binits{J.B.}},
+\bauthor{\bsnm{Garner}, \binits{R.C.}},
+\bauthor{\bsnm{Ostrosky-Wegman}, \binits{P.}},
+\bauthor{\bsnm{Selby}, \binits{P.B.}}:
+\batitle{{Cyclophosphamide: Review of its mutagenicity for an assessment of
+  potential germ cell risks}}.
+\bjtitle{Mutation Research/Fundamental and Molecular Mechanisms of Mutagenesis}
+\bvolume{330}(\bissue{1-2}),
+\bfpage{115}--\blpage{181}
+(\byear{1995}).
+doi:\doiurl{10.1016/0027-5107(95)00039-l}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{NAKANOMYO_1986}
+\begin{barticle}
+\bauthor{\bsnm{Nakanomyo}, \binits{H.}},
+\bauthor{\bsnm{Hiraoka}, \binits{M.}},
+\bauthor{\bsnm{Shiraya}, \binits{M.}}:
+\batitle{{Mutagenicity tests of etoposide and teniposide}}.
+\bjtitle{J. Toxicol. Sci.}
+\bvolume{11}(\bissue{{SupplementI}}),
+\bfpage{301}--\blpage{310}
+(\byear{1986}).
+doi:\doiurl{10.2131/jts.11.supplementi_301}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{Ding_2012}
+\begin{barticle}
+\bauthor{\bsnm{Ding}, \binits{L.}},
+\bauthor{\bsnm{Ley}, \binits{T.J.}},
+\bauthor{\bsnm{Larson}, \binits{D.E.}},
+\bauthor{\bsnm{Miller}, \binits{C.A.}},
+\bauthor{\bsnm{Koboldt}, \binits{D.C.}},
+\bauthor{\bsnm{Welch}, \binits{J.S.}},
+\bauthor{\bsnm{Ritchey}, \binits{J.K.}},
+\bauthor{\bsnm{Young}, \binits{M.A.}},
+\bauthor{\bsnm{Lamprecht}, \binits{T.}},
+\bauthor{\bsnm{McLellan}, \binits{M.D.}},
+\bauthor{\bsnm{McMichael}, \binits{J.F.}},
+\bauthor{\bsnm{Wallis}, \binits{J.W.}},
+\bauthor{\bsnm{Lu}, \binits{C.}},
+\bauthor{\bsnm{Shen}, \binits{D.}},
+\bauthor{\bsnm{Harris}, \binits{C.C.}},
+\bauthor{\bsnm{Dooling}, \binits{D.J.}},
+\bauthor{\bsnm{Fulton}, \binits{R.S.}},
+\bauthor{\bsnm{Fulton}, \binits{L.L.}},
+\bauthor{\bsnm{Chen}, \binits{K.}},
+\bauthor{\bsnm{Schmidt}, \binits{H.}},
+\bauthor{\bsnm{Kalicki-Veizer}, \binits{J.}},
+\bauthor{\bsnm{Magrini}, \binits{V.J.}},
+\bauthor{\bsnm{Cook}, \binits{L.}},
+\bauthor{\bsnm{McGrath}, \binits{S.D.}},
+\bauthor{\bsnm{Vickery}, \binits{T.L.}},
+\bauthor{\bsnm{Wendl}, \binits{M.C.}},
+\bauthor{\bsnm{Heath}, \binits{S.}},
+\bauthor{\bsnm{Watson}, \binits{M.A.}},
+\bauthor{\bsnm{Link}, \binits{D.C.}},
+\bauthor{\bsnm{Tomasson}, \binits{M.H.}},
+\bauthor{\bsnm{Shannon}, \binits{W.D.}},
+\bauthor{\bsnm{Payton}, \binits{J.E.}},
+\bauthor{\bsnm{Kulkarni}, \binits{S.}},
+\bauthor{\bsnm{Westervelt}, \binits{P.}},
+\bauthor{\bsnm{Walter}, \binits{M.J.}},
+\bauthor{\bsnm{Graubert}, \binits{T.A.}},
+\bauthor{\bsnm{Mardis}, \binits{E.R.}},
+\bauthor{\bsnm{Wilson}, \binits{R.K.}},
+\bauthor{\bsnm{DiPersio}, \binits{J.F.}}:
+\batitle{{Clonal evolution in relapsed acute myeloid leukaemia revealed by
+  whole-genome sequencing}}.
+\bjtitle{Nature}
+\bvolume{481}(\bissue{7382}),
+\bfpage{506}--\blpage{510}
+(\byear{2012}).
+doi:\doiurl{10.1038/nature10738}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{Johnson_2013}
+\begin{barticle}
+\bauthor{\bsnm{Johnson}, \binits{B.E.}},
+\bauthor{\bsnm{Mazor}, \binits{T.}},
+\bauthor{\bsnm{Hong}, \binits{C.}},
+\bauthor{\bsnm{Barnes}, \binits{M.}},
+\bauthor{\bsnm{Aihara}, \binits{K.}},
+\bauthor{\bsnm{McLean}, \binits{C.Y.}},
+\bauthor{\bsnm{Fouse}, \binits{S.D.}},
+\bauthor{\bsnm{Yamamoto}, \binits{S.}},
+\bauthor{\bsnm{Ueda}, \binits{H.}},
+\bauthor{\bsnm{Tatsuno}, \binits{K.}},
+\bauthor{\bsnm{Asthana}, \binits{S.}},
+\bauthor{\bsnm{Jalbert}, \binits{L.E.}},
+\bauthor{\bsnm{Nelson}, \binits{S.J.}},
+\bauthor{\bsnm{Bollen}, \binits{A.W.}},
+\bauthor{\bsnm{Gustafson}, \binits{W.C.}},
+\bauthor{\bsnm{Charron}, \binits{E.}},
+\bauthor{\bsnm{Weiss}, \binits{W.A.}},
+\bauthor{\bsnm{Smirnov}, \binits{I.V.}},
+\bauthor{\bsnm{Song}, \binits{J.S.}},
+\bauthor{\bsnm{Olshen}, \binits{A.B.}},
+\bauthor{\bsnm{Cha}, \binits{S.}},
+\bauthor{\bsnm{Zhao}, \binits{Y.}},
+\bauthor{\bsnm{Moore}, \binits{R.A.}},
+\bauthor{\bsnm{Mungall}, \binits{A.J.}},
+\bauthor{\bsnm{Jones}, \binits{S.J.M.}},
+\bauthor{\bsnm{Hirst}, \binits{M.}},
+\bauthor{\bsnm{Marra}, \binits{M.A.}},
+\bauthor{\bsnm{Saito}, \binits{N.}},
+\bauthor{\bsnm{Aburatani}, \binits{H.}},
+\bauthor{\bsnm{Mukasa}, \binits{A.}},
+\bauthor{\bsnm{Berger}, \binits{M.S.}},
+\bauthor{\bsnm{Chang}, \binits{S.M.}},
+\bauthor{\bsnm{Taylor}, \binits{B.S.}},
+\bauthor{\bsnm{Costello}, \binits{J.F.}}:
+\batitle{{Mutational Analysis Reveals the Origin and Therapy-Driven Evolution
+  of Recurrent Glioma}}.
+\bjtitle{Science}
+\bvolume{343}(\bissue{6167}),
+\bfpage{189}--\blpage{193}
+(\byear{2013}).
+doi:\doiurl{10.1126/science.1239947}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{Murugaesu_2015}
+\begin{barticle}
+\bauthor{\bsnm{Murugaesu}, \binits{N.}},
+\bauthor{\bsnm{Wilson}, \binits{G.A.}},
+\bauthor{\bsnm{Birkbak}, \binits{N.J.}},
+\bauthor{\bsnm{Watkins}, \binits{T.B.K.}},
+\bauthor{\bsnm{McGranahan}, \binits{N.}},
+\bauthor{\bsnm{Kumar}, \binits{S.}},
+\bauthor{\bsnm{Abbassi-Ghadi}, \binits{N.}},
+\bauthor{\bsnm{Salm}, \binits{M.}},
+\bauthor{\bsnm{Mitter}, \binits{R.}},
+\bauthor{\bsnm{Horswell}, \binits{S.}},
+\bauthor{\bsnm{Rowan}, \binits{A.}},
+\bauthor{\bsnm{Phillimore}, \binits{B.}},
+\bauthor{\bsnm{Biggs}, \binits{J.}},
+\bauthor{\bsnm{Begum}, \binits{S.}},
+\bauthor{\bsnm{Matthews}, \binits{N.}},
+\bauthor{\bsnm{Hochhauser}, \binits{D.}},
+\bauthor{\bsnm{Hanna}, \binits{G.B.}},
+\bauthor{\bsnm{Swanton}, \binits{C.}}:
+\batitle{{Tracking the Genomic Evolution of Esophageal Adenocarcinoma through
+  Neoadjuvant Chemotherapy}}.
+\bjtitle{Cancer Discovery}
+\bvolume{5}(\bissue{8}),
+\bfpage{821}--\blpage{831}
+(\byear{2015}).
+doi:\doiurl{10.1158/2159-8290.cd-15-0412}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{Chen_2013}
+\begin{barticle}
+\bauthor{\bsnm{Chen}, \binits{D.S.}},
+\bauthor{\bsnm{Mellman}, \binits{I.}}:
+\batitle{{Oncology Meets Immunology: The Cancer-Immunity Cycle}}.
+\bjtitle{Immunity}
+\bvolume{39}(\bissue{1}),
+\bfpage{1}--\blpage{10}
+(\byear{2013}).
+doi:\doiurl{10.1016/j.immuni.2013.07.012}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Schumacher_2015}
+\begin{barticle}
+\bauthor{\bsnm{Schumacher}, \binits{T.N.}},
+\bauthor{\bsnm{Schreiber}, \binits{R.D.}}:
+\batitle{{Neoantigens in cancer immunotherapy}}.
+\bjtitle{Science}
+\bvolume{348}(\bissue{6230}),
+\bfpage{69}--\blpage{74}
+(\byear{2015}).
+doi:\doiurl{10.1126/science.aaa4971}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{Lundegaard_2007}
+\begin{barticle}
+\bauthor{\bsnm{Lundegaard}, \binits{C.}},
+\bauthor{\bsnm{Lund}, \binits{O.}},
+\bauthor{\bsnm{Kesmir}, \binits{C.}},
+\bauthor{\bsnm{Brunak}, \binits{S.}},
+\bauthor{\bsnm{Nielsen}, \binits{M.}}:
+\batitle{{Modeling the adaptive immune system: predictions and simulations}}.
+\bjtitle{Bioinformatics}
+\bvolume{23}(\bissue{24}),
+\bfpage{3265}--\blpage{3275}
+(\byear{2007}).
+doi:\doiurl{10.1093/bioinformatics/btm471}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Van_Allen_2015}
+\begin{barticle}
+\bauthor{\bsnm{Allen}, \binits{E.M.V.}},
+\bauthor{\bsnm{Miao}, \binits{D.}},
+\bauthor{\bsnm{Schilling}, \binits{B.}},
+\bauthor{\bsnm{Shukla}, \binits{S.A.}},
+\bauthor{\bsnm{Blank}, \binits{C.}},
+\bauthor{\bsnm{Zimmer}, \binits{L.}},
+\bauthor{\bsnm{Sucker}, \binits{A.}},
+\bauthor{\bsnm{Hillen}, \binits{U.}},
+\bauthor{\bsnm{Foppen}, \binits{M.H.G.}},
+\bauthor{\bsnm{Goldinger}, \binits{S.M.}},
+\bauthor{\bsnm{Utikal}, \binits{J.}},
+\bauthor{\bsnm{Hassel}, \binits{J.C.}},
+\bauthor{\bsnm{Weide}, \binits{B.}},
+\bauthor{\bsnm{Kaehler}, \binits{K.C.}},
+\bauthor{\bsnm{Loquai}, \binits{C.}},
+\bauthor{\bsnm{Mohr}, \binits{P.}},
+\bauthor{\bsnm{Gutzmer}, \binits{R.}},
+\bauthor{\bsnm{Dummer}, \binits{R.}},
+\bauthor{\bsnm{Gabriel}, \binits{S.}},
+\bauthor{\bsnm{Wu}, \binits{C.J.}},
+\bauthor{\bsnm{Schadendorf}, \binits{D.}},
+\bauthor{\bsnm{Garraway}, \binits{L.A.}}:
+\batitle{{Genomic correlates of response to {CTLA}-4 blockade in metastatic
+  melanoma}}.
+\bjtitle{Science}
+\bvolume{350}(\bissue{6257}),
+\bfpage{207}--\blpage{211}
+(\byear{2015}).
+doi:\doiurl{10.1126/science.aad0095}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{Rizvi_2015}
+\begin{barticle}
+\bauthor{\bsnm{Rizvi}, \binits{N.A.}},
+\bauthor{\bsnm{Hellmann}, \binits{M.D.}},
+\bauthor{\bsnm{Snyder}, \binits{A.}},
+\bauthor{\bsnm{Kvistborg}, \binits{P.}},
+\bauthor{\bsnm{Makarov}, \binits{V.}},
+\bauthor{\bsnm{Havel}, \binits{J.J.}},
+\bauthor{\bsnm{Lee}, \binits{W.}},
+\bauthor{\bsnm{Yuan}, \binits{J.}},
+\bauthor{\bsnm{Wong}, \binits{P.}},
+\bauthor{\bsnm{Ho}, \binits{T.S.}},
+\bauthor{\bsnm{Miller}, \binits{M.L.}},
+\bauthor{\bsnm{Rekhtman}, \binits{N.}},
+\bauthor{\bsnm{Moreira}, \binits{A.L.}},
+\bauthor{\bsnm{Ibrahim}, \binits{F.}},
+\bauthor{\bsnm{Bruggeman}, \binits{C.}},
+\bauthor{\bsnm{Gasmi}, \binits{B.}},
+\bauthor{\bsnm{Zappasodi}, \binits{R.}},
+\bauthor{\bsnm{Maeda}, \binits{Y.}},
+\bauthor{\bsnm{Sander}, \binits{C.}},
+\bauthor{\bsnm{Garon}, \binits{E.B.}},
+\bauthor{\bsnm{Merghoub}, \binits{T.}},
+\bauthor{\bsnm{Wolchok}, \binits{J.D.}},
+\bauthor{\bsnm{Schumacher}, \binits{T.N.}},
+\bauthor{\bsnm{Chan}, \binits{T.A.}}:
+\batitle{{Mutational landscape determines sensitivity to {PD}-1 blockade in
+  non-small cell lung cancer}}.
+\bjtitle{Science}
+\bvolume{348}(\bissue{6230}),
+\bfpage{124}--\blpage{128}
+(\byear{2015}).
+doi:\doiurl{10.1126/science.aaa1348}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{Lawrence_2013}
+\begin{barticle}
+\bauthor{\bsnm{Lawrence}, \binits{M.S.}},
+\bauthor{\bsnm{Stojanov}, \binits{P.}},
+\bauthor{\bsnm{Polak}, \binits{P.}},
+\bauthor{\bsnm{Kryukov}, \binits{G.V.}},
+\bauthor{\bsnm{Cibulskis}, \binits{K.}},
+\bauthor{\bsnm{Sivachenko}, \binits{A.}},
+\bauthor{\bsnm{Carter}, \binits{S.L.}},
+\bauthor{\bsnm{Stewart}, \binits{C.}},
+\bauthor{\bsnm{Mermel}, \binits{C.H.}},
+\bauthor{\bsnm{Roberts}, \binits{S.A.}},
+\bauthor{\bsnm{Kiezun}, \binits{A.}},
+\bauthor{\bsnm{Hammerman}, \binits{P.S.}},
+\bauthor{\bsnm{McKenna}, \binits{A.}},
+\bauthor{\bsnm{Drier}, \binits{Y.}},
+\bauthor{\bsnm{Zou}, \binits{L.}},
+\bauthor{\bsnm{Ramos}, \binits{A.H.}},
+\bauthor{\bsnm{Pugh}, \binits{T.J.}},
+\bauthor{\bsnm{Stransky}, \binits{N.}},
+\bauthor{\bsnm{Helman}, \binits{E.}},
+\bauthor{\bsnm{Kim}, \binits{J.}},
+\bauthor{\bsnm{Sougnez}, \binits{C.}},
+\bauthor{\bsnm{Ambrogio}, \binits{L.}},
+\bauthor{\bsnm{Nickerson}, \binits{E.}},
+\bauthor{\bsnm{Shefler}, \binits{E.}},
+\bauthor{\bsnm{Cort{\'{e}}s}, \binits{M.L.}},
+\bauthor{\bsnm{Auclair}, \binits{D.}},
+\bauthor{\bsnm{Saksena}, \binits{G.}},
+\bauthor{\bsnm{Voet}, \binits{D.}},
+\bauthor{\bsnm{Noble}, \binits{M.}},
+\bauthor{\bsnm{DiCara}, \binits{D.}},
+\bauthor{\bsnm{Lin}, \binits{P.}},
+\bauthor{\bsnm{Lichtenstein}, \binits{L.}},
+\bauthor{\bsnm{Heiman}, \binits{D.I.}},
+\bauthor{\bsnm{Fennell}, \binits{T.}},
+\bauthor{\bsnm{Imielinski}, \binits{M.}},
+\bauthor{\bsnm{Hernandez}, \binits{B.}},
+\bauthor{\bsnm{Hodis}, \binits{E.}},
+\bauthor{\bsnm{Baca}, \binits{S.}},
+\bauthor{\bsnm{Dulak}, \binits{A.M.}},
+\bauthor{\bsnm{Lohr}, \binits{J.}},
+\bauthor{\bsnm{Landau}, \binits{D.-A.}},
+\bauthor{\bsnm{Wu}, \binits{C.J.}},
+\bauthor{\bsnm{Melendez-Zajgla}, \binits{J.}},
+\bauthor{\bsnm{Hidalgo-Miranda}, \binits{A.}},
+\bauthor{\bsnm{Koren}, \binits{A.}},
+\bauthor{\bsnm{McCarroll}, \binits{S.A.}},
+\bauthor{\bsnm{Mora}, \binits{J.}},
+\bauthor{\bsnm{Lee}, \binits{R.S.}},
+\bauthor{\bsnm{Crompton}, \binits{B.}},
+\bauthor{\bsnm{Onofrio}, \binits{R.}},
+\bauthor{\bsnm{Parkin}, \binits{M.}},
+\bauthor{\bsnm{Winckler}, \binits{W.}},
+\bauthor{\bsnm{Ardlie}, \binits{K.}},
+\bauthor{\bsnm{Gabriel}, \binits{S.B.}},
+\bauthor{\bsnm{Roberts}, \binits{C.W.M.}},
+\bauthor{\bsnm{Biegel}, \binits{J.A.}},
+\bauthor{\bsnm{Stegmaier}, \binits{K.}},
+\bauthor{\bsnm{Bass}, \binits{A.J.}},
+\bauthor{\bsnm{Garraway}, \binits{L.A.}},
+\bauthor{\bsnm{Meyerson}, \binits{M.}},
+\bauthor{\bsnm{Golub}, \binits{T.R.}},
+\bauthor{\bsnm{Gordenin}, \binits{D.A.}},
+\bauthor{\bsnm{Sunyaev}, \binits{S.}},
+\bauthor{\bsnm{Lander}, \binits{E.S.}},
+\bauthor{\bsnm{Getz}, \binits{G.}}:
+\batitle{{Mutational heterogeneity in cancer and the search for new
+  cancer-associated genes}}.
+\bjtitle{Nature}
+\bvolume{499}(\bissue{7457}),
+\bfpage{214}--\blpage{218}
+(\byear{2013}).
+doi:\doiurl{10.1038/nature12213}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem{Patch_2015}
+\begin{barticle}
+\bauthor{\bsnm{Patch}, \binits{A.-M.}},
+\bauthor{\bsnm{Christie}, \binits{E.L.}},
+\bauthor{\bsnm{Etemadmoghadam}, \binits{D.}},
+\bauthor{\bsnm{Garsed}, \binits{D.W.}},
+\bauthor{\bsnm{George}, \binits{J.}},
+\bauthor{\bsnm{Fereday}, \binits{S.}},
+\bauthor{\bsnm{Nones}, \binits{K.}},
+\bauthor{\bsnm{Cowin}, \binits{P.}},
+\bauthor{\bsnm{Alsop}, \binits{K.}},
+\bauthor{\bsnm{Bailey}, \binits{P.J.}},
+\bauthor{\bsnm{Kassahn}, \binits{K.S.}},
+\bauthor{\bsnm{Newell}, \binits{F.}},
+\bauthor{\bsnm{Quinn}, \binits{M.C.J.}},
+\bauthor{\bsnm{Kazakoff}, \binits{S.}},
+\bauthor{\bsnm{Quek}, \binits{K.}},
+\bauthor{\bsnm{Wilhelm-Benartzi}, \binits{C.}},
+\bauthor{\bsnm{Curry}, \binits{E.}},
+\bauthor{\bsnm{Leong}, \binits{H.S.}},
+\bauthor{\bsnm{Hamilton}, \binits{A.}},
+\bauthor{\bsnm{Mileshkin}, \binits{L.}},
+\bauthor{\bsnm{Au-Yeung}, \binits{G.}},
+\bauthor{\bsnm{Kennedy}, \binits{C.}},
+\bauthor{\bsnm{Hung}, \binits{J.}},
+\bauthor{\bsnm{Chiew}, \binits{Y.-E.}},
+\bauthor{\bsnm{Harnett}, \binits{P.}},
+\bauthor{\bsnm{Friedlander}, \binits{M.}},
+\bauthor{\bsnm{Quinn}, \binits{M.}},
+\bauthor{\bsnm{Pyman}, \binits{J.}},
+\bauthor{\bsnm{Cordner}, \binits{S.}},
+\bauthor{\bsnm{O'Brien}, \binits{P.}},
+\bauthor{\bsnm{Leditschke}, \binits{J.}},
+\bauthor{\bsnm{Young}, \binits{G.}},
+\bauthor{\bsnm{Strachan}, \binits{K.}},
+\bauthor{\bsnm{Waring}, \binits{P.}},
+\bauthor{\bsnm{Azar}, \binits{W.}},
+\bauthor{\bsnm{Mitchell}, \binits{C.}},
+\bauthor{\bsnm{Traficante}, \binits{N.}},
+\bauthor{\bsnm{Hendley}, \binits{J.}},
+\bauthor{\bsnm{Thorne}, \binits{H.}},
+\bauthor{\bsnm{Shackleton}, \binits{M.}},
+\bauthor{\bsnm{Miller}, \binits{D.K.}},
+\bauthor{\bsnm{Arnau}, \binits{G.M.}},
+\bauthor{\bsnm{Tothill}, \binits{R.W.}},
+\bauthor{\bsnm{Holloway}, \binits{T.P.}},
+\bauthor{\bsnm{Semple}, \binits{T.}},
+\bauthor{\bsnm{Harliwong}, \binits{I.}},
+\bauthor{\bsnm{Nourse}, \binits{C.}},
+\bauthor{\bsnm{Nourbakhsh}, \binits{E.}},
+\bauthor{\bsnm{Manning}, \binits{S.}},
+\bauthor{\bsnm{Idrisoglu}, \binits{S.}},
+\bauthor{\bsnm{Bruxner}, \binits{T.J.C.}},
+\bauthor{\bsnm{Christ}, \binits{A.N.}},
+\bauthor{\bsnm{Poudel}, \binits{B.}},
+\bauthor{\bsnm{Holmes}, \binits{O.}},
+\bauthor{\bsnm{Anderson}, \binits{M.}},
+\bauthor{\bsnm{Leonard}, \binits{C.}},
+\bauthor{\bsnm{Lonie}, \binits{A.}},
+\bauthor{\bsnm{Hall}, \binits{N.}},
+\bauthor{\bsnm{Wood}, \binits{S.}},
+\bauthor{\bsnm{Taylor}, \binits{D.F.}},
+\bauthor{\bsnm{Xu}, \binits{Q.}},
+\bauthor{\bsnm{Fink}, \binits{J.L.}},
+\bauthor{\bsnm{Waddell}, \binits{N.}},
+\bauthor{\bsnm{Drapkin}, \binits{R.}},
+\bauthor{\bsnm{Stronach}, \binits{E.}},
+\bauthor{\bsnm{Gabra}, \binits{H.}},
+\bauthor{\bsnm{Brown}, \binits{R.}},
+\bauthor{\bsnm{Jewell}, \binits{A.}},
+\bauthor{\bsnm{Nagaraj}, \binits{S.H.}},
+\bauthor{\bsnm{Markham}, \binits{E.}},
+\bauthor{\bsnm{Wilson}, \binits{P.J.}},
+\bauthor{\bsnm{Ellul}, \binits{J.}},
+\bauthor{\bsnm{McNally}, \binits{O.}},
+\bauthor{\bsnm{Doyle}, \binits{M.A.}},
+\bauthor{\bsnm{Vedururu}, \binits{R.}},
+\bauthor{\bsnm{Stewart}, \binits{C.}},
+\bauthor{\bsnm{Lengyel}, \binits{E.}},
+\bauthor{\bsnm{Pearson}, \binits{J.V.}},
+\bauthor{\bsnm{Waddell}, \binits{N.}},
+\bauthor{\bsnm{deFazio}, \binits{A.}},
+\bauthor{\bsnm{Grimmond}, \binits{S.M.}},
+\bauthor{\bsnm{Bowtell}, \binits{D.D.L.}}:
+\batitle{{Whole{\textendash}genome characterization of chemoresistant ovarian
+  cancer}}.
+\bjtitle{Nature}
+\bvolume{521}(\bissue{7553}),
+\bfpage{489}--\blpage{494}
+(\byear{2015}).
+doi:\doiurl{10.1038/nature14410}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{koon}
+\begin{barticle}
+\bauthor{\bsnm{Koonin}, \binits{E.V.}},
+\bauthor{\bsnm{Altschul}, \binits{S.F.}},
+\bauthor{\bsnm{Bork}, \binits{P.}}:
+\batitle{{BRCA1 protein products: functional motifs}}.
+\bjtitle{Nat Genet}
+\bvolume{13},
+\bfpage{266}--\blpage{267}
+(\byear{1996})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>{Mutagenicity of cisplatin and carboplatin used alone and in
+  combination with four other anticancer drugs}</p></title>
+  <aug>
+    <au><snm>Hannan</snm><fnm>MA</fnm></au>
+    <au><snm>Al Dakan</snm><fnm>AA</fnm></au>
+    <au><snm>Hussain</snm><fnm>SS</fnm></au>
+    <au><snm>Amer</snm><fnm>MH</fnm></au>
+  </aug>
+  <source>Toxicology</source>
+  <publisher>Elsevier {BV}</publisher>
+  <pubdate>1989</pubdate>
+  <volume>55</volume>
+  <issue>1-2</issue>
+  <fpage>183</fpage>
+  <lpage>-191</lpage>
+  <url>http://dx.doi.org/10.1016/0300-483x(89)90185-6</url>
+</bibl>
+
+<bibl id="B2">
+  <title><p>{Cyclophosphamide: Review of its mutagenicity for an assessment of
+  potential germ cell risks}</p></title>
+  <aug>
+    <au><snm>Anderson</snm><fnm>D</fnm></au>
+    <au><snm>Bishop</snm><fnm>JB</fnm></au>
+    <au><snm>Garner</snm><fnm>R</fnm></au>
+    <au><snm>Ostrosky Wegman</snm><fnm>P</fnm></au>
+    <au><snm>Selby</snm><fnm>PB</fnm></au>
+  </aug>
+  <source>Mutation Research/Fundamental and Molecular Mechanisms of
+  Mutagenesis</source>
+  <publisher>Elsevier {BV}</publisher>
+  <pubdate>1995</pubdate>
+  <volume>330</volume>
+  <issue>1-2</issue>
+  <fpage>115</fpage>
+  <lpage>-181</lpage>
+  <url>http://dx.doi.org/10.1016/0027-5107(95)00039-l</url>
+</bibl>
+
+<bibl id="B3">
+  <title><p>{Mutagenicity tests of etoposide and teniposide}</p></title>
+  <aug>
+    <au><snm>Nakanomyo</snm><fnm>H</fnm></au>
+    <au><snm>Hiraoka</snm><fnm>M</fnm></au>
+    <au><snm>Shiraya</snm><fnm>M</fnm></au>
+  </aug>
+  <source>J. Toxicol. Sci.</source>
+  <publisher>Japanese Society of Toxicology</publisher>
+  <pubdate>1986</pubdate>
+  <volume>11</volume>
+  <issue>{SupplementI}</issue>
+  <fpage>301</fpage>
+  <lpage>-310</lpage>
+  <url>http://dx.doi.org/10.2131/jts.11.supplementi_301</url>
+</bibl>
+
+<bibl id="B4">
+  <title><p>{Clonal evolution in relapsed acute myeloid leukaemia revealed by
+  whole-genome sequencing}</p></title>
+  <aug>
+    <au><snm>Ding</snm><fnm>L</fnm></au>
+    <au><snm>Ley</snm><fnm>TJ</fnm></au>
+    <au><snm>Larson</snm><fnm>DE</fnm></au>
+    <au><snm>Miller</snm><fnm>CA</fnm></au>
+    <au><snm>Koboldt</snm><fnm>DC</fnm></au>
+    <au><snm>Welch</snm><fnm>JS</fnm></au>
+    <au><snm>Ritchey</snm><fnm>JK</fnm></au>
+    <au><snm>Young</snm><fnm>MA</fnm></au>
+    <au><snm>Lamprecht</snm><fnm>T</fnm></au>
+    <au><snm>McLellan</snm><fnm>MD</fnm></au>
+    <au><snm>McMichael</snm><fnm>JF</fnm></au>
+    <au><snm>Wallis</snm><fnm>JW</fnm></au>
+    <au><snm>Lu</snm><fnm>C</fnm></au>
+    <au><snm>Shen</snm><fnm>D</fnm></au>
+    <au><snm>Harris</snm><fnm>CC</fnm></au>
+    <au><snm>Dooling</snm><fnm>DJ</fnm></au>
+    <au><snm>Fulton</snm><fnm>RS</fnm></au>
+    <au><snm>Fulton</snm><fnm>LL</fnm></au>
+    <au><snm>Chen</snm><fnm>K</fnm></au>
+    <au><snm>Schmidt</snm><fnm>H</fnm></au>
+    <au><snm>Kalicki Veizer</snm><fnm>J</fnm></au>
+    <au><snm>Magrini</snm><fnm>VJ</fnm></au>
+    <au><snm>Cook</snm><fnm>L</fnm></au>
+    <au><snm>McGrath</snm><fnm>SD</fnm></au>
+    <au><snm>Vickery</snm><fnm>TL</fnm></au>
+    <au><snm>Wendl</snm><fnm>MC</fnm></au>
+    <au><snm>Heath</snm><fnm>S</fnm></au>
+    <au><snm>Watson</snm><fnm>MA</fnm></au>
+    <au><snm>Link</snm><fnm>DC</fnm></au>
+    <au><snm>Tomasson</snm><fnm>MH</fnm></au>
+    <au><snm>Shannon</snm><fnm>WD</fnm></au>
+    <au><snm>Payton</snm><fnm>JE</fnm></au>
+    <au><snm>Kulkarni</snm><fnm>S</fnm></au>
+    <au><snm>Westervelt</snm><fnm>P</fnm></au>
+    <au><snm>Walter</snm><fnm>MJ</fnm></au>
+    <au><snm>Graubert</snm><fnm>TA</fnm></au>
+    <au><snm>Mardis</snm><fnm>ER</fnm></au>
+    <au><snm>Wilson</snm><fnm>RK</fnm></au>
+    <au><snm>DiPersio</snm><fnm>JF</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2012</pubdate>
+  <volume>481</volume>
+  <issue>7382</issue>
+  <fpage>506</fpage>
+  <lpage>-510</lpage>
+  <url>http://dx.doi.org/10.1038/nature10738</url>
+</bibl>
+
+<bibl id="B5">
+  <title><p>{Mutational Analysis Reveals the Origin and Therapy-Driven
+  Evolution of Recurrent Glioma}</p></title>
+  <aug>
+    <au><snm>Johnson</snm><fnm>B. E.</fnm></au>
+    <au><snm>Mazor</snm><fnm>T.</fnm></au>
+    <au><snm>Hong</snm><fnm>C.</fnm></au>
+    <au><snm>Barnes</snm><fnm>M.</fnm></au>
+    <au><snm>Aihara</snm><fnm>K.</fnm></au>
+    <au><snm>McLean</snm><fnm>C. Y.</fnm></au>
+    <au><snm>Fouse</snm><fnm>S. D.</fnm></au>
+    <au><snm>Yamamoto</snm><fnm>S.</fnm></au>
+    <au><snm>Ueda</snm><fnm>H.</fnm></au>
+    <au><snm>Tatsuno</snm><fnm>K.</fnm></au>
+    <au><snm>Asthana</snm><fnm>S.</fnm></au>
+    <au><snm>Jalbert</snm><fnm>L. E.</fnm></au>
+    <au><snm>Nelson</snm><fnm>S. J.</fnm></au>
+    <au><snm>Bollen</snm><fnm>A. W.</fnm></au>
+    <au><snm>Gustafson</snm><fnm>W. C.</fnm></au>
+    <au><snm>Charron</snm><fnm>E.</fnm></au>
+    <au><snm>Weiss</snm><fnm>W. A.</fnm></au>
+    <au><snm>Smirnov</snm><fnm>I. V.</fnm></au>
+    <au><snm>Song</snm><fnm>J. S.</fnm></au>
+    <au><snm>Olshen</snm><fnm>A. B.</fnm></au>
+    <au><snm>Cha</snm><fnm>S.</fnm></au>
+    <au><snm>Zhao</snm><fnm>Y.</fnm></au>
+    <au><snm>Moore</snm><fnm>R. A.</fnm></au>
+    <au><snm>Mungall</snm><fnm>A. J.</fnm></au>
+    <au><snm>Jones</snm><fnm>S. J. M.</fnm></au>
+    <au><snm>Hirst</snm><fnm>M.</fnm></au>
+    <au><snm>Marra</snm><fnm>M. A.</fnm></au>
+    <au><snm>Saito</snm><fnm>N.</fnm></au>
+    <au><snm>Aburatani</snm><fnm>H.</fnm></au>
+    <au><snm>Mukasa</snm><fnm>A.</fnm></au>
+    <au><snm>Berger</snm><fnm>M. S.</fnm></au>
+    <au><snm>Chang</snm><fnm>S. M.</fnm></au>
+    <au><snm>Taylor</snm><fnm>B. S.</fnm></au>
+    <au><snm>Costello</snm><fnm>J. F.</fnm></au>
+  </aug>
+  <source>Science</source>
+  <publisher>American Association for the Advancement of Science
+  ({AAAS})</publisher>
+  <pubdate>2013</pubdate>
+  <volume>343</volume>
+  <issue>6167</issue>
+  <fpage>189</fpage>
+  <lpage>-193</lpage>
+  <url>http://dx.doi.org/10.1126/science.1239947</url>
+</bibl>
+
+<bibl id="B6">
+  <title><p>{Tracking the Genomic Evolution of Esophageal Adenocarcinoma
+  through Neoadjuvant Chemotherapy}</p></title>
+  <aug>
+    <au><snm>Murugaesu</snm><fnm>N.</fnm></au>
+    <au><snm>Wilson</snm><fnm>G. A.</fnm></au>
+    <au><snm>Birkbak</snm><fnm>N. J.</fnm></au>
+    <au><snm>Watkins</snm><fnm>T. B. K.</fnm></au>
+    <au><snm>McGranahan</snm><fnm>N.</fnm></au>
+    <au><snm>Kumar</snm><fnm>S.</fnm></au>
+    <au><snm>Abbassi Ghadi</snm><fnm>N.</fnm></au>
+    <au><snm>Salm</snm><fnm>M.</fnm></au>
+    <au><snm>Mitter</snm><fnm>R.</fnm></au>
+    <au><snm>Horswell</snm><fnm>S.</fnm></au>
+    <au><snm>Rowan</snm><fnm>A.</fnm></au>
+    <au><snm>Phillimore</snm><fnm>B.</fnm></au>
+    <au><snm>Biggs</snm><fnm>J.</fnm></au>
+    <au><snm>Begum</snm><fnm>S.</fnm></au>
+    <au><snm>Matthews</snm><fnm>N.</fnm></au>
+    <au><snm>Hochhauser</snm><fnm>D.</fnm></au>
+    <au><snm>Hanna</snm><fnm>G. B.</fnm></au>
+    <au><snm>Swanton</snm><fnm>C.</fnm></au>
+  </aug>
+  <source>Cancer Discovery</source>
+  <publisher>American Association for Cancer Research ({AACR})</publisher>
+  <pubdate>2015</pubdate>
+  <volume>5</volume>
+  <issue>8</issue>
+  <fpage>821</fpage>
+  <lpage>-831</lpage>
+  <url>http://dx.doi.org/10.1158/2159-8290.cd-15-0412</url>
+</bibl>
+
+<bibl id="B7">
+  <title><p>{Oncology Meets Immunology: The Cancer-Immunity Cycle}</p></title>
+  <aug>
+    <au><snm>Chen</snm><fnm>DS</fnm></au>
+    <au><snm>Mellman</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Immunity</source>
+  <publisher>Elsevier {BV}</publisher>
+  <pubdate>2013</pubdate>
+  <volume>39</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-10</lpage>
+  <url>http://dx.doi.org/10.1016/j.immuni.2013.07.012</url>
+</bibl>
+
+<bibl id="B8">
+  <title><p>{Neoantigens in cancer immunotherapy}</p></title>
+  <aug>
+    <au><snm>Schumacher</snm><fnm>T. N.</fnm></au>
+    <au><snm>Schreiber</snm><fnm>R. D.</fnm></au>
+  </aug>
+  <source>Science</source>
+  <publisher>American Association for the Advancement of Science
+  ({AAAS})</publisher>
+  <pubdate>2015</pubdate>
+  <volume>348</volume>
+  <issue>6230</issue>
+  <fpage>69</fpage>
+  <lpage>-74</lpage>
+  <url>http://dx.doi.org/10.1126/science.aaa4971</url>
+</bibl>
+
+<bibl id="B9">
+  <title><p>{Modeling the adaptive immune system: predictions and
+  simulations}</p></title>
+  <aug>
+    <au><snm>Lundegaard</snm><fnm>C.</fnm></au>
+    <au><snm>Lund</snm><fnm>O.</fnm></au>
+    <au><snm>Kesmir</snm><fnm>C.</fnm></au>
+    <au><snm>Brunak</snm><fnm>S.</fnm></au>
+    <au><snm>Nielsen</snm><fnm>M.</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2007</pubdate>
+  <volume>23</volume>
+  <issue>24</issue>
+  <fpage>3265</fpage>
+  <lpage>-3275</lpage>
+  <url>http://dx.doi.org/10.1093/bioinformatics/btm471</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>{Genomic correlates of response to {CTLA}-4 blockade in metastatic
+  melanoma}</p></title>
+  <aug>
+    <au><snm>Allen</snm><fnm>EMV</fnm></au>
+    <au><snm>Miao</snm><fnm>D.</fnm></au>
+    <au><snm>Schilling</snm><fnm>B.</fnm></au>
+    <au><snm>Shukla</snm><fnm>S. A.</fnm></au>
+    <au><snm>Blank</snm><fnm>C.</fnm></au>
+    <au><snm>Zimmer</snm><fnm>L.</fnm></au>
+    <au><snm>Sucker</snm><fnm>A.</fnm></au>
+    <au><snm>Hillen</snm><fnm>U.</fnm></au>
+    <au><snm>Foppen</snm><fnm>MHG</fnm></au>
+    <au><snm>Goldinger</snm><fnm>S. M.</fnm></au>
+    <au><snm>Utikal</snm><fnm>J.</fnm></au>
+    <au><snm>Hassel</snm><fnm>J. C.</fnm></au>
+    <au><snm>Weide</snm><fnm>B.</fnm></au>
+    <au><snm>Kaehler</snm><fnm>K. C.</fnm></au>
+    <au><snm>Loquai</snm><fnm>C.</fnm></au>
+    <au><snm>Mohr</snm><fnm>P.</fnm></au>
+    <au><snm>Gutzmer</snm><fnm>R.</fnm></au>
+    <au><snm>Dummer</snm><fnm>R.</fnm></au>
+    <au><snm>Gabriel</snm><fnm>S.</fnm></au>
+    <au><snm>Wu</snm><fnm>C. J.</fnm></au>
+    <au><snm>Schadendorf</snm><fnm>D.</fnm></au>
+    <au><snm>Garraway</snm><fnm>L. A.</fnm></au>
+  </aug>
+  <source>Science</source>
+  <publisher>American Association for the Advancement of Science
+  ({AAAS})</publisher>
+  <pubdate>2015</pubdate>
+  <volume>350</volume>
+  <issue>6257</issue>
+  <fpage>207</fpage>
+  <lpage>-211</lpage>
+  <url>http://dx.doi.org/10.1126/science.aad0095</url>
+</bibl>
+
+<bibl id="B11">
+  <title><p>{Mutational landscape determines sensitivity to {PD}-1 blockade in
+  non-small cell lung cancer}</p></title>
+  <aug>
+    <au><snm>Rizvi</snm><fnm>N. A.</fnm></au>
+    <au><snm>Hellmann</snm><fnm>M. D.</fnm></au>
+    <au><snm>Snyder</snm><fnm>A.</fnm></au>
+    <au><snm>Kvistborg</snm><fnm>P.</fnm></au>
+    <au><snm>Makarov</snm><fnm>V.</fnm></au>
+    <au><snm>Havel</snm><fnm>J. J.</fnm></au>
+    <au><snm>Lee</snm><fnm>W.</fnm></au>
+    <au><snm>Yuan</snm><fnm>J.</fnm></au>
+    <au><snm>Wong</snm><fnm>P.</fnm></au>
+    <au><snm>Ho</snm><fnm>T. S.</fnm></au>
+    <au><snm>Miller</snm><fnm>M. L.</fnm></au>
+    <au><snm>Rekhtman</snm><fnm>N.</fnm></au>
+    <au><snm>Moreira</snm><fnm>A. L.</fnm></au>
+    <au><snm>Ibrahim</snm><fnm>F.</fnm></au>
+    <au><snm>Bruggeman</snm><fnm>C.</fnm></au>
+    <au><snm>Gasmi</snm><fnm>B.</fnm></au>
+    <au><snm>Zappasodi</snm><fnm>R.</fnm></au>
+    <au><snm>Maeda</snm><fnm>Y.</fnm></au>
+    <au><snm>Sander</snm><fnm>C.</fnm></au>
+    <au><snm>Garon</snm><fnm>E. B.</fnm></au>
+    <au><snm>Merghoub</snm><fnm>T.</fnm></au>
+    <au><snm>Wolchok</snm><fnm>J. D.</fnm></au>
+    <au><snm>Schumacher</snm><fnm>T. N.</fnm></au>
+    <au><snm>Chan</snm><fnm>T. A.</fnm></au>
+  </aug>
+  <source>Science</source>
+  <publisher>American Association for the Advancement of Science
+  ({AAAS})</publisher>
+  <pubdate>2015</pubdate>
+  <volume>348</volume>
+  <issue>6230</issue>
+  <fpage>124</fpage>
+  <lpage>-128</lpage>
+  <url>http://dx.doi.org/10.1126/science.aaa1348</url>
+</bibl>
+
+<bibl id="B12">
+  <title><p>{Mutational heterogeneity in cancer and the search for new
+  cancer-associated genes}</p></title>
+  <aug>
+    <au><snm>Lawrence</snm><fnm>MS</fnm></au>
+    <au><snm>Stojanov</snm><fnm>P</fnm></au>
+    <au><snm>Polak</snm><fnm>P</fnm></au>
+    <au><snm>Kryukov</snm><fnm>GV</fnm></au>
+    <au><snm>Cibulskis</snm><fnm>K</fnm></au>
+    <au><snm>Sivachenko</snm><fnm>A</fnm></au>
+    <au><snm>Carter</snm><fnm>SL</fnm></au>
+    <au><snm>Stewart</snm><fnm>C</fnm></au>
+    <au><snm>Mermel</snm><fnm>CH</fnm></au>
+    <au><snm>Roberts</snm><fnm>SA</fnm></au>
+    <au><snm>Kiezun</snm><fnm>A</fnm></au>
+    <au><snm>Hammerman</snm><fnm>PS</fnm></au>
+    <au><snm>McKenna</snm><fnm>A</fnm></au>
+    <au><snm>Drier</snm><fnm>Y</fnm></au>
+    <au><snm>Zou</snm><fnm>L</fnm></au>
+    <au><snm>Ramos</snm><fnm>AH</fnm></au>
+    <au><snm>Pugh</snm><fnm>TJ</fnm></au>
+    <au><snm>Stransky</snm><fnm>N</fnm></au>
+    <au><snm>Helman</snm><fnm>E</fnm></au>
+    <au><snm>Kim</snm><fnm>J</fnm></au>
+    <au><snm>Sougnez</snm><fnm>C</fnm></au>
+    <au><snm>Ambrogio</snm><fnm>L</fnm></au>
+    <au><snm>Nickerson</snm><fnm>E</fnm></au>
+    <au><snm>Shefler</snm><fnm>E</fnm></au>
+    <au><snm>Cort{\'{e}}s</snm><fnm>ML</fnm></au>
+    <au><snm>Auclair</snm><fnm>D</fnm></au>
+    <au><snm>Saksena</snm><fnm>G</fnm></au>
+    <au><snm>Voet</snm><fnm>D</fnm></au>
+    <au><snm>Noble</snm><fnm>M</fnm></au>
+    <au><snm>DiCara</snm><fnm>D</fnm></au>
+    <au><snm>Lin</snm><fnm>P</fnm></au>
+    <au><snm>Lichtenstein</snm><fnm>L</fnm></au>
+    <au><snm>Heiman</snm><fnm>DI</fnm></au>
+    <au><snm>Fennell</snm><fnm>T</fnm></au>
+    <au><snm>Imielinski</snm><fnm>M</fnm></au>
+    <au><snm>Hernandez</snm><fnm>B</fnm></au>
+    <au><snm>Hodis</snm><fnm>E</fnm></au>
+    <au><snm>Baca</snm><fnm>S</fnm></au>
+    <au><snm>Dulak</snm><fnm>AM</fnm></au>
+    <au><snm>Lohr</snm><fnm>J</fnm></au>
+    <au><snm>Landau</snm><fnm>DA</fnm></au>
+    <au><snm>Wu</snm><fnm>CJ</fnm></au>
+    <au><snm>Melendez Zajgla</snm><fnm>J</fnm></au>
+    <au><snm>Hidalgo Miranda</snm><fnm>A</fnm></au>
+    <au><snm>Koren</snm><fnm>A</fnm></au>
+    <au><snm>McCarroll</snm><fnm>SA</fnm></au>
+    <au><snm>Mora</snm><fnm>J</fnm></au>
+    <au><snm>Lee</snm><fnm>RS</fnm></au>
+    <au><snm>Crompton</snm><fnm>B</fnm></au>
+    <au><snm>Onofrio</snm><fnm>R</fnm></au>
+    <au><snm>Parkin</snm><fnm>M</fnm></au>
+    <au><snm>Winckler</snm><fnm>W</fnm></au>
+    <au><snm>Ardlie</snm><fnm>K</fnm></au>
+    <au><snm>Gabriel</snm><fnm>SB</fnm></au>
+    <au><snm>Roberts</snm><fnm>CWM</fnm></au>
+    <au><snm>Biegel</snm><fnm>JA</fnm></au>
+    <au><snm>Stegmaier</snm><fnm>K</fnm></au>
+    <au><snm>Bass</snm><fnm>AJ</fnm></au>
+    <au><snm>Garraway</snm><fnm>LA</fnm></au>
+    <au><snm>Meyerson</snm><fnm>M</fnm></au>
+    <au><snm>Golub</snm><fnm>TR</fnm></au>
+    <au><snm>Gordenin</snm><fnm>DA</fnm></au>
+    <au><snm>Sunyaev</snm><fnm>S</fnm></au>
+    <au><snm>Lander</snm><fnm>ES</fnm></au>
+    <au><snm>Getz</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <publisher>Springer Nature</publisher>
+  <pubdate>2013</pubdate>
+  <volume>499</volume>
+  <issue>7457</issue>
+  <fpage>214</fpage>
+  <lpage>-218</lpage>
+  <url>http://dx.doi.org/10.1038/nature12213</url>
+</bibl>
+
+<bibl id="B13">
+  <title><p>{Whole{\textendash}genome characterization of chemoresistant
+  ovarian cancer}</p></title>
+  <aug>
+    <au><snm>Patch</snm><fnm>AM</fnm></au>
+    <au><snm>Christie</snm><fnm>EL</fnm></au>
+    <au><snm>Etemadmoghadam</snm><fnm>D</fnm></au>
+    <au><snm>Garsed</snm><fnm>DW</fnm></au>
+    <au><snm>George</snm><fnm>J</fnm></au>
+    <au><snm>Fereday</snm><fnm>S</fnm></au>
+    <au><snm>Nones</snm><fnm>K</fnm></au>
+    <au><snm>Cowin</snm><fnm>P</fnm></au>
+    <au><snm>Alsop</snm><fnm>K</fnm></au>
+    <au><snm>Bailey</snm><fnm>PJ</fnm></au>
+    <au><snm>Kassahn</snm><fnm>KS</fnm></au>
+    <au><snm>Newell</snm><fnm>F</fnm></au>
+    <au><snm>Quinn</snm><fnm>MCJ</fnm></au>
+    <au><snm>Kazakoff</snm><fnm>S</fnm></au>
+    <au><snm>Quek</snm><fnm>K</fnm></au>
+    <au><snm>Wilhelm Benartzi</snm><fnm>C</fnm></au>
+    <au><snm>Curry</snm><fnm>E</fnm></au>
+    <au><snm>Leong</snm><fnm>HS</fnm></au>
+    <au><snm>Hamilton</snm><fnm>A</fnm></au>
+    <au><snm>Mileshkin</snm><fnm>L</fnm></au>
+    <au><snm>Au Yeung</snm><fnm>G</fnm></au>
+    <au><snm>Kennedy</snm><fnm>C</fnm></au>
+    <au><snm>Hung</snm><fnm>J</fnm></au>
+    <au><snm>Chiew</snm><fnm>YE</fnm></au>
+    <au><snm>Harnett</snm><fnm>P</fnm></au>
+    <au><snm>Friedlander</snm><fnm>M</fnm></au>
+    <au><snm>Quinn</snm><fnm>M</fnm></au>
+    <au><snm>Pyman</snm><fnm>J</fnm></au>
+    <au><snm>Cordner</snm><fnm>S</fnm></au>
+    <au><snm>O'Brien</snm><fnm>P</fnm></au>
+    <au><snm>Leditschke</snm><fnm>J</fnm></au>
+    <au><snm>Young</snm><fnm>G</fnm></au>
+    <au><snm>Strachan</snm><fnm>K</fnm></au>
+    <au><snm>Waring</snm><fnm>P</fnm></au>
+    <au><snm>Azar</snm><fnm>W</fnm></au>
+    <au><snm>Mitchell</snm><fnm>C</fnm></au>
+    <au><snm>Traficante</snm><fnm>N</fnm></au>
+    <au><snm>Hendley</snm><fnm>J</fnm></au>
+    <au><snm>Thorne</snm><fnm>H</fnm></au>
+    <au><snm>Shackleton</snm><fnm>M</fnm></au>
+    <au><snm>Miller</snm><fnm>DK</fnm></au>
+    <au><snm>Arnau</snm><fnm>GM</fnm></au>
+    <au><snm>Tothill</snm><fnm>RW</fnm></au>
+    <au><snm>Holloway</snm><fnm>TP</fnm></au>
+    <au><snm>Semple</snm><fnm>T</fnm></au>
+    <au><snm>Harliwong</snm><fnm>I</fnm></au>
+    <au><snm>Nourse</snm><fnm>C</fnm></au>
+    <au><snm>Nourbakhsh</snm><fnm>E</fnm></au>
+    <au><snm>Manning</snm><fnm>S</fnm></au>
+    <au><snm>Idrisoglu</snm><fnm>S</fnm></au>
+    <au><snm>Bruxner</snm><fnm>TJC</fnm></au>
+    <au><snm>Christ</snm><fnm>AN</fnm></au>
+    <au><snm>Poudel</snm><fnm>B</fnm></au>
+    <au><snm>Holmes</snm><fnm>O</fnm></au>
+    <au><snm>Anderson</snm><fnm>M</fnm></au>
+    <au><snm>Leonard</snm><fnm>C</fnm></au>
+    <au><snm>Lonie</snm><fnm>A</fnm></au>
+    <au><snm>Hall</snm><fnm>N</fnm></au>
+    <au><snm>Wood</snm><fnm>S</fnm></au>
+    <au><snm>Taylor</snm><fnm>DF</fnm></au>
+    <au><snm>Xu</snm><fnm>Q</fnm></au>
+    <au><snm>Fink</snm><fnm>JL</fnm></au>
+    <au><snm>Waddell</snm><fnm>N</fnm></au>
+    <au><snm>Drapkin</snm><fnm>R</fnm></au>
+    <au><snm>Stronach</snm><fnm>E</fnm></au>
+    <au><snm>Gabra</snm><fnm>H</fnm></au>
+    <au><snm>Brown</snm><fnm>R</fnm></au>
+    <au><snm>Jewell</snm><fnm>A</fnm></au>
+    <au><snm>Nagaraj</snm><fnm>SH</fnm></au>
+    <au><snm>Markham</snm><fnm>E</fnm></au>
+    <au><snm>Wilson</snm><fnm>PJ</fnm></au>
+    <au><snm>Ellul</snm><fnm>J</fnm></au>
+    <au><snm>McNally</snm><fnm>O</fnm></au>
+    <au><snm>Doyle</snm><fnm>MA</fnm></au>
+    <au><snm>Vedururu</snm><fnm>R</fnm></au>
+    <au><snm>Stewart</snm><fnm>C</fnm></au>
+    <au><snm>Lengyel</snm><fnm>E</fnm></au>
+    <au><snm>Pearson</snm><fnm>JV</fnm></au>
+    <au><snm>Waddell</snm><fnm>N</fnm></au>
+    <au><snm>deFazio</snm><fnm>A</fnm></au>
+    <au><snm>Grimmond</snm><fnm>SM</fnm></au>
+    <au><snm>Bowtell</snm><fnm>DDL</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2015</pubdate>
+  <volume>521</volume>
+  <issue>7553</issue>
+  <fpage>489</fpage>
+  <lpage>-494</lpage>
+  <url>http://dx.doi.org/10.1038/nature14410</url>
+</bibl>
+
+<bibl id="B14">
+  <title><p>{BRCA1 protein products: functional motifs}</p></title>
+  <aug>
+    <au><snm>Koonin</snm><fnm>E V</fnm></au>
+    <au><snm>Altschul</snm><fnm>S F</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Nat Genet</source>
+  <pubdate>1996</pubdate>
+  <volume>13</volume>
+  <fpage>266</fpage>
+  <lpage>267</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
