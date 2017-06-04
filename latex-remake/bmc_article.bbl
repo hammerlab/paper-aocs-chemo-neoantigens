@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{26}
+\begin{thebibliography}{25}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -512,16 +512,6 @@ doi:\doiurl{10.1038/nature14410}
 \endbibitem
 
 %%% 14
-\bibitem{2016}
-\begin{botherref}
-{Varcode}.
-Github
-(2016).
-\url{https://github.com/hammerlab/varcode}
-\end{botherref}
-\endbibitem
-
-%%% 15
 \bibitem{Boegel_2012}
 \begin{barticle}
 \bauthor{\bsnm{Boegel}, \binits{S.}},
@@ -543,7 +533,7 @@ doi:\doiurl{10.1186/gm403}
 \end{barticle}
 \endbibitem
 
-%%% 16
+%%% 15
 \bibitem{Szolek_2014}
 \begin{barticle}
 \bauthor{\bsnm{Szolek}, \binits{A.}},
@@ -562,7 +552,7 @@ doi:\doiurl{10.1093/bioinformatics/btu548}
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 16
 \bibitem{Lundegaard_2008}
 \begin{barticle}
 \bauthor{\bsnm{Lundegaard}, \binits{C.}},
@@ -581,7 +571,7 @@ doi:\doiurl{10.1093/nar/gkn202}
 \end{barticle}
 \endbibitem
 
-%%% 18
+%%% 17
 \bibitem{Alexandrov2013}
 \begin{barticle}
 \bauthor{\bsnm{Alexandrov}, \binits{L.B.}},
@@ -664,7 +654,7 @@ doi:\doiurl{10.1038/nature12477}
 \end{barticle}
 \endbibitem
 
-%%% 19
+%%% 18
 \bibitem{Rosenthal_2016}
 \begin{botherref}
 \oauthor{\bsnm{Rosenthal}, \binits{R.}},
@@ -681,7 +671,7 @@ doi:\doiurl{10.1186/s13059-016-0893-4}
 \end{botherref}
 \endbibitem
 
-%%% 20
+%%% 19
 \bibitem{Meier_2014}
 \begin{barticle}
 \bauthor{\bsnm{Meier}, \binits{B.}},
@@ -706,7 +696,7 @@ doi:\doiurl{10.1101/gr.175547.114}
 \end{barticle}
 \endbibitem
 
-%%% 21
+%%% 20
 \bibitem{Szikriszt_2016}
 \begin{botherref}
 \oauthor{\bsnm{Szikriszt}, \binits{B.}},
@@ -730,7 +720,7 @@ doi:\doiurl{10.1186/s13059-016-0963-7}
 \end{botherref}
 \endbibitem
 
-%%% 22
+%%% 21
 \bibitem{Gelman_2015}
 \begin{barticle}
 \bauthor{\bsnm{Gelman}, \binits{A.}},
@@ -746,7 +736,7 @@ doi:\doiurl{10.3102/1076998615606113}
 \end{barticle}
 \endbibitem
 
-%%% 23
+%%% 22
 \bibitem{364242}
 \begin{botherref}
 \oauthor{\bsnm{Institute}, \binits{W.T.S.}}:
@@ -759,7 +749,7 @@ Accessed 2016-05-27
 \end{botherref}
 \endbibitem
 
-%%% 24
+%%% 23
 \bibitem{Sette1994}
 \begin{barticle}
 \bauthor{\bsnm{Sette}, \binits{A.}},
@@ -788,7 +778,7 @@ Accessed 2016-05-27
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 24
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -809,7 +799,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 26
+%%% 25
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1368,14 +1358,6 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B14">
-  <title><p>{Varcode}</p></title>
-  <source>Varcode GitHub</source>
-  <publisher>Github</publisher>
-  <pubdate>2016</pubdate>
-  <url>https://github.com/hammerlab/varcode</url>
-</bibl>
-
-<bibl id="B15">
   <title><p>{{HLA} typing from {RNA}-Seq sequence reads}</p></title>
   <aug>
     <au><snm>Boegel</snm><fnm>S</fnm></au>
@@ -1398,7 +1380,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/gm403</url>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B15">
   <title><p>{{OptiType}: precision {HLA} typing from next-generation sequencing
   data}</p></title>
   <aug>
@@ -1419,7 +1401,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1093/bioinformatics/btu548</url>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B16">
   <title><p>{{NetMHC}-3.0: accurate web accessible predictions of human mouse
   and monkey {MHC} class I affinities for peptides of length 8-11}</p></title>
   <aug>
@@ -1440,7 +1422,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1093/nar/gkn202</url>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B17">
   <title><p>{Signatures of mutational processes in human cancer.}</p></title>
   <aug>
     <au><snm>Alexandrov</snm><fnm>LB</fnm></au>
@@ -1524,7 +1506,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3776390{\&}tool=pmcentrez{\&}rendertype=abstract</url>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B18">
   <title><p>{{deconstructSigs}: delineating mutational processes in single
   tumors distinguishes {DNA} repair deficiencies and patterns of carcinoma
   evolution}</p></title>
@@ -1543,7 +1525,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/s13059-016-0893-4</url>
 </bibl>
 
-<bibl id="B20">
+<bibl id="B19">
   <title><p>{C. elegans whole-genome sequencing reveals mutational signatures
   related to carcinogens and {DNA} repair deficiency}</p></title>
   <aug>
@@ -1570,7 +1552,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1101/gr.175547.114</url>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B20">
   <title><p>{A comprehensive survey of the mutagenic impact of common cancer
   cytotoxics}</p></title>
   <aug>
@@ -1596,7 +1578,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/s13059-016-0963-7</url>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B21">
   <title><p>{Stan: A Probabilistic Programming Language for Bayesian Inference
   and Optimization}</p></title>
   <aug>
@@ -1614,7 +1596,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.3102/1076998615606113</url>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B22">
   <title><p>{Signatures of Mutational Processes in Human Cancer}</p></title>
   <aug>
     <au><snm>Institute</snm><fnm>WTS</fnm></au>
@@ -1625,7 +1607,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <note>[Online; accessed 27-May-2016]</note>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B23">
   <title><p>{The relationship between class I binding affinity and
   immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
   <aug>
@@ -1656,7 +1638,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B24">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -1679,7 +1661,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B25">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>

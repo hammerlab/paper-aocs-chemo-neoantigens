@@ -44,7 +44,7 @@
 %%% loading packages, author definitions
 
 %\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
-\documentclass{bmcart}
+\documentclass[linenumbers]{bmcart}
 
 %%% Load packages
 %\usepackage{amsthm,amsmath}
@@ -54,6 +54,8 @@
 \usepackage[utf8]{inputenc} %unicode support
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
+
+\usepackage{multirow} 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,7 +138,7 @@
   \orgname{Icahn School of Medicine at Mount Sinai}, % university, etc
   % \street{1 Gustave L. Levy Pl},                     %
   %\postcode{}                                % post or zip code
-  \city{New York},                              % city
+  \city{New York, N.Y.},                              % city
   \cny{USA}                                    % country
 }
 \address[id=aff2]{%                           % unique id
@@ -150,9 +152,17 @@
   \orgname{Department of Medicine, Memorial Sloan-Kettering Cancer Center, Weill Cornell Medical College}, % university, etc
   % \street{1 Gustave L. Levy Pl},                     %
   %\postcode{}                                % post or zip code
-  \city{New York},                              % city
+  \city{New York, N.Y.},                              % city
   \cny{USA}                                    % country
 }
+\address[id=aff4]{%                           % unique id
+  \orgname{Department of Microbiology and Immunology, Medical University of South Carolina}, % university, etc
+  % \street{1 Gustave L. Levy Pl},                     %
+  %\postcode{}                                % post or zip code
+  \city{Charleston, S.C.},                              % city
+  \cny{USA}                                    % country
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -191,7 +201,7 @@ Patients with highly mutated tumors, such as melanoma or smoking-related lung ca
 We sought to quantify the effect of chemotherapy treatment on computationally predicted neoantigen expression for 12 high grade serous ovarian carcinoma (HGSC) patients with pre- and post-chemotherapy samples collected in the Australian Ovarian Cancer Study. We additionally analyzed 16 patients from the cohort with post-treatment samples only, including five primary surgical samples exposed to neoadjuvant chemotherapy. Our approach integrates tumor whole genome and RNA sequencing with class I MHC binding prediction and mutational signatures of chemotherapy exposure extracted from two preclinical studies.
 
 \parttitle{Results}
-The mutational signatures for cisplatin and cyclophosphamide identified in a preclinical model had significant but inexact associations with the relevant exposure in the clinical samples. In an analysis stratified by tissue type (solid tumor or ascites), relapse samples collected after chemotherapy harbored a median of 90\% more expressed neoantigens than untreated primary samples, a figure that combines the effects of chemotherapy and other mutagenic processes operative during relapse. Neoadjuvant-treated primary samples showed no detectable increase over untreated samples. The contribution from chemotherapy-associated signatures was small, accounting for a mean of 5\% (range 0--16) of the expressed neoantigen burden in relapse samples. In both treated and untreated samples, most neoantigens were attributed to COSMIC \textit{Signature (3)}, associated with BRCA disruption, \textit{Signature (1)}, associated with a slow mutagenic process active in healthy tissue, and \textit{Signature (8)}, of unknown etiology.
+The mutational signatures for cisplatin and cyclophosphamide identified in a preclinical model had significant but inexact associations with the relevant exposure in the clinical samples. In an analysis stratified by tissue type (solid tissue: 75 untreated samples vs. 6 treated; ascites: 4 untreated vs. 24 treated), relapse samples collected after chemotherapy harbored a median of 90\% more expressed neoantigens than untreated primary samples, a figure that combines the effects of chemotherapy and other mutagenic processes operative during relapse. Neoadjuvant-treated primary samples showed no detectable increase over untreated samples. The contribution from chemotherapy-associated signatures was small, accounting for a mean of 5\% (range 0--16) of the expressed neoantigen burden in relapse samples. In both treated and untreated samples, most neoantigens were attributed to COSMIC \textit{Signature (3)}, associated with BRCA disruption, \textit{Signature (1)}, associated with a slow mutagenic process active in healthy tissue, and \textit{Signature (8)}, of unknown etiology.
 
 \parttitle{Conclusion}
 Relapsed HGSC tumors harbor nearly double the predicted expressed neoantigen burden of primary samples, but mutations associated with chemotherapy signatures account for only a small part of this increase. The mutagenic processes responsible for most neoantigens are similar between primary and relapse samples. Our analyses are based on mutations detectable from whole genome sequencing of bulk samples and do not account for neoantigens present in small populations of cells. 
@@ -257,9 +267,36 @@ Many chemotherapies including platinum compounds~\cite{Hannan_1989}, cyclophosph
 
 Investigators associated with the Australian Ovarian Cancer Study (AOCS) performed whole genome and RNA sequencing of 79 pre-treatment and 35 post-treatment cancer samples from 92 HGSC patients, including 12 patients with both pre- and post-treatment samples~\cite{Patch_2015}. The samples were obtained from solid tissue resections, autopsies, and ascites drained to relieve abdominal distension. Treatment regimes varied but primary treatment always included platinum-based chemotherapy. In their analysis, Patch et al. reported that post-treatment samples harbored more somatic mutations than pre-treatment samples and exhibited evidence of chemotherapy-associated mutations. Here we extend these results by quantifying the mutations and predicted neoantigens attributable to chemotherapy-associated mutational signatures. We find that, while neoantigen expression increases after treatment and relapse, only a small part of the increase is due to mutations associated with chemotherapy signatures.
 
+\begin{table}[]
+\centering
+\begin{tabular}{lllll}
+                  & Patients & \multicolumn{3}{c}{Samples (with an untreated sample from same patient)} \\
+                  &          & Solid tissue              & Ascites              & Total                 \\
+Primary/untreated & 76       & 75                        & 4                    & 79                    \\
+Primary/treated   & 5        & 5 \, (0)                     & 0 \, (0)                & 5 \, \, (0)                 \\
+Relapse/treated   & 23       & 6 \, (4)                     & 24 (10)              & 30 \, (14)               \\
+\textbf{Total}             & \textbf{92}       & \textbf{86 (4)}                    & \textbf{28 (10)}              & \textbf{114 (14)}             
+\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{lllllll}
+                & \textit{Carboplatin} & \textit{Cisplatin} & \textit{Cyc.}   & \textit{Etoposide} & \textit{Gemcitabine} & \textit{Paclitaxel} \\
+Primary/treated & 5 \, (0)                & 0 (0)              & 0  \, (0)              & 0 (0)                 & 1 \, (0)                & 4 \, (0)               \\
+Relapse/treated & 30 (14)              & 5 (2)              & 10 (6)          & 1 (1)              & 17 (8)               & 30 (14)             \\
+\textbf{Total}  & \textbf{35 (14)}     & \textbf{5 (2)}     & \textbf{10 (6)} & \textbf{1 (1)}     & \textbf{18 (8)}      & \textbf{34 (14)}   
+\end{tabular}
+\hspace{\linewidth}
+\caption{Number of samples by tissue and chemotherapy exposure. Parentheses indicate chemotherapy-treated samples with a patient-matched primary/untreated sample.}\label{tab:samples}
+
+\end{table}
+
+
 \section*{Methods}
 \subsection*{Clinical sample information}
-We grouped the AOCS samples into three sets --- ``primary/untreated,'' ``primary/treated,'' and ``relapse/treated'' --- according to collection time point and chemotherapy exposure. The primary/untreated group consists of 75 primary debulking surgical samples and 4 samples of drained ascites. The primary/treated group consists of 5 primary debulking surgical samples obtained from patients pretreated with chemotherapy prior to surgery (neoadjuvant chemotherapy). The relapse/treated group consists of 24 relapse or recurrence ascites samples, 5 metastatic samples obtained in autopsies of two patients, and 1 solid tissue relapse surgical sample, all of which were obtained after prior exposure to one or more lines of chemotherapy.  In summary, these groupings yield 79 primary/untreated samples, 5 primary/treated samples, and 30 relapse/treated samples. Sample and clinical information including chemotherapy treatments is listed in Additional File 1.
+We grouped the AOCS samples into three sets --- ``primary/untreated,'' ``primary/treated,'' and ``relapse/treated'' --- according to collection time point and chemotherapy exposure (Table~\ref{tab:samples}). The primary/untreated group consists of 75 primary debulking surgical samples and 4 samples of drained ascites. The primary/treated group consists of 5 primary debulking surgical samples obtained from patients pretreated with chemotherapy prior to surgery (neoadjuvant chemotherapy). The relapse/treated group consists of 24 relapse or recurrence ascites samples, 5 metastatic samples obtained in autopsies of two patients, and 1 solid tissue relapse surgical sample, all of which were obtained after prior exposure to one or more lines of chemotherapy.  In summary, these groupings yield 79 primary/untreated samples, 5 primary/treated samples, and 30 relapse/treated samples. Specimen and clinical information for each sample is listed in Additional File 1.
 
 Independent of treatment, ascites samples trend toward more detected mutations, perhaps due to increased intermixing of clones. We therefore stratified by tissue type (solid tumor or ascites) when comparing the mutation and neoantigen burdens of pre- and post-treatment samples.
 
@@ -270,9 +307,9 @@ We considered a mutation to be present in a sample if it was called for the pati
 
 \subsection*{Variant annotation, HLA typing, and MHC binding prediction}
 \begin{sloppypar}
-The most disruptive effect (in terms of amino acid sequence) of each protein-changing variant was predicted using Varcode~\cite{2016}. For insertions or deletions (indels) that were predicted to disrupt the reading frame, all downstream peptides potentially generated up to a stop codon were considered.
+Protein coding effects were predicted using Varcode (manuscript in preparation, https://github.com/hammerlab/varcode). All transcripts overlapping each mutation were considered, and the transcript with the most disruptive effect was selected using a prioritization similar to other tools (from highest priority: frameshift, loss of stop codon, insertion or deletion, substitution). In the case of frameshift mutations, all downstream peptides generated up to a stop codon were considered potential neoantigens.
 
-HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType~\cite{Szolek_2014} across the samples for each patient (Additional File 3).
+HLA typing was performed using a consensus of seq2HLA~\cite{Boegel_2012} and OptiType ~\cite{Szolek_2014} across the samples for each patient (Additional File 3).
 
 Class I MHC binding predictions were performed for peptides of length 8--11 using NetMHCpan 2.8~\cite{Lundegaard_2008} with default arguments (predicted neoantigens are listed in Additional File 2).
 \end{sloppypar}
@@ -364,7 +401,7 @@ The observed association between mutational signatures and clinical exposures gi
 
 % If this were a significant effect, however, we would expect to see more mutations attributed to signatures other than chemotherapy and those active in the primaries (COSMIC Signatures 1, 3, and 8) in the relapse/treated samples. We do not see such an increase (see ``Other SNV'' in Figure~\ref{fig:sources}). 
 
-NACT-treated tumors, which were exposed to chemotherapy as large tumors and for a short duration (typically 3 cycles), did not show increased mutation or neoantigen burden over untreated samples and had very few mutations attributed to chemotherapy. This is likely because neoadjuvant chemotherapy-induced mutations remain at undetectable allelic fractions without the population bottleneck created by surgery and/or the multiple lines of chemotherapy provided in the adjuvant setting.
+NACT-treated tumors, which were exposed to chemotherapy as large tumors and for a short duration (typically 3 cycles), did not show increased mutation or neoantigen burden over untreated samples and had very few mutations attributed to chemotherapy. This is likely because individual chemotherapy-induced mutations remain confined to subclones too rare for detection by bulk sequencing in the absence of the population bottleneck created by surgery and/or the multiple lines of chemotherapy provided in the adjuvant setting.
 
 % The observation that the NACT samples trended toward fewer expressed neoantigens raises the possibility of immunoediting after chemotherapy~\cite{Dunn_2002}, consistent with suggestions that paclitaxel/carboplatin and other chemotherapies may enhance T cell infiltration and cytotoxicity in solid tumors~\cite{Demaria2001,Wu_2009,Pfannenstiel_2010,Hodge_2013}. However, this observation is based on only five samples, none of which were paired with a pre-treatment sample, and our analysis method (hard thresholds on the count of RNA reads at variant positions) is sensitive to changes in expression of unrelated genes. Larger cohorts of matched biopsies and post-NACT tumor samples are likely required to investigate this question.
 
