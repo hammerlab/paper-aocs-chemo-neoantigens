@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -721,6 +721,23 @@ doi:\doiurl{10.1186/s13059-016-0963-7}
 \endbibitem
 
 %%% 21
+\bibitem{Atsushi19941009}
+\begin{barticle}
+\bauthor{\bsnm{Atsushi}, \binits{H.}},
+\bauthor{\bsnm{Shuji}, \binits{S.}},
+\bauthor{\bsnm{Kosuke}, \binits{A.}},
+\bauthor{\bsnm{Takafumi}, \binits{K.}}:
+\batitle{A comparison of in vitro platinum-dna adduct formation between
+  carboplatin and cisplatin}.
+\bjtitle{International Journal of Biochemistry}
+\bvolume{26}(\bissue{8}),
+\bfpage{1009}--\blpage{1016}
+(\byear{1994}).
+doi:\doiurl{10.1016/0020-711X(94)90072-8}
+\end{barticle}
+\endbibitem
+
+%%% 22
 \bibitem{Gelman_2015}
 \begin{barticle}
 \bauthor{\bsnm{Gelman}, \binits{A.}},
@@ -736,7 +753,7 @@ doi:\doiurl{10.3102/1076998615606113}
 \end{barticle}
 \endbibitem
 
-%%% 22
+%%% 23
 \bibitem{364242}
 \begin{botherref}
 \oauthor{\bsnm{Institute}, \binits{W.T.S.}}:
@@ -749,7 +766,7 @@ Accessed 2016-05-27
 \end{botherref}
 \endbibitem
 
-%%% 23
+%%% 24
 \bibitem{Sette1994}
 \begin{barticle}
 \bauthor{\bsnm{Sette}, \binits{A.}},
@@ -778,7 +795,7 @@ Accessed 2016-05-27
 \end{barticle}
 \endbibitem
 
-%%% 24
+%%% 25
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -799,7 +816,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 26
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1579,6 +1596,24 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B21">
+  <title><p>A comparison of in vitro platinum-DNA adduct formation between
+  carboplatin and cisplatin</p></title>
+  <aug>
+    <au><snm>Atsushi</snm><fnm>H</fnm></au>
+    <au><snm>Shuji</snm><fnm>S</fnm></au>
+    <au><snm>Kosuke</snm><fnm>A</fnm></au>
+    <au><snm>Takafumi</snm><fnm>K</fnm></au>
+  </aug>
+  <source>International Journal of Biochemistry</source>
+  <pubdate>1994</pubdate>
+  <volume>26</volume>
+  <issue>8</issue>
+  <fpage>1009</fpage>
+  <lpage>1016</lpage>
+  <url>http://www.sciencedirect.com/science/article/pii/0020711X94900728</url>
+</bibl>
+
+<bibl id="B22">
   <title><p>{Stan: A Probabilistic Programming Language for Bayesian Inference
   and Optimization}</p></title>
   <aug>
@@ -1596,7 +1631,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.3102/1076998615606113</url>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B23">
   <title><p>{Signatures of Mutational Processes in Human Cancer}</p></title>
   <aug>
     <au><snm>Institute</snm><fnm>WTS</fnm></au>
@@ -1607,7 +1642,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <note>[Online; accessed 27-May-2016]</note>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B24">
   <title><p>{The relationship between class I binding affinity and
   immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
   <aug>
@@ -1638,7 +1673,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
-<bibl id="B24">
+<bibl id="B25">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -1661,7 +1696,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B26">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>

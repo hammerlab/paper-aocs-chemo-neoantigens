@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 JUN 2017 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 JUN 2017 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,13 +502,13 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 286.
 
 [2] [3] [4] [5]
-Overfull \hbox (13.25061pt too wide) in paragraph at lines 375--376
+Overfull \hbox (13.25061pt too wide) in paragraph at lines 377--378
 []\OT1/cmr/m/n/10 Relapse/treated sam-ples showed more ex-pressed neoanti-gens 
 than pri-mary/untreated
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 377--378
+Underfull \hbox (badness 1122) in paragraph at lines 379--380
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
@@ -516,7 +516,10 @@ to neoad-ju-vant
 [6] [7] [8] [9] (./bmc_article.bbl [10] [11])
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 515.
+(Font)              using `OT1/cmss/bx/n' instead on input line 517.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12] 
 AED: lastpage setting LastPage
@@ -530,10 +533,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2505 strings out of 493014
- 30712 string characters out of 6133351
- 123388 words of memory out of 5000000
- 6057 multiletter control sequences out of 15000+600000
+ 2506 strings out of 493014
+ 30729 string characters out of 6133351
+ 125416 words of memory out of 5000000
+ 6058 multiletter control sequences out of 15000+600000
  12298 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,37p,2303b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -554,7 +557,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (13 pages, 234978 bytes).
+Output written on bmc_article.pdf (13 pages, 235942 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
