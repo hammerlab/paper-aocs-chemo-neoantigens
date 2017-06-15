@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 JUN 2017 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUN 2017 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -478,7 +478,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 270.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 283.
 
 
 
@@ -491,23 +491,23 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 273.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 275.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 275.
-
-LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 286.
 
-[2] [3] [4] [5] [6]
-Underfull \hbox (badness 1122) in paragraph at lines 379--380
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 288.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 288.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 299.
+
+[2] [3] [4] [5]
+Underfull \hbox (badness 1122) in paragraph at lines 392--393
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
 
-[7] [8] [9] [10] (./bmc_article.bbl [11])
+[6] [7] [8] [9] [10] (./bmc_article.bbl [11])
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -516,16 +516,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 535.
+(Font)              using `OT1/cmss/bx/n' instead on input line 546.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-
+[12] 
 AED: lastpage setting LastPage
 [13] (./bmc_article.aux)
 
@@ -539,11 +535,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  2506 strings out of 493014
  30729 string characters out of 6133351
- 130919 words of memory out of 5000000
+ 130593 words of memory out of 5000000
  6058 multiletter control sequences out of 15000+600000
  12298 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,37p,2303b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,37p,2303b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -561,7 +557,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (13 pages, 237325 bytes).
+Output written on bmc_article.pdf (13 pages, 237221 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
