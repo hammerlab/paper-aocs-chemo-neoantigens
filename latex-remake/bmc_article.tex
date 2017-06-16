@@ -210,7 +210,9 @@ We sought to quantify the effect of chemotherapy treatment on computationally pr
 Relapse samples collected after chemotherapy harbored a median of 78\% more expressed neoantigens than untreated primary samples, a figure that combines the effects of chemotherapy and other processes operative during relapse. Neoadjuvant-treated primary samples showed no detectable increase over untreated samples. The contribution from chemotherapy-associated signatures was small, accounting for a mean of 5\% (range 0--16) of the expressed neoantigen burden in relapse samples. In both treated and untreated samples, most neoantigens were attributed to COSMIC \textit{Signature (3)}, associated with BRCA disruption, \textit{Signature (1)}, associated with a slow mutagenic process active in healthy tissue, and \textit{Signature (8)}, of unknown etiology.
 
 \parttitle{Conclusion}
-Relapsed HGSC tumors harbor more predicted expressed neoantigens than primary samples, but the increase is primarily due to pre-existing mutational processes and clonal outgrowth following treatment, not direct mutagenesis from chemotherapy. Our analyses are based on sequencing of bulk samples and do not account for neoantigens present in small populations of cells. 
+Relapsed HGSC tumors harbor more predicted expressed neoantigens than primary samples, but the increase is due to pre-existing mutational processes, not direct mutagenesis from chemotherapy. Our analyses are based on sequencing of bulk samples and do not account for neoantigens present in small populations of cells. 
+
+ %  and clonal outgrowth following treatment
 
 %  These results suggest that clonal outgrowth following treatment has a greater impact on neoantigen burden in relapsed disease than direct mutagenesis from chemotherapy.
 
@@ -402,6 +404,25 @@ Similarly to results reported by Patch et al., the most prevalent mutational sig
 The chemotherapy signatures accounted for a small but detectable part of the increased neoantigen burden of relapse samples. In primary/untreated samples, which indicate the background rate of chance attribution, chemotherapy mutational signatures accounted for a mean of 2\% of the mutations (range 0--8), 2\% (0--7) of the neoantigens, and 2\% (0--8) of the expressed neoantigens. In each of the five primary/treated samples, less than 1\% of the mutation, neoantigen, and expressed neoantigen burdens were attributed to chemotherapy signatures. For the relapse/treated samples, chemotherapy signatures accounted for a mean of 6\% (range 0--21) of the mutations, 5\% (0--15) of the neoantigens, and 5\% (0--16) of the expressed neoantigens. The highest attribution to chemotherapy signatures occurred in sample AOCS-092-3-3, a relapse/treated sample from a patient who received two lines of carboplatin and three lines of cisplatin, the most in the cohort. For this sample, 21\% (or approximately 3,200 of 15,491) of the SNVs, 15\% (9 of 61) of the neoantigens, and 16\% (5 of 30) of the expressed neoantigens were attributed to chemotherapy signatures. Despite the substantial number of chemotherapy-signature mutations, this sample had an 
 
 Signature deconvolution considers only SNVs, but studies of platinum-induced mutations have also reported increases in the rate of dinucleotide variants and indels. Indeed, we observed more MNVs overall and specifically the platinum-associated MNVs $CT \rightarrow AC$ and $CA \rightarrow AC$ reported by Meier et al.~\cite{Meier_2014} in treated patients in both absolute count and as a fraction of mutational burden ($p < 10^{-6}$ for all tests). Sample AOCS-092-3-3, previously found to have the most chemotherapy-signature SNVs, also had the most platinum-associated dinucleotide variants and the second-most MNVs overall. This sample harbored 59 $CT \rightarrow AC$ or $CA \rightarrow AC$ mutations, compared to a mean of 3.2 (2.2--4.4) across all samples. Treated samples also harbored more indels in terms of absolute count ($p=10^{-4}$). Overall, while MNVs and indels generate more neoantigens per mutation than SNVs, they are rare, comprising less than 3\% of the mutational burden and 13\% of the neantigens in every sample (Figure~3), making it unlikely that chemotherapy-induced MNVs and indels have a large impact on neoantigen burden.
+
+Cycles:
+ - Chemo signatures showed a dose-dependent relationship with chemo cycles
+
+CIBERSORT:
+ - Ascites have low T cells, high monocytes
+ - Considered interactions between: chemo cycles and ascites T cells / monocytes, neoantigens and ascites T cells / monocytes, solid tumor T cells and survival, soldi tumor T cells and neoantigens, neoantigens and surviavl
+ 
+SURVIVAL:
+- trend toward improved survival with greater neoantigen burden in primary tumor
+- improved survival with more T cells in primary tumor
+
+Figures:
+- Survival plot: mutations, neoantigens, expressed neoantigens, CD8+ T cells
+- Big immune deconvolution matrix
+- Neoantigens vs CD8 T cells
+- Chemo cycles vs chemo signatures
+
+
 
 
 \section*{Discussion}
