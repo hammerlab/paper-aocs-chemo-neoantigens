@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUN 2017 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUN 2017 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,66 +501,109 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 301.
 
-[2] [3] [4] [5] [6]
-Underfull \hbox (badness 1122) in paragraph at lines 399--400
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 319.
+
+[2]
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 337.
+
+[3]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 362.
+
+[4]
+
+LaTeX Warning: Citation `trapnell2010' on page 5 undefined on input line 375.
+
+
+LaTeX Warning: Citation `newman2015' on page 5 undefined on input line 375.
+
+
+Overfull \hbox (23.37698pt too wide) in paragraph at lines 378--379
+\OT1/cmr/m/it/10 life-lines \OT1/cmr/m/n/10 Python pack-age ver-sion 0.9.3.2 (h
+ttp://github.com/CamDavidsonPilon/lifelines)
+ []
+
+
+Overfull \hbox (15.4716pt too wide) in paragraph at lines 378--379
+\OT1/cmr/m/n/10 the \OT1/cmr/m/it/10 sur-vival \OT1/cmr/m/n/10 R pack-age (http
+s://cran.r-project.org/web/packages/survival/index.html). 
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 386.
+
+[5]
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 395.
+
+[6]
+
+LaTeX Warning: Citation `Sette1994' on page 7 undefined on input line 401.
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 405--406
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
 
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 416.
+
 [7]
-Overfull \hbox (14.80637pt too wide) in paragraph at lines 417--418
+Overfull \hbox (14.80637pt too wide) in paragraph at lines 423--424
 []\OT1/cmr/m/n/10 Remarkably, neoanti-gen bur-den, but not to-tal mu-ta-tion bu
 r-den, in pri-mary/untreated
  []
 
-[8] [9] [10] (./bmc_article.bbl [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12])
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 426.
 
-LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 561.
+[8]
 
-[13] 
-AED: lastpage setting LastPage
-[14] (./bmc_article.aux)
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 446.
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+[9]
+
+LaTeX Warning: Citation `Martin_2016' on page 10 undefined on input line 469.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: Citation `McGranahan_2016' on page 10 undefined on input line 47
+1.
 
- ) 
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 472.
+
+[10] (./bmc_article.bbl
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 3.
+
+[11]
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 513.
+
+[12]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.787 ....1093_bioinformatics_bts635/2/bts635.pdf}
+                                                  
+? 
+! Emergency stop.
+<inserted text> 
+                $
+l.787 ....1093_bioinformatics_bts635/2/bts635.pdf}
+                                                  
+End of file on the terminal!
+
+ 
 Here is how much of TeX's memory you used:
- 2506 strings out of 493014
- 30729 string characters out of 6133351
- 126138 words of memory out of 5000000
- 6058 multiletter control sequences out of 15000+600000
- 12298 words of font info for 42 fonts, out of 8000000 for 9000
+ 2500 strings out of 493014
+ 30662 string characters out of 6133351
+ 102898 words of memory out of 5000000
+ 6053 multiletter control sequences out of 15000+600000
+ 12214 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,37p,2303b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (14 pages, 240882 bytes).
-PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 30i,10n,37p,2303b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

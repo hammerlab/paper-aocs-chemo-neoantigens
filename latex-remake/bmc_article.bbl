@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -767,6 +767,69 @@ Accessed 2016-05-27
 \endbibitem
 
 %%% 24
+\bibitem{dobin2013}
+\begin{barticle}
+\bauthor{\bsnm{Dobin}, \binits{A.}},
+\bauthor{\bsnm{Davis}, \binits{C.A.}},
+\bauthor{\bsnm{Schlesinger}, \binits{F.}},
+\bauthor{\bsnm{Drenkow}, \binits{J.}},
+\bauthor{\bsnm{Zaleski}, \binits{C.}},
+\bauthor{\bsnm{Jha}, \binits{S.}},
+\bauthor{\bsnm{Batut}, \binits{P.}},
+\bauthor{\bsnm{Chaisson}, \binits{M.}},
+\bauthor{\bsnm{Gingeras}, \binits{T.R.}}:
+\batitle{Star: ultrafast universal rna-seq aligner}.
+\bjtitle{Bioinformatics}
+\bvolume{29}(\bissue{1}),
+\bfpage{15}
+(\byear{2013}).
+doi:\doiurl{10.1093/bioinformatics/bts635}.
+\arxivurl{/oup/backfile/content_public/journal/bioinformatics/29/1/10.1093_bioinformatics_bts635/2/bts635.pdf}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem{trapnell2010}
+\begin{barticle}
+\bauthor{\bsnm{Trapnell}, \binits{C.}},
+\bauthor{\bsnm{Williams}, \binits{B.A.}},
+\bauthor{\bsnm{Pertea}, \binits{G.}},
+\bauthor{\bsnm{Mortazavi}, \binits{A.}},
+\bauthor{\bsnm{Kwan}, \binits{G.}},
+\bauthor{\bparticle{van} \bsnm{Baren}, \binits{M.J.}},
+\bauthor{\bsnm{Salzberg}, \binits{S.L.}},
+\bauthor{\bsnm{Wold}, \binits{B.J.}},
+\bauthor{\bsnm{Pachter}, \binits{L.}}:
+\batitle{Transcript assembly and quantification by rna-seq reveals unannotated
+  transcripts and isoform switching during cell differentiation}.
+\bjtitle{Nat Biotech}
+\bvolume{28}(\bissue{5}),
+\bfpage{511}--\blpage{515}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{newman2015}
+\begin{barticle}
+\bauthor{\bsnm{Newman}, \binits{A.M.}},
+\bauthor{\bsnm{Liu}, \binits{C.L.}},
+\bauthor{\bsnm{Green}, \binits{M.R.}},
+\bauthor{\bsnm{Gentles}, \binits{A.J.}},
+\bauthor{\bsnm{Feng}, \binits{W.}},
+\bauthor{\bsnm{Xu}, \binits{Y.}},
+\bauthor{\bsnm{Hoang}, \binits{C.D.}},
+\bauthor{\bsnm{Diehn}, \binits{M.}},
+\bauthor{\bsnm{Alizadeh}, \binits{A.A.}}:
+\batitle{Robust enumeration of cell subsets from tissue expression profiles}.
+\bjtitle{Nat Meth}
+\bvolume{12}(\bissue{5}),
+\bfpage{453}--\blpage{457}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 27
 \bibitem{Sette1994}
 \begin{barticle}
 \bauthor{\bsnm{Sette}, \binits{A.}},
@@ -795,7 +858,7 @@ Accessed 2016-05-27
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 28
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -816,7 +879,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 26
+%%% 29
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1643,6 +1706,77 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B24">
+  <title><p>STAR: ultrafast universal RNA-seq aligner</p></title>
+  <aug>
+    <au><snm>Dobin</snm><fnm>A</fnm></au>
+    <au><snm>Davis</snm><fnm>CA</fnm></au>
+    <au><snm>Schlesinger</snm><fnm>F</fnm></au>
+    <au><snm>Drenkow</snm><fnm>J</fnm></au>
+    <au><snm>Zaleski</snm><fnm>C</fnm></au>
+    <au><snm>Jha</snm><fnm>S</fnm></au>
+    <au><snm>Batut</snm><fnm>P</fnm></au>
+    <au><snm>Chaisson</snm><fnm>M</fnm></au>
+    <au><snm>Gingeras</snm><fnm>TR</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2013</pubdate>
+  <volume>29</volume>
+  <issue>1</issue>
+  <fpage>15</fpage>
+  <url>+ http://dx.doi.org/10.1093/bioinformatics/bts635</url>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Transcript assembly and quantification by RNA-Seq reveals
+  unannotated transcripts and isoform switching during cell
+  differentiation</p></title>
+  <aug>
+    <au><snm>Trapnell</snm><fnm>C</fnm></au>
+    <au><snm>Williams</snm><fnm>BA</fnm></au>
+    <au><snm>Pertea</snm><fnm>G</fnm></au>
+    <au><snm>Mortazavi</snm><fnm>A</fnm></au>
+    <au><snm>Kwan</snm><fnm>G</fnm></au>
+    <au><snm>Baren</snm><fnm>MJ</fnm></au>
+    <au><snm>Salzberg</snm><fnm>SL</fnm></au>
+    <au><snm>Wold</snm><fnm>BJ</fnm></au>
+    <au><snm>Pachter</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Nat Biotech</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2010</pubdate>
+  <volume>28</volume>
+  <issue>5</issue>
+  <fpage>511</fpage>
+  <lpage>-515</lpage>
+  <url>http://dx.doi.org/10.1038/nbt.1621</url>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Robust enumeration of cell subsets from tissue expression
+  profiles</p></title>
+  <aug>
+    <au><snm>Newman</snm><fnm>AM</fnm></au>
+    <au><snm>Liu</snm><fnm>CL</fnm></au>
+    <au><snm>Green</snm><fnm>MR</fnm></au>
+    <au><snm>Gentles</snm><fnm>AJ</fnm></au>
+    <au><snm>Feng</snm><fnm>W</fnm></au>
+    <au><snm>Xu</snm><fnm>Y</fnm></au>
+    <au><snm>Hoang</snm><fnm>CD</fnm></au>
+    <au><snm>Diehn</snm><fnm>M</fnm></au>
+    <au><snm>Alizadeh</snm><fnm>AA</fnm></au>
+  </aug>
+  <source>Nat Meth</source>
+  <publisher>Nature Publishing Group, a division of Macmillan Publishers
+  Limited. All Rights Reserved.</publisher>
+  <pubdate>2015</pubdate>
+  <volume>12</volume>
+  <issue>5</issue>
+  <fpage>453</fpage>
+  <lpage>-457</lpage>
+  <url>http://dx.doi.org/10.1038/nmeth.3337</url>
+</bibl>
+
+<bibl id="B27">
   <title><p>{The relationship between class I binding affinity and
   immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
   <aug>
@@ -1673,7 +1807,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
-<bibl id="B25">
+<bibl id="B28">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -1696,7 +1830,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B26">
+<bibl id="B29">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>
