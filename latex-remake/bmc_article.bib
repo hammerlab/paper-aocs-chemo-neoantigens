@@ -739,3 +739,12 @@ author = "Hongo Atsushi and Seki Shuji and Akiyama Kosuke and Kudo Takafumi"
     pages = {15},
     year = {2013}}
 
+@article{cameron2017, title={CamDavidsonPilon/lifelines: 0.10.1}, DOI={10.5281/zenodo.805994}, abstractNote={0.10.1 <ul> <li>fix in internal normalization for <code>CoxPHFitter</code> predict methods.</li> </ul> 0.10.0 <ul> <li>corrected bug that was returning the wrong baseline survival and hazard values in <code>CoxPHFitter</code> when <code>normalize=True</code>. </li> <li>removed <code>normalize</code> kwarg in <code>CoxPHFitter</code>. This was causing lots of confusion for users, and added code complexity. It's really nice to be able to remove it.</li> <li>correcting column name in <code>CoxPHFitter.baseline_survival_</code></li> <li><code>CoxPHFitter.baseline_cumulative_hazard_</code> is always centered, to mimic R's <code>basehaz</code> API.</li> <li>new <code>predict_log_partial_hazards</code> to <code>CoxPHFitter</code></li> </ul>}, publisher={Zenodo}, author={Cameron Davidson-Pilon and Jonas Kalderstam and Ben Kuhn and Andrew Fiore-Gartland and Alex Parij and Kyle Stark and Steven Anton and Lilian Besson and Jona and Harsh Gadgil and et al.}, year={2017}, month={Jun}}
+
+@Manual{survivalpackage,
+title = {A Package for Survival Analysis in S},
+author = {Terry M Therneau},
+year = {2015},
+note = {version 2.38},
+url = {https://CRAN.R-project.org/package=survival},
+}

@@ -375,8 +375,7 @@ For treated samples with a pre-treatment sample available from the same patient,
 RNA-seq reads were aligned using STAR version 2.4.1d~\cite{dobin2013}, transcript quantifications were obtained from Cufflinks version 2.2.1~\cite{trapnell2010}, and immune deconvolution was performed using CIBERSORT version 1.01~\cite{newman2015}. 
 
 \subsection*{Survival analysis}
-Survival analyses were performed with the Cox proportional hazards model from the \textit{lifelines} Python package version 0.9.3.2 (http://github.com/CamDavidsonPilon/lifelines) . Analyses were stratified by tumor stage (III or IV) and included the logarithm of the tumor cellularity percentage as a covariate. Key findings were reproduced with the \textit{survival} R package (https://cran.r-project.org/web/packages/survival/index.html).
-
+Survival analyses were performed with the Cox proportional hazards model from the lifelines Python package version 0.9.3.2~\cite{cameron2017}. Analyses were stratified by tumor stage (III or IV) and included the logarithm of the tumor cellularity percentage as a covariate. Key findings were reproduced with the survival R package~\cite{survivalpackage}.
 
 \section*{Results}
 
@@ -418,11 +417,15 @@ Signature deconvolution considers only SNVs, but studies of platinum-induced mut
 
 \subsection*{Neoantigens and CD8+ T cell infiltrate are independent predictors of survival in primary/untreated samples}
 
-To assess possible effects of neoantigen burden, we investigated the relationships between neoantigens, immune infilitrate from RNA-seq, and survival.
+To explore potential effects of changes in neoantigen burden, we investigated relationships among neoantigens, immune infiltrate from RNA-seq, and patient survival.
 
-Remarkably, neoantigen burden, but not total mutation burden, in primary/untreated samples showed a trend toward longer survival (Cox XXX). When sample AOCS-XXX, with XX mut burden (YY more than any other) was excluded from the analysis, this trend reached signficnance (Cox xx vs mut burden Cox hh; Figure SX). Each additional neoantigen increased survival by XX; in the context of the patient AOCS-092 with the most chemotherapy induced neoantigens, this effect would by XX to XX.
+Predicted neoantigen burden at the primary/untreated time point was a superior predictor of survival than overall mutation burden (Figure~SX). In a Cox proportional hazards regression analysis, mean/variance standardized neoantigen count was associated with a hazard ratio (HR) of 0.77 (95\% CI 0.57--1.02, p=0.07). Expressed neoantigen burden showed a similar protective trend (HR=0.78 (0.59--1.03), p=0.08), whereas whole-genome mutation burden was not associated with survival (HR=1.0 (0.69--1.44), p=0.9). Investigation revealed that the latter result was strongly affected by sample AOCS-166, from a patient with one of the shortest survival times in the cohort (195 days), but over 66\% more mutations than any other sample, a consequence of a germline deficiency in mismatch repair. With this sample excluded, neoantigen count (HR=0.73 (0.54--0.97), p=0.03) and expressed neoantigen count (HR=0.75 (0.56--0.99), p=0.04) were positively associated with survival time, but mutation burden exhibited only a modest trend in this direction (HR=0.85 (0.65--1.11), p=0.2).
 
-Immune deconvolution was performed with CIBERSORT on all samples (Figure SXX). Sample AOCS-0XXX failed deconvolution and was excluded from these analyses. Consistent with published data, ascites samples showed a large populatino of monocytes with little T cell infiltrate, including regulator T cells. Solid-tissue primary/untreated samples harbored a mean fraction of X CD8+ T cells (range 0 - X), and consistent with other reports this fraction strongly predicted survival (Cox ph XX). No significant association however was detected between neoantigen burden and CD8+ T cell infiltration (XX). In a model that included both CD8+ T cells and neoantigens, both were signifcant on survival.
+% Patients whose primary/untreated sample harbored greater predicted neoantigen burden showed a trend toward improved survival; remarkably, this effect was not observed for overall mutation burden .
+
+These results enable us to put the in the context of the patient AOCS-092 with the most chemotherapy induced neoantigens, this effect would by XX to XX.
+
+Immune deconvolution was performed with CIBERSORT on all samples (Figure SXX). Sample AOCS-0XXX failed deconvolution and was excluded from these analyses. Consistent with published data, ascites samples showed a large population of monocytes with little T cell infiltrate, including regulator T cells. Solid-tissue primary/untreated samples harbored a mean fraction of X CD8+ T cells (range 0 - X), and consistent with other reports this fraction strongly predicted survival (Cox ph XX). No significant association however was detected between neoantigen burden and CD8+ T cell infiltration (XX). In a model that included both CD8+ T cells and neoantigens, both were signifcant on survival.
 
 
 \section*{Discussion}

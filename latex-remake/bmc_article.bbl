@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{29}
+\begin{thebibliography}{31}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -782,9 +782,7 @@ Accessed 2016-05-27
 \bjtitle{Bioinformatics}
 \bvolume{29}(\bissue{1}),
 \bfpage{15}
-(\byear{2013}).
-doi:\doiurl{10.1093/bioinformatics/bts635}.
-\arxivurl{/oup/backfile/content_public/journal/bioinformatics/29/1/10.1093_bioinformatics_bts635/2/bts635.pdf}
+(\byear{2013})
 \end{barticle}
 \endbibitem
 
@@ -830,6 +828,37 @@ doi:\doiurl{10.1093/bioinformatics/bts635}.
 \endbibitem
 
 %%% 27
+\bibitem{cameron2017}
+\begin{botherref}
+\oauthor{\bsnm{Davidson-Pilon}, \binits{C.}},
+\oauthor{\bsnm{Kalderstam}, \binits{J.}},
+\oauthor{\bsnm{Kuhn}, \binits{B.}},
+\oauthor{\bsnm{Fiore-Gartland}, \binits{A.}},
+\oauthor{\bsnm{Parij}, \binits{A.}},
+\oauthor{\bsnm{Stark}, \binits{K.}},
+\oauthor{\bsnm{Anton}, \binits{S.}},
+\oauthor{\bsnm{Besson}, \binits{L.}},
+\oauthor{\bsnm{Jona}},
+\oauthor{\bsnm{Gadgil}, \binits{H.}},
+\oauthor{\bparticle{et} \bsnm{al.}}:
+Camdavidsonpilon/lifelines: 0.10.1
+(2017).
+doi:\doiurl{10.5281/zenodo.805994}
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem{survivalpackage}
+\begin{botherref}
+\oauthor{\bsnm{Therneau}, \binits{T.M.}}:
+A Package for Survival Analysis in S.
+(2015).
+version 2.38.
+\url{https://CRAN.R-project.org/package=survival}
+\end{botherref}
+\endbibitem
+
+%%% 29
 \bibitem{Sette1994}
 \begin{barticle}
 \bauthor{\bsnm{Sette}, \binits{A.}},
@@ -858,7 +887,7 @@ doi:\doiurl{10.1093/bioinformatics/bts635}.
 \end{barticle}
 \endbibitem
 
-%%% 28
+%%% 30
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -879,7 +908,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 29
+%%% 31
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1723,7 +1752,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <volume>29</volume>
   <issue>1</issue>
   <fpage>15</fpage>
-  <url>+ http://dx.doi.org/10.1093/bioinformatics/bts635</url>
 </bibl>
 
 <bibl id="B25">
@@ -1777,6 +1805,35 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B27">
+  <title><p>CamDavidsonPilon/lifelines: 0.10.1</p></title>
+  <aug>
+    <au><snm>Davidson Pilon</snm><fnm>C</fnm></au>
+    <au><snm>Kalderstam</snm><fnm>J</fnm></au>
+    <au><snm>Kuhn</snm><fnm>B</fnm></au>
+    <au><snm>Fiore Gartland</snm><fnm>A</fnm></au>
+    <au><snm>Parij</snm><fnm>A</fnm></au>
+    <au><snm>Stark</snm><fnm>K</fnm></au>
+    <au><snm>Anton</snm><fnm>S</fnm></au>
+    <au><snm>Besson</snm><fnm>L</fnm></au>
+    <au><cnm>Jona</cnm></au>
+    <au><snm>Gadgil</snm><fnm>H</fnm></au>
+    <au><cnm>al.</cnm></au>
+  </aug>
+  <publisher>Zenodo</publisher>
+  <pubdate>2017</pubdate>
+</bibl>
+
+<bibl id="B28">
+  <title><p>A Package for Survival Analysis in S</p></title>
+  <aug>
+    <au><snm>Therneau</snm><fnm>TM</fnm></au>
+  </aug>
+  <pubdate>2015</pubdate>
+  <url>https://CRAN.R-project.org/package=survival</url>
+  <note>version 2.38</note>
+</bibl>
+
+<bibl id="B29">
   <title><p>{The relationship between class I binding affinity and
   immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
   <aug>
@@ -1807,7 +1864,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
-<bibl id="B28">
+<bibl id="B30">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -1830,7 +1887,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B29">
+<bibl id="B31">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>
