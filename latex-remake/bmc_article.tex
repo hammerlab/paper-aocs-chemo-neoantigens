@@ -382,14 +382,19 @@ We performed signature deconvolution on each sample's SNVs (top and middle of Fi
 
 For better sensitivity, we next focused on the 14 relapse/treated samples from the 12 patients with both pre- and post-treatment samples. For each patient, we extracted the mutations that had evidence exclusively in the treated samples. Of 206,766 SNVs in the post-treatment samples for these patients, 93,986 (45\%) satisfied our filter and were subjected to signature deconvolution (Figure~1, bottom of Figures~S3 and~S4). Within this subgroup, the \textit{G. gallus} cisplatin signature was identified only in the two samples taken after cisplatin therapy, a significant association ($p = 0.04$). The \textit{C. Elegans} cisplatin signature was detected in no samples, and the cyclophosphamide signature was detected in 3/6 cyclophosphamide-treated samples, but, unexpectedly, also in 6/8 non-cyclophosphamide-treated samples. These included the two post-treatment samples in which the signature was detected in the earlier analysis plus four additional samples. COSMIC \textit{Signature (3) BRCA} and \textit{Signature (8) Unknown etiology} were detected in 14/14 and 9/14 post-treatment samples, respectively, but \textit{Signature (1) Age} was absent, consistent with its association with a slow mutagenic process operative before oncogenesis.
 
-In summary, the mutational signatures for cisplatin and cyclophosphamide extracted from experiments of a \textit{G. Gallus} cell line showed significant but inexact associations with clinical chemotherapy exposure.
+Considering all relapse/treated samples, the \textit{G. Gallus} cisplatin signature showed a dose-dependent relationship with the total number of cisplatin or carboplatin chemotherapy cycles administered (Pearson correlation $r=0.47$; Figure S5). In a linear regression, each additional cycle of platinum was associated with 9.0 (95\% CI 3.6--14.3) more genome-wide mutations attributed to this signature. A weaker trend was observed among patients whose only platinum exposure was carboplatin ($r=0.24$; 3.7 (-1.6--9.0) mutations per cycle). The cyclophosphamide signature showed a still weaker trend toward increased mutations with additional cycles of cyclophosphamide ($r=0.11$; 30.4 (-58.9--120.0) mutations per cycle). The time elapsed between the most recent chemotherapy cycle and sample collection did not independently correlate with total mutations or mutations attributed to chemotherapy signatures in a linear model that included the total number of cycles ($p > 0.15$ for $t$ tests on model coefficients).
+
+% Power to detect a dose dependency in this case is expected to be lower due to the fewer cycles of cyclophosphamide administered compared to platinum (maximum of 6 for any patient vs. 40).
+
+In summary, the mutational signatures for cisplatin and cyclophosphamide extracted from experiments of a \textit{G. Gallus} cell line showed significant but inexact associations with clinical chemotherapy exposure. 
+
 
 \subsection*{Neoantigen burden increases at relapse}
 
 % STATEMENT_TREATMENT_EFFECT
 Across the cohort, we identified 17,689 mutated peptides predicted to bind autologous MHC class I with affinity 500nm or tighter~\cite{Sette1994}. All but 21 (0.12\%) of these predicted neoantigens were private to a single patient (shared neoantigens are listed in Additional File 6).
 
-Relapse/treated samples harbored a median 78\% more expressed neoantigens than primary/untreated samples (weighted mean of stratum-specific estimates). Specifically, solid tissue relapse samples harbored a median of 71\% (bootstrap 95\% CI 23--123) more mutations, 107\% (32--187) more neoantigens, and 72\% (16--137) more expressed neoantigens than primary/untreated solid tissue samples (Figure~2), all significant increases (Mann-Whitney $p < 0.05$ for each of the three tests). A similar trend was observed for ascites samples. Relapse/treated ascites samples harbored 32\% (14--51), 55\% (10--118), and 83\% (22--178) more mutations, neoantigens, and expressed neoantigens than primary/untreated ascites samples, respectively ($p=0.07, 0.10, 0.05$ for the three tests). This trend was also apparent in a comparison of paired samples from the same donors (Figure~S5). Among relapse/treated samples, the number of lines of chemotherapy and the time elapsed between chemotherapy and sample aquiisition did not show a significant correlation (Figure~S6). TODO
+Relapse/treated samples harbored a median 78\% more expressed neoantigens than primary/untreated samples (weighted mean of stratum-specific estimates). Specifically, solid tissue relapse samples harbored a median of 71\% (bootstrap 95\% CI 23--123) more mutations, 107\% (32--187) more neoantigens, and 72\% (16--137) more expressed neoantigens than primary/untreated solid tissue samples (Figure~2), all significant increases (Mann-Whitney $p < 0.05$ for each of the three tests). A similar trend was observed for ascites samples. Relapse/treated ascites samples harbored 32\% (14--51), 55\% (10--118), and 83\% (22--178) more mutations, neoantigens, and expressed neoantigens than primary/untreated ascites samples, respectively ($p=0.07, 0.10, 0.05$ for the three tests). This trend was also apparent in a comparison of paired samples from the same donors (Figure~S6).
 
 In contrast, primary/treated samples, which were exposed to neoadjuvant chemotherapy (NACT) prior to surgery, did not exhibit increased numbers of mutations, neoantigens, or expressed neoantigens, and in fact trended toward decreased expressed neoantigen burden. The five primary/treated samples, all from solid tissue resections, harbored a median of 16 (9--89) expressed neoantigens compared to the median of 44 (39--60) observed in primary/untreated solid tissue samples, due to both fewer neoantigens in the DNA (median of 85 (36--306) vs. 130 (108--150)) and a lower rate of expression (median 19 (14--37) vs. 39 (36--42) percent of neoantigens). This trend did not reach significance (Mann-Whitney $p=0.08$), and will require larger cohorts to assess.
 
@@ -405,24 +410,13 @@ The chemotherapy signatures accounted for a small but detectable part of the inc
 
 Signature deconvolution considers only SNVs, but studies of platinum-induced mutations have also reported increases in the rate of dinucleotide variants and indels. Indeed, we observed more MNVs overall and specifically the platinum-associated MNVs $CT \rightarrow AC$ and $CA \rightarrow AC$ reported by Meier et al.~\cite{Meier_2014} in treated patients in both absolute count and as a fraction of mutational burden ($p < 10^{-6}$ for all tests). Sample AOCS-092-3-3, previously found to have the most chemotherapy-signature SNVs, also had the most platinum-associated dinucleotide variants and the second-most MNVs overall. This sample harbored 59 $CT \rightarrow AC$ or $CA \rightarrow AC$ mutations, compared to a mean of 3.2 (2.2--4.4) across all samples. Treated samples also harbored more indels in terms of absolute count ($p=10^{-4}$). Overall, while MNVs and indels generate more neoantigens per mutation than SNVs, they are rare, comprising less than 3\% of the mutational burden and 13\% of the neantigens in every sample (Figure~3), making it unlikely that chemotherapy-induced MNVs and indels have a large impact on neoantigen burden.
 
-Cycles:
- - Chemo signatures showed a dose-dependent relationship with chemo cycles
+\subsection*{Neoantigens and CD8+ T cell infiltrate are independent predictors of survival in primary/untreated samples}
 
-CIBERSORT:
- - Ascites have low T cells, high monocytes
- - Considered interactions between: chemo cycles and ascites T cells / monocytes, neoantigens and ascites T cells / monocytes, solid tumor T cells and survival, soldi tumor T cells and neoantigens, neoantigens and surviavl
- 
-SURVIVAL:
-- trend toward improved survival with greater neoantigen burden in primary tumor
-- improved survival with more T cells in primary tumor
+To assess possible effects of neoantigen burden, we investigated the relationships between neoantigens, immune infilitrate from RNA-seq, and survival.
 
-Figures:
-- Survival plot: mutations, neoantigens, expressed neoantigens, CD8+ T cells
-- Big immune deconvolution matrix
-- Neoantigens vs CD8 T cells
-- Chemo cycles vs chemo signatures
+Remarkably, neoantigen burden, but not total mutation burden, in primary/untreated samples showed a trend toward longer survival (Cox XXX). When sample AOCS-XXX, with XX mut burden (YY more than any other) was excluded from the analysis, this trend reached signficnance (Cox xx vs mut burden Cox hh; Figure SX). Each additional neoantigen increased survival by XX; in the context of the patient AOCS-092 with the most chemotherapy induced neoantigens, this effect would by XX to XX.
 
-
+Immune deconvolution was performed with CIBERSORT on all samples (Figure SXX). Sample AOCS-0XXX failed deconvolution and was excluded from these analyses. Consistent with published data, ascites samples showed a large populatino of monocytes with little T cell infiltrate, including regulator T cells. Solid-tissue primary/untreated samples harbored a mean fraction of X CD8+ T cells (range 0 - X), and consistent with other reports this fraction strongly predicted survival (Cox ph XX). No significant association however was detected between neoantigen burden and CD8+ T cell infiltration (XX). In a model that included both CD8+ T cells and neoantigens, both were signifcant on survival.
 
 
 \section*{Discussion}

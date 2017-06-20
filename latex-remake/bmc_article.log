@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 JUN 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUN 2017 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,29 +501,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 301.
 
-[2] [3] [4] [5]
-Underfull \hbox (badness 1122) in paragraph at lines 394--395
+[2] [3] [4] [5] [6]
+Underfull \hbox (badness 1122) in paragraph at lines 399--400
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
 
-[6] [7] [8] [9] [10] (./bmc_article.bbl [11])
+[7]
+Overfull \hbox (14.80637pt too wide) in paragraph at lines 417--418
+[]\OT1/cmr/m/n/10 Remarkably, neoanti-gen bur-den, but not to-tal mu-ta-tion bu
+r-den, in pri-mary/untreated
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[8] [9] [10] (./bmc_article.bbl [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [12])
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 548.
+(Font)              using `OT1/cmss/bx/n' instead on input line 561.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12] 
+[13] 
 AED: lastpage setting LastPage
-[13] (./bmc_article.aux)
+[14] (./bmc_article.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -535,7 +535,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  2506 strings out of 493014
  30729 string characters out of 6133351
- 130593 words of memory out of 5000000
+ 126138 words of memory out of 5000000
  6058 multiletter control sequences out of 15000+600000
  12298 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -557,10 +557,10 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (13 pages, 237180 bytes).
+Output written on bmc_article.pdf (14 pages, 240882 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
