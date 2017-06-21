@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 JUN 2017 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 JUN 2017 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,7 +510,7 @@ to neoad-ju-vant
 [7] [8] [9] [10] [11] (./bmc_article.bbl [12] [13])
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 570.
+(Font)              using `OT1/cmss/bx/n' instead on input line 573.
 
 
 AED: lastpage setting LastPage
@@ -548,7 +548,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (14 pages, 243249 bytes).
+Output written on bmc_article.pdf (14 pages, 243204 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  84 compressed objects within 1 object stream
