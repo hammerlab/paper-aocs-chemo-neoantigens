@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{31}
+\begin{thebibliography}{36}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -888,6 +888,146 @@ version 2.38.
 \endbibitem
 
 %%% 30
+\bibitem{Sato2005}
+\begin{barticle}
+\bauthor{\bsnm{Sato}, \binits{E.}},
+\bauthor{\bsnm{Olson}, \binits{S.H.}},
+\bauthor{\bsnm{Ahn}, \binits{J.}},
+\bauthor{\bsnm{Bundy}, \binits{B.}},
+\bauthor{\bsnm{Nishikawa}, \binits{H.}},
+\bauthor{\bsnm{Qian}, \binits{F.}},
+\bauthor{\bsnm{Jungbluth}, \binits{A.A.}},
+\bauthor{\bsnm{Frosina}, \binits{D.}},
+\bauthor{\bsnm{Gnjatic}, \binits{S.}},
+\bauthor{\bsnm{Ambrosone}, \binits{C.}},
+\bauthor{\bsnm{Kepner}, \binits{J.}},
+\bauthor{\bsnm{Odunsi}, \binits{T.}},
+\bauthor{\bsnm{Ritter}, \binits{G.}},
+\bauthor{\bsnm{Lele}, \binits{S.}},
+\bauthor{\bsnm{Chen}, \binits{Y.-T.}},
+\bauthor{\bsnm{Ohtani}, \binits{H.}},
+\bauthor{\bsnm{Old}, \binits{L.J.}},
+\bauthor{\bsnm{Odunsi}, \binits{K.}}:
+\batitle{{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
+  CD8+/regulatory T cell ratio are associated with favorable prognosis in
+  ovarian cancer.}}
+\bjtitle{Proceedings of the National Academy of Sciences of the United States
+  of America}
+\bvolume{102}(\bissue{51}),
+\bfpage{18538}--\blpage{43}
+(\byear{2005}).
+doi:\doiurl{10.1073/pnas.0509182102}
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem{Hamanishi2007}
+\begin{barticle}
+\bauthor{\bsnm{Hamanishi}, \binits{J.}},
+\bauthor{\bsnm{Mandai}, \binits{M.}},
+\bauthor{\bsnm{Iwasaki}, \binits{M.}},
+\bauthor{\bsnm{Okazaki}, \binits{T.}},
+\bauthor{\bsnm{Tanaka}, \binits{Y.}},
+\bauthor{\bsnm{Yamaguchi}, \binits{K.}},
+\bauthor{\bsnm{Higuchi}, \binits{T.}},
+\bauthor{\bsnm{Yagi}, \binits{H.}},
+\bauthor{\bsnm{Takakura}, \binits{K.}},
+\bauthor{\bsnm{Minato}, \binits{N.}},
+\bauthor{\bsnm{Honjo}, \binits{T.}},
+\bauthor{\bsnm{Fujii}, \binits{S.}}:
+\batitle{{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
+  lymphocytes are prognostic factors of human ovarian cancer.}}
+\bjtitle{Proceedings of the National Academy of Sciences of the United States
+  of America}
+\bvolume{104}(\bissue{9}),
+\bfpage{3360}--\blpage{5}
+(\byear{2007}).
+doi:\doiurl{10.1073/pnas.0611533104}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem{Brown_2014}
+\begin{barticle}
+\bauthor{\bsnm{Brown}, \binits{S.D.}},
+\bauthor{\bsnm{Warren}, \binits{R.L.}},
+\bauthor{\bsnm{Gibb}, \binits{E.A.}},
+\bauthor{\bsnm{Martin}, \binits{S.D.}},
+\bauthor{\bsnm{Spinelli}, \binits{J.J.}},
+\bauthor{\bsnm{Nelson}, \binits{B.H.}},
+\bauthor{\bsnm{Holt}, \binits{R.A.}}:
+\batitle{{Neo-antigens predicted by tumor genome meta-analysis correlate with
+  increased patient survival}}.
+\bjtitle{Genome Research}
+\bvolume{24}(\bissue{5}),
+\bfpage{743}--\blpage{750}
+(\byear{2014}).
+doi:\doiurl{10.1101/gr.165985.113}
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem{Rooney_2015}
+\begin{barticle}
+\bauthor{\bsnm{Rooney}, \binits{M.S.}},
+\bauthor{\bsnm{Shukla}, \binits{S.A.}},
+\bauthor{\bsnm{Wu}, \binits{C.J.}},
+\bauthor{\bsnm{Getz}, \binits{G.}},
+\bauthor{\bsnm{Hacohen}, \binits{N.}}:
+\batitle{{Molecular and Genetic Properties of Tumors Associated with Local
+  Immune Cytolytic Activity}}.
+\bjtitle{Cell}
+\bvolume{160}(\bissue{1-2}),
+\bfpage{48}--\blpage{61}
+(\byear{2015}).
+doi:\doiurl{10.1016/j.cell.2014.12.033}
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem{Giannakis2016}
+\begin{barticle}
+\bauthor{\bsnm{Giannakis}, \binits{M.}},
+\bauthor{\bsnm{Mu}, \binits{X.J.}},
+\bauthor{\bsnm{Shukla}, \binits{S.A.}},
+\bauthor{\bsnm{Qian}, \binits{Z.R.}},
+\bauthor{\bsnm{Cohen}, \binits{O.}},
+\bauthor{\bsnm{Nishihara}, \binits{R.}},
+\bauthor{\bsnm{Bahl}, \binits{S.}},
+\bauthor{\bsnm{Cao}, \binits{Y.}},
+\bauthor{\bsnm{Amin-Mansour}, \binits{A.}},
+\bauthor{\bsnm{Yamauchi}, \binits{M.}},
+\bauthor{\bsnm{Sukawa}, \binits{Y.}},
+\bauthor{\bsnm{Stewart}, \binits{C.}},
+\bauthor{\bsnm{Rosenberg}, \binits{M.}},
+\bauthor{\bsnm{Mima}, \binits{K.}},
+\bauthor{\bsnm{Inamura}, \binits{K.}},
+\bauthor{\bsnm{Nosho}, \binits{K.}},
+\bauthor{\bsnm{Nowak}, \binits{J.A.}},
+\bauthor{\bsnm{Lawrence}, \binits{M.S.}},
+\bauthor{\bsnm{Giovannucci}, \binits{E.L.}},
+\bauthor{\bsnm{Chan}, \binits{A.T.}},
+\bauthor{\bsnm{Ng}, \binits{K.}},
+\bauthor{\bsnm{Meyerhardt}, \binits{J.A.}},
+\bauthor{\bsnm{{Van Allen}}, \binits{E.M.}},
+\bauthor{\bsnm{Getz}, \binits{G.}},
+\bauthor{\bsnm{Gabriel}, \binits{S.B.}},
+\bauthor{\bsnm{Lander}, \binits{E.S.}},
+\bauthor{\bsnm{Wu}, \binits{C.J.}},
+\bauthor{\bsnm{Fuchs}, \binits{C.S.}},
+\bauthor{\bsnm{Ogino}, \binits{S.}},
+\bauthor{\bsnm{Garraway}, \binits{L.A.}}:
+\batitle{{Genomic Correlates of Immune-Cell Infiltrates in Colorectal
+  Carcinoma}}.
+\bjtitle{Cell Reports}
+\bvolume{15}(\bissue{4}),
+\bfpage{857}--\blpage{865}
+(\byear{2016}).
+doi:\doiurl{10.1016/j.celrep.2016.03.075}
+\end{barticle}
+\endbibitem
+
+%%% 35
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -908,7 +1048,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 31
+%%% 36
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1865,6 +2005,158 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B30">
+  <title><p>{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
+  CD8+/regulatory T cell ratio are associated with favorable prognosis in
+  ovarian cancer.}</p></title>
+  <aug>
+    <au><snm>Sato</snm><fnm>E</fnm></au>
+    <au><snm>Olson</snm><fnm>SH</fnm></au>
+    <au><snm>Ahn</snm><fnm>J</fnm></au>
+    <au><snm>Bundy</snm><fnm>B</fnm></au>
+    <au><snm>Nishikawa</snm><fnm>H</fnm></au>
+    <au><snm>Qian</snm><fnm>F</fnm></au>
+    <au><snm>Jungbluth</snm><fnm>AA</fnm></au>
+    <au><snm>Frosina</snm><fnm>D</fnm></au>
+    <au><snm>Gnjatic</snm><fnm>S</fnm></au>
+    <au><snm>Ambrosone</snm><fnm>C</fnm></au>
+    <au><snm>Kepner</snm><fnm>J</fnm></au>
+    <au><snm>Odunsi</snm><fnm>T</fnm></au>
+    <au><snm>Ritter</snm><fnm>G</fnm></au>
+    <au><snm>Lele</snm><fnm>S</fnm></au>
+    <au><snm>Chen</snm><fnm>YT</fnm></au>
+    <au><snm>Ohtani</snm><fnm>H</fnm></au>
+    <au><snm>Old</snm><fnm>LJ</fnm></au>
+    <au><snm>Odunsi</snm><fnm>K</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences of the United States
+  of America</source>
+  <publisher>National Academy of Sciences</publisher>
+  <pubdate>2005</pubdate>
+  <volume>102</volume>
+  <issue>51</issue>
+  <fpage>18538</fpage>
+  <lpage>-43</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/16344461
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1311741</url>
+</bibl>
+
+<bibl id="B31">
+  <title><p>{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
+  lymphocytes are prognostic factors of human ovarian cancer.}</p></title>
+  <aug>
+    <au><snm>Hamanishi</snm><fnm>J</fnm></au>
+    <au><snm>Mandai</snm><fnm>M</fnm></au>
+    <au><snm>Iwasaki</snm><fnm>M</fnm></au>
+    <au><snm>Okazaki</snm><fnm>T</fnm></au>
+    <au><snm>Tanaka</snm><fnm>Y</fnm></au>
+    <au><snm>Yamaguchi</snm><fnm>K</fnm></au>
+    <au><snm>Higuchi</snm><fnm>T</fnm></au>
+    <au><snm>Yagi</snm><fnm>H</fnm></au>
+    <au><snm>Takakura</snm><fnm>K</fnm></au>
+    <au><snm>Minato</snm><fnm>N</fnm></au>
+    <au><snm>Honjo</snm><fnm>T</fnm></au>
+    <au><snm>Fujii</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences of the United States
+  of America</source>
+  <publisher>National Academy of Sciences</publisher>
+  <pubdate>2007</pubdate>
+  <volume>104</volume>
+  <issue>9</issue>
+  <fpage>3360</fpage>
+  <lpage>-5</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/17360651
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1805580</url>
+</bibl>
+
+<bibl id="B32">
+  <title><p>{Neo-antigens predicted by tumor genome meta-analysis correlate
+  with increased patient survival}</p></title>
+  <aug>
+    <au><snm>Brown</snm><fnm>S. D.</fnm></au>
+    <au><snm>Warren</snm><fnm>R. L.</fnm></au>
+    <au><snm>Gibb</snm><fnm>E. A.</fnm></au>
+    <au><snm>Martin</snm><fnm>S. D.</fnm></au>
+    <au><snm>Spinelli</snm><fnm>J. J.</fnm></au>
+    <au><snm>Nelson</snm><fnm>B. H.</fnm></au>
+    <au><snm>Holt</snm><fnm>R. A.</fnm></au>
+  </aug>
+  <source>Genome Research</source>
+  <publisher>Cold Spring Harbor Laboratory Press</publisher>
+  <pubdate>2014</pubdate>
+  <volume>24</volume>
+  <issue>5</issue>
+  <fpage>743</fpage>
+  <lpage>-750</lpage>
+  <url>http://dx.doi.org/10.1101/gr.165985.113</url>
+</bibl>
+
+<bibl id="B33">
+  <title><p>{Molecular and Genetic Properties of Tumors Associated with Local
+  Immune Cytolytic Activity}</p></title>
+  <aug>
+    <au><snm>Rooney</snm><fnm>MS</fnm></au>
+    <au><snm>Shukla</snm><fnm>SA</fnm></au>
+    <au><snm>Wu</snm><fnm>CJ</fnm></au>
+    <au><snm>Getz</snm><fnm>G</fnm></au>
+    <au><snm>Hacohen</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Cell</source>
+  <publisher>Elsevier {BV}</publisher>
+  <pubdate>2015</pubdate>
+  <volume>160</volume>
+  <issue>1-2</issue>
+  <fpage>48</fpage>
+  <lpage>-61</lpage>
+  <url>http://dx.doi.org/10.1016/j.cell.2014.12.033</url>
+</bibl>
+
+<bibl id="B34">
+  <title><p>{Genomic Correlates of Immune-Cell Infiltrates in Colorectal
+  Carcinoma}</p></title>
+  <aug>
+    <au><snm>Giannakis</snm><fnm>M</fnm></au>
+    <au><snm>Mu</snm><fnm>XJ</fnm></au>
+    <au><snm>Shukla</snm><fnm>SA</fnm></au>
+    <au><snm>Qian</snm><fnm>ZR</fnm></au>
+    <au><snm>Cohen</snm><fnm>O</fnm></au>
+    <au><snm>Nishihara</snm><fnm>R</fnm></au>
+    <au><snm>Bahl</snm><fnm>S</fnm></au>
+    <au><snm>Cao</snm><fnm>Y</fnm></au>
+    <au><snm>Amin Mansour</snm><fnm>A</fnm></au>
+    <au><snm>Yamauchi</snm><fnm>M</fnm></au>
+    <au><snm>Sukawa</snm><fnm>Y</fnm></au>
+    <au><snm>Stewart</snm><fnm>C</fnm></au>
+    <au><snm>Rosenberg</snm><fnm>M</fnm></au>
+    <au><snm>Mima</snm><fnm>K</fnm></au>
+    <au><snm>Inamura</snm><fnm>K</fnm></au>
+    <au><snm>Nosho</snm><fnm>K</fnm></au>
+    <au><snm>Nowak</snm><fnm>JA</fnm></au>
+    <au><snm>Lawrence</snm><fnm>MS</fnm></au>
+    <au><snm>Giovannucci</snm><fnm>EL</fnm></au>
+    <au><snm>Chan</snm><fnm>AT</fnm></au>
+    <au><snm>Ng</snm><fnm>K</fnm></au>
+    <au><snm>Meyerhardt</snm><fnm>JA</fnm></au>
+    <au><snm>{Van Allen}</snm><fnm>EM</fnm></au>
+    <au><snm>Getz</snm><fnm>G</fnm></au>
+    <au><snm>Gabriel</snm><fnm>SB</fnm></au>
+    <au><snm>Lander</snm><fnm>ES</fnm></au>
+    <au><snm>Wu</snm><fnm>CJ</fnm></au>
+    <au><snm>Fuchs</snm><fnm>CS</fnm></au>
+    <au><snm>Ogino</snm><fnm>S</fnm></au>
+    <au><snm>Garraway</snm><fnm>LA</fnm></au>
+  </aug>
+  <source>Cell Reports</source>
+  <publisher>The Authors</publisher>
+  <pubdate>2016</pubdate>
+  <volume>15</volume>
+  <issue>4</issue>
+  <fpage>857</fpage>
+  <lpage>-865</lpage>
+  <url>http://dx.doi.org/10.1016/j.celrep.2016.03.075</url>
+</bibl>
+
+<bibl id="B35">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -1887,7 +2179,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B31">
+<bibl id="B36">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>

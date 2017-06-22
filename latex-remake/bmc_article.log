@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JUN 2017 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 JUN 2017 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -508,22 +508,25 @@ to neoad-ju-vant
  []
 
 [7]
-Underfull \hbox (badness 896) in paragraph at lines 424--425
+Underfull \hbox (badness 896) in paragraph at lines 426--427
 \OT1/cmr/m/n/10 Patients with greater pre-dicted neoanti-gen bur-den in their s
 olid tis-sue pri-
  []
 
-[8] [9] [10] [11] (./bmc_article.bbl [12])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[8] [9]
+Overfull \hbox (180.88986pt too wide) in paragraph at lines 452--455
+[]\OT1/cmr/m/n/10 References - breast can-cer neoad-ju-vant chemo bet-ter with 
+TILs: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4823351/ 
+ []
 
- [13]
+[10] [11] (./bmc_article.bbl [12] [13])
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 596.
+(Font)              using `OT1/cmss/bx/n' instead on input line 609.
 
-
+[14] 
 AED: lastpage setting LastPage
-[14] (./bmc_article.aux)
+[15] (./bmc_article.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -533,10 +536,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2511 strings out of 493014
- 30796 string characters out of 6133351
- 132198 words of memory out of 5000000
- 6063 multiletter control sequences out of 15000+600000
+ 2516 strings out of 493014
+ 30861 string characters out of 6133351
+ 132326 words of memory out of 5000000
+ 6068 multiletter control sequences out of 15000+600000
  12298 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,10n,37p,1826b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -557,10 +560,10 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (14 pages, 243104 bytes).
+Output written on bmc_article.pdf (15 pages, 245496 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

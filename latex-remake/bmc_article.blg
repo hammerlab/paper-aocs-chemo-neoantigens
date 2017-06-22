@@ -25,44 +25,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 31 entries,
+You've used 36 entries,
             7128 wiz_defined-function locations,
-            1401 strings with 25348 characters,
-and the built_in function-call counts, 452612 in all, are:
-= -- 53206
-> -- 2868
-< -- 1134
-+ -- 10347
-- -- 1162
-* -- 42925
-:= -- 89627
-add.period$ -- 58
-call.type$ -- 31
-change.case$ -- 703
-chr.to.int$ -- 1609
-cite$ -- 31
-duplicate$ -- 6598
-empty$ -- 30386
-format.name$ -- 4927
-if$ -- 95152
+            1445 strings with 28032 characters,
+and the built_in function-call counts, 514475 in all, are:
+= -- 60033
+> -- 3293
+< -- 1323
++ -- 11165
+- -- 1321
+* -- 49078
+:= -- 102020
+add.period$ -- 68
+call.type$ -- 36
+change.case$ -- 800
+chr.to.int$ -- 1935
+cite$ -- 36
+duplicate$ -- 7571
+empty$ -- 34836
+format.name$ -- 5590
+if$ -- 107996
 int.to.chr$ -- 1
-int.to.str$ -- 69
-missing$ -- 1941
-newline$ -- 1893
-num.names$ -- 155
-pop$ -- 2878
+int.to.str$ -- 79
+missing$ -- 2225
+newline$ -- 2167
+num.names$ -- 180
+pop$ -- 3271
 preamble$ -- 1
-purify$ -- 130
-quote$ -- 62
-skip$ -- 21901
+purify$ -- 150
+quote$ -- 72
+skip$ -- 24619
 stack$ -- 0
-substring$ -- 72987
-swap$ -- 2065
-text.length$ -- 486
+substring$ -- 83282
+swap$ -- 2401
+text.length$ -- 566
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1335
+type$ -- 1565
 warning$ -- 0
-while$ -- 2418
+while$ -- 2774
 width$ -- 0
-write$ -- 3526
+write$ -- 4021
