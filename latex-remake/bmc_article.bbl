@@ -988,11 +988,11 @@ doi:\doiurl{10.1007/s11864-014-0317-1}
 %%% 34
 \bibitem{Pages2010}
 \begin{barticle}
-\bauthor{\bsnm{Pagès}, \binits{F.}},
+\bauthor{\bsnm{Pagt{\'{e}}s}, \binits{F.}},
 \bauthor{\bsnm{Galon}, \binits{J.}},
 \bauthor{\bsnm{Dieu-Nosjean}, \binits{M.-C.}},
 \bauthor{\bsnm{Tartour}, \binits{E.}},
-\bauthor{\bsnm{Saut?s-Fridman}, \binits{C.}},
+\bauthor{\bsnm{Sautt{\'{e}}s-Fridman}, \binits{C.}},
 \bauthor{\bsnm{Fridman}, \binits{W.-H.}}:
 \batitle{{Immune infiltration in human tumors: a prognostic factor that should
   not be ignored}}.
@@ -2200,11 +2200,11 @@ doi:\doiurl{10.1126/science.aaf1490}
   <title><p>{Immune infiltration in human tumors: a prognostic factor that
   should not be ignored}</p></title>
   <aug>
-    <au><snm>Pagès</snm><fnm>F</fnm></au>
+    <au><snm>Pagt{\'{e}}s</snm><fnm>F</fnm></au>
     <au><snm>Galon</snm><fnm>J</fnm></au>
     <au><snm>Dieu Nosjean</snm><fnm>M C</fnm></au>
     <au><snm>Tartour</snm><fnm>E</fnm></au>
-    <au><snm>Saut?s Fridman</snm><fnm>C</fnm></au>
+    <au><snm>Sautt{\'{e}}s Fridman</snm><fnm>C</fnm></au>
     <au><snm>Fridman</snm><fnm>W H</fnm></au>
   </aug>
   <source>Oncogene</source>
