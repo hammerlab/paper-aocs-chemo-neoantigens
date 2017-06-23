@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{36}
+\begin{thebibliography}{37}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -250,6 +250,65 @@ doi:\doiurl{10.1126/science.aaa4971}
 \endbibitem
 
 %%% 9
+\bibitem{Sato2005}
+\begin{barticle}
+\bauthor{\bsnm{Sato}, \binits{E.}},
+\bauthor{\bsnm{Olson}, \binits{S.H.}},
+\bauthor{\bsnm{Ahn}, \binits{J.}},
+\bauthor{\bsnm{Bundy}, \binits{B.}},
+\bauthor{\bsnm{Nishikawa}, \binits{H.}},
+\bauthor{\bsnm{Qian}, \binits{F.}},
+\bauthor{\bsnm{Jungbluth}, \binits{A.A.}},
+\bauthor{\bsnm{Frosina}, \binits{D.}},
+\bauthor{\bsnm{Gnjatic}, \binits{S.}},
+\bauthor{\bsnm{Ambrosone}, \binits{C.}},
+\bauthor{\bsnm{Kepner}, \binits{J.}},
+\bauthor{\bsnm{Odunsi}, \binits{T.}},
+\bauthor{\bsnm{Ritter}, \binits{G.}},
+\bauthor{\bsnm{Lele}, \binits{S.}},
+\bauthor{\bsnm{Chen}, \binits{Y.-T.}},
+\bauthor{\bsnm{Ohtani}, \binits{H.}},
+\bauthor{\bsnm{Old}, \binits{L.J.}},
+\bauthor{\bsnm{Odunsi}, \binits{K.}}:
+\batitle{{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
+  CD8+/regulatory T cell ratio are associated with favorable prognosis in
+  ovarian cancer.}}
+\bjtitle{Proceedings of the National Academy of Sciences of the United States
+  of America}
+\bvolume{102}(\bissue{51}),
+\bfpage{18538}--\blpage{43}
+(\byear{2005}).
+doi:\doiurl{10.1073/pnas.0509182102}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Hamanishi2007}
+\begin{barticle}
+\bauthor{\bsnm{Hamanishi}, \binits{J.}},
+\bauthor{\bsnm{Mandai}, \binits{M.}},
+\bauthor{\bsnm{Iwasaki}, \binits{M.}},
+\bauthor{\bsnm{Okazaki}, \binits{T.}},
+\bauthor{\bsnm{Tanaka}, \binits{Y.}},
+\bauthor{\bsnm{Yamaguchi}, \binits{K.}},
+\bauthor{\bsnm{Higuchi}, \binits{T.}},
+\bauthor{\bsnm{Yagi}, \binits{H.}},
+\bauthor{\bsnm{Takakura}, \binits{K.}},
+\bauthor{\bsnm{Minato}, \binits{N.}},
+\bauthor{\bsnm{Honjo}, \binits{T.}},
+\bauthor{\bsnm{Fujii}, \binits{S.}}:
+\batitle{{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
+  lymphocytes are prognostic factors of human ovarian cancer.}}
+\bjtitle{Proceedings of the National Academy of Sciences of the United States
+  of America}
+\bvolume{104}(\bissue{9}),
+\bfpage{3360}--\blpage{5}
+(\byear{2007}).
+doi:\doiurl{10.1073/pnas.0611533104}
+\end{barticle}
+\endbibitem
+
+%%% 11
 \bibitem{Lundegaard_2007}
 \begin{barticle}
 \bauthor{\bsnm{Lundegaard}, \binits{C.}},
@@ -266,7 +325,27 @@ doi:\doiurl{10.1093/bioinformatics/btm471}
 \end{barticle}
 \endbibitem
 
-%%% 10
+%%% 12
+\bibitem{Brown_2014}
+\begin{barticle}
+\bauthor{\bsnm{Brown}, \binits{S.D.}},
+\bauthor{\bsnm{Warren}, \binits{R.L.}},
+\bauthor{\bsnm{Gibb}, \binits{E.A.}},
+\bauthor{\bsnm{Martin}, \binits{S.D.}},
+\bauthor{\bsnm{Spinelli}, \binits{J.J.}},
+\bauthor{\bsnm{Nelson}, \binits{B.H.}},
+\bauthor{\bsnm{Holt}, \binits{R.A.}}:
+\batitle{{Neo-antigens predicted by tumor genome meta-analysis correlate with
+  increased patient survival}}.
+\bjtitle{Genome Research}
+\bvolume{24}(\bissue{5}),
+\bfpage{743}--\blpage{750}
+(\byear{2014}).
+doi:\doiurl{10.1101/gr.165985.113}
+\end{barticle}
+\endbibitem
+
+%%% 13
 \bibitem{Van_Allen_2015}
 \begin{barticle}
 \bauthor{\bsnm{Allen}, \binits{E.M.V.}},
@@ -301,7 +380,7 @@ doi:\doiurl{10.1126/science.aad0095}
 \end{barticle}
 \endbibitem
 
-%%% 11
+%%% 14
 \bibitem{Rizvi_2015}
 \begin{barticle}
 \bauthor{\bsnm{Rizvi}, \binits{N.A.}},
@@ -338,7 +417,7 @@ doi:\doiurl{10.1126/science.aaa1348}
 \end{barticle}
 \endbibitem
 
-%%% 12
+%%% 15
 \bibitem{Lawrence_2013}
 \begin{barticle}
 \bauthor{\bsnm{Lawrence}, \binits{M.S.}},
@@ -416,7 +495,7 @@ doi:\doiurl{10.1038/nature12213}
 \end{barticle}
 \endbibitem
 
-%%% 13
+%%% 16
 \bibitem{Patch_2015}
 \begin{barticle}
 \bauthor{\bsnm{Patch}, \binits{A.-M.}},
@@ -511,7 +590,7 @@ doi:\doiurl{10.1038/nature14410}
 \end{barticle}
 \endbibitem
 
-%%% 14
+%%% 17
 \bibitem{Boegel_2012}
 \begin{barticle}
 \bauthor{\bsnm{Boegel}, \binits{S.}},
@@ -533,7 +612,7 @@ doi:\doiurl{10.1186/gm403}
 \end{barticle}
 \endbibitem
 
-%%% 15
+%%% 18
 \bibitem{Szolek_2014}
 \begin{barticle}
 \bauthor{\bsnm{Szolek}, \binits{A.}},
@@ -552,7 +631,7 @@ doi:\doiurl{10.1093/bioinformatics/btu548}
 \end{barticle}
 \endbibitem
 
-%%% 16
+%%% 19
 \bibitem{Lundegaard_2008}
 \begin{barticle}
 \bauthor{\bsnm{Lundegaard}, \binits{C.}},
@@ -571,7 +650,7 @@ doi:\doiurl{10.1093/nar/gkn202}
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 20
 \bibitem{Alexandrov2013}
 \begin{barticle}
 \bauthor{\bsnm{Alexandrov}, \binits{L.B.}},
@@ -654,7 +733,7 @@ doi:\doiurl{10.1038/nature12477}
 \end{barticle}
 \endbibitem
 
-%%% 18
+%%% 21
 \bibitem{Rosenthal_2016}
 \begin{botherref}
 \oauthor{\bsnm{Rosenthal}, \binits{R.}},
@@ -671,7 +750,7 @@ doi:\doiurl{10.1186/s13059-016-0893-4}
 \end{botherref}
 \endbibitem
 
-%%% 19
+%%% 22
 \bibitem{Meier_2014}
 \begin{barticle}
 \bauthor{\bsnm{Meier}, \binits{B.}},
@@ -696,7 +775,7 @@ doi:\doiurl{10.1101/gr.175547.114}
 \end{barticle}
 \endbibitem
 
-%%% 20
+%%% 23
 \bibitem{Szikriszt_2016}
 \begin{botherref}
 \oauthor{\bsnm{Szikriszt}, \binits{B.}},
@@ -720,7 +799,7 @@ doi:\doiurl{10.1186/s13059-016-0963-7}
 \end{botherref}
 \endbibitem
 
-%%% 21
+%%% 24
 \bibitem{Atsushi19941009}
 \begin{barticle}
 \bauthor{\bsnm{Atsushi}, \binits{H.}},
@@ -737,7 +816,7 @@ doi:\doiurl{10.1016/0020-711X(94)90072-8}
 \end{barticle}
 \endbibitem
 
-%%% 22
+%%% 25
 \bibitem{Gelman_2015}
 \begin{barticle}
 \bauthor{\bsnm{Gelman}, \binits{A.}},
@@ -753,7 +832,7 @@ doi:\doiurl{10.3102/1076998615606113}
 \end{barticle}
 \endbibitem
 
-%%% 23
+%%% 26
 \bibitem{364242}
 \begin{botherref}
 \oauthor{\bsnm{Institute}, \binits{W.T.S.}}:
@@ -764,67 +843,6 @@ doi:\doiurl{10.3102/1076998615606113}
 \url{http://cancer.sanger.ac.uk/cosmic/signatures}
 Accessed 2016-05-27
 \end{botherref}
-\endbibitem
-
-%%% 24
-\bibitem{dobin2013}
-\begin{barticle}
-\bauthor{\bsnm{Dobin}, \binits{A.}},
-\bauthor{\bsnm{Davis}, \binits{C.A.}},
-\bauthor{\bsnm{Schlesinger}, \binits{F.}},
-\bauthor{\bsnm{Drenkow}, \binits{J.}},
-\bauthor{\bsnm{Zaleski}, \binits{C.}},
-\bauthor{\bsnm{Jha}, \binits{S.}},
-\bauthor{\bsnm{Batut}, \binits{P.}},
-\bauthor{\bsnm{Chaisson}, \binits{M.}},
-\bauthor{\bsnm{Gingeras}, \binits{T.R.}}:
-\batitle{Star: ultrafast universal rna-seq aligner}.
-\bjtitle{Bioinformatics}
-\bvolume{29}(\bissue{1}),
-\bfpage{15}
-(\byear{2013})
-\end{barticle}
-\endbibitem
-
-%%% 25
-\bibitem{trapnell2010}
-\begin{barticle}
-\bauthor{\bsnm{Trapnell}, \binits{C.}},
-\bauthor{\bsnm{Williams}, \binits{B.A.}},
-\bauthor{\bsnm{Pertea}, \binits{G.}},
-\bauthor{\bsnm{Mortazavi}, \binits{A.}},
-\bauthor{\bsnm{Kwan}, \binits{G.}},
-\bauthor{\bparticle{van} \bsnm{Baren}, \binits{M.J.}},
-\bauthor{\bsnm{Salzberg}, \binits{S.L.}},
-\bauthor{\bsnm{Wold}, \binits{B.J.}},
-\bauthor{\bsnm{Pachter}, \binits{L.}}:
-\batitle{Transcript assembly and quantification by rna-seq reveals unannotated
-  transcripts and isoform switching during cell differentiation}.
-\bjtitle{Nat Biotech}
-\bvolume{28}(\bissue{5}),
-\bfpage{511}--\blpage{515}
-(\byear{2010})
-\end{barticle}
-\endbibitem
-
-%%% 26
-\bibitem{newman2015}
-\begin{barticle}
-\bauthor{\bsnm{Newman}, \binits{A.M.}},
-\bauthor{\bsnm{Liu}, \binits{C.L.}},
-\bauthor{\bsnm{Green}, \binits{M.R.}},
-\bauthor{\bsnm{Gentles}, \binits{A.J.}},
-\bauthor{\bsnm{Feng}, \binits{W.}},
-\bauthor{\bsnm{Xu}, \binits{Y.}},
-\bauthor{\bsnm{Hoang}, \binits{C.D.}},
-\bauthor{\bsnm{Diehn}, \binits{M.}},
-\bauthor{\bsnm{Alizadeh}, \binits{A.A.}}:
-\batitle{Robust enumeration of cell subsets from tissue expression profiles}.
-\bjtitle{Nat Meth}
-\bvolume{12}(\bissue{5}),
-\bfpage{453}--\blpage{457}
-(\byear{2015})
-\end{barticle}
 \endbibitem
 
 %%% 27
@@ -859,6 +877,67 @@ version 2.38.
 \endbibitem
 
 %%% 29
+\bibitem{dobin2013}
+\begin{barticle}
+\bauthor{\bsnm{Dobin}, \binits{A.}},
+\bauthor{\bsnm{Davis}, \binits{C.A.}},
+\bauthor{\bsnm{Schlesinger}, \binits{F.}},
+\bauthor{\bsnm{Drenkow}, \binits{J.}},
+\bauthor{\bsnm{Zaleski}, \binits{C.}},
+\bauthor{\bsnm{Jha}, \binits{S.}},
+\bauthor{\bsnm{Batut}, \binits{P.}},
+\bauthor{\bsnm{Chaisson}, \binits{M.}},
+\bauthor{\bsnm{Gingeras}, \binits{T.R.}}:
+\batitle{Star: ultrafast universal rna-seq aligner}.
+\bjtitle{Bioinformatics}
+\bvolume{29}(\bissue{1}),
+\bfpage{15}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{trapnell2010}
+\begin{barticle}
+\bauthor{\bsnm{Trapnell}, \binits{C.}},
+\bauthor{\bsnm{Williams}, \binits{B.A.}},
+\bauthor{\bsnm{Pertea}, \binits{G.}},
+\bauthor{\bsnm{Mortazavi}, \binits{A.}},
+\bauthor{\bsnm{Kwan}, \binits{G.}},
+\bauthor{\bparticle{van} \bsnm{Baren}, \binits{M.J.}},
+\bauthor{\bsnm{Salzberg}, \binits{S.L.}},
+\bauthor{\bsnm{Wold}, \binits{B.J.}},
+\bauthor{\bsnm{Pachter}, \binits{L.}}:
+\batitle{Transcript assembly and quantification by rna-seq reveals unannotated
+  transcripts and isoform switching during cell differentiation}.
+\bjtitle{Nat Biotech}
+\bvolume{28}(\bissue{5}),
+\bfpage{511}--\blpage{515}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem{newman2015}
+\begin{barticle}
+\bauthor{\bsnm{Newman}, \binits{A.M.}},
+\bauthor{\bsnm{Liu}, \binits{C.L.}},
+\bauthor{\bsnm{Green}, \binits{M.R.}},
+\bauthor{\bsnm{Gentles}, \binits{A.J.}},
+\bauthor{\bsnm{Feng}, \binits{W.}},
+\bauthor{\bsnm{Xu}, \binits{Y.}},
+\bauthor{\bsnm{Hoang}, \binits{C.D.}},
+\bauthor{\bsnm{Diehn}, \binits{M.}},
+\bauthor{\bsnm{Alizadeh}, \binits{A.A.}}:
+\batitle{Robust enumeration of cell subsets from tissue expression profiles}.
+\bjtitle{Nat Meth}
+\bvolume{12}(\bissue{5}),
+\bfpage{453}--\blpage{457}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 32
 \bibitem{Sette1994}
 \begin{barticle}
 \bauthor{\bsnm{Sette}, \binits{A.}},
@@ -887,86 +966,26 @@ version 2.38.
 \end{barticle}
 \endbibitem
 
-%%% 30
-\bibitem{Sato2005}
-\begin{barticle}
-\bauthor{\bsnm{Sato}, \binits{E.}},
-\bauthor{\bsnm{Olson}, \binits{S.H.}},
-\bauthor{\bsnm{Ahn}, \binits{J.}},
-\bauthor{\bsnm{Bundy}, \binits{B.}},
-\bauthor{\bsnm{Nishikawa}, \binits{H.}},
-\bauthor{\bsnm{Qian}, \binits{F.}},
-\bauthor{\bsnm{Jungbluth}, \binits{A.A.}},
-\bauthor{\bsnm{Frosina}, \binits{D.}},
-\bauthor{\bsnm{Gnjatic}, \binits{S.}},
-\bauthor{\bsnm{Ambrosone}, \binits{C.}},
-\bauthor{\bsnm{Kepner}, \binits{J.}},
-\bauthor{\bsnm{Odunsi}, \binits{T.}},
-\bauthor{\bsnm{Ritter}, \binits{G.}},
-\bauthor{\bsnm{Lele}, \binits{S.}},
-\bauthor{\bsnm{Chen}, \binits{Y.-T.}},
-\bauthor{\bsnm{Ohtani}, \binits{H.}},
-\bauthor{\bsnm{Old}, \binits{L.J.}},
-\bauthor{\bsnm{Odunsi}, \binits{K.}}:
-\batitle{{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
-  CD8+/regulatory T cell ratio are associated with favorable prognosis in
-  ovarian cancer.}}
-\bjtitle{Proceedings of the National Academy of Sciences of the United States
-  of America}
-\bvolume{102}(\bissue{51}),
-\bfpage{18538}--\blpage{43}
-(\byear{2005}).
-doi:\doiurl{10.1073/pnas.0509182102}
-\end{barticle}
-\endbibitem
-
-%%% 31
-\bibitem{Hamanishi2007}
-\begin{barticle}
-\bauthor{\bsnm{Hamanishi}, \binits{J.}},
-\bauthor{\bsnm{Mandai}, \binits{M.}},
-\bauthor{\bsnm{Iwasaki}, \binits{M.}},
-\bauthor{\bsnm{Okazaki}, \binits{T.}},
-\bauthor{\bsnm{Tanaka}, \binits{Y.}},
-\bauthor{\bsnm{Yamaguchi}, \binits{K.}},
-\bauthor{\bsnm{Higuchi}, \binits{T.}},
-\bauthor{\bsnm{Yagi}, \binits{H.}},
-\bauthor{\bsnm{Takakura}, \binits{K.}},
-\bauthor{\bsnm{Minato}, \binits{N.}},
-\bauthor{\bsnm{Honjo}, \binits{T.}},
-\bauthor{\bsnm{Fujii}, \binits{S.}}:
-\batitle{{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
-  lymphocytes are prognostic factors of human ovarian cancer.}}
-\bjtitle{Proceedings of the National Academy of Sciences of the United States
-  of America}
-\bvolume{104}(\bissue{9}),
-\bfpage{3360}--\blpage{5}
-(\byear{2007}).
-doi:\doiurl{10.1073/pnas.0611533104}
-\end{barticle}
-\endbibitem
-
-%%% 32
-\bibitem{Brown_2014}
-\begin{barticle}
-\bauthor{\bsnm{Brown}, \binits{S.D.}},
-\bauthor{\bsnm{Warren}, \binits{R.L.}},
-\bauthor{\bsnm{Gibb}, \binits{E.A.}},
-\bauthor{\bsnm{Martin}, \binits{S.D.}},
-\bauthor{\bsnm{Spinelli}, \binits{J.J.}},
-\bauthor{\bsnm{Nelson}, \binits{B.H.}},
-\bauthor{\bsnm{Holt}, \binits{R.A.}}:
-\batitle{{Neo-antigens predicted by tumor genome meta-analysis correlate with
-  increased patient survival}}.
-\bjtitle{Genome Research}
-\bvolume{24}(\bissue{5}),
-\bfpage{743}--\blpage{750}
-(\byear{2014}).
-doi:\doiurl{10.1101/gr.165985.113}
-\end{barticle}
-\endbibitem
-
 %%% 33
+\bibitem{Drerup2015}
+\begin{barticle}
+\bauthor{\bsnm{Drerup}, \binits{J.M.}},
+\bauthor{\bsnm{Liu}, \binits{Y.}},
+\bauthor{\bsnm{Padron}, \binits{A.S.}},
+\bauthor{\bsnm{Murthy}, \binits{K.}},
+\bauthor{\bsnm{Hurez}, \binits{V.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Curiel}, \binits{T.J.}}:
+\batitle{{Immunotherapy for ovarian cancer.}}
+\bjtitle{Current treatment options in oncology}
+\bvolume{16}(\bissue{1}),
+\bfpage{317}
+(\byear{2015}).
+doi:\doiurl{10.1007/s11864-014-0317-1}
+\end{barticle}
+\endbibitem
+
+%%% 34
 \bibitem{Rooney_2015}
 \begin{barticle}
 \bauthor{\bsnm{Rooney}, \binits{M.S.}},
@@ -984,7 +1003,7 @@ doi:\doiurl{10.1016/j.cell.2014.12.033}
 \end{barticle}
 \endbibitem
 
-%%% 34
+%%% 35
 \bibitem{Giannakis2016}
 \begin{barticle}
 \bauthor{\bsnm{Giannakis}, \binits{M.}},
@@ -1027,7 +1046,7 @@ doi:\doiurl{10.1016/j.celrep.2016.03.075}
 \end{barticle}
 \endbibitem
 
-%%% 35
+%%% 36
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -1048,7 +1067,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 36
+%%% 37
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -1332,6 +1351,71 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B9">
+  <title><p>{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
+  CD8+/regulatory T cell ratio are associated with favorable prognosis in
+  ovarian cancer.}</p></title>
+  <aug>
+    <au><snm>Sato</snm><fnm>E</fnm></au>
+    <au><snm>Olson</snm><fnm>SH</fnm></au>
+    <au><snm>Ahn</snm><fnm>J</fnm></au>
+    <au><snm>Bundy</snm><fnm>B</fnm></au>
+    <au><snm>Nishikawa</snm><fnm>H</fnm></au>
+    <au><snm>Qian</snm><fnm>F</fnm></au>
+    <au><snm>Jungbluth</snm><fnm>AA</fnm></au>
+    <au><snm>Frosina</snm><fnm>D</fnm></au>
+    <au><snm>Gnjatic</snm><fnm>S</fnm></au>
+    <au><snm>Ambrosone</snm><fnm>C</fnm></au>
+    <au><snm>Kepner</snm><fnm>J</fnm></au>
+    <au><snm>Odunsi</snm><fnm>T</fnm></au>
+    <au><snm>Ritter</snm><fnm>G</fnm></au>
+    <au><snm>Lele</snm><fnm>S</fnm></au>
+    <au><snm>Chen</snm><fnm>YT</fnm></au>
+    <au><snm>Ohtani</snm><fnm>H</fnm></au>
+    <au><snm>Old</snm><fnm>LJ</fnm></au>
+    <au><snm>Odunsi</snm><fnm>K</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences of the United States
+  of America</source>
+  <publisher>National Academy of Sciences</publisher>
+  <pubdate>2005</pubdate>
+  <volume>102</volume>
+  <issue>51</issue>
+  <fpage>18538</fpage>
+  <lpage>-43</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/16344461
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1311741</url>
+</bibl>
+
+<bibl id="B10">
+  <title><p>{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
+  lymphocytes are prognostic factors of human ovarian cancer.}</p></title>
+  <aug>
+    <au><snm>Hamanishi</snm><fnm>J</fnm></au>
+    <au><snm>Mandai</snm><fnm>M</fnm></au>
+    <au><snm>Iwasaki</snm><fnm>M</fnm></au>
+    <au><snm>Okazaki</snm><fnm>T</fnm></au>
+    <au><snm>Tanaka</snm><fnm>Y</fnm></au>
+    <au><snm>Yamaguchi</snm><fnm>K</fnm></au>
+    <au><snm>Higuchi</snm><fnm>T</fnm></au>
+    <au><snm>Yagi</snm><fnm>H</fnm></au>
+    <au><snm>Takakura</snm><fnm>K</fnm></au>
+    <au><snm>Minato</snm><fnm>N</fnm></au>
+    <au><snm>Honjo</snm><fnm>T</fnm></au>
+    <au><snm>Fujii</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Proceedings of the National Academy of Sciences of the United States
+  of America</source>
+  <publisher>National Academy of Sciences</publisher>
+  <pubdate>2007</pubdate>
+  <volume>104</volume>
+  <issue>9</issue>
+  <fpage>3360</fpage>
+  <lpage>-5</lpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/17360651
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1805580</url>
+</bibl>
+
+<bibl id="B11">
   <title><p>{Modeling the adaptive immune system: predictions and
   simulations}</p></title>
   <aug>
@@ -1351,7 +1435,29 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1093/bioinformatics/btm471</url>
 </bibl>
 
-<bibl id="B10">
+<bibl id="B12">
+  <title><p>{Neo-antigens predicted by tumor genome meta-analysis correlate
+  with increased patient survival}</p></title>
+  <aug>
+    <au><snm>Brown</snm><fnm>S. D.</fnm></au>
+    <au><snm>Warren</snm><fnm>R. L.</fnm></au>
+    <au><snm>Gibb</snm><fnm>E. A.</fnm></au>
+    <au><snm>Martin</snm><fnm>S. D.</fnm></au>
+    <au><snm>Spinelli</snm><fnm>J. J.</fnm></au>
+    <au><snm>Nelson</snm><fnm>B. H.</fnm></au>
+    <au><snm>Holt</snm><fnm>R. A.</fnm></au>
+  </aug>
+  <source>Genome Research</source>
+  <publisher>Cold Spring Harbor Laboratory Press</publisher>
+  <pubdate>2014</pubdate>
+  <volume>24</volume>
+  <issue>5</issue>
+  <fpage>743</fpage>
+  <lpage>-750</lpage>
+  <url>http://dx.doi.org/10.1101/gr.165985.113</url>
+</bibl>
+
+<bibl id="B13">
   <title><p>{Genomic correlates of response to {CTLA}-4 blockade in metastatic
   melanoma}</p></title>
   <aug>
@@ -1389,7 +1495,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1126/science.aad0095</url>
 </bibl>
 
-<bibl id="B11">
+<bibl id="B14">
   <title><p>{Mutational landscape determines sensitivity to {PD}-1 blockade in
   non-small cell lung cancer}</p></title>
   <aug>
@@ -1429,7 +1535,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1126/science.aaa1348</url>
 </bibl>
 
-<bibl id="B12">
+<bibl id="B15">
   <title><p>{Mutational heterogeneity in cancer and the search for new
   cancer-associated genes}</p></title>
   <aug>
@@ -1509,7 +1615,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1038/nature12213</url>
 </bibl>
 
-<bibl id="B13">
+<bibl id="B16">
   <title><p>{Whole{\textendash}genome characterization of chemoresistant
   ovarian cancer}</p></title>
   <aug>
@@ -1606,7 +1712,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1038/nature14410</url>
 </bibl>
 
-<bibl id="B14">
+<bibl id="B17">
   <title><p>{{HLA} typing from {RNA}-Seq sequence reads}</p></title>
   <aug>
     <au><snm>Boegel</snm><fnm>S</fnm></au>
@@ -1629,7 +1735,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/gm403</url>
 </bibl>
 
-<bibl id="B15">
+<bibl id="B18">
   <title><p>{{OptiType}: precision {HLA} typing from next-generation sequencing
   data}</p></title>
   <aug>
@@ -1650,7 +1756,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1093/bioinformatics/btu548</url>
 </bibl>
 
-<bibl id="B16">
+<bibl id="B19">
   <title><p>{{NetMHC}-3.0: accurate web accessible predictions of human mouse
   and monkey {MHC} class I affinities for peptides of length 8-11}</p></title>
   <aug>
@@ -1671,7 +1777,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1093/nar/gkn202</url>
 </bibl>
 
-<bibl id="B17">
+<bibl id="B20">
   <title><p>{Signatures of mutational processes in human cancer.}</p></title>
   <aug>
     <au><snm>Alexandrov</snm><fnm>LB</fnm></au>
@@ -1755,7 +1861,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3776390{\&}tool=pmcentrez{\&}rendertype=abstract</url>
 </bibl>
 
-<bibl id="B18">
+<bibl id="B21">
   <title><p>{{deconstructSigs}: delineating mutational processes in single
   tumors distinguishes {DNA} repair deficiencies and patterns of carcinoma
   evolution}</p></title>
@@ -1774,7 +1880,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/s13059-016-0893-4</url>
 </bibl>
 
-<bibl id="B19">
+<bibl id="B22">
   <title><p>{C. elegans whole-genome sequencing reveals mutational signatures
   related to carcinogens and {DNA} repair deficiency}</p></title>
   <aug>
@@ -1801,7 +1907,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1101/gr.175547.114</url>
 </bibl>
 
-<bibl id="B20">
+<bibl id="B23">
   <title><p>{A comprehensive survey of the mutagenic impact of common cancer
   cytotoxics}</p></title>
   <aug>
@@ -1827,7 +1933,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1186/s13059-016-0963-7</url>
 </bibl>
 
-<bibl id="B21">
+<bibl id="B24">
   <title><p>A comparison of in vitro platinum-DNA adduct formation between
   carboplatin and cisplatin</p></title>
   <aug>
@@ -1845,7 +1951,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.sciencedirect.com/science/article/pii/0020711X94900728</url>
 </bibl>
 
-<bibl id="B22">
+<bibl id="B25">
   <title><p>{Stan: A Probabilistic Programming Language for Bayesian Inference
   and Optimization}</p></title>
   <aug>
@@ -1863,7 +1969,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.3102/1076998615606113</url>
 </bibl>
 
-<bibl id="B23">
+<bibl id="B26">
   <title><p>{Signatures of Mutational Processes in Human Cancer}</p></title>
   <aug>
     <au><snm>Institute</snm><fnm>WTS</fnm></au>
@@ -1872,76 +1978,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <pubdate>2016</pubdate>
   <url>http://cancer.sanger.ac.uk/cosmic/signatures</url>
   <note>[Online; accessed 27-May-2016]</note>
-</bibl>
-
-<bibl id="B24">
-  <title><p>STAR: ultrafast universal RNA-seq aligner</p></title>
-  <aug>
-    <au><snm>Dobin</snm><fnm>A</fnm></au>
-    <au><snm>Davis</snm><fnm>CA</fnm></au>
-    <au><snm>Schlesinger</snm><fnm>F</fnm></au>
-    <au><snm>Drenkow</snm><fnm>J</fnm></au>
-    <au><snm>Zaleski</snm><fnm>C</fnm></au>
-    <au><snm>Jha</snm><fnm>S</fnm></au>
-    <au><snm>Batut</snm><fnm>P</fnm></au>
-    <au><snm>Chaisson</snm><fnm>M</fnm></au>
-    <au><snm>Gingeras</snm><fnm>TR</fnm></au>
-  </aug>
-  <source>Bioinformatics</source>
-  <pubdate>2013</pubdate>
-  <volume>29</volume>
-  <issue>1</issue>
-  <fpage>15</fpage>
-</bibl>
-
-<bibl id="B25">
-  <title><p>Transcript assembly and quantification by RNA-Seq reveals
-  unannotated transcripts and isoform switching during cell
-  differentiation</p></title>
-  <aug>
-    <au><snm>Trapnell</snm><fnm>C</fnm></au>
-    <au><snm>Williams</snm><fnm>BA</fnm></au>
-    <au><snm>Pertea</snm><fnm>G</fnm></au>
-    <au><snm>Mortazavi</snm><fnm>A</fnm></au>
-    <au><snm>Kwan</snm><fnm>G</fnm></au>
-    <au><snm>Baren</snm><fnm>MJ</fnm></au>
-    <au><snm>Salzberg</snm><fnm>SL</fnm></au>
-    <au><snm>Wold</snm><fnm>BJ</fnm></au>
-    <au><snm>Pachter</snm><fnm>L</fnm></au>
-  </aug>
-  <source>Nat Biotech</source>
-  <publisher>Nature Publishing Group</publisher>
-  <pubdate>2010</pubdate>
-  <volume>28</volume>
-  <issue>5</issue>
-  <fpage>511</fpage>
-  <lpage>-515</lpage>
-  <url>http://dx.doi.org/10.1038/nbt.1621</url>
-</bibl>
-
-<bibl id="B26">
-  <title><p>Robust enumeration of cell subsets from tissue expression
-  profiles</p></title>
-  <aug>
-    <au><snm>Newman</snm><fnm>AM</fnm></au>
-    <au><snm>Liu</snm><fnm>CL</fnm></au>
-    <au><snm>Green</snm><fnm>MR</fnm></au>
-    <au><snm>Gentles</snm><fnm>AJ</fnm></au>
-    <au><snm>Feng</snm><fnm>W</fnm></au>
-    <au><snm>Xu</snm><fnm>Y</fnm></au>
-    <au><snm>Hoang</snm><fnm>CD</fnm></au>
-    <au><snm>Diehn</snm><fnm>M</fnm></au>
-    <au><snm>Alizadeh</snm><fnm>AA</fnm></au>
-  </aug>
-  <source>Nat Meth</source>
-  <publisher>Nature Publishing Group, a division of Macmillan Publishers
-  Limited. All Rights Reserved.</publisher>
-  <pubdate>2015</pubdate>
-  <volume>12</volume>
-  <issue>5</issue>
-  <fpage>453</fpage>
-  <lpage>-457</lpage>
-  <url>http://dx.doi.org/10.1038/nmeth.3337</url>
 </bibl>
 
 <bibl id="B27">
@@ -1974,6 +2010,76 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B29">
+  <title><p>STAR: ultrafast universal RNA-seq aligner</p></title>
+  <aug>
+    <au><snm>Dobin</snm><fnm>A</fnm></au>
+    <au><snm>Davis</snm><fnm>CA</fnm></au>
+    <au><snm>Schlesinger</snm><fnm>F</fnm></au>
+    <au><snm>Drenkow</snm><fnm>J</fnm></au>
+    <au><snm>Zaleski</snm><fnm>C</fnm></au>
+    <au><snm>Jha</snm><fnm>S</fnm></au>
+    <au><snm>Batut</snm><fnm>P</fnm></au>
+    <au><snm>Chaisson</snm><fnm>M</fnm></au>
+    <au><snm>Gingeras</snm><fnm>TR</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2013</pubdate>
+  <volume>29</volume>
+  <issue>1</issue>
+  <fpage>15</fpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>Transcript assembly and quantification by RNA-Seq reveals
+  unannotated transcripts and isoform switching during cell
+  differentiation</p></title>
+  <aug>
+    <au><snm>Trapnell</snm><fnm>C</fnm></au>
+    <au><snm>Williams</snm><fnm>BA</fnm></au>
+    <au><snm>Pertea</snm><fnm>G</fnm></au>
+    <au><snm>Mortazavi</snm><fnm>A</fnm></au>
+    <au><snm>Kwan</snm><fnm>G</fnm></au>
+    <au><snm>Baren</snm><fnm>MJ</fnm></au>
+    <au><snm>Salzberg</snm><fnm>SL</fnm></au>
+    <au><snm>Wold</snm><fnm>BJ</fnm></au>
+    <au><snm>Pachter</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Nat Biotech</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2010</pubdate>
+  <volume>28</volume>
+  <issue>5</issue>
+  <fpage>511</fpage>
+  <lpage>-515</lpage>
+  <url>http://dx.doi.org/10.1038/nbt.1621</url>
+</bibl>
+
+<bibl id="B31">
+  <title><p>Robust enumeration of cell subsets from tissue expression
+  profiles</p></title>
+  <aug>
+    <au><snm>Newman</snm><fnm>AM</fnm></au>
+    <au><snm>Liu</snm><fnm>CL</fnm></au>
+    <au><snm>Green</snm><fnm>MR</fnm></au>
+    <au><snm>Gentles</snm><fnm>AJ</fnm></au>
+    <au><snm>Feng</snm><fnm>W</fnm></au>
+    <au><snm>Xu</snm><fnm>Y</fnm></au>
+    <au><snm>Hoang</snm><fnm>CD</fnm></au>
+    <au><snm>Diehn</snm><fnm>M</fnm></au>
+    <au><snm>Alizadeh</snm><fnm>AA</fnm></au>
+  </aug>
+  <source>Nat Meth</source>
+  <publisher>Nature Publishing Group, a division of Macmillan Publishers
+  Limited. All Rights Reserved.</publisher>
+  <pubdate>2015</pubdate>
+  <volume>12</volume>
+  <issue>5</issue>
+  <fpage>453</fpage>
+  <lpage>-457</lpage>
+  <url>http://dx.doi.org/10.1038/nmeth.3337</url>
+</bibl>
+
+<bibl id="B32">
   <title><p>{The relationship between class I binding affinity and
   immunogenicity of potential cytotoxic T cell epitopes.}</p></title>
   <aug>
@@ -2004,94 +2110,28 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
-<bibl id="B30">
-  <title><p>{Intraepithelial CD8+ tumor-infiltrating lymphocytes and a high
-  CD8+/regulatory T cell ratio are associated with favorable prognosis in
-  ovarian cancer.}</p></title>
-  <aug>
-    <au><snm>Sato</snm><fnm>E</fnm></au>
-    <au><snm>Olson</snm><fnm>SH</fnm></au>
-    <au><snm>Ahn</snm><fnm>J</fnm></au>
-    <au><snm>Bundy</snm><fnm>B</fnm></au>
-    <au><snm>Nishikawa</snm><fnm>H</fnm></au>
-    <au><snm>Qian</snm><fnm>F</fnm></au>
-    <au><snm>Jungbluth</snm><fnm>AA</fnm></au>
-    <au><snm>Frosina</snm><fnm>D</fnm></au>
-    <au><snm>Gnjatic</snm><fnm>S</fnm></au>
-    <au><snm>Ambrosone</snm><fnm>C</fnm></au>
-    <au><snm>Kepner</snm><fnm>J</fnm></au>
-    <au><snm>Odunsi</snm><fnm>T</fnm></au>
-    <au><snm>Ritter</snm><fnm>G</fnm></au>
-    <au><snm>Lele</snm><fnm>S</fnm></au>
-    <au><snm>Chen</snm><fnm>YT</fnm></au>
-    <au><snm>Ohtani</snm><fnm>H</fnm></au>
-    <au><snm>Old</snm><fnm>LJ</fnm></au>
-    <au><snm>Odunsi</snm><fnm>K</fnm></au>
-  </aug>
-  <source>Proceedings of the National Academy of Sciences of the United States
-  of America</source>
-  <publisher>National Academy of Sciences</publisher>
-  <pubdate>2005</pubdate>
-  <volume>102</volume>
-  <issue>51</issue>
-  <fpage>18538</fpage>
-  <lpage>-43</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/16344461
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1311741</url>
-</bibl>
-
-<bibl id="B31">
-  <title><p>{Programmed cell death 1 ligand 1 and tumor-infiltrating CD8+ T
-  lymphocytes are prognostic factors of human ovarian cancer.}</p></title>
-  <aug>
-    <au><snm>Hamanishi</snm><fnm>J</fnm></au>
-    <au><snm>Mandai</snm><fnm>M</fnm></au>
-    <au><snm>Iwasaki</snm><fnm>M</fnm></au>
-    <au><snm>Okazaki</snm><fnm>T</fnm></au>
-    <au><snm>Tanaka</snm><fnm>Y</fnm></au>
-    <au><snm>Yamaguchi</snm><fnm>K</fnm></au>
-    <au><snm>Higuchi</snm><fnm>T</fnm></au>
-    <au><snm>Yagi</snm><fnm>H</fnm></au>
-    <au><snm>Takakura</snm><fnm>K</fnm></au>
-    <au><snm>Minato</snm><fnm>N</fnm></au>
-    <au><snm>Honjo</snm><fnm>T</fnm></au>
-    <au><snm>Fujii</snm><fnm>S</fnm></au>
-  </aug>
-  <source>Proceedings of the National Academy of Sciences of the United States
-  of America</source>
-  <publisher>National Academy of Sciences</publisher>
-  <pubdate>2007</pubdate>
-  <volume>104</volume>
-  <issue>9</issue>
-  <fpage>3360</fpage>
-  <lpage>-5</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/17360651
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1805580</url>
-</bibl>
-
-<bibl id="B32">
-  <title><p>{Neo-antigens predicted by tumor genome meta-analysis correlate
-  with increased patient survival}</p></title>
-  <aug>
-    <au><snm>Brown</snm><fnm>S. D.</fnm></au>
-    <au><snm>Warren</snm><fnm>R. L.</fnm></au>
-    <au><snm>Gibb</snm><fnm>E. A.</fnm></au>
-    <au><snm>Martin</snm><fnm>S. D.</fnm></au>
-    <au><snm>Spinelli</snm><fnm>J. J.</fnm></au>
-    <au><snm>Nelson</snm><fnm>B. H.</fnm></au>
-    <au><snm>Holt</snm><fnm>R. A.</fnm></au>
-  </aug>
-  <source>Genome Research</source>
-  <publisher>Cold Spring Harbor Laboratory Press</publisher>
-  <pubdate>2014</pubdate>
-  <volume>24</volume>
-  <issue>5</issue>
-  <fpage>743</fpage>
-  <lpage>-750</lpage>
-  <url>http://dx.doi.org/10.1101/gr.165985.113</url>
-</bibl>
-
 <bibl id="B33">
+  <title><p>{Immunotherapy for ovarian cancer.}</p></title>
+  <aug>
+    <au><snm>Drerup</snm><fnm>JM</fnm></au>
+    <au><snm>Liu</snm><fnm>Y</fnm></au>
+    <au><snm>Padron</snm><fnm>AS</fnm></au>
+    <au><snm>Murthy</snm><fnm>K</fnm></au>
+    <au><snm>Hurez</snm><fnm>V</fnm></au>
+    <au><snm>Zhang</snm><fnm>B</fnm></au>
+    <au><snm>Curiel</snm><fnm>TJ</fnm></au>
+  </aug>
+  <source>Current treatment options in oncology</source>
+  <publisher>NIH Public Access</publisher>
+  <pubdate>2015</pubdate>
+  <volume>16</volume>
+  <issue>1</issue>
+  <fpage>317</fpage>
+  <url>http://www.ncbi.nlm.nih.gov/pubmed/25648541
+  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4355232</url>
+</bibl>
+
+<bibl id="B34">
   <title><p>{Molecular and Genetic Properties of Tumors Associated with Local
   Immune Cytolytic Activity}</p></title>
   <aug>
@@ -2111,7 +2151,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.cell.2014.12.033</url>
 </bibl>
 
-<bibl id="B34">
+<bibl id="B35">
   <title><p>{Genomic Correlates of Immune-Cell Infiltrates in Colorectal
   Carcinoma}</p></title>
   <aug>
@@ -2156,7 +2196,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.celrep.2016.03.075</url>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B36">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -2179,7 +2219,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B37">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>
