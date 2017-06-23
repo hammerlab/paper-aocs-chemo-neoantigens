@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{37}
+\begin{thebibliography}{40}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -986,6 +986,54 @@ doi:\doiurl{10.1007/s11864-014-0317-1}
 \endbibitem
 
 %%% 34
+\bibitem{Pages2010}
+\begin{barticle}
+\bauthor{\bsnm{Pagès}, \binits{F.}},
+\bauthor{\bsnm{Galon}, \binits{J.}},
+\bauthor{\bsnm{Dieu-Nosjean}, \binits{M.-C.}},
+\bauthor{\bsnm{Tartour}, \binits{E.}},
+\bauthor{\bsnm{Saut?s-Fridman}, \binits{C.}},
+\bauthor{\bsnm{Fridman}, \binits{W.-H.}}:
+\batitle{{Immune infiltration in human tumors: a prognostic factor that should
+  not be ignored}}.
+\bjtitle{Oncogene}
+\bvolume{29}(\bissue{8}),
+\bfpage{1093}--\blpage{1102}
+(\byear{2010}).
+doi:\doiurl{10.1038/onc.2009.416}
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem{Mlecnik2016}
+\begin{botherref}
+\oauthor{\bsnm{Mlecnik}, \binits{B.}},
+\oauthor{\bsnm{Bindea}, \binits{G.}},
+\oauthor{\bsnm{Kirilovsky}, \binits{A.}},
+\oauthor{\bsnm{Angell}, \binits{H.K.}},
+\oauthor{\bsnm{Obenauf}, \binits{A.C.}},
+\oauthor{\bsnm{Tosolini}, \binits{M.}},
+\oauthor{\bsnm{Church}, \binits{S.E.}},
+\oauthor{\bsnm{Maby}, \binits{P.}},
+\oauthor{\bsnm{Vasaturo}, \binits{A.}},
+\oauthor{\bsnm{Angelova}, \binits{M.}},
+\oauthor{\bsnm{Fredriksen}, \binits{T.}},
+\oauthor{\bsnm{Mauger}, \binits{S.}},
+\oauthor{\bsnm{Waldner}, \binits{M.}},
+\oauthor{\bsnm{Berger}, \binits{A.}},
+\oauthor{\bsnm{Speicher}, \binits{M.R.}},
+\oauthor{\bsnm{Pag{\`{e}}s}, \binits{F.}},
+\oauthor{\bsnm{Valge-Archer}, \binits{V.}},
+\oauthor{\bsnm{Galon}, \binits{J.}}:
+{The tumor microenvironment and Immunoscore are critical determinants of
+  dissemination to distant metastasis}.
+Science Translational Medicine
+\textbf{8}(327)
+(2016)
+\end{botherref}
+\endbibitem
+
+%%% 36
 \bibitem{Rooney_2015}
 \begin{barticle}
 \bauthor{\bsnm{Rooney}, \binits{M.S.}},
@@ -1003,7 +1051,7 @@ doi:\doiurl{10.1016/j.cell.2014.12.033}
 \end{barticle}
 \endbibitem
 
-%%% 35
+%%% 37
 \bibitem{Giannakis2016}
 \begin{barticle}
 \bauthor{\bsnm{Giannakis}, \binits{M.}},
@@ -1046,7 +1094,24 @@ doi:\doiurl{10.1016/j.celrep.2016.03.075}
 \end{barticle}
 \endbibitem
 
-%%% 36
+%%% 38
+\bibitem{Dunn2002}
+\begin{barticle}
+\bauthor{\bsnm{Dunn}, \binits{G.P.}},
+\bauthor{\bsnm{Bruce}, \binits{A.T.}},
+\bauthor{\bsnm{Ikeda}, \binits{H.}},
+\bauthor{\bsnm{Old}, \binits{L.J.}},
+\bauthor{\bsnm{Schreiber}, \binits{R.D.}}:
+\batitle{{Cancer immunoediting: from immunosurveillance to tumor escape}}.
+\bjtitle{Nature Immunology}
+\bvolume{3}(\bissue{11}),
+\bfpage{991}--\blpage{998}
+(\byear{2002}).
+doi:\doiurl{10.1038/ni1102-991}
+\end{barticle}
+\endbibitem
+
+%%% 39
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -1067,7 +1132,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 37
+%%% 40
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -2132,6 +2197,57 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B34">
+  <title><p>{Immune infiltration in human tumors: a prognostic factor that
+  should not be ignored}</p></title>
+  <aug>
+    <au><snm>Pagès</snm><fnm>F</fnm></au>
+    <au><snm>Galon</snm><fnm>J</fnm></au>
+    <au><snm>Dieu Nosjean</snm><fnm>M C</fnm></au>
+    <au><snm>Tartour</snm><fnm>E</fnm></au>
+    <au><snm>Saut?s Fridman</snm><fnm>C</fnm></au>
+    <au><snm>Fridman</snm><fnm>W H</fnm></au>
+  </aug>
+  <source>Oncogene</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2010</pubdate>
+  <volume>29</volume>
+  <issue>8</issue>
+  <fpage>1093</fpage>
+  <lpage>-1102</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/onc.2009.416</url>
+</bibl>
+
+<bibl id="B35">
+  <title><p>{The tumor microenvironment and Immunoscore are critical
+  determinants of dissemination to distant metastasis}</p></title>
+  <aug>
+    <au><snm>Mlecnik</snm><fnm>B</fnm></au>
+    <au><snm>Bindea</snm><fnm>G</fnm></au>
+    <au><snm>Kirilovsky</snm><fnm>A</fnm></au>
+    <au><snm>Angell</snm><fnm>HK</fnm></au>
+    <au><snm>Obenauf</snm><fnm>AC</fnm></au>
+    <au><snm>Tosolini</snm><fnm>M</fnm></au>
+    <au><snm>Church</snm><fnm>SE</fnm></au>
+    <au><snm>Maby</snm><fnm>P</fnm></au>
+    <au><snm>Vasaturo</snm><fnm>A</fnm></au>
+    <au><snm>Angelova</snm><fnm>M</fnm></au>
+    <au><snm>Fredriksen</snm><fnm>T</fnm></au>
+    <au><snm>Mauger</snm><fnm>S</fnm></au>
+    <au><snm>Waldner</snm><fnm>M</fnm></au>
+    <au><snm>Berger</snm><fnm>A</fnm></au>
+    <au><snm>Speicher</snm><fnm>MR</fnm></au>
+    <au><snm>Pag{\`{e}}s</snm><fnm>F</fnm></au>
+    <au><snm>Valge Archer</snm><fnm>V</fnm></au>
+    <au><snm>Galon</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Science Translational Medicine</source>
+  <pubdate>2016</pubdate>
+  <volume>8</volume>
+  <issue>327</issue>
+  <url>http://stm.sciencemag.org/content/8/327/327ra26</url>
+</bibl>
+
+<bibl id="B36">
   <title><p>{Molecular and Genetic Properties of Tumors Associated with Local
   Immune Cytolytic Activity}</p></title>
   <aug>
@@ -2151,7 +2267,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.cell.2014.12.033</url>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B37">
   <title><p>{Genomic Correlates of Immune-Cell Infiltrates in Colorectal
   Carcinoma}</p></title>
   <aug>
@@ -2196,7 +2312,27 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.celrep.2016.03.075</url>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B38">
+  <title><p>{Cancer immunoediting: from immunosurveillance to tumor
+  escape}</p></title>
+  <aug>
+    <au><snm>Dunn</snm><fnm>GP</fnm></au>
+    <au><snm>Bruce</snm><fnm>AT</fnm></au>
+    <au><snm>Ikeda</snm><fnm>H</fnm></au>
+    <au><snm>Old</snm><fnm>LJ</fnm></au>
+    <au><snm>Schreiber</snm><fnm>RD</fnm></au>
+  </aug>
+  <source>Nature Immunology</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2002</pubdate>
+  <volume>3</volume>
+  <issue>11</issue>
+  <fpage>991</fpage>
+  <lpage>-998</lpage>
+  <url>http://www.nature.com/doifinder/10.1038/ni1102-991</url>
+</bibl>
+
+<bibl id="B39">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -2219,7 +2355,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B40">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>
