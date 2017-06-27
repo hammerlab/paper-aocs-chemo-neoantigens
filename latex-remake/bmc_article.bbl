@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{40}
+\begin{thebibliography}{43}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -986,6 +986,93 @@ doi:\doiurl{10.1007/s11864-014-0317-1}
 \endbibitem
 
 %%% 34
+\bibitem{Hamanishi2015}
+\begin{barticle}
+\bauthor{\bsnm{Hamanishi}, \binits{J.}},
+\bauthor{\bsnm{Mandai}, \binits{M.}},
+\bauthor{\bsnm{Ikeda}, \binits{T.}},
+\bauthor{\bsnm{Minami}, \binits{M.}},
+\bauthor{\bsnm{Kawaguchi}, \binits{A.}},
+\bauthor{\bsnm{Murayama}, \binits{T.}},
+\bauthor{\bsnm{Kanai}, \binits{M.}},
+\bauthor{\bsnm{Mori}, \binits{Y.}},
+\bauthor{\bsnm{Matsumoto}, \binits{S.}},
+\bauthor{\bsnm{Chikuma}, \binits{S.}},
+\bauthor{\bsnm{Matsumura}, \binits{N.}},
+\bauthor{\bsnm{Abiko}, \binits{K.}},
+\bauthor{\bsnm{Baba}, \binits{T.}},
+\bauthor{\bsnm{Yamaguchi}, \binits{K.}},
+\bauthor{\bsnm{Ueda}, \binits{A.}},
+\bauthor{\bsnm{Hosoe}, \binits{Y.}},
+\bauthor{\bsnm{Morita}, \binits{S.}},
+\bauthor{\bsnm{Yokode}, \binits{M.}},
+\bauthor{\bsnm{Shimizu}, \binits{A.}},
+\bauthor{\bsnm{Honjo}, \binits{T.}},
+\bauthor{\bsnm{Konishi}, \binits{I.}}:
+\batitle{{Safety and Antitumor Activity of Anti-PD-1 Antibody, Nivolumab, in
+  Patients With Platinum-Resistant Ovarian Cancer.}}
+\bjtitle{Journal of clinical oncology : official journal of the American
+  Society of Clinical Oncology}
+\bvolume{33}(\bissue{34}),
+\bfpage{4015}--\blpage{22}
+(\byear{2015}).
+doi:\doiurl{10.1200/JCO.2015.62.3397}
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem{Disis2016}
+\begin{barticle}
+\bauthor{\bsnm{Disis}, \binits{M.L.}},
+\bauthor{\bsnm{Patel}, \binits{M.R.}},
+\bauthor{\bsnm{Pant}, \binits{S.}},
+\bauthor{\bsnm{Hamilton}, \binits{E.P.}},
+\bauthor{\bsnm{Lockhart}, \binits{A.C.}},
+\bauthor{\bsnm{Kelly}, \binits{K.}},
+\bauthor{\bsnm{Beck}, \binits{J.T.}},
+\bauthor{\bsnm{Gordon}, \binits{M.S.}},
+\bauthor{\bsnm{Weiss}, \binits{G.J.}},
+\bauthor{\bsnm{Taylor}, \binits{M.H.}},
+\bauthor{\bsnm{Chaves}, \binits{J.}},
+\bauthor{\bsnm{Mita}, \binits{A.C.}},
+\bauthor{\bsnm{Chin}, \binits{K.M.}},
+\bauthor{\bparticle{von} \bsnm{Heydebreck}, \binits{A.}},
+\bauthor{\bsnm{Cuillerot}, \binits{J.-M.}},
+\bauthor{\bsnm{Gulley}, \binits{J.L.}}:
+\batitle{Avelumab (msb0010718c; anti-pd-l1) in patients with
+  recurrent/refractory ovarian cancer from the javelin solid tumor phase ib
+  trial: Safety and clinical activity.}
+\bjtitle{Journal of Clinical Oncology}
+\bvolume{34}(\bissue{15\_suppl}),
+\bfpage{5533}--\blpage{5533}
+(\byear{2016}).
+doi:\doiurl{10.1200/JCO.2016.34.15\_suppl.5533}
+\end{barticle}
+\endbibitem
+
+%%% 36
+\bibitem{Varga2017}
+\begin{barticle}
+\bauthor{\bsnm{Varga}, \binits{A.}},
+\bauthor{\bsnm{Piha-Paul}, \binits{S.A.}},
+\bauthor{\bsnm{Ott}, \binits{P.A.}},
+\bauthor{\bsnm{Mehnert}, \binits{J.M.}},
+\bauthor{\bsnm{Berton-Rigaud}, \binits{D.}},
+\bauthor{\bsnm{Morosky}, \binits{A.}},
+\bauthor{\bsnm{Zhao}, \binits{G.Q.}},
+\bauthor{\bsnm{Rangwala}, \binits{R.A.}},
+\bauthor{\bsnm{Matei}, \binits{D.}}:
+\batitle{Pembrolizumab in patients (pts) with pd-l1-positive (pd-l1+) advanced
+  ovarian cancer: Updated analysis of keynote-028.}
+\bjtitle{Journal of Clinical Oncology}
+\bvolume{35}(\bissue{15\_suppl}),
+\bfpage{5513}--\blpage{5513}
+(\byear{2017}).
+doi:\doiurl{10.1200/JCO.2017.35.15\_suppl.5513}
+\end{barticle}
+\endbibitem
+
+%%% 37
 \bibitem{Pages2010}
 \begin{barticle}
 \bauthor{\bsnm{Pagt{\'{e}}s}, \binits{F.}},
@@ -1004,7 +1091,7 @@ doi:\doiurl{10.1038/onc.2009.416}
 \end{barticle}
 \endbibitem
 
-%%% 35
+%%% 38
 \bibitem{Mlecnik2016}
 \begin{botherref}
 \oauthor{\bsnm{Mlecnik}, \binits{B.}},
@@ -1033,7 +1120,7 @@ Science Translational Medicine
 \end{botherref}
 \endbibitem
 
-%%% 36
+%%% 39
 \bibitem{Rooney_2015}
 \begin{barticle}
 \bauthor{\bsnm{Rooney}, \binits{M.S.}},
@@ -1051,7 +1138,7 @@ doi:\doiurl{10.1016/j.cell.2014.12.033}
 \end{barticle}
 \endbibitem
 
-%%% 37
+%%% 40
 \bibitem{Giannakis2016}
 \begin{barticle}
 \bauthor{\bsnm{Giannakis}, \binits{M.}},
@@ -1094,7 +1181,7 @@ doi:\doiurl{10.1016/j.celrep.2016.03.075}
 \end{barticle}
 \endbibitem
 
-%%% 38
+%%% 41
 \bibitem{Dunn2002}
 \begin{barticle}
 \bauthor{\bsnm{Dunn}, \binits{G.P.}},
@@ -1111,7 +1198,7 @@ doi:\doiurl{10.1038/ni1102-991}
 \end{barticle}
 \endbibitem
 
-%%% 39
+%%% 42
 \bibitem{Martin_2016}
 \begin{barticle}
 \bauthor{\bsnm{Martin}, \binits{S.D.}},
@@ -1132,7 +1219,7 @@ doi:\doiurl{10.1371/journal.pone.0155189}
 \end{barticle}
 \endbibitem
 
-%%% 40
+%%% 43
 \bibitem{McGranahan_2016}
 \begin{barticle}
 \bauthor{\bsnm{McGranahan}, \binits{N.}},
@@ -2197,6 +2284,96 @@ doi:\doiurl{10.1126/science.aaf1490}
 </bibl>
 
 <bibl id="B34">
+  <title><p>{Safety and Antitumor Activity of Anti-PD-1 Antibody, Nivolumab, in
+  Patients With Platinum-Resistant Ovarian Cancer.}</p></title>
+  <aug>
+    <au><snm>Hamanishi</snm><fnm>J</fnm></au>
+    <au><snm>Mandai</snm><fnm>M</fnm></au>
+    <au><snm>Ikeda</snm><fnm>T</fnm></au>
+    <au><snm>Minami</snm><fnm>M</fnm></au>
+    <au><snm>Kawaguchi</snm><fnm>A</fnm></au>
+    <au><snm>Murayama</snm><fnm>T</fnm></au>
+    <au><snm>Kanai</snm><fnm>M</fnm></au>
+    <au><snm>Mori</snm><fnm>Y</fnm></au>
+    <au><snm>Matsumoto</snm><fnm>S</fnm></au>
+    <au><snm>Chikuma</snm><fnm>S</fnm></au>
+    <au><snm>Matsumura</snm><fnm>N</fnm></au>
+    <au><snm>Abiko</snm><fnm>K</fnm></au>
+    <au><snm>Baba</snm><fnm>T</fnm></au>
+    <au><snm>Yamaguchi</snm><fnm>K</fnm></au>
+    <au><snm>Ueda</snm><fnm>A</fnm></au>
+    <au><snm>Hosoe</snm><fnm>Y</fnm></au>
+    <au><snm>Morita</snm><fnm>S</fnm></au>
+    <au><snm>Yokode</snm><fnm>M</fnm></au>
+    <au><snm>Shimizu</snm><fnm>A</fnm></au>
+    <au><snm>Honjo</snm><fnm>T</fnm></au>
+    <au><snm>Konishi</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Journal of clinical oncology : official journal of the American
+  Society of Clinical Oncology</source>
+  <publisher>American Society of Clinical Oncology</publisher>
+  <pubdate>2015</pubdate>
+  <volume>33</volume>
+  <issue>34</issue>
+  <fpage>4015</fpage>
+  <lpage>-22</lpage>
+  <url>http://ascopubs.org/doi/10.1200/JCO.2015.62.3397
+  http://www.ncbi.nlm.nih.gov/pubmed/26351349</url>
+</bibl>
+
+<bibl id="B35">
+  <title><p>Avelumab (MSB0010718C; anti-PD-L1) in patients with
+  recurrent/refractory ovarian cancer from the JAVELIN Solid Tumor phase Ib
+  trial: Safety and clinical activity.</p></title>
+  <aug>
+    <au><snm>Disis</snm><fnm>ML</fnm></au>
+    <au><snm>Patel</snm><fnm>MR</fnm></au>
+    <au><snm>Pant</snm><fnm>S</fnm></au>
+    <au><snm>Hamilton</snm><fnm>EP</fnm></au>
+    <au><snm>Lockhart</snm><fnm>AC</fnm></au>
+    <au><snm>Kelly</snm><fnm>K</fnm></au>
+    <au><snm>Beck</snm><fnm>JT</fnm></au>
+    <au><snm>Gordon</snm><fnm>MS</fnm></au>
+    <au><snm>Weiss</snm><fnm>GJ</fnm></au>
+    <au><snm>Taylor</snm><fnm>MH</fnm></au>
+    <au><snm>Chaves</snm><fnm>J</fnm></au>
+    <au><snm>Mita</snm><fnm>AC</fnm></au>
+    <au><snm>Chin</snm><fnm>KM</fnm></au>
+    <au><snm>Heydebreck</snm><fnm>A</fnm></au>
+    <au><snm>Cuillerot</snm><fnm>JM</fnm></au>
+    <au><snm>Gulley</snm><fnm>JL</fnm></au>
+  </aug>
+  <source>Journal of Clinical Oncology</source>
+  <pubdate>2016</pubdate>
+  <volume>34</volume>
+  <issue>15\_suppl</issue>
+  <fpage>5533</fpage>
+  <lpage>5533</lpage>
+</bibl>
+
+<bibl id="B36">
+  <title><p>Pembrolizumab in patients (pts) with PD-L1-positive (PD-L1+)
+  advanced ovarian cancer: Updated analysis of KEYNOTE-028.</p></title>
+  <aug>
+    <au><snm>Varga</snm><fnm>A</fnm></au>
+    <au><snm>Piha Paul</snm><fnm>SA</fnm></au>
+    <au><snm>Ott</snm><fnm>PA</fnm></au>
+    <au><snm>Mehnert</snm><fnm>JM</fnm></au>
+    <au><snm>Berton Rigaud</snm><fnm>D</fnm></au>
+    <au><snm>Morosky</snm><fnm>A</fnm></au>
+    <au><snm>Zhao</snm><fnm>GQ</fnm></au>
+    <au><snm>Rangwala</snm><fnm>RA</fnm></au>
+    <au><snm>Matei</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Journal of Clinical Oncology</source>
+  <pubdate>2017</pubdate>
+  <volume>35</volume>
+  <issue>15\_suppl</issue>
+  <fpage>5513</fpage>
+  <lpage>5513</lpage>
+</bibl>
+
+<bibl id="B37">
   <title><p>{Immune infiltration in human tumors: a prognostic factor that
   should not be ignored}</p></title>
   <aug>
@@ -2217,7 +2394,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.nature.com/doifinder/10.1038/onc.2009.416</url>
 </bibl>
 
-<bibl id="B35">
+<bibl id="B38">
   <title><p>{The tumor microenvironment and Immunoscore are critical
   determinants of dissemination to distant metastasis}</p></title>
   <aug>
@@ -2247,7 +2424,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://stm.sciencemag.org/content/8/327/327ra26</url>
 </bibl>
 
-<bibl id="B36">
+<bibl id="B39">
   <title><p>{Molecular and Genetic Properties of Tumors Associated with Local
   Immune Cytolytic Activity}</p></title>
   <aug>
@@ -2267,7 +2444,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.cell.2014.12.033</url>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B40">
   <title><p>{Genomic Correlates of Immune-Cell Infiltrates in Colorectal
   Carcinoma}</p></title>
   <aug>
@@ -2312,7 +2489,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1016/j.celrep.2016.03.075</url>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B41">
   <title><p>{Cancer immunoediting: from immunosurveillance to tumor
   escape}</p></title>
   <aug>
@@ -2332,7 +2509,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://www.nature.com/doifinder/10.1038/ni1102-991</url>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B42">
   <title><p>{Low Mutation Burden in Ovarian Cancer May Limit the Utility of
   Neoantigen-Targeted Vaccines}</p></title>
   <aug>
@@ -2355,7 +2532,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
-<bibl id="B40">
+<bibl id="B43">
   <title><p>{Clonal neoantigens elicit T cell immunoreactivity and sensitivity
   to immune checkpoint blockade}</p></title>
   <aug>
