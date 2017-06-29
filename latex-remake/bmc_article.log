@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2017 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JUN 2017 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,18 +397,18 @@ Now handling font encoding U ...
 (./bmc_article.aux)
 \openout1 = `bmc_article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -426,59 +426,59 @@ LaTeX Font Info:    ... okay on input line 88.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 88.
+(lastpage)             ! on input line 90.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 94.
+(Font)              size <12> substituted on input line 96.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 102.
+(Font)              size <24.88> substituted on input line 104.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 118.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 120.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 118.
+(Font)              size <5> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 118.
+(Font)              size <5> substituted on input line 120.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 118.
+(Font)              size <5> substituted on input line 120.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 118.
+(Font)              <11> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 118.
+(Font)              <7.69997> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 118.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 124
+(Font)              <5.5> on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 126
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 124.
+LaTeX Font Info:    No file OMScmss.fd. on input line 126.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textdagger' on input line 124.
+(Font)              for symbol `textdagger' on input line 126.
 
 \address@aff1=\toks21
 \address@aff2=\toks22
 \address@aff3=\toks23
 \address@aff4=\toks24
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 181.
+(Font)              <7> on input line 183.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 181.
+(Font)              <5> on input line 183.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 201.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 203.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 297.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 299.
 
 
 
@@ -491,18 +491,18 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 302.
+               Default added (so using `tbp') on input line 304.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 304.
+(Font)              <8> on input line 306.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 304.
+(Font)              <6> on input line 306.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 315.
+               Default added (so using `tbp') on input line 317.
 
 [2] [3] [4] [5] [6] [7]
-Underfull \hbox (badness 1122) in paragraph at lines 440--441
+Underfull \hbox (badness 1122) in paragraph at lines 442--443
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
@@ -516,7 +516,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 641.
+(Font)              using `OT1/cmss/bx/n' instead on input line 643.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -543,7 +543,7 @@ Here is how much of TeX's memory you used:
  6077 multiletter control sequences out of 15000+600000
  12298 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,37p,1826b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,37p,1827b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -561,7 +561,7 @@ xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (15 pages, 247504 bytes).
+Output written on bmc_article.pdf (15 pages, 247540 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
