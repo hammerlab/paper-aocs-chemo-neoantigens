@@ -837,11 +837,8 @@ doi:\doiurl{10.3102/1076998615606113}
 \begin{botherref}
 \oauthor{\bsnm{Institute}, \binits{W.T.S.}}:
 {Signatures of Mutational Processes in Human Cancer}.
-\url{http://cancer.sanger.ac.uk/cosmic/signatures}.
 [Online; accessed 27-May-2016]
-(2016).
-\url{http://cancer.sanger.ac.uk/cosmic/signatures}
-Accessed 2016-05-27
+(2016)
 \end{botherref}
 \endbibitem
 
@@ -871,8 +868,7 @@ doi:\doiurl{10.5281/zenodo.805994}
 \oauthor{\bsnm{Therneau}, \binits{T.M.}}:
 A Package for Survival Analysis in S.
 (2015).
-version 2.38.
-\url{https://CRAN.R-project.org/package=survival}
+version 2.38
 \end{botherref}
 \endbibitem
 
@@ -1292,7 +1288,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>1-2</issue>
   <fpage>183</fpage>
   <lpage>-191</lpage>
-  <url>http://dx.doi.org/10.1016/0300-483x(89)90185-6</url>
 </bibl>
 
 <bibl id="B2">
@@ -1313,7 +1308,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>1-2</issue>
   <fpage>115</fpage>
   <lpage>-181</lpage>
-  <url>http://dx.doi.org/10.1016/0027-5107(95)00039-l</url>
 </bibl>
 
 <bibl id="B3">
@@ -1383,7 +1377,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>7382</issue>
   <fpage>506</fpage>
   <lpage>-510</lpage>
-  <url>http://dx.doi.org/10.1038/nature10738</url>
 </bibl>
 
 <bibl id="B5">
@@ -1433,7 +1426,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>6167</issue>
   <fpage>189</fpage>
   <lpage>-193</lpage>
-  <url>http://dx.doi.org/10.1126/science.1239947</url>
 </bibl>
 
 <bibl id="B6">
@@ -1466,7 +1458,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>8</issue>
   <fpage>821</fpage>
   <lpage>-831</lpage>
-  <url>http://dx.doi.org/10.1158/2159-8290.cd-15-0412</url>
 </bibl>
 
 <bibl id="B7">
@@ -1482,7 +1473,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>1</issue>
   <fpage>1</fpage>
   <lpage>-10</lpage>
-  <url>http://dx.doi.org/10.1016/j.immuni.2013.07.012</url>
 </bibl>
 
 <bibl id="B8">
@@ -1499,7 +1489,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>6230</issue>
   <fpage>69</fpage>
   <lpage>-74</lpage>
-  <url>http://dx.doi.org/10.1126/science.aaa4971</url>
 </bibl>
 
 <bibl id="B9">
@@ -1534,8 +1523,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>51</issue>
   <fpage>18538</fpage>
   <lpage>-43</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/16344461
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1311741</url>
 </bibl>
 
 <bibl id="B10">
@@ -1563,8 +1550,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>9</issue>
   <fpage>3360</fpage>
   <lpage>-5</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/17360651
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC1805580</url>
 </bibl>
 
 <bibl id="B11">
@@ -1584,7 +1569,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>24</issue>
   <fpage>3265</fpage>
   <lpage>-3275</lpage>
-  <url>http://dx.doi.org/10.1093/bioinformatics/btm471</url>
 </bibl>
 
 <bibl id="B12">
@@ -1606,7 +1590,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>5</issue>
   <fpage>743</fpage>
   <lpage>-750</lpage>
-  <url>http://dx.doi.org/10.1101/gr.165985.113</url>
 </bibl>
 
 <bibl id="B13">
@@ -1644,7 +1627,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>6257</issue>
   <fpage>207</fpage>
   <lpage>-211</lpage>
-  <url>http://dx.doi.org/10.1126/science.aad0095</url>
 </bibl>
 
 <bibl id="B14">
@@ -1684,7 +1666,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>6230</issue>
   <fpage>124</fpage>
   <lpage>-128</lpage>
-  <url>http://dx.doi.org/10.1126/science.aaa1348</url>
 </bibl>
 
 <bibl id="B15">
@@ -1764,7 +1745,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>7457</issue>
   <fpage>214</fpage>
   <lpage>-218</lpage>
-  <url>http://dx.doi.org/10.1038/nature12213</url>
 </bibl>
 
 <bibl id="B16">
@@ -1861,7 +1841,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>7553</issue>
   <fpage>489</fpage>
   <lpage>-494</lpage>
-  <url>http://dx.doi.org/10.1038/nature14410</url>
 </bibl>
 
 <bibl id="B17">
@@ -1884,7 +1863,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <volume>4</volume>
   <issue>12</issue>
   <fpage>102</fpage>
-  <url>http://dx.doi.org/10.1186/gm403</url>
 </bibl>
 
 <bibl id="B18">
@@ -1905,7 +1883,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>23</issue>
   <fpage>3310</fpage>
   <lpage>-3316</lpage>
-  <url>http://dx.doi.org/10.1093/bioinformatics/btu548</url>
 </bibl>
 
 <bibl id="B19">
@@ -1926,7 +1903,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>Web Server</issue>
   <fpage>W509</fpage>
   <lpage>-W512</lpage>
-  <url>http://dx.doi.org/10.1093/nar/gkn202</url>
 </bibl>
 
 <bibl id="B20">
@@ -2010,7 +1986,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>7463</issue>
   <fpage>415</fpage>
   <lpage>-21</lpage>
-  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3776390{\&}tool=pmcentrez{\&}rendertype=abstract</url>
 </bibl>
 
 <bibl id="B21">
@@ -2029,7 +2004,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <pubdate>2016</pubdate>
   <volume>17</volume>
   <issue>1</issue>
-  <url>http://dx.doi.org/10.1186/s13059-016-0893-4</url>
 </bibl>
 
 <bibl id="B22">
@@ -2056,7 +2030,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>10</issue>
   <fpage>1624</fpage>
   <lpage>-1636</lpage>
-  <url>http://dx.doi.org/10.1101/gr.175547.114</url>
 </bibl>
 
 <bibl id="B23">
@@ -2082,7 +2055,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <pubdate>2016</pubdate>
   <volume>17</volume>
   <issue>1</issue>
-  <url>http://dx.doi.org/10.1186/s13059-016-0963-7</url>
 </bibl>
 
 <bibl id="B24">
@@ -2100,7 +2072,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>8</issue>
   <fpage>1009</fpage>
   <lpage>1016</lpage>
-  <url>http://www.sciencedirect.com/science/article/pii/0020711X94900728</url>
 </bibl>
 
 <bibl id="B25">
@@ -2118,7 +2089,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>5</issue>
   <fpage>530</fpage>
   <lpage>-543</lpage>
-  <url>http://dx.doi.org/10.3102/1076998615606113</url>
 </bibl>
 
 <bibl id="B26">
@@ -2126,9 +2096,7 @@ doi:\doiurl{10.1126/science.aaf1490}
   <aug>
     <au><snm>Institute</snm><fnm>WTS</fnm></au>
   </aug>
-  <source>\url{http://cancer.sanger.ac.uk/cosmic/signatures}</source>
   <pubdate>2016</pubdate>
-  <url>http://cancer.sanger.ac.uk/cosmic/signatures</url>
   <note>[Online; accessed 27-May-2016]</note>
 </bibl>
 
@@ -2157,7 +2125,6 @@ doi:\doiurl{10.1126/science.aaf1490}
     <au><snm>Therneau</snm><fnm>TM</fnm></au>
   </aug>
   <pubdate>2015</pubdate>
-  <url>https://CRAN.R-project.org/package=survival</url>
   <note>version 2.38</note>
 </bibl>
 
@@ -2259,7 +2226,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>12</issue>
   <fpage>5586</fpage>
   <lpage>-92</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/7527444</url>
 </bibl>
 
 <bibl id="B33">
@@ -2279,8 +2245,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <volume>16</volume>
   <issue>1</issue>
   <fpage>317</fpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/25648541
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC4355232</url>
 </bibl>
 
 <bibl id="B34">
@@ -2317,8 +2281,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>34</issue>
   <fpage>4015</fpage>
   <lpage>-22</lpage>
-  <url>http://ascopubs.org/doi/10.1200/JCO.2015.62.3397
-  http://www.ncbi.nlm.nih.gov/pubmed/26351349</url>
 </bibl>
 
 <bibl id="B35">
@@ -2391,7 +2353,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>8</issue>
   <fpage>1093</fpage>
   <lpage>-1102</lpage>
-  <url>http://www.nature.com/doifinder/10.1038/onc.2009.416</url>
 </bibl>
 
 <bibl id="B38">
@@ -2421,7 +2382,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <pubdate>2016</pubdate>
   <volume>8</volume>
   <issue>327</issue>
-  <url>http://stm.sciencemag.org/content/8/327/327ra26</url>
 </bibl>
 
 <bibl id="B39">
@@ -2441,7 +2401,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>1-2</issue>
   <fpage>48</fpage>
   <lpage>-61</lpage>
-  <url>http://dx.doi.org/10.1016/j.cell.2014.12.033</url>
 </bibl>
 
 <bibl id="B40">
@@ -2486,7 +2445,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>4</issue>
   <fpage>857</fpage>
   <lpage>-865</lpage>
-  <url>http://dx.doi.org/10.1016/j.celrep.2016.03.075</url>
 </bibl>
 
 <bibl id="B41">
@@ -2506,7 +2464,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>11</issue>
   <fpage>991</fpage>
   <lpage>-998</lpage>
-  <url>http://www.nature.com/doifinder/10.1038/ni1102-991</url>
 </bibl>
 
 <bibl id="B42">
@@ -2529,7 +2486,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <volume>11</volume>
   <issue>5</issue>
   <fpage>e0155189</fpage>
-  <url>http://dx.doi.org/10.1371/journal.pone.0155189</url>
 </bibl>
 
 <bibl id="B43">
@@ -2581,7 +2537,6 @@ doi:\doiurl{10.1126/science.aaf1490}
   <issue>6280</issue>
   <fpage>1463</fpage>
   <lpage>-1469</lpage>
-  <url>http://dx.doi.org/10.1126/science.aaf1490</url>
 </bibl>
 
 </refgrp>
