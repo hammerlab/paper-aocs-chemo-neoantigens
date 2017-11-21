@@ -44,8 +44,8 @@
 %%% loading packages, author definitions
 
 %\documentclass[twocolumn]{bmcart}% uncomment this for twocolumn layout and comment line below
-\documentclass[linenumbers]{bmcart}
-% \documentclass{bmcart}
+% \documentclass[linenumbers]{bmcart}
+\documentclass{bmcart}
 
 
 %%% Load packages
@@ -57,7 +57,7 @@
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 
-\usepackage{multirow} 
+%\usepackage{multirow} 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -117,14 +117,14 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author[addressref={aff1}, email={tim@hammerlab.org}]{\inits{TO}\fnm{Timothy} \snm{O'Donnell}}
+\author[addressref={aff1}, email={timothy.odonnell@icahn.mssm.edu}]{\inits{TO}\fnm{Timothy} \snm{O'Donnell}}
 \author[addressref={aff2}, email={elizabeth.christie@petermac.org}]{\inits{EC}\fnm{Elizabeth L.} \snm{Christie}}
 \author[addressref={aff1}, email={aahuja11@gmail.com}]{\inits{AA}\fnm{Arun} \snm{Ahuja}}
-\author[addressref={aff1}, email={jacki@hammerlab.org}]{\inits{JB}\fnm{Jacqueline} \snm{Buros}}
+\author[addressref={aff1}, email={jacqueline.buros@mssm.edu}]{\inits{JB}\fnm{Jacqueline} \snm{Buros}}
 \author[addressref={aff1}, email={arman@hammerlab.org}]{\inits{BAA}\fnm{B. Arman} \snm{Aksoy}}
 \author[addressref={aff2}, email={david.bowtell@petermac.org}]{\inits{DB}\fnm{David D. L.} \snm{Bowtell}}
-\author[addressref={aff3}, noteref={n1}, email={snyderca@mskcc.org}]{\inits{AS}\fnm{Alexandra} \snm{Snyder}}
-\author[addressref={aff1}, noteref={n1}, email={hammer@hammerlab.org}]{\inits{JH}\fnm{Jeff} \snm{Hammerbacher}}
+\author[addressref={aff3,aff5}, noteref={n1}, email={snyderca@mskcc.org}]{\inits{AS}\fnm{Alexandra} \snm{Snyder}}
+\author[addressref={aff1,aff4}, noteref={n1}, corref={aff1}, email={Jeff.Hammerbacher@mssm.edu}]{\inits{JH}\fnm{Jeff} \snm{Hammerbacher}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -151,10 +151,17 @@
   \cny{Australia}                                    % country
 }
 \address[id=aff3]{%                           % unique id
-  \orgname{Department of Medicine, Memorial Sloan-Kettering Cancer Center, Weill Cornell Medical College}, % university, etc
+  \orgname{Department of Medicine, Memorial Sloan-Kettering Cancer Center}, % university, etc
   % \street{1 Gustave L. Levy Pl},                     %
   %\postcode{}                                % post or zip code
   \city{New York, N.Y.},                              % city
+  \cny{USA}                                    % country
+}
+\address[id=aff5]{%                           % unique id
+  \orgname{Adaptive Biotechnologies}, % university, etc
+  % \street{1 Gustave L. Levy Pl},                     %
+  %\postcode{}                                % post or zip code
+  \city{Seattle, W	A.},                              % city
   \cny{USA}                                    % country
 }
 \address[id=aff4]{%                           % unique id
@@ -164,7 +171,6 @@
   \city{Charleston, S.C.},                              % city
   \cny{USA}                                    % country
 }
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -562,7 +568,9 @@ In this study, we demonstrate a method for connecting mutational signatures extr
 \textbf{AOCS}: Australian Ovarian Cancer Study, \textbf{COSMIC}: the Catalogue Of Somatic Mutations In Cancer, \textbf{HGSC}: high grade serous ovarian carcinoma, \textbf{indel}: an insertion or deletion mutation, \textbf{MNV}: multi nucleotide variant, \textbf{NACT}: neoadjuvant chemotherapy, \textbf{SNV}: single nucleotide variant
 
 \section*{Ethics approval and consent to participate}
-The patients analyzed in this study were treated at hospitals across Australia and were recruited through the Australian Ovarian Cancer Study or through the Gynaecological Oncology Biobank at Westmead Hospital in Sydney. Four primary refractory cases were obtained from the Hammersmith Hospital Imperial College (London, UK) and the University of Chicago (Chicago, USA). Ethics board approval was obtained at all institutions for patient recruitment, sample collection and research studies. Written informed consent was obtained from all participants in this study.
+As described in ref.~\cite{Patch_2015}, the Australian Ovarian Cancer Study was approved by the Human Research Ethics Committees at the Peter MacCallum Cancer Centre, Queensland Institute of Medical Research, University of Melbourne and all participating hospitals. Written informed consent was obtained from all participants in this study.
+
+% The patients analyzed in this study were treated at hospitals across Australia and were recruited through the Australian Ovarian Cancer Study or through the Gynaecological Oncology Biobank at Westmead Hospital in Sydney. Four primary refractory cases were obtained from the Hammersmith Hospital Imperial College (London, UK) and the University of Chicago (Chicago, USA). Ethics board approval was obtained at all institutions for patient recruitment, sample collection and research studies (Peter MacCallum Cancer Centre Ethics Committee). 
 
 
 \section*{Consent for publication}
@@ -575,10 +583,10 @@ All data generated during this study are included in this published article and 
   The authors declare that they have no competing interests.
   
 \section*{Funding}
-This research was supported by the Parker Institute for Cancer Immunotherapy, the Marsha Rivkin Foundation, and NIH/NCI Cancer Center Support Grant P30 CA008748. 
+This research was supported by the Parker Institute for Cancer Immunotherapy, the Marsha Rivkin Foundation, and NIH/NCI Cancer Center Support Grant P30 CA008748. Funding organizations were not involved in the design of the study, the collection, analysis, and interpretation of data and in writing the manuscript.
 
 \section*{Author's contributions}
- AS, DB, JH, and TO conceived and coordinated the study. TO performed the research and wrote the manuscript. EC curated the clinical records. AA and BAA advised on analysis methods. JB provided statistical review.  All authors revised the manuscript critically.
+ AS, DB, JH, and TO conceived and coordinated the study. TO performed the research and wrote the manuscript. EC curated the clinical records. AA and BAA advised on analysis methods. JB provided statistical review.  All authors read, revised, and approved the final manuscript.
 
 \section*{Acknowledgements}
 We thank Leonid Rozenberg and Tavi Nathanson at Mount Sinai for assistance with sequence-based HLA typing and immune cell deconvolution. We also thank Dariush Etemadmoghadam and Ann-Marie Patch at Peter MacCallum Cancer Centre for assistance accessing AOCS data sets.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 AUG 2017 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2017 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,8 +74,6 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 \abstract@box=\box29
 \authors@list=\toks15
 \keywords@list=\toks16
-\numberlines@box=\box30
-\numberlines@box@skip=\skip43
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -391,9 +389,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen105
-)
 (./bmc_article.aux)
 \openout1 = `bmc_article.aux'.
 
@@ -413,13 +408,13 @@ LaTeX Font Info:    ... okay on input line 90.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
-\scratchdimen=\dimen106
-\scratchbox=\box31
+\scratchdimen=\dimen105
+\scratchbox=\box30
 \nofMPsegments=\count93
 \nofMParguments=\count94
 \everyMPshowfont=\toks19
 \MPscratchCnt=\count95
-\MPscratchDim=\dimen107
+\MPscratchDim=\dimen106
 \MPnumerator=\count96
 \makeMPintoPDFobject=\count97
 \everyMPtoPDFconversion=\toks20
@@ -466,24 +461,25 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 \address@aff1=\toks21
 \address@aff2=\toks22
 \address@aff3=\toks23
-\address@aff4=\toks24
+\address@aff5=\toks24
+\address@aff4=\toks25
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 183.
+(Font)              <7> on input line 189.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 183.
+(Font)              <5> on input line 189.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 203.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 209.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 299.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 305.
 
 
 
 Overfull \hbox (1.0pt too wide) has occurred while \output is active
- [] []
+ [] 
  []
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -491,18 +487,18 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 304.
+               Default added (so using `tbp') on input line 310.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 306.
+(Font)              <8> on input line 312.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 306.
+(Font)              <6> on input line 312.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 317.
+               Default added (so using `tbp') on input line 323.
 
 [2] [3] [4] [5] [6] [7]
-Underfull \hbox (badness 1122) in paragraph at lines 442--443
+Underfull \hbox (badness 1122) in paragraph at lines 448--449
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
@@ -516,7 +512,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 643.
+(Font)              using `OT1/cmss/bx/n' instead on input line 651.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -537,13 +533,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2525 strings out of 493014
- 30970 string characters out of 6133351
- 142907 words of memory out of 5000000
- 6077 multiletter control sequences out of 15000+600000
- 12298 words of font info for 42 fonts, out of 8000000 for 9000
+ 2509 strings out of 493014
+ 30624 string characters out of 6133351
+ 137451 words of memory out of 5000000
+ 6066 multiletter control sequences out of 15000+600000
+ 12130 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,10n,37p,1827b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,10n,37p,1827b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -559,12 +555,11 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on bmc_article.pdf (15 pages, 247615 bytes).
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on bmc_article.pdf (15 pages, 238985 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
