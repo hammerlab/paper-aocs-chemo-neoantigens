@@ -208,41 +208,12 @@ Patients with highly mutated tumors, such as melanoma or smoking-related lung ca
 \parttitle{Methods}
 We sought to quantify the effect of chemotherapy treatment on computationally predicted neoantigen expression for high grade serous ovarian carcinoma patients enrolled in the Australian Ovarian Cancer Study. In this series,  35 of 114 samples were collected after exposure to chemotherapy; 14 are matched with an untreated sample from the same patient. Our approach integrates whole genome and RNA sequencing of bulk tumor samples with class I MHC binding prediction and mutational signatures extracted from studies of chemotherapy-exposed \textit{Caenorhabditis elegans} and \textit{Gallus gallus} cells. We additionally investigated the relationship between neoantigens, tumor infiltrating immune cells estimated from RNA-seq with CIBERSORT, and patient survival.
 
-%  92-patient series includes
-
-%79 primary untreated samples, 5 primary samples collected after neoadjuvant chemotherapy, and 
-
-%We sought to quantify the effect of chemotherapy treatment on computationally predicted neoantigen expression for 12 high grade serous ovarian carcinoma (HGSC) patients with pre- and post-chemotherapy samples collected in the Australian Ovarian Cancer Study. We additionally analyzed 16 patients from the cohort with post-treatment samples only, including five primary surgical samples exposed to neoadjuvant chemotherapy. Our approach integrates tumor whole genome and RNA sequencing with class I MHC binding prediction and mutational signatures of chemotherapy exposure extracted from preclinical studies of chemotherapy-exposed \textit{C. elegans} and \textit{G. gallus} cells.
-
 \parttitle{Results}
 Greater neoantigen burden and CD8+ T cell infiltration in primary, pre-treatment samples were independently associated with improved survival. Relapse samples collected after chemotherapy harbored a median of 78\% more expressed neoantigens than untreated primary samples, a figure that combines the effects of chemotherapy and other processes operative during relapse. The contribution from chemotherapy-associated signatures was small, accounting for a mean of 5\% (range 0--16) of the expressed neoantigen burden in relapse samples. In both treated and untreated samples, most neoantigens were attributed to COSMIC \textit{Signature (3)}, associated with BRCA disruption, \textit{Signature (1)}, associated with a slow mutagenic process active in healthy tissue, and \textit{Signature (8)}, of unknown etiology.
-
-% Neoadjuvant-treated primary samples showed no detectable increase over untreated samples. 
-
-% (Cox multiple regression, neoantigens HR=0.72 (0.54--0.97), p=0.03; CD8+ T cell infiltration HR=0.61 (0.44--0.85), p=0.003)
-
-% Predicted neoantigen burden and CD8+ T cell infiltration estimated from RNA-seq in primary, chemotherapy-naive solid tissue samples were independently associated with at the primary, untreated time point, but not at the relapse time point.
-
-%The mutational signatures for cisplatin and cyclophosphamide identified in a preclinical model had significant but inexact associations with the relevant exposure in the clinical samples. 
-% In an analysis stratified by tissue type,
 
 
 \parttitle{Conclusion}
 Relapsed ovarian cancers harbor more predicted neoantigens than primary tumors, but the increase is due to pre-existing mutational processes, not mutagenesis from chemotherapy.
-
-%Our analyses are based on bulk sequencing and do not account for neoantigens present in small populations of cells. 
-
- %  and clonal outgrowth following treatment
-
-%  These results suggest that clonal outgrowth following treatment has a greater impact on neoantigen burden in relapsed disease than direct mutagenesis from chemotherapy.
-
-% mutagenic processes responsible for most mutations detectable by bulk sequencing are similar between primary and relapse samples.
-
-%These results are consistent with a model in which outgrowth of a subclone following surgery and adjuvant chemotherapy brings many mutations previously confined to a small number of cells to population levels detectable by bulk sequencing. 
-
-%Our results are consistent with a model whereby outgrowth of a subclone during 
-
-%Our analyses are based on sequencing of bulk samples and do not account for neoantigens present in small populations of cells. 
 
 \end{abstract}
 
@@ -304,8 +275,6 @@ Relapsed ovarian cancers harbor more predicted neoantigens than primary tumors, 
 Many chemotherapies including platinum compounds~\cite{Hannan_1989}, cyclophosphamide~\cite{Anderson_1995}, and etoposide~\cite{NAKANOMYO_1986} exert their effect through DNA damage, and recent studies have found evidence for chemotherapy-induced mutations in post-treatment acute myeloid leukaemia~\cite{Ding_2012}, glioma~\cite{Johnson_2013}, and esophageal adenocarcinoma~\cite{Murugaesu_2015}. Successful development of immune checkpoint-mediated therapy~\cite{Chen_2013} has focused attention on the importance of T cell responses to somatic mutations in coding genes that generate neoantigens~\cite{Schumacher_2015}. Patients with more CD8+ T cell infiltration in their tumors have better prognosis~\cite{Sato2005,Hamanishi2007}, and studies based on bulk-sequencing of tumor samples followed by computational peptide-class I MHC affinity prediction~\cite{Lundegaard_2007} have associated increased mutations and resulting mutant MHC I peptide ligands with improved survival~\cite{Brown_2014}, especially in the context of checkpoint blockade immunotherapy~\cite{Van_Allen_2015,Rizvi_2015}. Ovarian cancers fall into an intermediate group of solid tumors in terms of mutational load present in pre-treatment surgical samples\cite{Lawrence_2013}. However, the effect of standard chemotherapy regimes on tumor mutation burden and resulting neoantigen expression in ovarian cancer is poorly understood.
 
 Investigators associated with the Australian Ovarian Cancer Study (AOCS) performed whole genome and RNA sequencing of 79 pre-treatment and 35 post-treatment cancer samples from 92 high grade serous ovarian carcinoma (HGSC) patients, including 12 patients with both pre- and post-treatment samples~\cite{Patch_2015}. The samples were obtained from solid tissue resections, autopsies, and ascites drained to relieve abdominal distension. Treatment regimes varied but primary treatment always included platinum-based chemotherapy. In their analysis, Patch et al. reported that post-treatment samples harbored more somatic mutations than pre-treatment samples and exhibited evidence of chemotherapy-associated mutations. Here we extend these results by quantifying the mutations and predicted neoantigens attributable to chemotherapy-associated mutational signatures. We find that, while neoantigen expression increases after treatment and relapse, only a small part of the increase is due to mutations associated with chemotherapy signatures. To assess the relevance of neoantigens in HGSC, we also interrogate associations between predicted neoantigen burden, immune cell infiltration estimated from RNA-seq, and patient survival, and find that neoantigen burden and CD8+ T cell infiltration are non-redundant survival predictors in this cohort.
-
-% It was interesting to observe that neoantigen burden in the primary/untreated samples was a stronger predictor of patient survival than overall mutaiton burden, and that neoantigen burden and CD8+ T cell infiltrate estimated by CIBERSORT were both independent predictors of survival. Several studies have reported the importance of CD8+ T cell infiltrate as a prognostic marker in HGSC~\cite{Sato2005,Hamanishi2007}; the role of neoantigens over total mutation burden has been reported in the context of immunotherapy~\cite{Van_Allen_2015,Rizvi_2015} and for patients treated with conventional chemotherapies as in our case~\cite{Brown_2014}. Studies of larger cohorts have reported relationships between neoantigen burden and markers of T cell infiltration~\cite{Rooney_2015,Giannakis2016}; the absence of a correlation in our data may be due to our smaller cohort.
 
 \begin{table}[]
 \centering
@@ -375,11 +344,7 @@ N_j = \left ( \frac{T_j}{\sum_{j'}{T_{j'}}} \right ) \left ( \frac{h_j}{m_j} \ri
 
 where $h_j$ and $m_j$ are the number of times the reference trinucleotide $j$ occurs in the human and preclinical model (\textit{C. elegans} or \textit{G. gallus}) genomes, respectively.
 
-%The signature deconvolution was performed with the deconstructSigs\cite{Rosenthal_2016} package using the following parameters passed to \texttt{whichSignatures()}:
-
 Signature deconvolution was performed with the deconstructSigs~\cite{Rosenthal_2016} package using the 30 mutational signatures curated by COSMIC~\cite{364242} extended to include the putative chemotherapy-associated signatures (Additional Files 4 and 5). When establishing whether a signature was ``detected'' in a sample, we applied the 6\% of SNVs cutoff recommended by the authors of the deconstructSigs package. Signatures assigned weights less than this threshold in a sample were considered undetected.
-
-%\texttt{contexts.needed=TRUE}, \texttt{signature.cutoff=0.0}, \texttt{tri.counts.method="default"}
 
 To estimate the number of SNVs and neoantigens generated by a signature, for each mutation in the sample we calculated the posterior probability that the signature generated the mutation, as described below. The sum of these probabilities gives the expected number of SNVs attributable to each signature. For neoantigens, we weighted the terms of this sum by the number of neoantigens generated by each mutation.
 
@@ -412,8 +377,6 @@ For better sensitivity, we next focused on the 14 relapse/treated samples from t
 
 Considering all relapse/treated samples, the \textit{G. gallus} cisplatin signature showed a dose-dependent relationship with the total number of cisplatin or carboplatin chemotherapy cycles administered (Pearson correlation $r=0.47$; Figure S5). In a linear regression, each additional cycle of platinum was associated with 9.0 (95\% CI 3.6--14.3) more genome-wide mutations attributed to this signature, giving rise to 0.08 (-0.01--0.17) additional neoantigens per cycle. A weaker trend was observed among patients whose only platinum exposure was carboplatin ($r=0.24$; 3.7 (-1.6--9.0) mutations per cycle). The cyclophosphamide signature had little association with the number of cycles of cyclophosphamide ($r=0.11$; 30.4 (-58.9--120.0) mutations per cycle). The time elapsed between the most recent chemotherapy cycle and sample collection did not independently correlate with total mutations or mutations attributed to chemotherapy signatures in a linear model that included the total number of cycles ($p > 0.15$ for all tests).
 
-% Power to detect a dose dependency in this case is expected to be lower due to the fewer cycles of cyclophosphamide administered compared to platinum (maximum of 6 for any patient vs. 40).
-
 In summary, the mutational signatures for cisplatin and cyclophosphamide extracted from experiments of a \textit{G. gallus} cell line showed significant but inexact associations with clinical chemotherapy exposure. 
 
 \subsection*{Pre-treatment neoantigens and CD8+ T cell infiltrate independently predict survival}
@@ -421,25 +384,14 @@ In summary, the mutational signatures for cisplatin and cyclophosphamide extract
 % STATEMENT_TREATMENT_EFFECT
 Across the cohort, we identified 17,689 mutated peptides predicted to bind autologous MHC class I with affinity 500nm or tighter~\cite{Sette1994}. All but 21 (0.12\%) of these predicted neoantigens were private to a single patient (shared neoantigens are listed in Additional File 6).
 
-% To contextualize the potential impact of changes in neoantigen burden associated with time point and chemotherapy, we first asked whether neoantigens correlated with patient survival or CD8+ T cell infiltration estimated from RNA-seq.
-
-%To explore potential effects of changes in neoantigen burden,
-
-% We investigated relationships among neoantigens, immune infiltrate from RNA-seq, and patient survival.
-
-% Patients with greater predicted neoantigen burden in their solid tissue primary/untreated samples had longer survival (Figure~S8). In a Cox proportional hazards regression analysis, patients with higher neoantigen count trended toward longer survival time (hazard ratio (HR) of mean/variance standardized neoantigen count: 0.77 (95\% CI 0.57--1.02), p=0.07). Expressed neoantigen burden showed a similar protective trend (HR=0.78 (0.59--1.03), p=0.08), in contrast to whole-genome mutation burden (HR=1.0 (0.69--1.44), p=0.9). The latter result is strongly affected by sample AOCS-166-1-2, from a patient with a germline deficiency in mismatch repair, by far the most mutations (66\% more than any other), and one of the shortest survival times (195 days). With this sample excluded, neoantigen count (HR=0.73 (0.54--0.97), p=0.03) and expressed neoantigen count (HR=0.75 (0.56--0.99), p=0.04) were significantly associated with survival, whereas mutation burden exhibited a weaker trend (HR=0.85 (0.65--1.11), p=0.2).
-
 Patients with greater predicted neoantigen burden in their solid tissue primary/untreated samples had longer survival (Figure~S6). In a Cox proportional hazards regression analysis, neoantigen count (hazard ratio (HR) of mean/variance standardized count: 0.73 (95\% CI 0.54--0.97), p=0.03) and expressed neoantigen count (HR=0.75 (0.56--0.99), p=0.04) were significantly associated with survival, whereas mutation burden exhibited a weaker trend (HR=0.85 (0.65--1.11), p=0.2). This analysis excludes sample AOCS-166-1-2, from a patient with a germline deficiency in mismatch repair and by far the most mutations. If this sample is included in the analysis, the estimated effects of neoantigen count (HR=0.77 (0.57--1.02), p=0.07) and expressed neoantigen count (HR=0.78 (0.59--1.03), p=0.08) are relatively unaffected, but mutation burden is skewed (HR=1.0 (0.69--1.44), p=0.9).
 
 Immune infiltrate deconvolution of each sample's RNA-seq was performed using CIBERSORT, which estimates the relative abundance of 22 immune cell types as a fraction of the total immune infiltrate (Figures S7 and S8). One sample (AOCS-056-1-X) failed deconvolution and was excluded from these analyses. Samples taken before or after chemotherapy treatment were broadly similar in immune infiltrate. Nonactivated macrophages (M0 macrophages) were the most prevalent population in both solid tissue (median 22\% of infiltrate (range 0--54\%)) and ascites (26\% (3--57)) samples. Other myeloid lineage cells were also prevalent in ascites, including activated mast cells (9\% (0--69)) and monocytes (6\% (0--50)). Follicular helper (solid tissue: 10\% (0--23); ascites: 5\% (1--24)) and memory resting (9\% (0--31); 6\% (0--28)) CD4+ T cells were the most abundant lymphocyte populations in both solid tissue and ascites samples.
 
-%Alternatively activated macrophages (M2 macrophages) were prevalent in solid tissue (9\% (0--44)) and though less abundant in most ascites samples (1\% (0--46)) were more common than classically activated macrophages (M1 macrophages; 0.04\% (0--18)).
 
 CD8+ T cells accounted for a median of 3\% (0--30) of infiltrate in solid tissue samples and were uniformly rare in ascites (0\% (0--3)). In primary/untreated solid tissue samples, greater CD8+ T cell infiltrate was associated with improved survival (HR=0.65 (0.47--0.88), p=0.006; Figure~S6). This appeared to be an independent effect from neoantigen burden. No significant correlation was observed between neoantigens and CD8+ T cell infiltrate, although among ascites samples increased total mutational burden was narrowly associated with increased CD8+ T cell infiltrate (p=0.03, Figure~S9). Both CD8+ T cell infiltrate and neoantigen burden were independently associated with survival in a Cox multiple regression analysis (CD8 T cells: HR=0.61 (0.44--0.85), p=0.003; neoantigens: HR=0.72 (0.54--0.97), p=0.03).
 
 Among relapse/treated ascites samples, no significant survival association was observed for mutations (HR=1.2 (0.73--2.1), p=0.43), neoantigens (HR=0.81 (0.47--1.4), p=0.44), expressed neoantigens (HR=0.67 (0.387--1.15), p=0.14), or CD8+ T cell infiltrate (HR=1.2 (0.741--1.99), p=0.44). In a search over all other immune cell subsets, none showed significant survival association after correction for multiple hypothesis testing.
-
-%Activated mast cells showed a nominally significant association, with higher infiltrate associated with poor survival (HR=1.9 (1.09--3.26), uncorrected p=0.02, Bonferroni corrected p=0.82).
 
 \subsection*{Neoantigen burden increases at relapse}
 
@@ -448,8 +400,6 @@ Relapse/treated samples harbored a median 78\% more expressed neoantigens than p
 In contrast, primary/treated samples, which were exposed to neoadjuvant chemotherapy (NACT) prior to surgery, did not exhibit increased numbers of mutations, neoantigens, or expressed neoantigens, and in fact trended toward decreased neoantigen expression. The five primary/treated samples, all from solid tissue resections, harbored a median of 16 (9--89) expressed neoantigens compared to the median of 44 (39--60) observed in primary/untreated solid tissue samples, due to both fewer neoantigens in the DNA (median of 85 (36--306) vs. 130 (108--150)) and a lower rate of expression (median 19 (14--37) vs. 39 (36--42) percent of neoantigens). This trend did not reach significance (Mann-Whitney $p=0.08$).
 
 \subsection*{Chemotherapy signatures weakly contribute to neoantigen burden at relapse}
-
-%We next performed signature deconvolution on the mutations detected in each sample (Figure~\ref{fig:supp_signatures} top and middle).
 
 While we cannot determine with certainty whether any particular mutation was chemotherapy-induced, we can estimate the fraction of mutations and neoantigens attributable to each signature in a sample (Figures~3 and S11).
 
@@ -467,78 +417,10 @@ It is likely that many of the mutations considered unique to the relapse/treated
 
 Our results suggest it would be difficult to rationally increase neoantigen burden through chemotherapy, as even the most heavily treated patients show only a modest number chemotherapy-associated neoantigens. The patient with the most such neoantigens, AOCS-092, had 9/61 neoantigens attributed to chemotherapy. At the relapse/treated time point, no significant survival association for neoantigens was observed. In the Cox proportional hazards model fit to the primary/untreated samples, where neoantigens did correlate with survival, 9 additional neoantigens are predicted to improve two year survival rate by only 1.1 percentage points (from 43.7\% to 44.8\%). These analyses are in the context of standard treatment regimes; neoantigens may have a greater impact for patients treated with immunotherapies. However, as immunotherapy trials in HGSC have focused on heavily pre-treated patients with recurrent disease, the substantially increased total neoantigen burden at recurrence is evidently not sufficient on its own for immunotherapy to be effective for many patients~\cite{Drerup2015,Hamanishi2015,Disis2016,Varga2017}. Other factors, perhaps unique ascitic or systemic immunosuppressive mechanisms, may also need to be overcome.
 
-%While neoantigens are one factor among others contributing to tumor immunity, their
-
-%The relevance of neoantigens in HGSC, however, is highlighted by the observation that
 
 Remarkably, in primary/untreated samples, neoantigen burden was more closely associated with survival than overall mutation burden. This did not appear to be mediated by concomitant CD8+ T cell infiltration in the primary tumor; both factors independently associated with survival. Previous reports that have found neoantigens and CD8+ T cell infiltrate to be favorable prognostic markers in a variety of tumor types and clinical contexts~\cite{Sato2005,Hamanishi2007,Pages2010,Brown_2014,Mlecnik2016}. Analyses of both factors, however, have generally found a positive association between neoantigen burden and markers of tumor infiltrating lymphocytes~\cite{Rooney_2015,Giannakis2016}. Our smaller sample size may explain the lack of significant association. Alternatively, some tumors with low neoantigen burden and high immune infiltration may have experienced selective loss of neoantigens, a process termed immunoediting~\cite{Dunn2002}. One study reported a depletion of neoantigens, relative to what would be expected from the silent mutation rate, in several cancer types, but no significant effect in ovarian cancer samples with whole exome sequencing deposited in The Cancer Genome Atlas~\cite{Rooney_2015}. While we did not pursue it here, the present dataset would be an interesting cohort to re-evaluate such an effect.
 
-% In one report, a depletion of predicted neoantigens, relative to what would be expected from the silent mutation rate, was observed in colorectal, kidney clear cell, and several other cancers, but not in whole-exome sequenced ovarian cancer samples with whole exome sequencing deposited in The Cancer Genome Atlas~\cite{Rooney_2015}. The present dataset, with fewer samples but the advantage of whole genome sequencing, may be an interesting basis for such investigation. 
-
-%as tumor samples are a snapshot of a dynamically evolving equilibrium, in which increased neoantigens may pull in T cells, which, through a process termed immunoediting~\cite{Dunn2002}, select for a loss of neoantigens, samples with low neoantigen burden and high immune infiltration may have experienced selective loss of neoantigens. 
-
-%An increase in indels and cisplatin-associated dinucleotide variants was observed in relapse/treated samples, but these variants were relatively rare and resulted in less than 13\% of the predicted neoantigen burden in every sample.
-
-% These results are consistent with a model in which outgrowth of a subclone following surgery and adjuvant chemotherapy brings many mutations previously confined to a small number of cells to population levels detectable by bulk sequencing. Consistent with this interpretation, NACT-treated samples, which were exposed to chemotherapy as large tumors and for a short duration (typically 3 cycles), did not show increased mutation or neoantigen burden over untreated samples and had very few mutations attributed to chemotherapy.
-
-% In such a model, it is not the direct mutagenic effect of the treatment that increases the mutational burden, but rather the indirect effect of creating a population bottleneck. 
-
-%Other factors, perhaps unique immunosuppressive mechanisms, likely need to be overcome for immunotherapy to be effective in this disease.
-
-
-%  To speculate, in HGSC high neoantigen load, even in the absence of immune infiltration in the primary tumor, may still protect against disease spread in the peritenoeal cavaity, whereas high levels of infiltrating immune cells may disrupt the primary tumor even if the neoantigen burden is modest.
-
-%One possible reason these factors may appear independent is that in HGSC neoantigen burden, even in the absence of immune infiltration in the primary tumor, may still protect against disease spread beyond the tumor. Tumor samples are a snapshot of a dynamically evolving equilibrium, in which increased neoantigens may pull in T cells, which, through a process termed immunoediting, select for a loss of neoantigens. A further potential reason 
-
-% Other reports across tumor types have associated increased neoantigen burden with greater T cell infiltration. Tumor samples are a snapshot of a dynamically evolving equilibrium, in which increased neoantigens may pull in T cells, which, through a process termed immunoediting, select for a loss of neoantigens. It is not unexpected that 
-
-% It was interesting to observe that neoantigen burden in the primary/untreated samples was a stronger predictor of patient survival than overall mutaiton burden, and that neoantigen burden and CD8+ T cell infiltrate estimated by CIBERSORT were both independent predictors of survival. Several studies have reported the importance of CD8+ T cell infiltrate as a prognostic marker in HGSC~\cite{Sato2005,Hamanishi2007}; the role of neoantigens over total mutation burden has been reported in the context of immunotherapy~\cite{Van_Allen_2015,Rizvi_2015} and for patients treated with conventional chemotherapies as in our case~\cite{Brown_2014}. Studies of larger cohorts have reported relationships between neoantigen burden and markers of T cell infiltration~\cite{Rooney_2015,Giannakis2016}; the absence of a correlation in our data may be due to our smaller cohort.
-
- %[...]. Finally, our cohort of X ascites samples for whcih immune decovnoltuion ahs been performed is generally in agreement with the importance of myelooid cells (especially IL-10 secereting M2 (?) macrophages) in this disease.
-
-
-%As most immunotherapy trials to date in ovarian cancer have been in the setting of heavily pre-treated patients, the increase in neoantigens after primary surgery and adjuvant chemotherapy is demonstrably not sufficient to render immunotherapy effective. Other factors besides neoantigen burden, for example the unique immunosuppressive environment of ascites, are likely involved [ref].
-
-% The clinical implications of such a picture are that it would be difficult to rationally increase the neoantigen burden by manipulating chemotherapy dosage, but patients who suffer relapses or recurrences after primary debulking surgery and adjuvant chemotherapy may be expected to harbor significantly more potential neoantigens. 
-
-% This is likely because individual chemotherapy-induced mutations remain confined to subclones too rare for detection by bulk sequencing in the absence of the population bottleneck created by surgery and/or the multiple lines of chemotherapy provided in the adjuvant setting.
-
-% Our results are in contrast to a study of NACT temozlomide-treated glioma, in which it was reported that over 98\% of mutations detectable with bulk sequencing in some samples were attributable to temozolomide~\cite{Johnson_2013}. Whether this difference is due to the drug used or disease biology requires further study.
-
-% This data suggests that mutagenesis from chemotherapy is likely not a dominant factor in this effect. 
-
 The signatures for cisplatin and, to a lesser extent, cyclophosphamide extracted from the \textit{G. gallus} experiments showed a modest correlation with clinical treatment, whereas the \textit{G. gallus} etoposide and \textit{C. elegans} cisplatin signatures were not detected in chemotherapy-exposed samples. The latter signature may be less accurate than the \textit{G. gallus} cisplatin signature because it was derived from fewer mutations (784 vs. 2633).  The number of mutations attributed to the \textit{G. gallus} cisplatin signature correlated with the number of cycles of platinum chemotherapy; a weak trend held among patients treated only with carboplatin. In the case of cyclophosphamide, deconvolution of all mutations identified the signature in 4/10 samples treated with cyclophosphamide and 4/104 unexposed samples. However, when we focused on mutations detected uniquely in the post-treatment samples, 6/8 samples exposed only to non-cyclophosphamide chemotherapies exhibited the signature. As it was rarely detected in pre-treatment samples, this signature may reflect the effect of other (non-cyclophosphamide) chemotherapy.
-
-% Many treated samples showed no chemotherapy signatures at the 6\% detection threshold; when chemotherapy signatures were detected, they were found at levels close to the 6\% detection threshold.
-
-% Analysis of the paired pre- and post-treatment samples indicated that the \textit{G. gallus} cisplatin signature was specific for cisplatin rather than carboplatin exposure, suggesting that carboplatin may induce fewer mutations or mutations with a different signature than cisplatin.  
-
-% Etoposide-induced mutations may be difficult to detect because in the \textit{G. gallus} experiments they occurred at a more uniform distribution of mutational contexts and at a much lower overall rate than mutations induced by cisplatin or cyclophosphamide. Importantly, only one patient in this cohort received etoposide.
-
-% Etoposide-induced mutations may be difficult to detect because in the \textit{G. gallus} experiments they occurred at a more uniform distribution of mutational contexts and at a much lower overall rate than mutations induced by cisplatin or cyclophosphamide.
-
-% The association between signatures and clinical exposures give some confidence that our analysis captures the effect of chemotherapy, but,
-
-
-% Alternatively, \textit{de novo} identification of chemotherapy signatures from clinical samples may become feasible as more post-treatment samples are sequenced. Tumor types other than HGSC may more readily show detectable levels of chemotherapy-induced mutations to inform such a deconvolution. 
-
-% We note, however, that the signatures dominant in the primary/untreated samples --- COSMIC Signatures (1), (3), and (8) --- also account for most of the SNVs in the relapse/treated samples. Therefore, irrespective of the accuracy of the chemotherapy signatures, it appears that most mutations in relapse samples are due to mutagenic processes already operative prior to therapy.
-
-% A striking example is a study of NACT temozlomide-treated glioma, in which it was reported that over 98\% of mutations detectable with bulk sequencing in some samples were attributable to temozolomide~\cite{Johnson_2013}. Whether the difference between the current study and this is due to the drug used or disease biology requires further study.
-
-% It appears unlikely that chemotherapy-induced mutations would happen to match the same signatures operative prior to treatment.
-
-%Relapse/treated samples had a median of 26\% (95\% CI 23--27) of their SNVs attributed to other signatures, compared to 29\% (26--30) for primary/untreated samples.
-
-% If this were a significant effect, however, we would expect to see more mutations attributed to signatures other than chemotherapy and those active in the primaries (COSMIC Signatures 1, 3, and 8) in the relapse/treated samples. We do not see such an increase (see ``Other SNV'' in Figure~\ref{fig:sources}). 
-
-
-
-% The observation that the NACT samples trended toward fewer expressed neoantigens raises the possibility of immunoediting after chemotherapy~\cite{Dunn_2002}, consistent with suggestions that paclitaxel/carboplatin and other chemotherapies may enhance T cell infiltration and cytotoxicity in solid tumors~\cite{Demaria2001,Wu_2009,Pfannenstiel_2010,Hodge_2013}. However, this observation is based on only five samples, none of which were paired with a pre-treatment sample, and our analysis method (hard thresholds on the count of RNA reads at variant positions) is sensitive to changes in expression of unrelated genes. Larger cohorts of matched biopsies and post-NACT tumor samples are likely required to investigate this question.
-
-% Such subclonal neoantigens may be unable to support an effective anti-tumor immune response~\cite{McGranahan_2016}.
-
-% STATEMENT_MEDIAN_NEOANTIGENS
 
 A contrast to our results is a report of NACT temozlomide-treated glioma, in which it was reported that over 98\% of mutations detectable with bulk sequencing in some samples were attributable to temozolomide~\cite{Johnson_2013}. Whether this difference is due to the drug used or disease biology requires further study.
 
@@ -549,8 +431,6 @@ This study has several important limitations. Most critically, as the signatures
 As this study is based on bulk DNA sequencing of heterogeneous clinical samples, the analysis is limited to mutations that are present in at least 5-10\% of the cells in a sample. Data from Patch et al. suggests that even late-stage disease remains polyclonal, therefore potentially obscuring the impact of chemotherapy on the tumor genome. Single-cell sequencing may be required to observe most chemotherapy-induced mutations, especially in the neoadjuvant setting. However, while we may have been unable to detect highly subclonal mutations, it is expected that such clones would be unable to trigger an anti-tumor immune response that is effective against the bulk of the tumor~\cite{McGranahan_2016}. 
 
 Finally, this study does not consider neoantigens resulting from structural rearrangements such as gene fusions and relies on only 35 post-chemotherapy samples.
-
-% As previously mentioned, the possibility that chemotherapy-induced mutations are spuriously attributed to mutational signatures already operative in the primary tissue cannot formally be excluded. 
 
 \section*{Conclusion}
 In this study, we demonstrate a method for connecting mutational signatures extracted from studies of mutagen exposure in preclinical models with computationally predicted neoantigen burden in clinical samples. We found that relapsed HGSC tumors harbor a median of 78\% more expressed neoantigens than untreated primary samples, and that cisplatin and cyclophophamide chemotherapy treatments account for a small but detectable part of this effect. The mutagenic processes responsible for most mutations at relapse are similar to those operative in primary tumors, with COSMIC \textit{Signature (3) BRCA}, \textit{Signature (1) Age}, and \textit{Signature (8) Unknown etiology} accounting for most mutations and predicted neoantigens both before and after chemotherapy.
@@ -569,9 +449,6 @@ In this study, we demonstrate a method for connecting mutational signatures extr
 
 \section*{Ethics approval and consent to participate}
 As described in ref.~\cite{Patch_2015}, the Australian Ovarian Cancer Study was approved by the Human Research Ethics Committees at the Peter MacCallum Cancer Centre, Queensland Institute of Medical Research, University of Melbourne and all participating hospitals. Written informed consent was obtained from all participants in this study.
-
-% The patients analyzed in this study were treated at hospitals across Australia and were recruited through the Australian Ovarian Cancer Study or through the Gynaecological Oncology Biobank at Westmead Hospital in Sydney. Four primary refractory cases were obtained from the Hammersmith Hospital Imperial College (London, UK) and the University of Chicago (Chicago, USA). Ethics board approval was obtained at all institutions for patient recruitment, sample collection and research studies (Peter MacCallum Cancer Centre Ethics Committee). 
-
 
 \section*{Consent for publication}
 Not applicable.
