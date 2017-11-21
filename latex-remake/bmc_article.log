@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2017 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 NOV 2017 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,7 +474,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 305.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 276.
 
 
 
@@ -487,18 +487,18 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 310.
+               Default added (so using `tbp') on input line 279.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 312.
+(Font)              <8> on input line 281.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 312.
+(Font)              <6> on input line 281.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 323.
+               Default added (so using `tbp') on input line 292.
 
 [2] [3] [4] [5] [6] [7]
-Underfull \hbox (badness 1122) in paragraph at lines 448--449
+Underfull \hbox (badness 1122) in paragraph at lines 400--401
 []\OT1/cmr/m/n/10 In con-trast, pri-mary/treated sam-ples, which were ex-posed 
 to neoad-ju-vant
  []
@@ -512,7 +512,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 651.
+(Font)              using `OT1/cmss/bx/n' instead on input line 528.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
