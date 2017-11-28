@@ -594,12 +594,12 @@ doi:\doiurl{10.1038/nature14410}
 \bibitem{Boegel_2012}
 \begin{barticle}
 \bauthor{\bsnm{Boegel}, \binits{S.}},
-\bauthor{\bsnm{Löwer}, \binits{M.}},
-\bauthor{\bsnm{Schäfer}, \binits{M.}},
+\bauthor{\bsnm{Lower}, \binits{M.}},
+\bauthor{\bsnm{Schafer}, \binits{M.}},
 \bauthor{\bsnm{Bukur}, \binits{T.}},
 \bauthor{\bparticle{de} \bsnm{Graaf}, \binits{J.}},
 \bauthor{\bsnm{Boisgu{\'{e}}rin}, \binits{V.}},
-\bauthor{\bparticle{Özlem} \bsnm{Türeci}},
+\bauthor{\bsnm{Tureci}, \binits{O.}},
 \bauthor{\bsnm{Diken}, \binits{M.}},
 \bauthor{\bsnm{Castle}, \binits{J.C.}},
 \bauthor{\bsnm{Sahin}, \binits{U.}}:
@@ -1847,12 +1847,12 @@ doi:\doiurl{10.1126/science.aaf1490}
   <title><p>{{HLA} typing from {RNA}-Seq sequence reads}</p></title>
   <aug>
     <au><snm>Boegel</snm><fnm>S</fnm></au>
-    <au><snm>Löwer</snm><fnm>M</fnm></au>
-    <au><snm>Schäfer</snm><fnm>M</fnm></au>
+    <au><snm>Lower</snm><fnm>M</fnm></au>
+    <au><snm>Schafer</snm><fnm>M</fnm></au>
     <au><snm>Bukur</snm><fnm>T</fnm></au>
     <au><snm>Graaf</snm><fnm>J</fnm></au>
     <au><snm>Boisgu{\'{e}}rin</snm><fnm>V</fnm></au>
-    <au><cnm>Türeci</cnm></au>
+    <au><snm>Tureci</snm><fnm>O</fnm></au>
     <au><snm>Diken</snm><fnm>M</fnm></au>
     <au><snm>Castle</snm><fnm>JC</fnm></au>
     <au><snm>Sahin</snm><fnm>U</fnm></au>
